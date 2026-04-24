@@ -1,0 +1,144 @@
+{
+  "versao": "2.0",
+  "atualizado_em": "2026-04-22",
+  "notas_schema": {
+    "area": "humanas | natureza | matematica | linguagens",
+    "disciplina": "Humanas: historia|geografia|sociologia|filosofia · Natureza: biologia|quimica|fisica · Linguagens: portugues|literatura|lingua_estrangeira|artes|educacao_fisica · Matematica: numeros|geometria|grandezas_medidas|variacao|algebra_graficos|graficos_tabelas|estatistica_probabilidade",
+    "habilidade_inep": "H1-H45 (LC, CN, CH) ou H1-H30 (MT) conforme Portaria INEP 111/2003",
+    "gabarito": "A | B | C | D"
+  },
+  "questoes": [
+    {
+      "id": "HUM_CID_001",
+      "area": "humanas",
+      "disciplina": "sociologia",
+      "capitulo": "cidadania",
+      "dificuldade": "media",
+      "habilidade_inep": "H22 - Conquistas sociais e legislação brasileira",
+      "texto_base": {
+        "tipo": "documento_oficial",
+        "fonte": "Constituição Federal de 1988, Art. 5º, caput",
+        "conteudo": "Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade..."
+      },
+      "enunciado": "Considerando que no Brasil ainda persistem desigualdades salariais entre homens e mulheres que exercem a mesma função, o princípio expresso no artigo:",
+      "alternativas": {
+        "A": "é inválido, pois a legislação não consegue ser aplicada na prática.",
+        "B": "representa uma igualdade formal que nem sempre se realiza como igualdade material.",
+        "C": "não se aplica a questões econômicas, apenas a direitos civis e políticos.",
+        "D": "depende da vontade individual dos empregadores para ser efetivado."
+      },
+      "gabarito": "B",
+      "comentario": "A alternativa B é correta porque distingue igualdade formal (prevista na lei) de igualdade material (efetivada na realidade). A desigualdade salarial demonstra essa diferença. A (errada): a lei é válida mesmo que nem sempre cumprida. C (errada): o Art. 5º se aplica a todas as esferas. D (errada): é direito constitucional, não dependente de vontade individual."
+    },
+    {
+      "id": "HUM_URB_001",
+      "area": "humanas",
+      "disciplina": "geografia",
+      "capitulo": "urbanizacao_industria",
+      "dificuldade": "media",
+      "habilidade_inep": "H34 - Uso dos espaços agrário e urbano",
+      "texto_base": {
+        "tipo": "dado_estatistico",
+        "fonte": "Adaptado de IBGE, Censos Demográficos",
+        "conteudo": "Entre 1950 e 2020, a população urbana brasileira passou de 36% para cerca de 87% do total. Esse processo foi acompanhado pelo crescimento acelerado das periferias metropolitanas, pela precariedade habitacional e pela expansão do trabalho informal."
+      },
+      "enunciado": "A transformação descrita é explicada principalmente por:",
+      "alternativas": {
+        "A": "políticas consistentes de planejamento urbano que organizaram o crescimento das cidades.",
+        "B": "migração rural-urbana impulsionada pela industrialização concentrada no Sudeste, sem investimento equivalente em infraestrutura social.",
+        "C": "redução da atividade agrícola por fatores climáticos, forçando deslocamento espontâneo.",
+        "D": "incentivo governamental à habitação popular, que atraiu a população do campo para os centros urbanos."
+      },
+      "gabarito": "B",
+      "comentario": "A urbanização brasileira foi marcada por migração massiva do campo para as cidades, causada pela concentração industrial no Sudeste, sem políticas habitacionais adequadas. Isso gerou as periferias precárias descritas. A, C e D usam determinismos errados (climático/cultural) — padrão típico de distrator em Humanas."
+    },
+    {
+      "id": "HUM_CUL_001",
+      "area": "humanas",
+      "disciplina": "sociologia",
+      "capitulo": "cultura_identidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H3 - Manifestações culturais e patrimônio",
+      "texto_base": {
+        "tipo": "trecho_literario",
+        "fonte": "RIBEIRO, Darcy. O povo brasileiro, 1995",
+        "conteudo": "Somos um povo em ser, impedido de sê-lo. Um povo mestiço na carne e no espírito, já que aqui a mestiçagem jamais foi crime ou pecado. Nela fomos feitos e ainda continuamos nos fazendo. (...) O que mais dói não é ser explorado e sacrificado, mas ser negado em sua humanidade."
+      },
+      "enunciado": "A crítica central do autor refere-se:",
+      "alternativas": {
+        "A": "à mestiçagem, considerada por ele o principal problema da formação nacional.",
+        "B": "à negação da humanidade plena de parte da população, apesar da mistura cultural celebrada como identidade.",
+        "C": "à ausência de uma identidade nacional definida, que impediria o progresso do país.",
+        "D": "à influência estrangeira que descaracterizaria a cultura brasileira original."
+      },
+      "gabarito": "B",
+      "comentario": "Darcy Ribeiro celebra a mestiçagem como elemento formador do povo brasileiro e critica a negação da humanidade plena de parcela da população. A alternativa A inverte o pensamento do autor (distrator clássico em CH: inversão de papéis). C e D propõem leituras alheias ao texto."
+    },
+    {
+      "id": "HUM_TER_001",
+      "area": "humanas",
+      "disciplina": "geografia",
+      "capitulo": "territorio",
+      "dificuldade": "media",
+      "habilidade_inep": "H32 - Circulação de riqueza e desigualdades regionais",
+      "texto_base": {
+        "tipo": "dado_estatistico",
+        "fonte": "Adaptado de IBGE, Síntese de Indicadores Sociais",
+        "conteudo": "O território brasileiro é marcado por profundas desigualdades regionais. Enquanto o Sudeste concentra a maior parte da indústria, dos serviços financeiros e da infraestrutura, regiões como o Norte e o Nordeste apresentam menores índices de desenvolvimento econômico, apesar de possuírem grande riqueza natural e cultural."
+      },
+      "enunciado": "A desigualdade regional descrita no texto pode ser explicada, historicamente, por:",
+      "alternativas": {
+        "A": "diferenças climáticas que impediram o desenvolvimento econômico nas regiões Norte e Nordeste.",
+        "B": "escolhas políticas e econômicas que concentraram investimentos e infraestrutura no Sudeste ao longo do século XX.",
+        "C": "falta de recursos naturais nas regiões menos desenvolvidas, o que inviabilizou a industrialização.",
+        "D": "preferência cultural das populações nordestinas por atividades agrícolas em vez de industriais."
+      },
+      "gabarito": "B",
+      "comentario": "A concentração industrial no Sudeste resulta de decisões políticas e econômicas (Era Vargas, JK, polos industriais), não de determinismos naturais ou culturais. A, C e D usam explicações deterministas — padrão clássico de distrator em CH."
+    },
+    {
+      "id": "HUM_IMP_001",
+      "area": "humanas",
+      "disciplina": "geografia",
+      "capitulo": "impactos_ambientais",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H30 - Preservação ambiental",
+      "texto_base": {
+        "tipo": "manchete",
+        "fonte": "Adaptado de agências de notícias",
+        "conteudo": "Desmatamento na Amazônia cai 30%, mas queimadas batem recorde em 2024"
+      },
+      "enunciado": "A aparente contradição entre os dois dados da manchete pode ser compreendida ao considerar que:",
+      "alternativas": {
+        "A": "o combate ao desmatamento e às queimadas é feito pelos mesmos órgãos, com resultados sempre proporcionais.",
+        "B": "queimadas e desmatamento são fenômenos independentes — áreas já desmatadas em anos anteriores podem ser queimadas, além de fatores como seca prolongada intensificarem o fogo.",
+        "C": "a redução do desmatamento é irrelevante, pois as queimadas destroem a mesma quantidade de floresta.",
+        "D": "o aumento das queimadas indica que os dados sobre desmatamento foram manipulados pelo governo."
+      },
+      "gabarito": "B",
+      "comentario": "Desmatamento (derrubada de mata nativa) e queimadas (uso do fogo) são fenômenos distintos, podendo ocorrer em áreas já degradadas ou em pastagens. A seca climática também intensifica queimadas mesmo com redução do desmatamento. D é apelo conspiratório — ENCCEJA nunca valida esse tipo de leitura."
+    },
+    {
+      "id": "HUM_TRA_001",
+      "area": "humanas",
+      "disciplina": "sociologia",
+      "capitulo": "trabalho_globalizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H36 - Novas tecnologias e mundo do trabalho",
+      "texto_base": {
+        "tipo": "reportagem",
+        "fonte": "Adaptado de reportagem jornalística",
+        "conteudo": "Um entregador de aplicativo trabalha em média 12 horas por dia, sem vínculo empregatício, sem férias, sem 13º salário e sem previdência garantida pela empresa. Ele é classificado como 'parceiro' ou 'autônomo' pela plataforma digital que intermedia seu trabalho."
+      },
+      "enunciado": "A situação descrita é característica de um fenômeno contemporâneo conhecido como:",
+      "alternativas": {
+        "A": "taylorismo, modelo de produção em série típico do início do século XX.",
+        "B": "uberização do trabalho, marcada pela precarização e transferência dos riscos do empregador para o trabalhador.",
+        "C": "pleno emprego, situação em que todos os trabalhadores têm direitos garantidos.",
+        "D": "trabalho formal regulamentado pela CLT, com proteções sociais asseguradas."
+      },
+      "gabarito": "B",
+      "comentario": "A uberização refere-se à precarização do trabalho por meio de plataformas digitais, em que o trabalhador assume riscos sem direitos trabalhistas. Taylorismo é modelo fabril antigo (anacronismo típico em CH); pleno emprego e CLT não se aplicam ao caso (confusão conceitual)."
+    }
+  ]
+}
