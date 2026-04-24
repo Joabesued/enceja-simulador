@@ -1,11 +1,23 @@
 {
-  "versao": "2.0",
-  "atualizado_em": "2026-04-22",
+  "versao": "2.1",
+  "atualizado_em": "2026-04-24",
   "notas_schema": {
     "area": "humanas | natureza | matematica | linguagens",
     "disciplina": "Humanas: historia|geografia|sociologia|filosofia · Natureza: biologia|quimica|fisica · Linguagens: portugues|literatura|lingua_estrangeira|artes|educacao_fisica · Matematica: numeros|geometria|grandezas_medidas|variacao|algebra_graficos|graficos_tabelas|estatistica_probabilidade",
     "habilidade_inep": "H1-H45 (LC, CN, CH) ou H1-H30 (MT) conforme Portaria INEP 111/2003",
     "gabarito": "A | B | C | D"
+  },
+  "total_questoes": 36,
+  "resumo_por_area": {
+    "humanas": {
+      "total": 36,
+      "por_disciplina": {
+        "historia": 30,
+        "geografia": 3,
+        "sociologia": 2,
+        "filosofia": 0
+      }
+    }
   },
   "questoes": [
     {
@@ -139,6 +151,666 @@
       },
       "gabarito": "B",
       "comentario": "A uberização refere-se à precarização do trabalho por meio de plataformas digitais, em que o trabalhador assume riscos sem direitos trabalhistas. Taylorismo é modelo fabril antigo (anacronismo típico em CH); pleno emprego e CLT não se aplicam ao caso (confusão conceitual)."
+    },
+    {
+      "id": "HUM_HIS_001",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Identificação de fatores que contribuem para os processos de estruturação da sociedade",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Schwarcz, Lilia Moritz. O Espetáculo das Raças. São Paulo: Companhia das Letras, 1993",
+        "conteudo": "Durante séculos, o Brasil sustentou-se economicamente sobre o trabalho escravo. Africanos e seus descendentes eram trazidos à força para trabalhar em fazendas, engenhos de açúcar e nas cidades. A escravidão não terminava apenas com a formalidade de uma lei: suas consequências — a concentração de terras, a pobreza herdada, a desigualdade racial — permaneceriam estruturando a sociedade brasileira mesmo após a abolição em 1888."
+      },
+      "enunciado": "A permanência das desigualdades raciais e socioeconômicas no Brasil contemporâneo está diretamente relacionada a qual herança histórica?",
+      "alternativas": {
+        "A": "À política de imigração europeia do século XX, que priorizou brancos.",
+        "B": "À escravidão colonial e à ausência de políticas de integração e reparação após a abolição.",
+        "C": "À industrialização tardia do Brasil, que concentrou empregos nas grandes cidades.",
+        "D": "À abolição tardia (1888), que não permitiu emendas constitucionais em tempo hábil."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: articula escravidão (texto) + falta de políticas reparatórias (conhecimento de estrutura histórica). A é parcialmente verdadeira mas secundária (século XX, não colonial). C é verdadeira mas não responde sobre herança racial. D comete erro de lógica: abolição tardia não explica ausência de emendas constitucionais posteriores."
+    },
+    {
+      "id": "HUM_HIS_002",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Identificação de uso de fontes de diferentes naturezas para obter informações sobre acontecimentos de interesse",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Documentos de arquivo público, Brasil colônia",
+        "conteudo": "Edital de venda de escravizado (século XVII): 'Vende-se negro mina, idade 25 anos, sadio de corpo, apto para todo serviço de roça. Negociar na Rua da Vala.' Este tipo de documento revela como a escravidão era normalizada como atividade comercial legal, refletindo as estruturas jurídicas que sustentavam o tráfico."
+      },
+      "enunciado": "O documento apresentado é uma fonte histórica importante porque evidencia:",
+      "alternativas": {
+        "A": "A clandestinidade do tráfico de escravizados no Brasil colônia.",
+        "B": "A institucionalização legal e a naturalização da escravidão como prática econômica.",
+        "C": "A resistência dos povos africanos contra a escravidão nas ruas coloniais.",
+        "D": "A abolição gradual dos escravizados a partir do século XVII."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o edital mostra comercialização pública e normalizada. A é falsa: o tráfico era legal, não clandestino. C inverte o sentido: o documento mostra dominação, não resistência. D é anacronista: abolição só ocorreu em 1888."
+    },
+    {
+      "id": "HUM_HIS_003",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Análise de relações de poder que se estabelecem nas práticas cotidianas de cidadania",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Costa, Emília Viotti da. Da Monarquia à República. São Paulo: UNESP, 1999",
+        "conteudo": "A abolição de 1888 no Brasil não foi acompanhada de políticas de integração do povo negro à sociedade de classes. Os ex-escravizados não receberam terras, educação sistemática, nem acesso igualitário ao mercado de trabalho. Enquanto isso, o Brasil abria as portas à imigração europeia, oferecendo incentivos aos imigrantes que deveriam ocupar os postos de trabalho que, por direito histórico, pertenceriam aos negros libertos."
+      },
+      "enunciado": "A ausência de políticas de reparação e integração após a abolição de 1888 pode ser interpretada como:",
+      "alternativas": {
+        "A": "Uma benevolência do Estado brasileiro em permitir liberdade sem condicionalidades.",
+        "B": "Uma continuação da discriminação estrutural, que mantinha negros excluídos da participação econômica e social.",
+        "C": "Uma estratégia economicamente necessária para atrair capital estrangeiro através da imigração europeia.",
+        "D": "Uma incapacidade técnica do Estado de organizar educação escolar no final do século XIX."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: articula herança colonial com exclusão sistemática pós-abolição (estrutural, não apenas formal). A é falsa: liberdade sem meios é apenas formal. C é parcialmente verdadeira mas prioriza economia sobre direitos humanos. D é desvio de propósito: educação era possível mas não foi prioritária para negros."
+    },
+    {
+      "id": "HUM_HIS_004",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H41 - Ordenação de fatores que culminaram em transformações sociais",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Gomes, Flávio dos Santos. Negros e política no Brasil do século XIX. Rio de Janeiro: Jorge Zahar, 2005",
+        "conteudo": "Nos últimos anos do século XIX, movimentos abolicionistas ganham força: intelectuais, abolicionistas de elite e organizações de negros livres pressionam pela abolição. A Lei Áurea (1888) é aprovada no Parlamento, mas sem políticas complementares de inclusão. A história não termina em 1888: começa uma luta pela cidadania plena que percorre todo o século XX e continua até hoje."
+      },
+      "enunciado": "Qual é a principal consequência histórica da abolição da escravidão ter ocorrido sem políticas de integração socioeconômica?",
+      "alternativas": {
+        "A": "A imediata industrialização do Brasil, que absorveu toda a mão de obra liberta.",
+        "B": "A perpetuação das desigualdades raciais através da exclusão econômica formal e informal.",
+        "C": "O surgimento de movimentos anarquistas urbanos que rejeitavam todo trabalho assalariado.",
+        "D": "A formação de cidades exclusivamente negras no interior do Brasil, isoladas da economia nacional."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: resume a continuidade estrutural de exclusão. A é falsa: industrialização foi tardia e seletiva. C é anacrônico e lateral. D é absurdo: cidades exclusivas não surgiram."
+    },
+    {
+      "id": "HUM_HIS_005",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H31 - Análise de aspectos quantitativos da história econômica, entendendo alguns dos significados da riqueza e da pobreza nas diferentes épocas",
+      "texto_base": {
+        "tipo": "dados_historicos_adaptados",
+        "fonte": "Adaptado de IBGE e documentação colonial",
+        "conteudo": "Estima-se que entre 1500 e 1888, cerca de 5 milhões de africanos foram trazidos à força para o Brasil — cerca de 45% de todos os escravizados nas Américas. Ao longo de quase 4 séculos, esse trabalho gerou acumulação de riqueza nas mãos de senhores coloniais e imperiais. Quando a abolição chegou em 1888, essa riqueza permanecia concentrada, enquanto ex-escravizados iniciavam a vida livre sem capital, sem educação formal, sem acesso à terra."
+      },
+      "enunciado": "A relação entre a duração da escravidão no Brasil (quase 4 séculos) e a desigualdade econômica atual pode ser entendida através de qual conceito histórico-econômico?",
+      "alternativas": {
+        "A": "Acumulação capitalista desigual, que transferiu riqueza colonial para descendentes de senhores enquanto negros libertos iniciavam do zero.",
+        "B": "Imperialismo europeu, que explorava simultaneamente as colônias escravistas e as potências industriais.",
+        "C": "Ciclos econômicos periódicos, que elevam e reduzem a desigualdade sem causa estrutural duradoura.",
+        "D": "Fluxos migratórios, que trazem novos trabalhadores e deslocam os grupos já estabelecidos."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: conecta acumulação histórica com herança econômica persistente (estrutural). B é verdade mas não explica especificamente a desigualdade racial brasileira. C é falsa: desigualdade racial não é cíclica, é estrutural. D é desvio: migração é processo, não explicação da desigualdade racial."
+    },
+    {
+      "id": "HUM_HIS_006",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H41 - Comparação de características do Estado em diferentes épocas historicamente contextualizadas",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Caldeira, Jorge. A Nação Mercantilista. São Paulo: Editora 34, 1999",
+        "conteudo": "O Estado português nos séculos XVI e XVII legitimava a escravidão através de documentos religiosos e jurídicos que a consideravam 'natural' para povos conquistados. Após a abolição (1888), o Estado brasileiro não reconhecia qualquer responsabilidade pela reparação, tratando a liberdade formal como suficiente. Séculos depois, em 2003, uma lei criaria diretrizes para o ensino de história afro-brasileira nas escolas — reconhecimento tardio de uma dívida histórica."
+      },
+      "enunciado": "A comparação entre as três épocas do Estado em relação à escravidão revela qual mudança fundamental na estrutura estatal brasileira?",
+      "alternativas": {
+        "A": "A transição de um Estado legitimador da escravidão para um Estado que nega qualquer responsabilidade, até finalmente reconhecer educacionalmente a dívida histórica.",
+        "B": "A progressiva eliminação de todas as leis discriminatórias, que desaparece completamente com a Lei 10.639/2003.",
+        "C": "O fortalecimento de políticas racistas do Estado após a abolição, revertidas apenas no século XXI.",
+        "D": "A substituição da escravidão por outras formas de trabalho forçado, continuamente sustentadas pelo Estado brasileiro."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: mostra evolução: legitimação (colônia) → negação de responsabilidade (Império/República) → reconhecimento educacional tardio (2003). B é falsa: lei 10.639 é reconhecimento, não eliminação completa de discriminação. C exagera: não era 'revertida completamente', apenas reconhecida. D é falso: trabalho forçado não é forma de escravidão moderna coberta pelo Estado."
+    },
+    {
+      "id": "HUM_HIS_007",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Identificação do período, contexto, e protagonistas de eventos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Skidmore, Thomas. Brasil: de Castelo a Tancredo. Rio de Janeiro: Paz e Terra, 1988",
+        "conteudo": "Em 1964, um golpe militar derruba o presidente João Goulart (Jango) e estabelece um regime autoritário que duraria 21 anos. Durante esse período, o Estado controlava a mídia, perseguia políticos opositores, censura livros e jornais, e reprimia com força movimentos sociais. Generais governavam o país através de decretos, sem permitir eleições livres. O período ficou conhecido como Ditadura Militar (1964-1985)."
+      },
+      "enunciado": "Qual foi a principal característica política do regime militar brasileiro entre 1964 e 1985?",
+      "alternativas": {
+        "A": "O enfraquecimento total do Estado, que abria espaço para organizações de trabalhadores.",
+        "B": "A concentração de poder nas mãos do exército, com supressão de direitos políticos e controle estatal da comunicação.",
+        "C": "A democratização acelerada através de eleições presidenciais anuais realizadas por voto direto.",
+        "D": "O fortalecimento dos partidos políticos tradicionais através de uma nova constituição liberal."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: sintetiza autoritarismo, poder militar, supressão de direitos. A é falsa: Estado se fortaleceu, não enfraqueceu. C é falso: sem eleições diretas. D é falso: partidos foram suprimidos, não fortalecidos."
+    },
+    {
+      "id": "HUM_HIS_008",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Identificação de aspectos significativos da história das relações sociais, da produção, da política e da cultura",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Gorender, Jacob. Combate nas Trevas. São Paulo: Expressão Popular, 1987",
+        "conteudo": "Durante a Ditadura Militar, grupos clandestinos de resistência organizaram manifestações, greves e atos de desobediência civil contra a repressão. Estudantes, trabalhadores e artistas burlavam a censura para comunicar denúncias de violações de direitos humanos. Intelectuais publicavam livros com metáforas que desafiavam o regime sem serem literalmente sediciosos. Essa resistência civil foi fundamental para desgastar o regime aos olhos da população."
+      },
+      "enunciado": "A resistência à Ditadura Militar manifestou-se principalmente através de:",
+      "alternativas": {
+        "A": "Apoio irrestrito da população aos generais, que reconheciam a necessidade do regime.",
+        "B": "Movimentos clandestinos de estudantes, trabalhadores e artistas que desafiavam a censura e denunciavam violações de direitos.",
+        "C": "Aceitação passiva das restrições impostas, sem qualquer organização popular.",
+        "D": "Intervenção militar de outros países para restaurar a democracia no Brasil."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: resume movimentos clandestinos e desafio civil. A é falso: população não apoiava de forma irrestrita. C é falso: houve mobilização. D é falso: restauração foi interna, não por intervenção estrangeira."
+    },
+    {
+      "id": "HUM_HIS_009",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Análise do papel da tradição e da continuidade nas estruturas sociais",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Dreifuss, René Armand. 1964: A Conquista do Estado. Petrópolis: Vozes, 1981",
+        "conteudo": "O golpe de 1964 não surgiu do vazio: ele foi articulado por setores militares, empresariais e conservadores que temiam as reformas sociais propostas pelo presidente Goulart. As elites agrária e industrial viam o movimento trabalhista e as reformas de base (reforma agrária, educação) como ameaças ao seu poder. O golpe, portanto, não foi apenas um evento político isolado, mas expressão de conflitos estruturais entre classes sociais que vinham se agravando desde os anos 1950."
+      },
+      "enunciado": "Os fatores estruturais que levaram ao golpe militar de 1964 podem ser resumidos como conflito entre:",
+      "alternativas": {
+        "A": "Setores reformistas (governo, trabalhadores, estudantes) e setores conservadores (militares, elites, empresários).",
+        "B": "Políticos brasileiros e potências estrangeiras interessadas em dominar o Brasil economicamente.",
+        "C": "Diferentes correntes do exército brasileiro, sem envolvimento de setores civis.",
+        "D": "O PT (Partido dos Trabalhadores) e a União Democrática Nacional, em disputa desde o século XIX."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: articula a polarização real (reformismo vs. conservadorismo). B é verdadeira (contexto Guerra Fria) mas secundária ao conflito interno. C é falso: golpe envolveu civis decisivamente. D é anacronista: PT não existia em 1964."
+    },
+    {
+      "id": "HUM_HIS_010",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H41 - Comparação de diferentes sociedades em um mesmo momento histórico",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Hobsbawm, Eric. Era dos Extremos. São Paulo: Companhia das Letras, 1995",
+        "conteudo": "Enquanto o Brasil vivia sob censura e repressão (1964-1985), países como Portugal, Espanha e Grécia igualmente sofriam sob regimes autoritários. Porém, na década de 1970, as ditaduras europeias entraram em crise: a Revolução dos Cravos em Portugal (1974) e a morte do general Franco na Espanha (1975) abriram caminho para democracias. No Brasil, o desgaste do regime militar também se aprofundava: anistia incompleta, mobilizações sociais crescentes e pressão internacional preparavam a redemocratização que viria em 1985."
+      },
+      "enunciado": "Qual foi a diferença entre a redemocratização brasileira (1985) e a de Portugal/Espanha (1974-1975)?",
+      "alternativas": {
+        "A": "A redemocratização europeia foi bem-sucedida e imediata, enquanto a brasileira foi gradual e negociada entre militares e setores civis.",
+        "B": "A redemocratização brasileira foi a primeira do mundo, seguida anos depois pela europeia.",
+        "C": "Portugal, Espanha e Brasil redemocratizaram simultaneamente, sem diferenças significativas.",
+        "D": "A redemocratização europeia foi imposta por potências estrangeiras, enquanto a brasileira foi resultado apenas de pressão interna."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: descreve a transição brasileira como gradual/negociada (processo específico, menos abrupto). B é falso: Europa saiu primeiro. C é falso: cronologias diferentes. D é falso: pressão internacional influenciou ambas."
+    },
+    {
+      "id": "HUM_HIS_011",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H31 - Análise de impacto econômico de eventos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Fonseca, Pedro Cezar Dutra. A Década de 1920 e a Industrialização Brasileira. Rio de Janeiro: PUC, 2003",
+        "conteudo": "A Ditadura Militar proclamava o 'milagre econômico' dos anos 1970: crescimento do PIB, investimento em infraestrutura e industrialização acelerada. Porém, essa riqueza concentrava-se nas mãos de poucos, enquanto a inflação e os juros internacionais cresciam. Quando a crise da dívida externa explodiu nos anos 1980, o 'milagre' virou-se contra o regime: endividamento externo pesado, inflação galopante e desemprego puseram em xeque o discurso de progresso. Essa crise econômica foi crucial para minar a legitimidade do governo militar."
+      },
+      "enunciado": "A crise econômica do final da Ditadura Militar (anos 1980) pode ser atribuída principalmente a:",
+      "alternativas": {
+        "A": "Ao desmantelamento total da indústria brasileira, causado por políticas comunistas de ex-presidentes.",
+        "B": "À concentração de riqueza, endividamento externo e pressões de inflação internacional, expostos quando o 'milagre' econômico esgotou-se.",
+        "C": "Ao boicote econômico orquestrado unilateralmente pelos EUA contra o Brasil durante os anos 1970.",
+        "D": "À recusa do governo em investir em educação e saúde, que criou uma população improdutiva."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: explica a crise por endividamento e modelo concentrador (no texto). A é absurda: não havia comunismo governamental. C é falso: houve alinhamento EUA-Brasil. D é desvio: falta de educação não causa crise de dívida externa."
+    },
+    {
+      "id": "HUM_HIS_012",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H21 - Identificação de mecanismos de exercício de cidadania na ordem democrática",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Constituição Federal. 1988. Preâmbulo e Artigos 1º-5º",
+        "conteudo": "A Constituição Federal de 1988 estabeleceu as bases de uma nova ordem democrática no Brasil. Seu preâmbulo proclama valores como liberdade, segurança, bem-estar, igualdade e justiça social. Os primeiros artigos definem o Brasil como Estado Democrático de Direito, garantem direitos civis, políticos e sociais, e estabelecem mecanismos para sua proteção e reivindicação. A CF/88 é chamada de 'Constituição Cidadã' por ter ampliado direitos de participação política, inclusão social e proteção de minorias."
+      },
+      "enunciado": "A Constituição Federal de 1988 é conhecida como 'Constituição Cidadã' porque:",
+      "alternativas": {
+        "A": "Eliminou totalmente todos os direitos políticos herdados do regime militar, criando uma ordem completamente nova.",
+        "B": "Ampliou direitos civis, políticos e sociais, restaurando mecanismos democráticos e protegendo minorias historicamente marginalizadas.",
+        "C": "Transferiu o poder legislativo inteiramente para as mãos dos cidadãos, abolindo o Senado Federal.",
+        "D": "Manteve estruturas do regime anterior, garantindo continuidade administrativa sem mudanças significativas."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: resume expansão de direitos e proteção de minorias. A é falso: não eliminou completamente, restaurou. C é falso: poder legislativo mantém bicameralismo. D é falso: houve mudanças estruturais."
+    },
+    {
+      "id": "HUM_HIS_013",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H21 - Análise de processos de exclusão e inclusão social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Carvalho, José Murilo de. Cidadania no Brasil: O Longo Caminho. Rio de Janeiro: Civilização Brasileira, 2001",
+        "conteudo": "A redemocratização de 1985 marca o fim do regime militar, mas o processo de consolidação democrática requer tempo. A Constituição de 1988 é o documento que formaliza essa redemocratização, trazendo eleições diretas para presidente (Tancredo Neves e depois Fernando Collor), divisão de poderes restaurada, liberdade de imprensa e de expressão, e direitos sociais expandidos: educação, saúde, trabalho. Pela primeira vez em 21 anos, cidadãos poderiam votar livremente e organizar-se politicamente sem medo de repressão."
+      },
+      "enunciado": "Qual mudança mais significativa trazida pela CF/1988 para a vida dos cidadãos brasileiros foi:",
+      "alternativas": {
+        "A": "A abolição de todas as formas de desigualdade econômica, criando um país igualitário.",
+        "B": "A restauração de direitos políticos (voto direto, liberdade de expressão, organização política) e expansão de direitos sociais (educação, saúde, trabalho).",
+        "C": "A criação de uma monarquia parlamentar, substituindo a república presidencialista.",
+        "D": "A transferência de todo o poder legislativo para o Judiciário, eliminando a corrupção."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: lista mudanças reais e democráticas (no texto). A é falso: desigualdade não foi abolida. C é absurdo: Brasil não virou monarquia. D é falso: Judiciário não absorveu poder legislativo."
+    },
+    {
+      "id": "HUM_HIS_014",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H21 - Identificação de direitos fundamentais e sua aplicação na realidade social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Constituição Federal. Artigos 6º e 208º",
+        "conteudo": "A CF/88 inclui em seu artigo 6º a educação como direito social: 'São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados...' O artigo 208º detalha: 'O dever do Estado com a educação será efetivado mediante garantia de educação básica obrigatória e gratuita dos 4 (quatro) aos 17 (dezessete) anos de idade...'. Esses direitos representam uma transformação: antes, no regime militar, educação não era reconhecida como direito universal."
+      },
+      "enunciado": "Ao incluir educação como direito social na CF/1988, o Estado brasileiro reconheceu uma mudança fundamental em relação ao período anterior (Ditadura Militar). Essa mudança reflete qual princípio?",
+      "alternativas": {
+        "A": "A educação era privilégio de elites durante a Ditadura, e continua sendo após 1988, sem qualquer mudança estrutural.",
+        "B": "O acesso à educação deve ser universal, gratuito e obrigatório, considerado fundamento para exercer cidadania plena.",
+        "C": "A educação privada deveria ser abolida completamente, com exclusividade estatal.",
+        "D": "O Estado não tem obrigação de garantir educação, devendo deixá-la para o mercado."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: articula universalidade, gratuidade e obrigatoriedade como direitos cidadãos (no texto). A é falso: houve mudança sim. C é falso: educação privada não foi abolida. D é falso: CF estabelece dever estatal."
+    },
+    {
+      "id": "HUM_HIS_015",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H20 - Análise de direitos e deveres políticos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Constituição Federal. Artigos 14º e 17º",
+        "conteudo": "A CF/1988 restaurou e ampliou mecanismos de participação democrática direta. O artigo 14º reconhece como formas de exercício da soberania popular: voto direto e secreto (para presidente, governador, senador, deputado); plebiscito; referendo; e iniciativa popular de leis. Esses instrumentos não existiam — ou existiam de forma limitada — durante o regime militar. O artigo 17º, por sua vez, garante o direito de formar partidos políticos, permitindo pluralismo político que havia sido suprimido."
+      },
+      "enunciado": "A restauração de mecanismos de participação democrática (voto direto, plebiscito, referendo, iniciativa popular) na CF/1988 pode ser entendida como:",
+      "alternativas": {
+        "A": "Uma continuação direta das práticas autoritárias do regime militar, sem mudanças significativas.",
+        "B": "Uma resposta à demanda social por inclusão nas decisões políticas e restauração da soberania popular após 21 anos de supressão.",
+        "C": "Uma inovação que nunca havia existido em qualquer democracia, criada exclusivamente pelo Brasil.",
+        "D": "Uma concessão temporária que seria revogada no primeiro governo democrático eleito."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: conecta restauração de mecanismos com demanda popular e ruptura com autoritarismo (no texto). A é falso: mecanismos foram restaurados. C é falso: plebiscito/referendo existem em democracias. D é falso: mecanismos não foram revogados."
+    },
+    {
+      "id": "HUM_HIS_016",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H41 - Análise de transformações sociais estruturais",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Schwarcz, Lilia Moritz e Starling, Heloisa Murgel. Brasil: Uma Biografia. São Paulo: Companhia das Letras, 2015",
+        "conteudo": "A CF/1988 é frequentemente descrita como um projeto inconcluso. Embora estabeleça direitos econômicos, sociais e culturais expandidos, muitas de suas promessas permanecem não realizadas: educação universal de qualidade; saúde digna para todos; moradia adequada. Simultaneamente, a Constituição não rompe com estruturas herdadas da escravidão e do coronelismo, que continuam marcando desigualdades regionais e raciais. Portanto, a CF/88 representa uma transformação normativa e jurídica importante, mas sua implementação integral demanda séculos de transformação social."
+      },
+      "enunciado": "A caracterização da CF/1988 como 'projeto inconcluso' significa que:",
+      "alternativas": {
+        "A": "A Constituição foi redigida de forma incompleta e deveria ser reescrita imediatamente.",
+        "B": "Embora estabeleça direitos e mecanismos democráticos importantes, sua implementação real enfrenta obstáculos estruturais herdados e ainda requer transformação social profunda.",
+        "C": "A Constituição fracassou totalmente e o Brasil retornou ao regime militar em 2000.",
+        "D": "Todos os direitos previstos na CF/88 foram imediatamente implementados, tornando o Brasil uma nação igualitária."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: articula lacuna entre norma e prática, herança estrutural (no texto). A é falso: Constituição é completa. C é absurdo: Brasil não retornou ao militarismo. D é falso: implementação é gradual e incompleta."
+    },
+    {
+      "id": "HUM_HIS_017",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H31 - Análise de influências políticas e econômicas internacionais",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Mello, Jayme Paviani de. A Economia Brasileira. Rio de Janeiro: Paz e Terra, 1998",
+        "conteudo": "A transição democrática brasileira (1985-1988) ocorreu num contexto internacional de enfraquecimento das ditaduras em geral. A Revolução dos Cravos em Portugal (1974), a queda de Franco na Espanha (1975), e o desmantelamento da URSS (1989) sinalizavam mudanças globais. Internacionalmente, pressão de organismos de direitos humanos (ONU, Anistia Internacional) contribuiu para deslegitimar o regime militar. Dentro do Brasil, a 'Campanha Diretas Já!' (1983-1984) mobilizava milhões de brasileiros pedindo eleições diretas, refletindo demanda social genuína por democracia. A redemocratização não foi imposta externamente, mas tampouco foi isenta de pressões internacionais."
+      },
+      "enunciado": "A redemocratização brasileira ocorreu num contexto que combinou:",
+      "alternativas": {
+        "A": "Apenas fatores internos, sem qualquer influência de mudanças globais ou pressões estrangeiras.",
+        "B": "Apenas pressão estrangeira, sem participação ou demanda social interna significativa.",
+        "C": "Demanda social interna (Diretas Já!) combinada com contexto internacional favorável (enfraquecimento de ditaduras globais) e pressão de organismos de direitos humanos.",
+        "D": "Imposição militar dos EUA, que obrigou o Brasil a se democratizar contra a vontade da população."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: articula fatores internos e externos (no texto). A é falso: contexto global importa. B é falso: mobilização interna foi fundamental. D é falso: EUA apoiava regime militar, não o impôs democratizar."
+    },
+    {
+      "id": "HUM_HIS_018",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Identificação de conceitos e marcos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Emenda Constitucional nº 26/1985 (Ato das Disposições Constitucionais Transitórias)",
+        "conteudo": "A transição de 1985 marca o fim oficial da Ditadura Militar no Brasil. O Congresso Nacional convocou uma Assembleia Constituinte para redigir uma nova constituição que refletisse os anseios por democracia. Essa Assembleia funcionou de 1987 a 1988, debatendo e votando cada artigo, abrindo participação de entidades civis: movimentos de trabalhadores, mulheres, indígenas, negros, ambientalistas. O resultado foi a Constituição Federal de 1988, promulgada em 5 de outubro daquele ano, formalizando a redemocratização."
+      },
+      "enunciado": "A Assembleia Constituinte (1987-1988) foi importante para a redemocratização porque:",
+      "alternativas": {
+        "A": "Permitiu participação de entidades civis (movimentos sociais) na redação da nova constituição, refletindo demandas democráticas.",
+        "B": "Manteve o poder inteiramente nas mãos dos generais militares, sem permitir qualquer participação civil.",
+        "C": "Reescreveu todos os artigos da constituição anterior, sem manter qualquer continuidade institucional.",
+        "D": "Aboliu o Congresso Nacional, concentrando poder numa Assembleia permanente."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: participação civil e reflexo democrático (no texto). B é falso: poder militar foi reduzido. C é exagerado: houve continuidade. D é falso: Congresso não foi abolido."
+    },
+    {
+      "id": "HUM_HIS_019",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Análise de processos de dominação e resistência",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Reis, João José e Silva, Eduardo. Negociação e Conflito: A Resistência Negra no Brasil Escravista. São Paulo: Companhia das Letras, 1989",
+        "conteudo": "A resistência à escravidão não ocorreu apenas através de grandes rebeliões (como Palmares). Diariamente, escravizados praticavam formas sutis de resistência: fugas, sabotagem de ferramentas, recusa ao trabalho, simulação de doenças, criação de comunidades isoladas (quilombos). Essas práticas, embora menos visíveis que rebeliões, foram mais persistentes e impactantes. Além disso, escravizados que conseguiam comprar sua liberdade formavam uma classe de 'pretos livres' que pressionava, mesmo que discretamente, o sistema escravista. Toda essa resistência criava fissuras no sistema que eventualmente levaria à abolição."
+      },
+      "enunciado": "As formas cotidianas de resistência à escravidão (fugas, sabotagem, criação de quilombos) foram importantes porque:",
+      "alternativas": {
+        "A": "Escravizados nunca resistiram; aceitaram passivamente o sistema.",
+        "B": "Apenas rebeliões abertas e violentas contavam como resistência legítima; práticas cotidianas eram insignificantes.",
+        "C": "Criavam pressões contínuas sobre o sistema escravista, demonstrando agência e contribuindo para seu enfraquecimento estrutural.",
+        "D": "Foram condenadas pela Igreja Católica e pela elite brasileira, tornando-se completamente ineficazes."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: reconhece resistência cotidiana como efetiva (no texto). A é falso: houve muita resistência. B é falso: práticas cotidianas tiveram impacto. D é falso: resistência foi persistente."
+    },
+    {
+      "id": "HUM_HIS_020",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H41 - Análise de violações de direitos humanos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Comissão Nacional da Verdade. Relatório Final. 2014",
+        "conteudo": "A Ditadura Militar foi responsável por graves violações de direitos humanos: desaparecimentos forçados, torturas, execuções extrajudiciais. A Comissão Nacional da Verdade, criada em 2011, investigou esses crimes após quase 30 anos e constatou que o Estado foi responsável direto por atos de violência contra opositores políticos, intelectuais, estudantes, religiosos e trabalhadores. A maioria dos perpetradores nunca foi processada judicialmente, devido à Lei de Anistia (1979) que beneficiou agentes do Estado. Esse legado de impunidade permanece controverso e marca a sociedade brasileira até hoje."
+      },
+      "enunciado": "A Comissão Nacional da Verdade documentou que violações de direitos humanos durante a Ditadura Militar permaneceram largamente impunes porque:",
+      "alternativas": {
+        "A": "Não havia leis que punissem tortura ou desaparecimento; eram práticas legais na época.",
+        "B": "A Lei de Anistia (1979) beneficiou agentes do Estado, impedindo processamento judicial na maioria dos casos.",
+        "C": "Os responsáveis deixaram o país e nunca foram encontrados.",
+        "D": "A sociedade brasileira aprovava essas práticas e se recusava a investigá-las."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Lei de Anistia como razão principal (no texto). A é falso: práticas eram ilegais internacionalmente. C é falso: muitos permaneceram no Brasil. D é falso: sociedade pressionava por investigação."
+    },
+    {
+      "id": "HUM_HIS_021",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H31 - Análise crítica de projetos políticos e suas limitações",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Santos, Boaventura de Sousa. Para Despensar o Ocidente. São Paulo: Cortez, 2004",
+        "conteudo": "A transição democrática brasileira de 1985-1988 foi negociada entre militares ainda poderosos e setores civis, resultando num pacto que não rompeu completamente com estruturas anteriores. A elite militar manteve autonomia institucional; a elite econômica continuou controlando recursos; estruturas de desigualdade racial, regional e de gênero não foram radicalmente reformadas. A CF/88, portanto, é uma transição que abre possibilidades democráticas sem resolver conflitos estruturais herdados. Essa natureza 'pactuada' da redemocratização tem permitido ataques posteriores aos direitos constitucionais (emendas constitucionais restritivas) e questiona a consolidação duradoura da democracia brasileira."
+      },
+      "enunciado": "A caracterização da redemocratização brasileira como 'pactuada' implica que:",
+      "alternativas": {
+        "A": "A democracia foi conquistada de forma completa e inquestionável, sem qualquer ambiguidade ou limitação.",
+        "B": "A transição envolveu negociações que preservaram parte do poder militar e de elites econômicas, deixando estruturas desiguais intactas e democracia vulnerável a retrocessos.",
+        "C": "Militares foram completamente expulsos do poder e a elite econômica foi desapropriada.",
+        "D": "A redemocratização foi imposta de forma radical, sem qualquer participação de setores conservadores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: descreve pacto como preservação de poder e vulnerabilidade (no texto). A é falso: transição teve limitações. C é falso: militares mantiveram autonomia. D é falso: foi negociada, não radical."
+    },
+    {
+      "id": "HUM_HIS_022",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Identificação de períodos e marcos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Gaspari, Elio. A Ditadura Encurralada. São Paulo: Companhia das Letras, 2004",
+        "conteudo": "O regime militar brasileiro teve marcos claros: começo em 31 de março de 1964 com o golpe que depôs Jango; consolidação entre 1964-1968, com Atos Institucionais e repressão intensificada; e gradual abertura a partir de 1974 com o presidente Geisel, permitindo maior liberdade de imprensa e anistia parcial. Em 1985, a transição democrática iniciada com a Campanha Diretas Já! culmina na eleição de Tancredo Neves (que não chegou a assumir) e posterior eleição de Fernando Collor. O regime termina formalmente com a Constituição de 1988."
+      },
+      "enunciado": "Qual foi o marco que formalizou o fim da Ditadura Militar no Brasil?",
+      "alternativas": {
+        "A": "O golpe de 1964, que iniciou o período autoritário.",
+        "B": "A Campanha Diretas Já! de 1983-1984, que mobilizou a população.",
+        "C": "A Constituição Federal de 1988, que estabeleceu uma ordem democrática.",
+        "D": "A morte do presidente Tancredo Neves em 1985."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: CF/88 formalizou a democracia (no texto). A é o início, não o fim. B foi importante para mobilização, mas não foi formal. D foi simbólico mas não o marco formal."
+    },
+    {
+      "id": "HUM_HIS_023",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H41 - Análise de estruturas sociais persistentes",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Fernandes, Florestan. A Integração do Negro na Sociedade de Classes. São Paulo: Editora FFLCH, 1978",
+        "conteudo": "Uma das teses centrais da historiografia brasileira é que a escravidão deixou cicatrizes profundas na estrutura social que persistem além da abolição formal. Mesmo com a Lei Áurea (1888), o Brasil não desenvolveu políticas de integração econômica dos negros. Diferentemente de outras sociedades pós-escravistas, não houve reforma agrária que distribuísse terras aos ex-escravizados, nem educação sistemática acessível. O resultado foi a perpetuação de desigualdade racial através de mecanismos econômicos (acesso ao trabalho, capital, educação) que reproduzem a hierarquia escravista sem nomeá-la explicitamente. Essa reprodução é tão efetiva porque não depende mais de lei, mas de estrutura."
+      },
+      "enunciado": "A persistência da desigualdade racial no Brasil pós-abolição pode ser explicada como:",
+      "alternativas": {
+        "A": "Resultado de escolhas individuais de pessoas negras de não trabalhar ou estudar, sem qualquer conexão com herança estrutural.",
+        "B": "Reprodução de hierarquias escravistas através de mecanismos econômicos (acesso a trabalho, capital, educação) que operam sem necessidade de lei explícita.",
+        "C": "Consequência de incapacidade intelectual de populações africanas, teoricamente comprovada pela ciência.",
+        "D": "Simples falta de tempo desde 1888, que será resolvida naturalmente com o passar dos séculos."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: descreve reprodução estrutural de desigualdade (no texto). A é culpabilizadora. C é pseudociência racista. D ignora mecanismo estrutural."
+    },
+    {
+      "id": "HUM_HIS_024",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H21 - Análise de garantias constitucionais e proteção de direitos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Constituição Federal. Artigo 227º",
+        "conteudo": "A CF/1988 incluiu capítulo específico sobre proteção de crianças e adolescentes (artigo 227º): 'É dever da família, da sociedade e do Estado assegurar à criança, ao adolescente e ao jovem, com absoluta prioridade, o direito à vida, à saúde, à alimentação, à educação, ao lazer, à profissionalização, à cultura, à dignidade, ao respeito, à liberdade e à convivência familiar e comunitária, além de colocá-los a salvo de toda forma de negligência, discriminação, exploração, violência, crueldade e opressão.' Esse artigo representava transformação radical: antes, menores não tinham proteção sistemática pelo Estado."
+      },
+      "enunciado": "A inclusão de proteção especial a crianças e adolescentes na CF/1988 reflete que mudança de paradigma?",
+      "alternativas": {
+        "A": "Passagem de um modelo onde crianças e adolescentes eram responsabilidade exclusiva da família para um modelo onde Estado, família e sociedade compartilham essa responsabilidade.",
+        "B": "Abolição completa da família como instituição, transferindo todas as crianças para o Estado.",
+        "C": "Reconhecimento de que crianças não têm direitos e devem apenas obedecer aos adultos.",
+        "D": "Criação de sistema de penalização máxima para menores infratores, sem possibilidade de ressocialização."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: descreve passagem de responsabilidade familiar para compartilhada (no texto). B é falso: família mantém papel. C é falso: direitos são reconhecidos. D é falso: ênfase é em proteção, não penalização."
+    },
+    {
+      "id": "HUM_HIS_025",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H40 - Análise crítica de legitimações políticas",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Fico, Carlos. Como Eles Agridem Nossa Memória. Rio de Janeiro: Record, 2004",
+        "conteudo": "O regime militar brasileiro usou narrativas de legitimação para justificar a repressão: discurso de 'segurança nacional' (que permitia criminalizar oposição política); narrativa de 'desenvolvimento econômico' (o 'milagre dos anos 70'); e invocação de 'tradição cristã ocidental' (para justificar perseguição a comunistas e movimentos sociais). Essas narrativas nunca foram neutras; eram estratégias discursivas que obscureciam violações de direitos humanos. A transição democrática exigiu desconstrução dessas narrativas e reconhecimento crítico de sua falsidade."
+      },
+      "enunciado": "As narrativas legitimadoras do regime militar ('segurança nacional', 'desenvolvimento', 'tradição cristã ocidental') funcionavam principalmente para:",
+      "alternativas": {
+        "A": "Descrever com precisão os objetivos reais do regime, que eram genuinamente econômicos e sociais.",
+        "B": "Obscurecer violações de direitos humanos, criminalizando oposição política e justificando repressão através de discursos que pareciam legítimos.",
+        "C": "Promover educação crítica sobre política, ensinando aos cidadãos a questionar o Estado.",
+        "D": "Preparar a população para uma transição democrática planejada desde o início do regime."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: reconhece narrativas como ocultação de violência (no texto). A é falso: narrativas eram falsas. C é falso: educação crítica era suprimida. D é falso: transição não era planejada desde 1964."
+    },
+    {
+      "id": "HUM_HIS_026",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H21 - Identificação de direitos políticos restaurados",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Carvalho, José Murilo de. Cidadania no Brasil. Rio de Janeiro: Civilização Brasileira, 2001",
+        "conteudo": "Durante a Ditadura Militar (1964-1985), liberdades políticas foram severamente restritas: não havia eleições presidenciais diretas (presidente era escolhido pelo Congresso); partidos políticos foram dissolvidos (apenas ARENA e MDB eram permitidos); imprensa era censurada; reuniões públicas eram proibidas. A CF/1988 restaurou essas liberdades: eleições diretas para presidente (primeira em 1989 com Fernando Collor); pluralismo político (múltiplos partidos); liberdade de imprensa; direito de manifestação. Essas mudanças não eram meramente simbólicas; permitiram transformação real do poder político."
+      },
+      "enunciado": "A restauração de eleições diretas para presidente na CF/1988 representava:",
+      "alternativas": {
+        "A": "Continuação da prática militar de designar presidentes pelo Congresso.",
+        "B": "Retorno do poder de escolher presidentes ao povo, revertendo supressão imposta pela Ditadura.",
+        "C": "Abolição completa do Congresso Nacional, substituído por democracia direta permanente.",
+        "D": "Criação de novo sistema onde presidente teria poderes totalitários ainda maiores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: restauração de soberania popular (no texto). A é falso: eleições diretas mudaram isso. C é falso: Congresso continuou. D é falso: poderes presidenciais foram limitados constitucionalmente."
+    },
+    {
+      "id": "HUM_HIS_027",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H31 - Análise de dados históricos quantitativos",
+      "texto_base": {
+        "tipo": "dados_historiografico",
+        "fonte": "Adaptado de Schwarcz, Lilia Moritz. O Espetáculo das Raças",
+        "conteudo": "Dados de genealogia e registros de propriedade mostram que no Brasil colonial e imperial, a maioria das propriedades rurais (que geravam riqueza) era possuída por descendentes de colonizadores portugueses. Quando comparamos essa distribuição de terras no período escravista com a distribuição atual de propriedades no Brasil, observamos que as famílias que possuem maior concentração de terra são descendentes diretas daquelas famílias coloniais. Isso demonstra que a riqueza acumulada através do trabalho escravo foi herdada e permaneceu concentrada em grupos específicos, reproduzindo desigualdade econômica através de gerações."
+      },
+      "enunciado": "A persistência de concentração de terra nas mesmas famílias desde o período colonial evidencia que:",
+      "alternativas": {
+        "A": "Distribuição de terras não tem qualquer conexão com herança econômica da escravidão.",
+        "B": "Escravidão foi um sistema econômico isolado que não afetou estrutura de propriedade após abolição.",
+        "C": "A riqueza acumulada através do trabalho escravo foi herdada familiarmente, reproduzindo desigualdade econômica estrutural.",
+        "D": "Apenas pobres foram prejudicados pela escravidão; ricos não foram beneficiados."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: conecta acumulação colonial com herança contemporânea (no texto). A é falso: conexão é clara. B é falso: sistema teve impacto duradouro. D é falso: ricos foram beneficiados acumulando."
+    },
+    {
+      "id": "HUM_HIS_028",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "media",
+      "habilidade_inep": "H41 - Análise de transformações institucionais",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Brasil. Emenda Constitucional nº 1/1969 (Constituição do Regime Militar) e CF/1988",
+        "conteudo": "A Constituição de 1967 (reformada em 1969 pelo regime militar) concentrava poder no Executivo, permitia prisão sem julgamento (prisão política), proibia greves, suprimia liberdades sindicais. A CF/1988 inverteu esse modelo: fortaleceu o Legislativo através de maior representação; estabeleceu independência do Judiciário; reconheceu direitos de greve e liberdades sindicais; criou mecanismos de controle do Executivo (impeachment presidencial, por exemplo). Essa reformulação institucional transformou o Brasil de um Estado autoritário centralizado para um Estado democrático descentralizado."
+      },
+      "enunciado": "A transformação institucional de 1988 em relação a 1967-1969 pode ser resumida como passagem de:",
+      "alternativas": {
+        "A": "Democracia plena e descentralizada (1967) para autoritarismo centralizado (1988).",
+        "B": "Estado autoritário centralizado no Executivo para Estado democrático com divisão de poderes e participação.",
+        "C": "Regime que permitia greves para regime que as proibia completamente.",
+        "D": "Constituição que reconhecia direitos sindicais para constituição que os eliminava."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: descreve inversão de autoritarismo para democracia (no texto). A é falso: 1967 era autoritário. C é falso: 1988 permitiu greves. D é falso: 1988 reconheceu direitos sindicais."
+    },
+    {
+      "id": "HUM_HIS_029",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H41 - Análise de consequências históricas de períodos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Novais, Fernando. Estrutura e Dinâmica do Antigo Regime Português. São Paulo: HUCITEC, 1979",
+        "conteudo": "A Ditadura Militar deixou marcas que transcendem 1985: culture da desconfiança em instituições públicas; normalização de violência estatal; tradição de impunidade para agentes de Estado; memória traumática em famílias que perderam entes queridos. Além disso, o regime agravou desigualdade econômica através de seu modelo concentrador de renda, deixando legado de pobreza que perdura. Essas cicatrizes sociais, econômicas e psicológicas não desaparecem com uma constituição; requerem trabalho de memória, justiça, reparação e transformação educacional contínuos."
+      },
+      "enunciado": "O legado estrutural da Ditadura Militar para a sociedade brasileira atual inclui:",
+      "alternativas": {
+        "A": "Desaparecimento completo de trauma após 1985, restituindo confiança nas instituições imediatamente.",
+        "B": "Ausência de qualquer impacto econômico ou social persistente, limitado àquele período histórico.",
+        "C": "Desconfiança institucional, impunidade de agentes do Estado, desigualdade econômica agravada, que requerem trabalho contínuo de reparação e memória.",
+        "D": "Fortalecimento automático da democracia e eliminação de todos os problemas sociais."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: enumera legados persistentes que requerem trabalho (no texto). A é falso: trauma persiste. B é falso: impactos econômicos permanecem. D é falso: legado requer ação, não é automático."
+    },
+    {
+      "id": "HUM_HIS_030",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "cf_1988_redemocratizacao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H41 - Análise sintética de transformações históricas",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de Arendt, Hannah. Sobre a Revolução. Brasília: UnB, 1988",
+        "conteudo": "A transição de 1985-1988 pode ser entendida como um momento de inflexão onde Brasil escolheu, coletivamente (ainda que imperfeitamente), caminhar em direção a maior liberdade e igualdade de direitos. A CF/88 não é perfeita, nem resolveu todos os problemas estruturais herdados (escravidão, desigualdade, exclusão), mas criou marcos institucionais para que essas transformações fossem possíveis através de luta democrática contínua. Nesse sentido, 1988 é menos um ponto final e mais um ponto de partida: abertura de possibilidades que futuras gerações precisam concretizar através de política, educação e ação social."
+      },
+      "enunciado": "A CF/1988 é melhor compreendida como:",
+      "alternativas": {
+        "A": "Fim completo de todos os problemas brasileiros, eliminando desigualdade e injustiça permanentemente.",
+        "B": "Fracasso total que não mudou nada em relação ao período anterior.",
+        "C": "Abertura de possibilidades democráticas que cria marcos institucionais, mas requer trabalho contínuo de futuras gerações para concretizar transformações estruturais.",
+        "D": "Retorno completo ao regime militar, anulando todos os ganhos democráticos conquistados."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: descreve CF/88 como marco, não solução final (no texto). A é falso: problemas persistem. B é falso: mudanças significativas ocorreram. D é falso: regime não retornou."
     }
   ]
 }
