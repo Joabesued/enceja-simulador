@@ -798,6 +798,666 @@
       },
       "gabarito": "C",
       "comentario": "C está correta: o 'medo' da 'onda negra' levou a políticas de repressão, controle e branqueamento — associando liberdade negra a ameaça. A é inversão (havia medo, não entusiasmo). B é erro factual (não houve reparação). D é inversão (igualdade racial não era valor da elite — ao contrário, buscava-se o branqueamento)."
+    },
+    {
+      "id": "HUM_HIS_031",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "Em 1930, Getúlio Vargas chegou ao poder por meio de um movimento armado que depôs o presidente Washington Luís. Vargas governou o Brasil por 15 anos consecutivos, passando por três fases: Governo Provisório (1930–1934), Governo Constitucional (1934–1937) e Estado Novo (1937–1945). Nesse período, o país passou por profundas transformações na economia, na legislação trabalhista e na organização do Estado."
+      },
+      "enunciado": "De acordo com o texto, a chegada de Getúlio Vargas ao poder em 1930 ocorreu por meio de",
+      "alternativas": {
+        "A": "eleições diretas organizadas conforme a Constituição vigente.",
+        "B": "um movimento armado que depôs o presidente em exercício.",
+        "C": "uma decisão do Congresso Nacional que afastou o presidente por impeachment.",
+        "D": "uma sucessão pacífica negociada entre os partidos políticos da época."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma explicitamente que Vargas chegou ao poder 'por meio de um movimento armado que depôs o presidente Washington Luís'. A contradiz o texto (não foram eleições diretas). C é confusão conceitual (não houve impeachment). D contradiz o texto (houve movimento armado, não sucessão pacífica)."
+    },
+    {
+      "id": "HUM_HIS_032",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FAUSTO, Boris. História do Brasil. São Paulo: Edusp, 1995",
+        "conteudo": "Em novembro de 1937, Getúlio Vargas fechou o Congresso Nacional, cancelou as eleições presidenciais previstas para o ano seguinte e outorgou uma nova Constituição, que concentrava poderes no Executivo. Iniciava-se o Estado Novo, regime autoritário que se estendeu até 1945. A justificativa oficial foi a necessidade de combater uma suposta ameaça comunista, conhecida como Plano Cohen — documento que posteriormente se revelou forjado."
+      },
+      "enunciado": "A instauração do Estado Novo, conforme descrita no texto, caracterizou-se como um processo de",
+      "alternativas": {
+        "A": "ampliação da democracia com maior participação popular nas decisões políticas.",
+        "B": "concentração autoritária de poder sustentada por uma justificativa fabricada.",
+        "C": "transição pacífica conduzida pelo Congresso Nacional em comum acordo com Vargas.",
+        "D": "resposta legítima a uma comprovada ameaça de revolução comunista no país."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: houve fechamento do Congresso, cancelamento de eleições e concentração de poderes, sustentados pelo Plano Cohen, que era forjado. A é inversão de papéis (houve redução, não ampliação da democracia). C contradiz o texto (o Congresso foi fechado). D é senso comum equivocado (o Plano Cohen era falso, logo a ameaça não era comprovada)."
+    },
+    {
+      "id": "HUM_HIS_033",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre legislação trabalhista no Brasil",
+        "conteudo": "Durante o governo de Getúlio Vargas, foi criada a Consolidação das Leis do Trabalho (CLT), em 1943. A CLT reuniu e organizou diversas leis trabalhistas, estabelecendo direitos como jornada de trabalho de 8 horas diárias, férias remuneradas, salário mínimo, carteira de trabalho e descanso semanal remunerado. Esses direitos tinham como público-alvo principal os trabalhadores urbanos."
+      },
+      "enunciado": "Uma característica da legislação trabalhista criada durante o governo Vargas, conforme o texto, foi",
+      "alternativas": {
+        "A": "a extensão imediata de todos os direitos trabalhistas aos trabalhadores rurais.",
+        "B": "a garantia de direitos como jornada de 8 horas e férias remuneradas para trabalhadores urbanos.",
+        "C": "a eliminação do salário mínimo em favor de acordos diretos entre patrões e empregados.",
+        "D": "a proibição de qualquer vínculo entre o Estado e os sindicatos de trabalhadores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto lista jornada de 8 horas, férias remuneradas e outros direitos voltados ao trabalhador urbano. A contradiz o texto (os direitos eram voltados ao trabalhador urbano, não rural). C contradiz o texto (o salário mínimo foi criado, não eliminado). D é confusão conceitual (Vargas aproximou o Estado dos sindicatos, não os afastou)."
+    },
+    {
+      "id": "HUM_HIS_034",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de CAPELATO, Maria Helena. Multidões em cena: propaganda política no varguismo e no peronismo. São Paulo: Papirus, 1998",
+        "conteudo": "O Estado Novo utilizou amplamente o rádio e o cinema como instrumentos de propaganda política. O Departamento de Imprensa e Propaganda (DIP), criado em 1939, controlava os meios de comunicação, censurava publicações contrárias ao governo e produzia conteúdos que exaltavam a figura de Getúlio Vargas como líder protetor do povo e 'pai dos pobres'."
+      },
+      "enunciado": "A atuação do DIP durante o Estado Novo, conforme descrita no texto, tinha como principal função",
+      "alternativas": {
+        "A": "garantir a liberdade de expressão e o pluralismo na imprensa brasileira.",
+        "B": "promover o debate democrático entre governo e oposição pelos meios de comunicação.",
+        "C": "controlar a informação e construir uma imagem positiva do líder junto à população.",
+        "D": "incentivar a criação de partidos políticos de oposição para fortalecer a democracia."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o DIP controlava a mídia, censurava e produzia propaganda exaltando Vargas. A é inversão (o DIP censurava, não garantia liberdade). B é inversão (não havia debate democrático, havia censura). D é anacronismo (durante o Estado Novo os partidos foram extintos)."
+    },
+    {
+      "id": "HUM_HIS_035",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de GOMES, Angela de Castro. A invenção do trabalhismo. Rio de Janeiro: FGV, 2005",
+        "conteudo": "A relação de Vargas com os trabalhadores foi marcada por uma política que combinava a concessão de direitos trabalhistas com o controle estatal sobre os sindicatos. O modelo corporativista adotado vinculava os sindicatos ao Estado, que mediava as relações entre capital e trabalho. Essa estratégia permitia ao governo apresentar-se como benfeitor dos trabalhadores e, ao mesmo tempo, limitar a autonomia de suas organizações."
+      },
+      "enunciado": "O modelo de relação entre Estado e trabalhadores descrito no texto pode ser entendido como uma estratégia que",
+      "alternativas": {
+        "A": "fortalecia a autonomia sindical e a livre negociação entre patrões e empregados.",
+        "B": "excluía os trabalhadores de qualquer forma de proteção social ou trabalhista.",
+        "C": "concedia direitos como forma de obter apoio político e, simultaneamente, controlar a organização sindical.",
+        "D": "transferia integralmente o poder de decisão sobre as leis trabalhistas aos próprios sindicatos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve a combinação entre concessão de direitos e controle estatal sobre sindicatos — dar para controlar. A contradiz o texto (a autonomia sindical era limitada). B é inversão (havia concessão de direitos, não exclusão). D contradiz o texto (o poder ficava no Estado, não nos sindicatos)."
+    },
+    {
+      "id": "HUM_HIS_036",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "Em 31 de março de 1964, um golpe militar depôs o presidente João Goulart. Os militares assumiram o controle do país e governaram o Brasil por 21 anos, até 1985. Durante esse período, os presidentes eram generais escolhidos entre os próprios militares, sem participação direta da população. A ditadura foi marcada pela censura, pela repressão política e pela supressão de direitos civis."
+      },
+      "enunciado": "De acordo com o texto, uma característica do regime militar instaurado em 1964 foi",
+      "alternativas": {
+        "A": "a escolha dos presidentes por meio de eleições diretas com participação popular.",
+        "B": "a ampliação dos direitos civis e das liberdades individuais dos cidadãos.",
+        "C": "a censura, a repressão política e a supressão de direitos civis.",
+        "D": "a manutenção do presidente deposto no cargo sob supervisão dos militares."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma diretamente que a ditadura foi marcada por 'censura, repressão política e supressão de direitos civis'. A contradiz o texto (não havia eleições diretas). B é inversão (houve supressão, não ampliação de direitos). D contradiz o texto (Goulart foi deposto)."
+    },
+    {
+      "id": "HUM_HIS_037",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de GASPARI, Elio. A ditadura escancarada. São Paulo: Companhia das Letras, 2002",
+        "conteudo": "O Ato Institucional nº 5, o AI-5, decretado em dezembro de 1968, é considerado o instrumento mais duro da ditadura militar brasileira. Ele permitia ao presidente fechar o Congresso, cassar mandatos parlamentares, suspender direitos políticos de qualquer cidadão e decretar estado de sítio sem autorização legislativa. Também suspendeu o habeas corpus para crimes políticos, eliminando garantias contra prisões arbitrárias."
+      },
+      "enunciado": "O AI-5, conforme descrito no texto, representou",
+      "alternativas": {
+        "A": "uma medida de fortalecimento da democracia e das instituições representativas.",
+        "B": "um instrumento legal que limitava os poderes do presidente da República.",
+        "C": "o endurecimento do regime com a concentração absoluta de poder no Executivo.",
+        "D": "uma resposta ao pedido do Congresso Nacional por maior controle sobre a oposição."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o AI-5 concentrou poderes no presidente — fechar Congresso, cassar mandatos, suspender habeas corpus. A é inversão total (o AI-5 destruiu garantias democráticas). B é inversão (o AI-5 ampliou, não limitou, os poderes do presidente). D é senso comum equivocado (o Congresso podia ser fechado pelo AI-5, não era seu aliado voluntário)."
+    },
+    {
+      "id": "HUM_HIS_038",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre censura e cultura durante a ditadura militar",
+        "conteudo": "Durante a ditadura militar, a censura atingiu a imprensa, o teatro, o cinema e a música. Artistas e compositores criaram formas criativas de driblar os censores: usavam metáforas, duplo sentido e linguagem figurada para criticar o regime. Canções que aparentemente falavam de amor ou de natureza, na verdade, traziam mensagens de protesto e resistência política."
+      },
+      "enunciado": "O uso de linguagem figurada por artistas durante a ditadura, conforme o texto, funcionava como",
+      "alternativas": {
+        "A": "uma forma de apoio ao regime militar por meio de canções patrióticas.",
+        "B": "uma estratégia de resistência cultural que burlava a censura com mensagens cifradas.",
+        "C": "uma exigência dos censores para que as canções tratassem de temas leves.",
+        "D": "uma tendência artística sem relação com o contexto político da época."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto descreve o uso de metáforas e duplo sentido como forma de 'driblar os censores' e fazer 'protesto e resistência política'. A é inversão de papéis (era resistência, não apoio). C é confusão conceitual (os artistas burlavam a censura, não obedeciam a exigências dos censores). D contradiz o texto (havia relação direta com o contexto político)."
+    },
+    {
+      "id": "HUM_HIS_039",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de SKIDMORE, Thomas. Brasil: de Castelo a Tancredo. Rio de Janeiro: Paz e Terra, 1988",
+        "conteudo": "O período conhecido como 'milagre econômico' (1969–1973) foi marcado por altas taxas de crescimento do PIB, investimentos em grandes obras de infraestrutura e expansão do crédito ao consumo. No entanto, os benefícios desse crescimento foram distribuídos de forma desigual: enquanto a classe média alta ampliou seu acesso a bens de consumo, os trabalhadores de baixa renda viram seus salários reais estagnarem ou diminuírem, e a concentração de renda no país aumentou."
+      },
+      "enunciado": "O texto permite concluir que o chamado 'milagre econômico' da ditadura militar",
+      "alternativas": {
+        "A": "promoveu desenvolvimento econômico com distribuição igualitária de renda entre todas as classes sociais.",
+        "B": "resultou em crescimento econômico concentrado, que ampliou as desigualdades sociais no país.",
+        "C": "beneficiou principalmente os trabalhadores de baixa renda com aumentos significativos de salário.",
+        "D": "fracassou economicamente, sem gerar crescimento do PIB ou investimentos em infraestrutura."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: houve crescimento do PIB, mas com distribuição desigual — salários estagnaram na base enquanto a classe média alta se beneficiou. A contradiz o texto (a distribuição foi desigual). C é inversão (os trabalhadores de baixa renda viram salários estagnarem). D contradiz o texto (houve crescimento do PIB e investimentos)."
+    },
+    {
+      "id": "HUM_HIS_040",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático sobre redemocratização do Brasil",
+        "conteudo": "Em 1984, milhões de brasileiros foram às ruas em manifestações conhecidas como Diretas Já, reivindicando o direito de escolher o presidente da República por meio de voto direto. A emenda constitucional que propunha eleições diretas foi votada no Congresso, mas não alcançou os votos necessários para aprovação. Mesmo assim, o movimento enfraqueceu politicamente a ditadura e acelerou o processo de redemocratização."
+      },
+      "enunciado": "O movimento das Diretas Já, descrito no texto, teve como principal reivindicação",
+      "alternativas": {
+        "A": "a permanência dos militares no poder com apoio popular legitimado.",
+        "B": "a realização de eleições diretas para presidente da República.",
+        "C": "o fechamento do Congresso Nacional para acelerar reformas econômicas.",
+        "D": "a aprovação de uma nova Constituição sem participação da sociedade civil."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que o movimento reivindicava 'o direito de escolher o presidente da República por meio de voto direto'. A é inversão de papéis (o movimento era contra a ditadura). C contradiz a lógica do movimento (era pró-democracia). D é confusão conceitual (o movimento queria participação popular, não exclusão)."
+    },
+    {
+      "id": "HUM_HIS_041",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FICO, Carlos. Além do golpe: versões e controvérsias sobre 1964 e a ditadura militar. Rio de Janeiro: Record, 2004",
+        "conteudo": "Para justificar o golpe de 1964 e a permanência dos militares no poder, o regime utilizou o discurso de combate ao comunismo e à corrupção, além da defesa da ordem e da segurança nacional. A Doutrina de Segurança Nacional classificava opositores políticos como 'inimigos internos' e autorizava a repressão como instrumento legítimo de defesa do Estado."
+      },
+      "enunciado": "A Doutrina de Segurança Nacional, mencionada no texto, servia como instrumento de",
+      "alternativas": {
+        "A": "proteção dos direitos civis e da liberdade de expressão dos cidadãos.",
+        "B": "fortalecimento das instituições democráticas e da participação popular.",
+        "C": "legitimação da repressão política ao classificar opositores como ameaças ao Estado.",
+        "D": "promoção do diálogo entre governo e movimentos sociais para resolver conflitos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a doutrina classificava opositores como 'inimigos internos' e 'autorizava a repressão'. A é inversão (a doutrina suprimia direitos civis). B é inversão (enfraquecia a democracia). D é inversão (não havia diálogo, havia repressão)."
+    },
+    {
+      "id": "HUM_HIS_042",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre política econômica da Era Vargas",
+        "conteudo": "A criação da Companhia Siderúrgica Nacional (CSN), em 1941, e da Petrobras, em 1953, representou marcos da política de industrialização e nacionalismo econômico do governo Vargas. A campanha 'O petróleo é nosso' mobilizou amplos setores da sociedade em defesa do monopólio estatal sobre a exploração do petróleo, refletindo um projeto de desenvolvimento baseado na soberania sobre recursos estratégicos."
+      },
+      "enunciado": "A criação da CSN e da Petrobras, conforme o texto, estava relacionada a uma política de",
+      "alternativas": {
+        "A": "abertura econômica irrestrita ao capital estrangeiro em setores estratégicos.",
+        "B": "industrialização e controle nacional sobre recursos considerados estratégicos.",
+        "C": "privatização das empresas estatais para reduzir a intervenção do Estado na economia.",
+        "D": "exportação exclusiva de matérias-primas sem investimento em indústria de base."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto descreve uma política de industrialização e nacionalismo econômico com soberania sobre recursos estratégicos. A é inversão (era nacionalismo, não abertura irrestrita ao capital estrangeiro). C é anacronismo (privatização é política posterior, não do período Vargas). D contradiz o texto (houve investimento em indústria de base como a CSN)."
+    },
+    {
+      "id": "HUM_HIS_043",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de NAPOLITANO, Marcos. 1964: história do regime militar brasileiro. São Paulo: Contexto, 2014",
+        "conteudo": "O bipartidarismo imposto pelo regime militar a partir de 1965 reduziu a vida política a dois partidos: a ARENA (Aliança Renovadora Nacional), que apoiava o governo, e o MDB (Movimento Democrático Brasileiro), que exercia uma oposição consentida. Essa estrutura dava ao regime uma fachada de normalidade democrática, enquanto na prática os resultados eleitorais podiam ser manipulados por meio de casuísmos — alterações nas regras eleitorais feitas para favorecer o partido do governo."
+      },
+      "enunciado": "O sistema bipartidário descrito no texto cumpria a função de",
+      "alternativas": {
+        "A": "garantir a plena representação das diferentes correntes políticas da sociedade brasileira.",
+        "B": "criar uma aparência de normalidade democrática que ocultava o controle autoritário do regime.",
+        "C": "fortalecer a oposição ao regime por meio de eleições livres e transparentes.",
+        "D": "substituir a ditadura militar por um regime parlamentarista com dois partidos."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o bipartidarismo dava ao regime 'uma fachada de normalidade democrática' enquanto manipulava regras eleitorais. A é generalização indevida (dois partidos não representavam a diversidade política real). C contradiz o texto (eleições podiam ser manipuladas por casuísmos). D é confusão conceitual (não houve transição para parlamentarismo)."
+    },
+    {
+      "id": "HUM_HIS_044",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre a Constituição de 1988",
+        "conteudo": "A Constituição de 1988, chamada de 'Constituição Cidadã', foi promulgada após o fim da ditadura militar. Ela restabeleceu as eleições diretas para presidente, garantiu direitos fundamentais como liberdade de expressão, direito de greve e habeas corpus, e ampliou direitos sociais como saúde, educação e assistência social. Também reconheceu direitos de povos indígenas e comunidades quilombolas."
+      },
+      "enunciado": "A Constituição de 1988 recebeu o apelido de 'Constituição Cidadã' porque",
+      "alternativas": {
+        "A": "manteve as restrições aos direitos civis estabelecidas pela ditadura militar.",
+        "B": "reduziu o acesso da população a serviços como saúde e educação.",
+        "C": "ampliou direitos fundamentais e sociais após um período de repressão autoritária.",
+        "D": "concentrou poderes no Executivo, limitando a atuação do Legislativo e do Judiciário."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a CF/88 restabeleceu direitos e ampliou garantias sociais após a ditadura. A contradiz o texto (a CF/88 restabeleceu direitos). B contradiz o texto (ampliou o acesso à saúde e educação). D é confusão conceitual (a CF/88 reequilibrou os poderes, não concentrou no Executivo)."
+    },
+    {
+      "id": "HUM_HIS_045",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de PANDOLFI, Dulce (org.). Repensando o Estado Novo. Rio de Janeiro: FGV, 1999",
+        "conteudo": "O Estado Novo promoveu uma política de valorização da identidade nacional brasileira. O samba, antes marginalizado e associado à cultura negra e periférica, foi apropriado pelo regime como símbolo da cultura nacional. O carnaval foi regulamentado, as escolas de samba passaram a receber apoio oficial e compositores foram incentivados a produzir letras que exaltassem o trabalho e a pátria, em substituição à figura do malandro."
+      },
+      "enunciado": "A política cultural do Estado Novo em relação ao samba, conforme o texto, revela uma estratégia de",
+      "alternativas": {
+        "A": "perseguição e proibição de todas as manifestações culturais de origem africana.",
+        "B": "apropriação de uma expressão cultural popular para fins de propaganda e controle ideológico.",
+        "C": "valorização autônoma da cultura negra sem qualquer interferência do Estado na produção artística.",
+        "D": "substituição do samba pela música erudita europeia como expressão cultural oficial do regime."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o regime se apropriou do samba para construir identidade nacional oficial, incentivando letras que exaltassem trabalho e pátria — propaganda e controle ideológico. A é parcialmente correto invertido (não houve proibição, houve apropriação). C ignora que o Estado interveio na produção (incentivou letras específicas). D é confusão conceitual (o samba foi apropriado, não substituído)."
+    },
+    {
+      "id": "HUM_HIS_046",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre a Lei de Anistia de 1979",
+        "conteudo": "A Lei de Anistia, promulgada em 1979, permitiu o retorno ao Brasil de exilados políticos e a libertação de presos políticos. No entanto, a mesma lei também anistiou agentes do Estado responsáveis por tortura, assassinatos e desaparecimentos durante o regime militar. Essa característica da lei brasileira contrasta com a experiência de países vizinhos, como a Argentina, que julgaram e condenaram responsáveis por violações de direitos humanos em suas ditaduras."
+      },
+      "enunciado": "A Lei de Anistia de 1979, conforme o texto, é considerada controversa porque",
+      "alternativas": {
+        "A": "impediu o retorno de exilados políticos ao território brasileiro.",
+        "B": "anistiou tanto as vítimas quanto os responsáveis por violações de direitos humanos cometidas pelo Estado.",
+        "C": "resultou na condenação criminal de todos os agentes envolvidos em torturas durante o regime.",
+        "D": "foi aprovada por meio de consulta popular direta com ampla participação da sociedade."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a controvérsia reside na anistia que beneficiou tanto perseguidos políticos quanto torturadores. A contradiz o texto (a lei permitiu o retorno dos exilados). C contradiz o texto (não houve condenação, houve anistia). D é senso comum equivocado (a lei foi aprovada pelo Congresso durante a ditadura, sem consulta popular direta)."
+    },
+    {
+      "id": "HUM_HIS_047",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "cartaz_propaganda",
+        "fonte": "Adaptado de descrição de cartazes de propaganda do Estado Novo",
+        "conteudo": "Cartazes produzidos pelo DIP durante o Estado Novo traziam imagens de Getúlio Vargas cercado por trabalhadores sorridentes, com frases como 'Trabalhadores do Brasil!' e 'O Brasil marcha para o progresso com Getúlio Vargas'. Os trabalhadores apareciam em trajes de operários industriais, carregando ferramentas e bandeiras nacionais."
+      },
+      "enunciado": "Os cartazes descritos no texto tinham como objetivo",
+      "alternativas": {
+        "A": "denunciar as condições precárias de trabalho enfrentadas pelos operários brasileiros.",
+        "B": "retratar fielmente a realidade dos trabalhadores, incluindo suas dificuldades cotidianas.",
+        "C": "associar a figura de Vargas ao progresso nacional e à valorização do trabalhador.",
+        "D": "incentivar os trabalhadores a se organizarem de forma autônoma contra o governo."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: os cartazes associam Vargas ao progresso ('O Brasil marcha para o progresso com Getúlio Vargas') e à valorização do trabalhador (trabalhadores sorridentes ao seu lado). A é inversão (a propaganda exaltava, não denunciava). B é senso comum equivocado (propaganda idealiza, não retrata fielmente dificuldades). D contradiz a lógica da propaganda oficial (o objetivo era apoiar o governo, não estimular oposição)."
+    },
+    {
+      "id": "HUM_HIS_048",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de REIS, Daniel Aarão. Ditadura e democracia no Brasil. Rio de Janeiro: Zahar, 2014",
+        "conteudo": "Durante a ditadura militar, o movimento estudantil foi um dos principais focos de resistência ao regime. A União Nacional dos Estudantes (UNE), declarada ilegal após o golpe de 1964, continuou atuando na clandestinidade. Estudantes organizaram passeatas, atos públicos e greves, sendo frequentemente reprimidos com violência pelas forças de segurança, especialmente após o AI-5."
+      },
+      "enunciado": "A atuação do movimento estudantil durante a ditadura, conforme o texto, caracterizou-se por",
+      "alternativas": {
+        "A": "total alinhamento com o governo militar e apoio às políticas de segurança nacional.",
+        "B": "resistência organizada na clandestinidade, mesmo sob repressão violenta do regime.",
+        "C": "atuação exclusivamente acadêmica, sem envolvimento com questões políticas.",
+        "D": "liderança do processo de abertura política em acordo direto com os generais no poder."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a UNE atuou na clandestinidade, organizou passeatas e greves, mesmo sendo reprimida com violência. A é inversão (os estudantes eram oposição). C contradiz o texto (havia forte envolvimento político). D é parcialmente correto exagerado (os estudantes resistiam, mas não lideraram a abertura em acordo com os generais)."
+    },
+    {
+      "id": "HUM_HIS_049",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de DRAIBE, Sônia. Rumos e metamorfoses: Estado e industrialização no Brasil. Rio de Janeiro: Paz e Terra, 2004",
+        "conteudo": "A política de substituição de importações, adotada a partir dos anos 1930, buscava reduzir a dependência brasileira de produtos industrializados estrangeiros. O Estado investiu na criação de indústrias de base — siderurgia, energia e petroquímica — e protegeu o mercado interno com tarifas elevadas sobre produtos importados. Esse modelo transformou o Brasil de uma economia essencialmente agroexportadora em uma economia com base industrial significativa."
+      },
+      "enunciado": "A política de substituição de importações descrita no texto teve como resultado",
+      "alternativas": {
+        "A": "o fortalecimento da economia agroexportadora como modelo exclusivo de desenvolvimento.",
+        "B": "a diversificação econômica do país, que passou a contar com uma base industrial significativa.",
+        "C": "a eliminação de todas as barreiras comerciais para facilitar a entrada de produtos estrangeiros.",
+        "D": "a transferência total da produção industrial para empresas privadas estrangeiras."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto diz que o Brasil se transformou 'de uma economia essencialmente agroexportadora em uma economia com base industrial significativa'. A contradiz o texto (a economia deixou de ser essencialmente agroexportadora). C é inversão (foram adotadas tarifas elevadas, não eliminadas). D contradiz o texto (o Estado investiu em indústrias, não transferiu para estrangeiros)."
+    },
+    {
+      "id": "HUM_HIS_050",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre movimentos sindicais no Brasil",
+        "conteudo": "No final da década de 1970, o movimento sindical do ABC paulista, liderado por metalúrgicos, protagonizou greves que desafiaram as restrições impostas pela ditadura militar ao direito de greve. As paralisações reivindicavam reposição salarial e melhores condições de trabalho, mas também assumiram caráter político ao questionar o regime autoritário. Dessas mobilizações surgiu uma nova liderança sindical que teria papel importante na redemocratização."
+      },
+      "enunciado": "As greves do ABC paulista, conforme o texto, foram significativas porque",
+      "alternativas": {
+        "A": "se limitaram a reivindicações salariais sem qualquer dimensão política.",
+        "B": "foram organizadas com apoio e autorização prévia do governo militar.",
+        "C": "combinaram demandas trabalhistas com questionamento político ao regime autoritário.",
+        "D": "resultaram na imediata queda do regime militar e na instauração da democracia."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: as greves reivindicavam reposição salarial E 'assumiram caráter político ao questionar o regime autoritário'. A contradiz o texto (havia dimensão política). B contradiz o texto (as greves desafiaram restrições do regime). D é exagero (contribuíram para a redemocratização, mas não causaram queda imediata)."
+    },
+    {
+      "id": "HUM_HIS_051",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático sobre a Era Vargas",
+        "conteudo": "Em 1932, o governo de Getúlio Vargas instituiu o voto feminino no Brasil, permitindo que mulheres participassem das eleições. Essa conquista resultou de décadas de luta de movimentos feministas brasileiros, que reivindicavam o direito à participação política das mulheres desde o final do século XIX."
+      },
+      "enunciado": "A conquista do voto feminino no Brasil, conforme o texto, resultou de",
+      "alternativas": {
+        "A": "uma concessão espontânea do governo sem qualquer mobilização social prévia.",
+        "B": "décadas de luta de movimentos feministas que reivindicavam participação política.",
+        "C": "uma imposição de organismos internacionais ao governo brasileiro.",
+        "D": "uma determinação da Constituição imperial de 1824 que só foi aplicada em 1932."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que a conquista 'resultou de décadas de luta de movimentos feministas'. A contradiz o texto (houve mobilização prévia). C não tem respaldo no texto (confusão conceitual). D é anacronismo (a Constituição de 1824 não previa voto feminino)."
+    },
+    {
+      "id": "HUM_HIS_052",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de ARQUIDIOCESE DE SÃO PAULO. Brasil: nunca mais. Petrópolis: Vozes, 1985",
+        "conteudo": "O relatório 'Brasil: Nunca Mais', elaborado a partir de documentos oficiais dos próprios tribunais militares, revelou que a tortura foi prática sistemática do regime militar brasileiro. O documento registrou centenas de métodos de tortura empregados contra presos políticos, incluindo choques elétricos, afogamentos e espancamentos. As vítimas incluíam estudantes, operários, intelectuais, religiosos e militantes de diferentes movimentos sociais."
+      },
+      "enunciado": "O relatório 'Brasil: Nunca Mais', conforme o texto, é historicamente relevante porque",
+      "alternativas": {
+        "A": "comprovou que a tortura ocorreu de forma isolada, sem conhecimento dos comandantes militares.",
+        "B": "demonstrou, com base em documentos oficiais, que a tortura foi prática sistemática do regime.",
+        "C": "foi produzido pelo próprio governo militar como forma de autocrítica institucional.",
+        "D": "revelou que os presos políticos recebiam tratamento digno nas prisões do regime."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o relatório documentou que a tortura foi 'prática sistemática', usando fontes oficiais dos próprios tribunais militares. A contradiz o texto (foi sistemática, não isolada). C é confusão conceitual (foi elaborado pela Arquidiocese de São Paulo, não pelo governo). D contradiz diretamente o texto (houve torturas, não tratamento digno)."
+    },
+    {
+      "id": "HUM_HIS_053",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre a Comissão Nacional da Verdade",
+        "conteudo": "A Comissão Nacional da Verdade (CNV), criada em 2012 e encerrada em 2014, teve como objetivo investigar violações de direitos humanos ocorridas entre 1946 e 1988, com foco na ditadura militar. Seu relatório final identificou 434 mortos e desaparecidos políticos e apontou 377 agentes públicos como responsáveis por violações. A CNV recomendou, entre outras medidas, a responsabilização criminal dos envolvidos, mas essa recomendação não foi implementada."
+      },
+      "enunciado": "A criação da Comissão Nacional da Verdade está relacionada à necessidade de",
+      "alternativas": {
+        "A": "apagar a memória sobre o período militar para promover a reconciliação nacional.",
+        "B": "investigar e documentar violações de direitos humanos cometidas durante a ditadura.",
+        "C": "absolver formalmente os agentes do Estado envolvidos em crimes durante o regime.",
+        "D": "restabelecer o regime militar como forma de governo no Brasil contemporâneo."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a CNV tinha como objetivo 'investigar violações de direitos humanos'. A é inversão (o objetivo era preservar a memória, não apagar). C é inversão (a CNV recomendou responsabilização, não absolvição). D é absurdo lógico (a CNV investigava crimes da ditadura, não a promovia)."
+    },
+    {
+      "id": "HUM_HIS_054",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "A Intentona Comunista de 1935 foi uma tentativa de golpe protagonizada por militares ligados à Aliança Nacional Libertadora (ANL) e ao Partido Comunista do Brasil. A revolta ocorreu em quartéis de Natal, Recife e Rio de Janeiro, mas foi rapidamente sufocada. O episódio foi utilizado por Getúlio Vargas para justificar a decretação do estado de sítio e, dois anos depois, a implantação do Estado Novo."
+      },
+      "enunciado": "A Intentona Comunista de 1935, conforme o texto, teve como consequência política",
+      "alternativas": {
+        "A": "a abertura democrática e a convocação de eleições livres no Brasil.",
+        "B": "a vitória do Partido Comunista e a implantação do socialismo no país.",
+        "C": "o fortalecimento de Vargas, que utilizou o episódio para justificar medidas autoritárias.",
+        "D": "o enfraquecimento das Forças Armadas e a ascensão de lideranças civis ao poder."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: Vargas usou a Intentona para justificar estado de sítio e, depois, o Estado Novo — medidas autoritárias. A é inversão (o resultado foi fechamento, não abertura). B é erro factual (a revolta foi sufocada). D é confusão conceitual (as Forças Armadas foram fortalecidas na repressão)."
+    },
+    {
+      "id": "HUM_HIS_055",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Relação entre cultura e identidade",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre propaganda política durante a ditadura militar",
+        "conteudo": "A ditadura militar brasileira investiu em propaganda para construir uma imagem de país em progresso. Slogans como 'Brasil: ame-o ou deixe-o' e 'Ninguém segura este país' eram difundidos pela televisão, pelo rádio e em cartazes. As conquistas esportivas, especialmente a vitória na Copa do Mundo de 1970, foram amplamente exploradas pelo regime como símbolo do sucesso nacional sob o governo militar."
+      },
+      "enunciado": "O uso de slogans e da vitória na Copa de 1970 pela ditadura militar, conforme o texto, tinha como objetivo",
+      "alternativas": {
+        "A": "incentivar a prática esportiva como política pública de saúde para toda a população.",
+        "B": "associar o regime a uma imagem de progresso e sucesso para obter legitimidade popular.",
+        "C": "promover o debate aberto sobre os problemas sociais enfrentados pelo país.",
+        "D": "reconhecer publicamente os erros e as violências cometidos pelo governo militar."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: slogans e vitórias esportivas eram usados para construir 'imagem de país em progresso' — busca de legitimidade. A é confusão conceitual (o uso era propagandístico, não de política de saúde). C é inversão (a propaganda ocultava problemas, não promovia debate). D é inversão (a propaganda exaltava o regime, não reconhecia erros)."
+    },
+    {
+      "id": "HUM_HIS_056",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de LINHARES, Maria Yedda; SILVA, Francisco Carlos Teixeira da. Terra prometida: uma história da questão agrária no Brasil. Rio de Janeiro: Campus, 1999",
+        "conteudo": "O governo Vargas adotou uma posição ambígua em relação à questão agrária. Embora tenha promovido avanços significativos nos direitos dos trabalhadores urbanos por meio da CLT, os trabalhadores rurais foram sistematicamente excluídos dessas garantias. O campo permaneceu sob o domínio dos grandes proprietários de terra, e a estrutura fundiária concentrada não foi alterada durante a Era Vargas."
+      },
+      "enunciado": "A exclusão dos trabalhadores rurais das garantias da CLT, conforme o texto, indica que o projeto trabalhista de Vargas",
+      "alternativas": {
+        "A": "contemplou de forma igual trabalhadores urbanos e rurais em todos os seus aspectos.",
+        "B": "priorizou o trabalhador urbano-industrial, mantendo intacta a estrutura de poder no campo.",
+        "C": "promoveu reforma agrária ampla que democratizou o acesso à terra no Brasil.",
+        "D": "foi rejeitado pelos trabalhadores urbanos, que preferiam a legislação do período anterior."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto evidencia a exclusão rural e a manutenção do domínio dos grandes proprietários — priorização do setor urbano-industrial. A contradiz diretamente o texto (os rurais foram excluídos). C contradiz o texto (a estrutura fundiária não foi alterada). D não tem respaldo no texto (senso comum equivocado)."
+    },
+    {
+      "id": "HUM_HIS_057",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre grandes obras da ditadura militar",
+        "conteudo": "A construção da Rodovia Transamazônica, iniciada em 1972, foi uma das grandes obras do governo militar. O projeto tinha como objetivo integrar a região amazônica ao restante do país e promover a ocupação de terras consideradas 'vazias'. A obra causou desmatamento em larga escala, invasão de territórios indígenas e deslocamento de comunidades tradicionais, sem atingir plenamente seus objetivos de colonização."
+      },
+      "enunciado": "A construção da Transamazônica, conforme o texto, revela que a política de integração territorial da ditadura",
+      "alternativas": {
+        "A": "respeitou os territórios indígenas e as comunidades tradicionais da região amazônica.",
+        "B": "reconhecia a ocupação prévia da Amazônia por populações tradicionais e preservava seus direitos.",
+        "C": "desconsiderou a presença de povos tradicionais e causou impactos socioambientais significativos.",
+        "D": "atingiu plenamente seus objetivos de colonização e desenvolvimento sustentável da região."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: houve 'invasão de territórios indígenas', 'deslocamento de comunidades tradicionais' e 'desmatamento em larga escala'. A contradiz o texto. B contradiz o texto (terras foram consideradas 'vazias', ignorando ocupação prévia). D contradiz o texto (os objetivos não foram plenamente atingidos)."
+    },
+    {
+      "id": "HUM_HIS_058",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "depoimento_historico",
+        "fonte": "Adaptado de depoimento de ex-preso político à Comissão Nacional da Verdade",
+        "conteudo": "'Fui preso em 1970 quando saía da universidade. Não me mostraram mandado de prisão e não me permitiram falar com advogado. Passei semanas em uma cela sem ver a luz do sol. Meus familiares só souberam do meu paradeiro dias depois. Na época, era assim: qualquer pessoa podia ser detida sem explicação, e ninguém podia recorrer à Justiça contra a prisão.'"
+      },
+      "enunciado": "O depoimento apresentado evidencia que, durante a ditadura militar, houve",
+      "alternativas": {
+        "A": "respeito ao devido processo legal e ao direito de defesa dos acusados.",
+        "B": "transparência nas ações das forças de segurança em relação aos cidadãos.",
+        "C": "violação de direitos fundamentais como a liberdade individual e o acesso à Justiça.",
+        "D": "garantia do habeas corpus como proteção contra prisões arbitrárias."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o depoimento descreve prisão sem mandado, sem advogado, sem comunicação à família e sem recurso judicial — violação de direitos fundamentais. A contradiz o relato. B contradiz o relato. D contradiz o relato (o habeas corpus estava suspenso para crimes políticos pelo AI-5)."
+    },
+    {
+      "id": "HUM_HIS_059",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de D'ARAUJO, Maria Celina; SOARES, Gláucio; CASTRO, Celso (orgs.). Visões do golpe. Rio de Janeiro: Relume-Dumará, 1994",
+        "conteudo": "O golpe de 1964 contou com o apoio de setores civis importantes: empresários, parte da classe média urbana, setores da Igreja Católica e da grande imprensa. As 'Marchas da Família com Deus pela Liberdade', realizadas em grandes cidades, mobilizaram milhares de pessoas contra o governo João Goulart, sob o argumento de que o país caminhava para o comunismo. Esse apoio civil foi fundamental para conferir legitimidade ao movimento militar."
+      },
+      "enunciado": "A participação de setores civis no golpe de 1964, conforme o texto, indica que o movimento",
+      "alternativas": {
+        "A": "foi exclusivamente militar, sem qualquer envolvimento ou apoio de civis.",
+        "B": "contou com base social em setores da sociedade que temiam mudanças políticas e sociais.",
+        "C": "foi rejeitado pela totalidade da sociedade brasileira, incluindo empresários e imprensa.",
+        "D": "resultou de uma conspiração internacional sem participação de grupos nacionais."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: empresários, classe média, setores da Igreja e da imprensa apoiaram o golpe, temendo que o país 'caminhava para o comunismo'. A contradiz diretamente o texto (houve amplo apoio civil). C contradiz diretamente o texto (houve apoio de empresários e imprensa). D é confusão conceitual (o texto enfatiza o apoio de grupos nacionais)."
+    },
+    {
+      "id": "HUM_HIS_060",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "era_vargas_ditadura_militar",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem jornalística sobre memória e ditadura",
+        "conteudo": "Em diversas cidades brasileiras, ruas, avenidas e praças ainda homenageiam figuras associadas à ditadura militar com seus nomes. Por outro lado, iniciativas de grupos de direitos humanos e de familiares de vítimas têm promovido a renomeação desses espaços em homenagem a pessoas perseguidas, torturadas ou assassinadas pelo regime. Esse debate reflete disputas em torno da memória sobre o período militar."
+      },
+      "enunciado": "O debate sobre a renomeação de espaços públicos mencionado no texto evidencia",
+      "alternativas": {
+        "A": "o consenso da sociedade brasileira sobre a valorização da ditadura militar.",
+        "B": "a irrelevância da memória histórica para a compreensão do presente.",
+        "C": "a existência de disputas sobre como a sociedade brasileira lida com a memória da ditadura.",
+        "D": "a proibição legal de qualquer homenagem a vítimas do regime militar nos espaços públicos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve 'disputas em torno da memória sobre o período militar'. A é inversão (não há consenso, há disputa). B contradiz a premissa do próprio debate (a memória é relevante, por isso se disputa sobre ela). D é erro factual (há iniciativas de homenagem a vítimas, não proibição)."
     }
   ]
 }
