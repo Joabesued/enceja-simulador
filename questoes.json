@@ -811,6 +811,666 @@
       },
       "gabarito": "C",
       "comentario": "C está correta: descreve CF/88 como marco, não solução final (no texto). A é falso: problemas persistem. B é falso: mudanças significativas ocorreram. D é falso: regime não retornou."
-    }
+    },
+  {
+    "id": "GEO_URB_001",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "facil",
+    "habilidade_inep": "H34 - Uso dos espaços agrário e urbano",
+    "texto_base": {
+      "tipo": "dado_estatistico",
+      "fonte": "Adaptado de IBGE, Censos Demográficos 1950-2020",
+      "conteudo": "Em 1950, apenas 36% da população brasileira vivia em cidades. Em 2020, esse percentual subiu para aproximadamente 87%. Essa mudança foi acompanhada pelo crescimento desordenado das periferias, falta de saneamento básico, favelas e expansão do trabalho informal nas grandes cidades."
+    },
+    "enunciado": "O processo de urbanização acelerada no Brasil, descrito no texto, foi provocado principalmente por:",
+    "alternativas": {
+      "A": "Migração massiva do campo para as cidades impulsionada pela industrialização concentrada no Sudeste, sem investimento correspondente em habitação.",
+      "B": "Decisão voluntária da população rural de abandonar a agricultura por preferência cultural.",
+      "C": "Crise climática que impossibilitou a continuidade da produção agrícola no campo.",
+      "D": "Políticas governamentais de despovoamento do território rural para criar reservas ambientais."
+    },
+    "gabarito": "A",
+    "comentario": "A está correta: conecta migração rural-urbana com industrialização concentrada e falta de infraestrutura (estrutural). B é falso: não foi preferência cultural, foi pressão econômica. C é determinismo climático (distrator clássico em CH). D é absurdo: governo nunca promoveu despovoamento deliberado."
+  },
+  {
+    "id": "GEO_URB_002",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "facil",
+    "habilidade_inep": "H31 - Análise de circuitos espaciais de produção",
+    "texto_base": {
+      "tipo": "reportagem",
+      "fonte": "Adaptado de reportagem jornalística sobre mobilidade urbana",
+      "conteudo": "Um trabalhador que mora em periferia de São Paulo viaja diariamente entre 2-3 horas para trabalhar no centro da cidade. Usa ônibus, metrô e às vezes bicicleta. Sai de casa às 6h da manhã e retorna às 19h. Trabalha 8 horas, mas gasta 4-5 horas com deslocamento. Esse padrão é comum em grandes cidades brasileiras."
+    },
+    "enunciado": "A situação descrita reflete um problema estrutural da urbanização brasileira conhecido como:",
+    "alternativas": {
+      "A": "Segregação espacial, onde populações pobres vivem afastadas do centro e concentram de trabalho, forçando deslocamentos longos e exaustivos.",
+      "B": "Preferência pessoal dos trabalhadores de viver longe do centro, por questões ambientais.",
+      "C": "Eficiência do sistema de transporte público, que permite que pessoas vivam onde queiram.",
+      "D": "Distribuição igualitária do mercado imobiliário entre as diferentes classes sociais."
+    },
+    "gabarito": "A",
+    "comentario": "A está correta: segregação espacial como resultado de desigualdade econômica no acesso à moradia central. B é inversão: não é preferência, é exclusão econômica. C é falso: transporte é caótico, não eficiente. D é falso: mercado imobiliário é altamente desigual."
+  },
+  {
+    "id": "GEO_URB_003",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "media",
+    "habilidade_inep": "H32 - Circulação de riqueza e desigualdades",
+    "texto_base": {
+      "tipo": "dado_estatistico",
+      "fonte": "Adaptado de IBGE e UN-Habitat",
+      "conteudo": "No Brasil, aproximadamente 11 milhões de pessoas vivem em favelas (2020). Nesses espaços, a taxa de desemprego é três vezes maior que a média nacional, o acesso a água potável é limitado, e a violência é endêmica. Paradoxalmente, muitas favelas estão localizadas em terrenos valiosos de grandes cidades."
+    },
+    "enunciado": "O paradoxo entre localização valiosa das favelas e a pobreza extrema ali existente pode ser explicado por:",
+    "alternativas": {
+      "A": "Falta de legislação de proteção ambiental que permita ocupação de áreas inadequadas.",
+      "B": "Exclusão econômica que força populações pobres a ocuparem terrenos rejeitados pelo mercado formal, apesar de sua localização potencialmente valiosa.",
+      "C": "Preferência cultural das populações pobres de viver em comunidades coesas, independentemente da localização.",
+      "D": "Ausência de infraestrutura de transporte público que tornaria o local atrativo para investimento imobiliário."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: explica ocupação irregular como resultado de exclusão do mercado formal (estrutural). A é desvio para legislação ambiental. C é generalização culturalista (distrator típico). D é causa secundária: falta de transporte não explica a pobreza, a exclusão econômica sim."
+  },
+  {
+    "id": "GEO_URB_004",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "media",
+    "habilidade_inep": "H34 - Análise de problemas urbanos e soluções",
+    "texto_base": {
+      "tipo": "trecho_de_lei",
+      "fonte": "Adaptado de Estatuto da Cidade (Lei 10.257/2001)",
+      "conteudo": "O Estatuto da Cidade estabelece que a política urbana tem por objetivo ordenar o pleno desenvolvimento das funções sociais da cidade e da propriedade urbana. Entre seus instrumentos estão: plano diretor, parcelamento/edificação compulsória de imóvel não utilizado, imposto sobre propriedade predial progressivo no tempo, e desapropriação com títulos da dívida pública. O objetivo é coibir o uso especulativo de terras urbanas."
+    },
+    "enunciado": "Os instrumentos legais mencionados no texto buscam principalmente:",
+    "alternativas": {
+      "A": "Eliminar completamente a propriedade privada nas cidades.",
+      "B": "Desestimular a especulação imobiliária e garantir que propriedades urbanas cumpram função social.",
+      "C": "Aumentar a arrecadação de impostos para financiar campanhas políticas.",
+      "D": "Facilitar a compra de imóveis por estrangeiros para atrair investimento internacional."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: resume função social da propriedade urbana e combate à especulação (no texto). A é falso: não busca eliminar propriedade privada. C é desvio: impostos financiam serviços públicos. D é inversão: lei restringe, não facilita, a compra especulativa."
+  },
+  {
+    "id": "GEO_URB_005",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de desigualdades urbanas",
+    "texto_base": {
+      "tipo": "dado_estatistico",
+      "fonte": "Adaptado de Pesquisa CNI 2023 sobre infraestrutura urbana",
+      "conteudo": "Nas capitais brasileiras, a diferença de renda entre bairros ricos e pobres chega a 8 vezes. Enquanto bairros nobres têm coleta de lixo diária, iluminação pública adequada e parques arborizados, periferias enfrentam ruas sem pavimentação, esgoto a céu aberto e falta de espaços verdes."
+    },
+    "enunciado": "A diferença de infraestrutura entre bairros ricos e pobres descrita reflete:",
+    "alternativas": {
+      "A": "Incompetência técnica universal dos governos municipais.",
+      "B": "Priorização de investimentos públicos em áreas com população de maior renda, reproduzindo desigualdade urbana.",
+      "C": "Falta de recursos naturais nas áreas pobres que impeça desenvolvimento de infraestrutura.",
+      "D": "Preferência cultural de populações pobres de viver sem saneamento básico."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: priorização política e econômica de investimentos (estrutural). A é generalização indevida. C é determinismo natural (distrator típico). D é culpabilização absurda: ninguém prefere viver sem saneamento."
+  },
+  {
+    "id": "GEO_URB_006",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise crítica de processos urbanos",
+    "texto_base": {
+      "tipo": "fragmento_sociologico",
+      "fonte": "Adaptado de Rolnik, Raquel. Guerra dos Lugares. São Paulo: Boitempo, 2015",
+      "conteudo": "A gentrificação é um processo onde áreas urbanas pobres e habitadas por populações de baixa renda são 'revitalizadas', resultando em aumento de preços imobiliários. Esse aumento expulsa os moradores originários, que não conseguem pagar os novos aluguéis. Embora apresentada como 'progresso urbano', a gentrificação é uma forma moderna de limpeza social que reproduce desigualdades."
+    },
+    "enunciado": "O processo de gentrificação descrito pode ser compreendido como:",
+    "alternativas": {
+      "A": "Melhoria urbana que beneficia todos os moradores, tornando cidades mais atraentes e seguras.",
+      "B": "Renovação de infraestrutura que, paradoxalmente, resulta em expulsão de residentes pobres e concentração de renda em novos moradores.",
+      "C": "Investimento imobiliário que cria empregos temporários sem qualificação.",
+      "D": "Estratégia governamental de erradicar completamente a pobreza urbana através de realocação de populações."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: reconhece gentrificação como renovação que expulsa pobres (estrutural). A é falso: não beneficia os moradores originários. C é parcialmente correto mas minimiza impacto. D é falso: não erradica pobreza, apenas a desloca."
+  },
+  {
+    "id": "GEO_URB_007",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "facil",
+    "habilidade_inep": "H34 - Identificação de fatores de concentração urbana",
+    "texto_base": {
+      "tipo": "dado_historiografico",
+      "fonte": "Adaptado de Fausto, Boris. História do Brasil, 1995",
+      "conteudo": "O Brasil do século XX experimentou industrialização concentrada principalmente no Sudeste, especialmente em São Paulo. Essa concentração atraiu migrantes de todas as regiões, transformando São Paulo de uma cidade de 240 mil habitantes (1900) para 12 milhões de habitantes na região metropolitana (2020)."
+    },
+    "enunciado": "A concentração populacional na região metropolitana de São Paulo está diretamente relacionada a:",
+    "alternativas": {
+      "A": "Proximidade de São Paulo com o oceano Atlântico, que facilita a exportação.",
+      "B": "Implantação de polos industriais no Sudeste durante o século XX, que atraiu migrantes de outras regiões.",
+      "C": "Melhor clima da região Sudeste, comparado com outras regiões do Brasil.",
+      "D": "Existência de universidades federais exclusivas no Sudeste antes de 1970."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: industrialização como fator de atração migratória (estrutural). A é falso: não é proximidade com oceano (muitas cidades têm). C é determinismo climático. D é falso: universidades existiam em outras regiões também."
+  },
+  {
+    "id": "GEO_URB_008",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "media",
+    "habilidade_inep": "H32 - Análise de circulação de bens e pessoas",
+    "texto_base": {
+      "tipo": "reportagem",
+      "fonte": "Adaptado de reportagem sobre mobilidade urbana",
+      "conteudo": "Nas principais cidades brasileiras, o custo do transporte público representa entre 10-15% do salário de um trabalhador de baixa renda. Muitos optam por viver mais longe (onde a moradia é mais barata) mesmo que isso signifique gastar mais com deslocamento. Esse trade-off (troca) entre habitação e transporte é um dilema estrutural das cidades brasileiras."
+    },
+    "enunciado": "O dilema entre custo de habitação e custo de transporte enfrentado por trabalhadores pobres nas cidades reflete:",
+    "alternativas": {
+      "A": "Falta de vontade política dos trabalhadores de viver em áreas centrais mais seguras.",
+      "B": "Inacessibilidade ao mercado imobiliário central, forçando ocupação de periferias e gastos significativos com deslocamento.",
+      "C": "Preferência natural de populações pobres por viver longe de centros urbanos.",
+      "D": "Ineficiência do transporte público, que é muito mais caro que viver no centro."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: inacessibilidade econômica como causa estrutural (no texto). A é falso: não é falta de vontade, é exclusão. C é generalização culturalista. D é falso: o texto mostra que é a combinação que cria o dilema."
+  },
+  {
+    "id": "GEO_URB_009",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de problemas urbanos contemporâneos",
+    "texto_base": {
+      "tipo": "dado_estatistico",
+      "fonte": "Adaptado de SANEPAR (Saneamento do Paraná) e CEDEPLAR/UFMG",
+      "conteudo": "Segundo dados de 2022, aproximadamente 35 milhões de brasileiros não têm acesso a saneamento básico (esgoto). A maioria vive em periferias de grandes cidades. Falta de saneamento está associada a doenças infecciosas, altas taxas de mortalidade infantil e contaminação de lençol freático."
+    },
+    "enunciado": "A falta de saneamento básico em periferias urbanas pode ser entendida como:",
+    "alternativas": {
+      "A": "Resultado de crescimento urbano não planejado e concentração de investimentos públicos em áreas de maior renda.",
+      "B": "Problema individual dos moradores, que deveriam investir em estrutura privada de saneamento.",
+      "C": "Consequência de falta de tecnologia para tratamento de esgoto no Brasil.",
+      "D": "Situação natural que afeta igualmente ricos e pobres, sem caráter desigual."
+    },
+    "gabarito": "A",
+    "comentario": "A está correta: conecta crescimento desordenado com priorização de investimentos (estrutural). B culpabiliza: saneamento é direito, não responsabilidade individual. C é falso: tecnologia existe, falta vontade política. D é falso: afeta principalmente pobres."
+  },
+  {
+    "id": "GEO_URB_010",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "urbanizacao",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise crítica de políticas urbanas",
+    "texto_base": {
+      "tipo": "fragmento_historiografico",
+      "fonte": "Adaptado de Bonduki, Nabil. Origens da Habitação Social no Brasil. São Paulo: Estação Liberdade, 2011",
+      "conteudo": "No Brasil, políticas de habitação frequentemente focam em 'remoção' de favelas para áreas afastadas do centro (como ocorreu em São Paulo com a Vila Autódromo antes das Olimpíadas). Essas políticas são apresentadas como 'modernização' mas resultam em expulsão de residentes, quebra de redes comunitárias e aumento de desemprego ao afastar populações de centros de trabalho."
+    },
+    "enunciado": "As políticas de remoção de favelas, mesmo quando apresentadas como 'desenvolvimento urbano', frequentemente reproduzem:",
+    "alternativas": {
+      "A": "Integração real de moradores removidos à cidade formal.",
+      "B": "Expulsão encoberta de populações pobres, mantendo a segregação espacial e aprofundando desigualdades.",
+      "C": "Redistribuição igualitária de oportunidades econômicas para ex-favelados.",
+      "D": "Melhoria permanente de indicadores sociais para as populações afetadas."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: reconhece remoção como expulsão mascarada (estrutural). A é falso: removidos frequentemente não se integram. C é falso: oportunidades não são igualitárias. D é falso: indicadores pioram com desemprego."
+  },
+  {
+    "id": "GEO_AMA_001",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "facil",
+    "habilidade_inep": "H30 - Preservação ambiental",
+    "texto_base": {
+      "tipo": "dado_estadistico",
+      "fonte": "Adaptado de INPE (Instituto Nacional de Pesquisas Espaciais), dados de desmatamento 2020-2023",
+      "conteudo": "A Floresta Amazônica ocupa aproximadamente 5,5 milhões de km². Estima-se que 17% dessa área já foi desmatada. Cientistas alertam que, se desmatamento atingir 20-25%, a floresta pode entrar em processo de 'savanização' — transformação irreversível em cerrado, com perda de biodiversidade e impacto climático global."
+    },
+    "enunciado": "O risco de 'savanização' da Amazônia mencionado no texto refere-se a:",
+    "alternativas": {
+      "A": "Transformação da floresta em pastagem para criação de gado, processo reversível com reflorestamento.",
+      "B": "Transformação irreversível da floresta em cerrado, com perda de capacidade de autorregeneração e impacto climático global.",
+      "C": "Simples redução da biodiversidade, sem alteração da estrutura da floresta.",
+      "D": "Aumento temporário de temperatura que voltará aos níveis normais após chuvas intensas."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: enfatiza irreversibilidade e impacto climático (no texto). A é falso: savanização é irreversível. C é minimização: mais que biodiversidade, é transformação estrutural. D é falso: é processo estrutural, não temporário."
+  },
+  {
+    "id": "GEO_AMA_002",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "facil",
+    "habilidade_inep": "H30 - Preservação ambiental e recursos naturais",
+    "texto_base": {
+      "tipo": "dado_biologico",
+      "fonte": "Adaptado de Mittermeier, Russell et al. Hotspots Revisited. CEMEX, 2004",
+      "conteudo": "A Floresta Amazônica contém aproximadamente 10% de toda a biodiversidade do planeta. Abriga entre 390 a 530 bilhões de árvores de cerca de 16 mil espécies. Além de fauna diversa (jaguares, botos-rosa, serpentes), existem povos indígenas que vivem na floresta há milhares de anos em equilíbrio com seus ecossistemas."
+    },
+    "enunciado": "A importância da Floresta Amazônica para o planeta está relacionada principalmente a:",
+    "alternativas": {
+      "A": "Extração de ouro e minérios para mercado internacional.",
+      "B": "Biodiversidade incomparável, ciclos climáticos globais e conhecimentos tradicionais de povos indígenas.",
+      "C": "Espaço disponível para expansão de fazendas de gado.",
+      "D": "Localização geográfica que a torna ponto estratégico militar para potências estrangeiras."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: enumera importância ambiental, climática e cultural (no texto). A é extractivismo destruidor. C é visão predatória. D é geopolítica irrelevante ao valor ambiental."
+  },
+  {
+    "id": "GEO_AMA_003",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de conflitos por recursos",
+    "texto_base": {
+      "tipo": "reportagem",
+      "fonte": "Adaptado de reportagem jornalística sobre conflitos fundiários na Amazônia",
+      "conteudo": "Na Amazônia, há conflito permanente entre: grileiros de terra (que falsificam documentos de propriedade), grandes fazendeiros (que expandem pastagens), mineradores ilegais, madeireiros clandestinos, e povos indígenas/comunidades tradicionais (que defendem suas terras e formas de vida). O Estado frequentemente é fraco nessa fiscalização, permitindo abusos."
+    },
+    "enunciado": "Os conflitos pela posse de terras na Amazônia refletem principalmente:",
+    "alternativas": {
+      "A": "Desejo de povos indígenas de se tornarem mais ricos através da venda de recursos naturais.",
+      "B": "Pressão de setores econômicos (agropecuária, mineração, madeira) para acumular terras e recursos, em detrimento de direitos indígenas e ambientais.",
+      "C": "Falta de tecnologia para exploração sustentável de recursos amazônicos.",
+      "D": "Preferência cultural de comunidades indígenas de conflitar com o Estado."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: identifica pressão econômica como causa de conflito (estrutural). A inverte: indígenas não buscam ficar ricos pela venda. C é falso: tecnologia existe, falta vontade política. D é culpabilização absurda."
+  },
+  {
+    "id": "GEO_AMA_004",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "media",
+    "habilidade_inep": "H30 - Análise de impacto ambiental",
+    "texto_base": {
+      "tipo": "dado_climatico",
+      "fonte": "Adaptado de IPCC (Painel Intergovernamental sobre Mudanças Climáticas), Relatório 2021",
+      "conteudo": "A Floresta Amazônica funciona como 'pulmão do planeta' ao armazenar carbono e produzir oxigênio. Estima-se que contém entre 150-200 bilhões de toneladas de carbono. Quando desmatada, essa floresta transforma-se de 'sumidouro' (absorvedora de carbono) para 'fonte' (emissora de carbono), acelerando mudanças climáticas globais."
+    },
+    "enunciado": "O desmatamento da Amazônia amplifica a crise climática global porque:",
+    "alternativas": {
+      "A": "Reduz apenas a biodiversidade local, sem impacto em concentração de gases de efeito estufa.",
+      "B": "Transforma a floresta de absorvedora de carbono em emissora, acumulando gases de efeito estufa na atmosfera.",
+      "C": "Aumenta momentaneamente a temperatura, mas o efeito desaparece em dias.",
+      "D": "Afeta apenas o Brasil, sem impactos globais significativos."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: explica mudança de função ambiental da floresta (no texto). A ignora impacto climático. C é falso: efeito é duradouro. D é falso: impactos são globais."
+  },
+  {
+    "id": "GEO_AMA_005",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "media",
+    "habilidade_inep": "H32 - Análise de conflitos socioambientais",
+    "texto_base": {
+      "tipo": "fragmento_historiografico",
+      "fonte": "Adaptado de Cunha, Manuela Carneiro da. Índios no Brasil. São Paulo: Claro Enigma, 2012",
+      "conteudo": "Povos indígenas amazônicos praticam 'manejo florestal' há milhares de anos: usam a floresta de forma sustentável, colhendo frutos, madeira e caça sem destruir sua estrutura. Populações indígenas ocupam 28% da Amazônia brasileira e nessas áreas o desmatamento é significativamente menor do que em regiões onde predomina propriedade privada ou grilagem de terras."
+    },
+    "enunciado": "O dado estatístico sobre desmatamento em territórios indígenas vs. outras áreas demonstra que:",
+    "alternativas": {
+      "A": "Povos indígenas são obstáculo ao desenvolvimento econômico da Amazônia.",
+      "B": "Povos indígenas praticam manejo florestal sustentável, protegendo a floresta melhor que outras formas de posse/uso.",
+      "C": "Indígenas carecem de tecnologia para usar recursos amazônicos de forma eficiente.",
+      "D": "Desmatamento é fenômeno natural independente da presença humana."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: reconhece povos indígenas como guardiões ambientais (no texto). A é falso: são proteção, não obstáculo. C é falso: tecnologia deles é sofisticada e sustentável. D é absurdo: desmatamento é ação humana deliberada."
+  },
+  {
+    "id": "GEO_AMA_006",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise crítica de discursos sobre desenvolvimento",
+    "texto_base": {
+      "tipo": "fragmento_politico",
+      "fonte": "Adaptado de discursos governamentais sobre Amazônia (2019-2021)",
+      "conteudo": "Discursos políticos frequentemente apresentam Amazônia como 'terra vazia' ou 'recurso inexplorado' que deve ser 'desenvolvido' através de agropecuária, mineração e exploração madeireira. Esses discursos ignoram que a Amazônia é: (1) habitat de 1 milhão de povos indígenas; (2) ecossistema complexo cuja exploração predatória pode ser irreversível; (3) recurso climático global, não apenas brasileiro."
+    },
+    "enunciado": "A caracterização da Amazônia como 'terra vazia' a ser 'desenvolvida' é criticada porque:",
+    "alternativas": {
+      "A": "Ignora a soberania brasileira sobre o território amazônico.",
+      "B": "Desconhece a presença de povos indígenas, a complexidade ecológica da região, e sua importância climática global.",
+      "C": "Exagera a capacidade de destruição do desmatamento, que é reversível.",
+      "D": "Superestima o valor econômico da floresta em pé comparado à exploração predatória."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: enumera aspectos ignorados pelo discurso de 'desenvolvimento' (no texto). A é desvio: soberania não está em xeque. C é falso: destruição é frequentemente irreversível. D é falso: floresta em pé tem alto valor econômico e ambiental."
+  },
+  {
+    "id": "GEO_AMA_007",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "facil",
+    "habilidade_inep": "H31 - Análise de economia da floresta",
+    "texto_base": {
+      "tipo": "dado_economico",
+      "fonte": "Adaptado de estudo do Banco Mundial sobre economia de floresta amazônica",
+      "conteudo": "Um hectare de floresta amazônica em pé tem valor econômico superior a um hectare desmatado para pastagem. Quando contabilizam-se serviços ambientais (absorção de carbono, produção de oxigênio, ciclos hidrológicos, biodiversidade), a floresta vale mais viva. Porém, estruturas de incentivo econômico frequentemente favorecem desmatamento a curto prazo."
+    },
+    "enunciado": "Por que, apesar de valer economicamente mais em pé, a Floresta Amazônica continua sendo desmatada?",
+    "alternativas": {
+      "A": "Porque a floresta em pé gera mais lucro que pecuária — é óbvio que ela não é desmatada.",
+      "B": "Porque agentes econômicos (pecuaristas, madeireiros) obtêm lucros rápidos com desmatamento, enquanto custos ambientais são externalizados para sociedade.",
+      "C": "Porque floresta em pé não tem nenhum valor econômico reconhecido pelo mercado.",
+      "D": "Porque povos indígenas impedem o uso econômico racional da Amazônia."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: explica incentivos econômicos perversos (curto prazo vs. longo prazo). A é falso: floresta É desmatada apesar de valer mais. C é falso: tem valor, mas não é remunerado. D inverte: indígenas promovem uso sustentável."
+  },
+  {
+    "id": "GEO_AMA_008",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de ciclos hidrológicos",
+    "texto_base": {
+      "tipo": "dado_hidrologico",
+      "fonte": "Adaptado de pesquisas do Instituto Nacional de Pesquisas Amazônicas (INPA)",
+      "conteudo": "A Floresta Amazônica é responsável por 'reciclar' agua da atmosfera através da evapotranspiração: árvores absorvem água do solo e liberam vapor que forma nuvens. Esse processo afeta precipitação não apenas na Amazônia, mas em regiões distantes (como São Paulo). Desmatamento interrompe esse ciclo, reduzindo chuvas em várias regiões do Brasil e da América do Sul."
+    },
+    "enunciado": "A importância da Floresta Amazônica para o regime de chuvas em outras regiões brasileiras está relacionada a:",
+    "alternativas": {
+      "A": "Aumento de temperatura que atrai nuvens de chuva de oceanos distantes.",
+      "B": "Ciclo de evapotranspiração que recicla água da atmosfera e afeta precipitação em regiões remotas.",
+      "C": "Redução de gases de efeito estufa que diminui resistência atmosférica ao fluxo de chuvas.",
+      "D": "Efeito gravitacional das árvores que puxa ar úmido do oceano Atlântico."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: descreve mecanismo de ciclo hidrológico (no texto). A é vago. C é falso: não é mecanismo dominante. D é pseudociência: gravidade não afeta clima dessa forma."
+  },
+  {
+    "id": "GEO_AMA_009",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "media",
+    "habilidade_inep": "H30 - Análise de proteção ambiental",
+    "texto_base": {
+      "tipo": "fragmento_legal",
+      "fonte": "Adaptado de legislação ambiental brasileira",
+      "conteudo": "O Brasil possui Unidades de Conservação (parques nacionais, reservas biológicas) e Terras Indígenas que protegem aproximadamente 60% da Floresta Amazônica. Porém, essa proteção é frequentemente ineficaz: grileiros invadem terras protegidas, madeireiros atuam clandestinamente, e órgãos ambientais têm orçamento e pessoal insuficientes para fiscalização adequada."
+    },
+    "enunciado": "A ineficácia da proteção legal sobre a Floresta Amazônica está relacionada principalmente a:",
+    "alternativas": {
+      "A": "Leis ambientais são muito rigorosas e impedem desenvolvimento econômico legítimo.",
+      "B": "Falta de recursos e prioridade política para fiscalização e enforcement das leis de proteção.",
+      "C": "Povos indígenas e conservacionistas sabotam exploração econômica racional.",
+      "D": "Impossibilidade técnica de proteger áreas tão grandes como a Amazônia."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: identifica falta de recursos e vontade política (no texto). A inverte: leis são fracas, não rigorosas. C culpabiliza defensores. D é falso: proteção técnica é possível, falta vontade."
+  },
+  {
+    "id": "GEO_AMA_010",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "amazonia",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise de soberania e desenvolvimento sustentável",
+    "texto_base": {
+      "tipo": "fragmento_diplomatico",
+      "fonte": "Adaptado de posicionamentos de diplomacia brasileira em conferências internacionais",
+      "conteudo": "Há tensão entre: (1) soberania nacional brasileira sobre Amazônia; (2) interesse global de preservar floresta para clima; (3) expectativas de desenvolvimento econômico nacional. Discurso de 'desenvolvimento sustentável' frequentemente tenta conciliar esses interesses, mas pode mascarar exploração continuada sob rótulo de 'sustentabilidade'."
+    },
+    "enunciado": "A dificuldade de implementar verdadeiro desenvolvimento sustentável na Amazônia reflete principalmente:",
+    "alternativas": {
+      "A": "Impossibilidade técnica de conciliar preservação com desenvolvimento econômico.",
+      "B": "Conflito entre lucros de curto prazo de agentes econômicos nacionais e interesses ambientais de longo prazo, globais e locais.",
+      "C": "Interferência de potências estrangeiras que querem impedir desenvolvimento brasileiro.",
+      "D": "Recusa de povos indígenas de participar de projetos de desenvolvimento econômico."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: identifica conflito de interesses e temporalidades (estrutural). A é falso: conciliação é possível com vontade política. C é conspiração sem base. D é falso: muitos povos indígenas buscam desenvolvimento que preserve floresta."
+  },
+  {
+    "id": "GEO_AGR_001",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "facil",
+    "habilidade_inep": "H31 - Concentração fundiária",
+    "texto_base": {
+      "tipo": "dado_estatistico",
+      "fonte": "Adaptado de IBGE, Censo Agropecuário 2017",
+      "conteudo": "No Brasil, 1% dos proprietários rurais controla 50% das terras agricultáveis. Enquanto isso, 80% dos pequenos proprietários ocupam apenas 25% das terras. Essa concentração é herança de processos históricos: sesmarias coloniais, abolição sem reforma agrária, e políticas desenvolvimentistas que privilegiaram grandes propriedades."
+    },
+    "enunciado": "A concentração de terras descrita no texto é resultado de:",
+    "alternativas": {
+      "A": "Eficiência natural: grandes propriedades produzem mais porque são bem gerenciadas.",
+      "B": "Herança histórica de políticas que privilegiaram acumulação fundiária em poucos detentores, desde a colônia.",
+      "C": "Incapacidade de pequenos produtores de trabalhar a terra produtivamente.",
+      "D": "Preferência dos trabalhadores rurais de não possuir terra própria."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: conecta concentração com história de poder (estrutural). A é falso: não é 'natural', é resultado de políticas. C é culpabilização. D é falso: pequenos produtores anseiam por terra."
+  },
+  {
+    "id": "GEO_AGR_002",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "facil",
+    "habilidade_inep": "H31 - Análise de estrutura fundiária",
+    "texto_base": {
+      "tipo": "fragmento_historico",
+      "fonte": "Adaptado de Martins, José de Souza. A Reforma Agrária e o Conflito Social no Brasil. São Paulo: Ática, 1980",
+      "conteudo": "Quando Brasil aboliu escravidão (1888) sem acompanhar com reforma agrária, ex-escravizados não receberam terra. Enquanto isso, imigrantes europeus importados para substituir mão de obra escrava frequentemente recebiam incentivos para adquirir pequenas propriedades. Essa diferença de oportunidades perpetu disparidades econômicas entre populações até hoje."
+    },
+    "enunciado": "A ausência de reforma agrária após abolição (1888) resultou em:",
+    "alternativas": {
+      "A": "Distribuição igualitária de terras entre ex-escravizados e imigrantes europeus.",
+      "B": "Perpetuação de desigualdade racial: ex-escravizados sem acesso a terra, enquanto imigrantes recebiam incentivos fundiários.",
+      "C": "Melhoria econômica universal de toda população trabalhadora.",
+      "D": "Criação de estrutura agrária igualitária que beneficiava todos proporcionalmente."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: mostra resultado: exclusão racial (no texto). A é falso: não houve distribuição. C é falso: desigualdade aumentou. D é falso: estrutura permaneceu desigual."
+  },
+  {
+    "id": "GEO_AGR_003",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de conflitos agrários",
+    "texto_base": {
+      "tipo": "reportagem",
+      "fonte": "Adaptado de reportagem sobre conflitos fundiários",
+      "conteudo": "Brasil registra centenas de conflitos fundiários anuais: invasões de grandes propriedades improdutivas por sem-terra, confrontos entre posseiros e grileiros, ocupações de fazendas por movimentos sociais. A maioria ocorre em regiões de fronteira agrícola (Amazonas, Pará, Mato Grosso), onde grilagem de terras públicas é comum."
+    },
+    "enunciado": "Os conflitos fundiários no Brasil refletem principalmente:",
+    "alternativas": {
+      "A": "Violência inata de populações rurais pobres.",
+      "B": "Pressão por acesso à terra em sociedade com concentração fundiária extrema, agravada por grilagem em áreas de fronteira.",
+      "C": "Falta de interesse dos sem-terra em trabalhar a terra produtivamente.",
+      "D": "Interferência de agitadores comunistas externos ao movimento campesino."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: explica conflitos por estrutura (concentração) e ilegalidade (grilagem). A é desumanizador. C é culpabilização. D é anticomunismo conspiratório (distrator típico)."
+  },
+  {
+    "id": "GEO_AGR_004",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "media",
+    "habilidade_inep": "H32 - Análise de impacto econômico de políticas agrárias",
+    "texto_base": {
+      "tipo": "dado_economico",
+      "fonte": "Adaptado de FAO (Organização das Nações Unidas para Alimentação) e IBGE",
+      "conteudo": "Pequenos produtores no Brasil ocupam 25% das terras mas produzem 70% dos alimentos consumidos internamente. Grandes propriedades voltadas para exportação (soja, celulose) ocupam 75% das terras mas produzem alimentos em volume menor. Essa desproporcionalidade mostra eficiência econômica de pequenas propriedades na produção de alimentos para consumo doméstico."
+    },
+    "enunciado": "O dado estatístico sobre produção de pequenos vs. grandes produtores sugere que:",
+    "alternativas": {
+      "A": "Pequenas propriedades são ineficientes e dependem de subsídios estatais.",
+      "B": "Grandes propriedades exportadoras são modelo ideal, e pequenos produtores devem ser substituídos.",
+      "C": "Pequenos produtores têm maior eficiência relativa na produção de alimentos para consumo doméstico, contrariando noção de que 'grande é sempre mais eficiente'.",
+      "D": "Brasil deveria eliminar agricultura familiar para focar exclusivamente em exportação."
+    },
+    "gabarito": "C",
+    "comentario": "C está correta: questiona mito da superioridade absoluta da grande propriedade (no texto). A presume ineficiência. B reforça mito. D é políticadesumana."
+  },
+  {
+    "id": "GEO_AGR_005",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "media",
+    "habilidade_inep": "H31 - Análise de reforma agrária",
+    "texto_base": {
+      "tipo": "fragmento_legal",
+      "fonte": "Adaptado de Lei de Reforma Agrária brasileira e implementação",
+      "conteudo": "A Lei de Reforma Agrária brasileira (1964) prevê desapropriação de terras improdutivas para assentamento de sem-terra. Porém, implementação é lenta: após 60 anos, apenas pequena fração de terras foi desapropriada. Grandes proprietários conseguem proteções legais, e agentes públicos frequentemente atuam em favor de interesses fundiários poderosos."
+    },
+    "enunciado": "A lentidão na implementação de reforma agrária no Brasil pode ser explicada por:",
+    "alternativas": {
+      "A": "Impossibilidade técnica de executar desapropriações de terras.",
+      "B": "Falta de vontade política de governos e influência de grandes proprietários fundiários no Estado.",
+      "C": "Desinteresse de sem-terra em receber terras desapropriadas.",
+      "D": "Inexistência de marcos legais para reforma agrária no Brasil."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: identifica poder político de elites fundiárias (estrutural). A é falso: tecnicamente é possível. C é falso: demanda por terra é enorme. D é falso: lei existe desde 1964."
+  },
+  {
+    "id": "GEO_AGR_006",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise crítica de modelos agrícolas",
+    "texto_base": {
+      "tipo": "fragmento_agroecologico",
+      "fonte": "Adaptado de Altieri, Miguel. Agroecologia: Bases científicas para uma agricultura sustentável. São Paulo: Expressão Popular, 2002",
+      "conteudo": "Modelo agrícola dominante (monocultura com agrotóxicos) é apresentado como 'progresso' e 'modernização'. Porém, causa: degradação de solos, contaminação de aquíferos, morte de polinizadores, dependência de insumos químicos caros. Alternativas como agroecologia (policulturas, manejo integrado) têm produtividade comparável mas com sustentabilidade ambiental e social."
+    },
+    "enunciado": "A crítica ao modelo agrícola dominante (monocultura com agrotóxicos) sugere que 'modernização' agrícola pode ser:",
+    "alternativas": {
+      "A": "Sinônimo de progresso real em bem-estar social e ambiental.",
+      "B": "Processo que aumenta produção de commodities mas externaliza custos ambientais e sociais, sem corresponder a verdadeiro progresso.",
+      "C": "Opção tecnicamente inevitável para alimentar população crescente.",
+      "D": "Benefício universal que não gera qualquer impacto negativo."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: questiona visão ingênua de 'modernização' (no texto). A é falso: não é sinônimo automático. C é falso: alternativas sustentáveis existem. D é falso: impactos negativos são documentados."
+  },
+  {
+    "id": "GEO_AGR_007",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "facil",
+    "habilidade_inep": "H31 - Análise de trabalho rural",
+    "texto_base": {
+      "tipo": "dado_sociologico",
+      "fonte": "Adaptado de Estudos sobre Trabalho Rural no Brasil",
+      "conteudo": "Trabalho rural no Brasil frequentemente é precário: trabalhadores sem contrato formal, sem direitos trabalhistas, sujeitos a jornadas excessivas. Crianças frequentemente trabalham nas colheitas. Esse padrão é especialmente severo em colheitas de cana-de-açúcar, algodão e frutas."
+    },
+    "enunciado": "A precariedade do trabalho rural no Brasil está relacionada a:",
+    "alternativas": {
+      "A": "Incapacidade técnica de estruturar relações trabalhistas no meio rural.",
+      "B": "Herança de relações de trabalho escravistas não completamente superadas, permitindo exploração de mão de obra vulnerável.",
+      "C": "Preferência pessoal de trabalhadores rurais de viver sem direitos formais.",
+      "D": "Impossibilidade de aplicar legislação trabalhista em áreas geográficas dispersas."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: conecta precariedade com herança escravista (estrutural). A é falso: é escolha política. C é falso: ninguém prefere desprotção. D é falso: fiscalização é possível com vontade."
+  },
+  {
+    "id": "GEO_AGR_008",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "media",
+    "habilidade_inep": "H30 - Análise de impacto ambiental da agricultura",
+    "texto_base": {
+      "tipo": "dado_ambiental",
+      "fonte": "Adaptado de estudos sobre impacto ambiental de agropecuária",
+      "conteudo": "Agropecuária (agricultura + pecuária) é responsável por: 80% do desmatamento no Brasil, 60% das emissões de gases de efeito estufa, e contaminação extensiva de aquíferos por agrotóxicos e efluentes. Apesar de sua importância econômica, setor é um dos maiores impactadores ambientais do país."
+    },
+    "enunciado": "A relevância econômica da agropecuária no Brasil não justifica seus impactos ambientais porque:",
+    "alternativas": {
+      "A": "Custos ambientais são externalizados (pagos pela sociedade, não pelo setor), enquanto lucros permanecem privatizados.",
+      "B": "Agropecuária não tem impacto ambiental significativo comparado a outras indústrias.",
+      "C": "Danos ambientais são reversíveis e não representam risco de longo prazo.",
+      "D": "Brasil pode compensar impactos ambientais através de reflorestamento urbano."
+    },
+    "gabarito": "A",
+    "comentario": "A está correta: explica distorção de incentivos (externalidades). B é falso: impactos são significativos. C é falso: desmatamento é duradouro. D é falso: reflorestamento urbano não compensa Amazônia."
+  },
+  {
+    "id": "GEO_AGR_009",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "media",
+    "habilidade_inep": "H32 - Análise de exportação agrícola e segurança alimentar",
+    "texto_base": {
+      "tipo": "dado_economico",
+      "fonte": "Adaptado de CONAB (Companhia Nacional de Abastecimento)",
+      "conteudo": "Brasil é grande exportador de commodities agrícolas (soja, café, açúcar), com terras dedicadas principalmente a exportação. Simultaneamente, existe insegurança alimentar: parcela da população não tem acesso regular a alimentos nutritivos. Essa contradição reflete priorização de culturas para exportação em detrimento de produção de alimentos para consumo doméstico."
+    },
+    "enunciado": "O paradoxo entre ser grande exportador agrícola e ter insegurança alimentar reflete:",
+    "alternativas": {
+      "A": "Falha tecnológica na produção agrícola que impossibilita abastecer mercado interno.",
+      "B": "Escolha política de destinar terras e recursos para commodities de exportação em detrimento de alimentos para consumo interno e segurança alimentar.",
+      "C": "Desinteresse natural de agricultores em abastecer mercado doméstico.",
+      "D": "Incompetência de mercado em distribuir alimentos mesmo quando há produção suficiente."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: identifica priorização econômica (estrutural). A é falso: tecnologia é suficiente. C é falso: agricultores produzem onde é lucrati. D é parcialmente verdadeiro mas secundário."
+  },
+  {
+    "id": "GEO_AGR_010",
+    "area": "humanas",
+    "disciplina": "geografia",
+    "capitulo": "questao_agraria",
+    "dificuldade": "dificil",
+    "habilidade_inep": "H40 - Análise crítica de soberania alimentar",
+    "texto_base": {
+      "tipo": "fragmento_conceitual",
+      "fonte": "Adaptado de Via Campesina, movimento internacional de organizações de pequenos agricultores",
+      "conteudo": "Conceito de 'soberania alimentar' enfatiza que povos devem ter direito de definir suas próprias políticas agrícolas, produzir alimentos localmente, e valorizar pequenos produtores. Esse conceito contrasta com 'segurança alimentar' (apenas garantir disponibilidade de alimentos) porque questiona quem controla produção de alimentos e sob quais condições."
+    },
+    "enunciado": "A importância política do conceito de 'soberania alimentar' reside em:",
+    "alternativas": {
+      "A": "Promover autossuficiência total de cada país, isolando-o do comércio internacional.",
+      "B": "Questionar controle corporativo sobre produção de alimentos e afirmar direito de povos definirem políticas agrícolas, não apenas garantirem disponibilidade.",
+      "C": "Eliminar completamente a exportação de produtos agrícolas.",
+      "D": "Substituir mercados de alimentos por distribuição estatal centralizada."
+    },
+    "gabarito": "B",
+    "comentario": "B está correta: explicita dimensão política/democrática (no texto). A é falso: não propõe isolamento. C é falso: permite exportação sustentável. D é falso: não busca centralização estatal."
+  }
   ]
 }
