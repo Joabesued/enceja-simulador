@@ -1,10 +1,9 @@
 {
   "versao": "2.0",
-  "atualizado_em": "2026-04-22",
+  "atualizado_em": "2026-04-29",
   "notas_schema": {
     "area": "humanas | natureza | matematica | linguagens",
-    "disciplina": "Humanas: historia|geografia|sociologia|filosofia · Natureza: biologia|quimica|fisica · Linguagens: portugues|literatura|lingua_estrangeira|artes|educacao_fisica · Matematica: numeros|geometria|grandezas_medidas|variacao|algebra_graficos|graficos_tabelas|estatistica_probabilidade",
-    "habilidade_inep": "H1-H45 (LC, CN, CH) ou H1-H30 (MT) conforme Portaria INEP 111/2003",
+    "disciplina": "campo opcional",
     "gabarito": "A | B | C | D"
   },
   "questoes": [
@@ -139,6 +138,666 @@
       },
       "gabarito": "B",
       "comentario": "A uberização refere-se à precarização do trabalho por meio de plataformas digitais, em que o trabalhador assume riscos sem direitos trabalhistas. Taylorismo é modelo fabril antigo (anacronismo típico em CH); pleno emprego e CLT não se aplicam ao caso (confusão conceitual)."
+    },
+    {
+      "id": "HUM_HIS_001",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de ALENCASTRO, Luiz Felipe de. O trato dos viventes. São Paulo: Companhia das Letras, 2000",
+        "conteudo": "O tráfico transatlântico de africanos escravizados para o Brasil durou mais de três séculos. Estima-se que o país foi o maior receptor de africanos escravizados nas Américas, tendo recebido cerca de 4,8 milhões de pessoas entre os séculos XVI e XIX. Esse processo deixou marcas profundas na formação social, econômica e cultural brasileira."
+      },
+      "enunciado": "De acordo com o texto, uma consequência direta do longo período de tráfico de africanos escravizados para o Brasil foi",
+      "alternativas": {
+        "A": "a formação de uma sociedade com marcas profundas na estrutura social, econômica e cultural.",
+        "B": "a industrialização acelerada do país já no período colonial.",
+        "C": "a integração imediata dos africanos como cidadãos livres na sociedade colonial.",
+        "D": "a diminuição gradual das diferenças sociais entre colonizadores e escravizados."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma explicitamente que o tráfico 'deixou marcas profundas na formação social, econômica e cultural brasileira'. B é anacronismo (industrialização não ocorreu no período colonial). C é inversão de papéis (africanos não foram integrados como cidadãos livres). D é senso comum equivocado (as diferenças se aprofundaram, não diminuíram)."
+    },
+    {
+      "id": "HUM_HIS_002",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de SCHWARCZ, Lilia. O espetáculo das raças. São Paulo: Companhia das Letras, 1993",
+        "conteudo": "No Brasil do século XIX, teorias raciais europeias foram adaptadas por intelectuais brasileiros para justificar a hierarquia social existente. Essas ideias classificavam as populações em raças superiores e inferiores, associando o progresso civilizatório aos brancos europeus e o atraso aos negros e mestiços."
+      },
+      "enunciado": "As teorias raciais mencionadas no texto tiveram como principal função social",
+      "alternativas": {
+        "A": "promover a igualdade entre as diferentes populações que formaram o Brasil.",
+        "B": "legitimar a dominação e as desigualdades sociais herdadas do período escravista.",
+        "C": "valorizar a contribuição cultural dos povos africanos na formação do país.",
+        "D": "incentivar a miscigenação como estratégia de integração nacional igualitária."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: as teorias raciais serviam para justificar a hierarquia social, ou seja, legitimar a dominação e as desigualdades. A é inversão de papéis (as teorias faziam o contrário de promover igualdade). C é inversão de papéis (as teorias desvalorizavam a contribuição africana). D é parcialmente correto (houve discurso sobre miscigenação, mas nunca como integração igualitária — era o 'branqueamento')."
+    },
+    {
+      "id": "HUM_HIS_003",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "linha_do_tempo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "1831 — Lei Feijó proíbe o tráfico de escravizados (não foi cumprida, ficou conhecida como 'lei para inglês ver'). 1850 — Lei Eusébio de Queirós proíbe efetivamente o tráfico transatlântico. 1871 — Lei do Ventre Livre. 1885 — Lei dos Sexagenários. 1888 — Lei Áurea."
+      },
+      "enunciado": "A expressão popular 'lei para inglês ver' surgiu no contexto brasileiro a partir de uma legislação que",
+      "alternativas": {
+        "A": "libertou os filhos de mulheres escravizadas nascidos após sua promulgação.",
+        "B": "aboliu oficialmente a escravidão em todo o território nacional.",
+        "C": "proibiu o tráfico de escravizados, mas não foi aplicada na prática.",
+        "D": "concedeu liberdade aos escravizados com mais de sessenta anos de idade."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a Lei Feijó de 1831 proibiu o tráfico, mas 'não foi cumprida', gerando a expressão. A descreve a Lei do Ventre Livre (1871) — confusão conceitual. B descreve a Lei Áurea (1888) — confusão conceitual. D descreve a Lei dos Sexagenários (1885) — confusão conceitual."
+    },
+    {
+      "id": "HUM_HIS_004",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem jornalística sobre desigualdade racial no Brasil",
+        "conteudo": "Pesquisas recentes indicam que trabalhadores negros recebem, em média, salários significativamente inferiores aos de trabalhadores brancos em funções semelhantes. Além disso, a população negra está proporcionalmente mais presente em ocupações de menor remuneração e menor proteção social."
+      },
+      "enunciado": "A desigualdade salarial entre trabalhadores negros e brancos descrita no texto pode ser compreendida historicamente como",
+      "alternativas": {
+        "A": "resultado exclusivo de escolhas individuais no mercado de trabalho contemporâneo.",
+        "B": "uma herança estrutural do período escravista, que excluiu a população negra do acesso a direitos e oportunidades.",
+        "C": "consequência direta da abolição tardia, que garantiu reparação econômica aos ex-escravizados.",
+        "D": "reflexo de políticas públicas recentes que ampliaram as diferenças raciais no país."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a desigualdade racial contemporânea tem raízes históricas na escravidão e na ausência de políticas de inclusão pós-abolição. A é senso comum equivocado (ignora a dimensão estrutural). C contém erro factual (a abolição NÃO garantiu reparação econômica). D é anacronismo (políticas recentes buscam reduzir, não ampliar, as desigualdades raciais)."
+    },
+    {
+      "id": "HUM_HIS_005",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de REIS, João José. Rebelião escrava no Brasil. São Paulo: Companhia das Letras, 2003",
+        "conteudo": "Os quilombos representaram uma das mais importantes formas de resistência ao sistema escravista. Nessas comunidades, africanos e seus descendentes reconstruíam modos de vida, práticas religiosas e formas de organização social próprias, frequentemente articulando elementos de diversas culturas africanas com práticas indígenas e europeias."
+      },
+      "enunciado": "Segundo o texto, os quilombos podem ser entendidos como espaços de",
+      "alternativas": {
+        "A": "isolamento cultural que preservou as tradições africanas de forma pura e inalterada.",
+        "B": "submissão ao sistema colonial, uma vez que reproduziam a lógica escravista internamente.",
+        "C": "resistência e reconstrução cultural, articulando elementos de diferentes origens.",
+        "D": "organização militar voltada exclusivamente para o combate armado contra os colonizadores."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve os quilombos como espaços de reconstrução de modos de vida articulando 'elementos de diversas culturas'. A é generalização indevida (o texto diz que havia articulação de elementos, não preservação pura). B é inversão de papéis (quilombos eram resistência, não submissão). D é generalização indevida (o combate armado era um aspecto, mas o texto enfatiza a dimensão cultural e social, não exclusivamente militar)."
+    },
+    {
+      "id": "HUM_HIS_006",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material do Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)",
+        "conteudo": "A capoeira é uma prática cultural desenvolvida por africanos escravizados no Brasil. Combinando elementos de luta, dança e expressão corporal, foi praticada como forma de defesa e resistência durante o período colonial. Perseguida e criminalizada até meados do século XX, hoje é reconhecida como patrimônio cultural imaterial do Brasil."
+      },
+      "enunciado": "A trajetória da capoeira, conforme apresentada no texto, revela",
+      "alternativas": {
+        "A": "a origem europeia de diversas práticas culturais brasileiras.",
+        "B": "a permanência de práticas africanas sem qualquer transformação ao longo dos séculos.",
+        "C": "o processo de criminalização e posterior valorização de uma expressão cultural de origem africana.",
+        "D": "a aceitação imediata das práticas culturais africanas pela sociedade colonial."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve exatamente o percurso de criminalização seguida de reconhecimento patrimonial. A é erro factual (a capoeira é de origem africana, não europeia). B é generalização indevida (houve transformações ao longo do tempo). D é inversão de papéis (a capoeira foi perseguida, não aceita imediatamente)."
+    },
+    {
+      "id": "HUM_HIS_007",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de CHALHOUB, Sidney. Visões da liberdade. São Paulo: Companhia das Letras, 1990",
+        "conteudo": "A Lei do Ventre Livre, de 1871, determinava que os filhos de mulheres escravizadas nascidos a partir daquela data seriam considerados livres. No entanto, essas crianças ficariam sob a tutela dos senhores até os 21 anos de idade, podendo ter sua força de trabalho explorada nesse período."
+      },
+      "enunciado": "Com base no texto, a Lei do Ventre Livre pode ser interpretada como uma medida que",
+      "alternativas": {
+        "A": "rompeu de forma imediata com o sistema escravista no Brasil.",
+        "B": "demonstrou o caráter gradual e limitado do processo abolicionista brasileiro.",
+        "C": "garantiu plena liberdade e cidadania aos filhos de escravizadas desde o nascimento.",
+        "D": "foi proposta pelos próprios escravizados como forma de negociação com os senhores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a lei libertava formalmente, mas mantinha a tutela e a exploração do trabalho até os 21 anos, revelando o gradualismo. A é anacronismo/exagero (a lei não rompeu imediatamente com a escravidão). C é parcialmente correto (liberdade sim, mas não plena cidadania, dado o regime de tutela). D não tem sustentação no texto (confusão conceitual sobre autoria da lei)."
+    },
+    {
+      "id": "HUM_HIS_008",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Relação entre cultura e identidade",
+      "texto_base": {
+        "tipo": "fragmento_literario",
+        "fonte": "Adaptado de CASTRO, Yeda Pessoa de. Falares africanos na Bahia. Rio de Janeiro: Topbooks, 2001",
+        "conteudo": "Palavras como 'samba', 'dendê', 'acarajé', 'moleque', 'caçula' e 'quitanda' fazem parte do vocabulário cotidiano dos brasileiros. Todas têm origem em línguas africanas trazidas ao Brasil durante o período do tráfico de pessoas escravizadas. A presença dessas palavras na língua portuguesa do Brasil revela a profunda influência cultural africana na formação da identidade nacional."
+      },
+      "enunciado": "A presença de palavras de origem africana no português brasileiro, conforme descrito no texto, evidencia",
+      "alternativas": {
+        "A": "a contribuição cultural africana como elemento constitutivo da identidade brasileira.",
+        "B": "a imposição da língua portuguesa como única forma de comunicação dos escravizados.",
+        "C": "o desaparecimento das línguas africanas após o fim do tráfico de escravizados.",
+        "D": "a influência exclusiva da cultura europeia na formação do vocabulário nacional."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto mostra que palavras africanas se incorporaram ao português, evidenciando a contribuição cultural africana na identidade nacional. B é inversão de papéis (o texto fala de influência africana no português, não de imposição do português). C é generalização indevida (as palavras permaneceram, logo a influência persiste). D é erro factual direto (o texto demonstra justamente influência africana, não exclusivamente europeia)."
+    },
+    {
+      "id": "HUM_HIS_009",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FRAGOSO, João; FLORENTINO, Manolo. O arcaísmo como projeto. Rio de Janeiro: Civilização Brasileira, 2001",
+        "conteudo": "A economia colonial brasileira foi estruturada sobre o trabalho compulsório de africanos escravizados. Os engenhos de açúcar no Nordeste, as minas de ouro em Minas Gerais e, mais tarde, as fazendas de café no Sudeste dependiam dessa mão de obra. A produção era voltada ao mercado externo, e os lucros concentravam-se nas mãos de uma pequena elite proprietária."
+      },
+      "enunciado": "O modelo econômico descrito no texto caracteriza-se pela articulação entre",
+      "alternativas": {
+        "A": "trabalho assalariado, produção diversificada e distribuição igualitária de riquezas.",
+        "B": "trabalho livre, mercado interno fortalecido e desenvolvimento industrial.",
+        "C": "trabalho compulsório, produção voltada à exportação e concentração de riqueza.",
+        "D": "trabalho compulsório, produção para subsistência e baixa inserção no comércio mundial."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve trabalho escravizado (compulsório), produção para mercado externo (exportação) e lucros concentrados (concentração de riqueza). A é inversão completa dos três elementos descritos. B é anacronismo (trabalho livre e industrialização não caracterizavam o período colonial). D é parcialmente correto (acerta o trabalho compulsório, mas erra ao dizer 'subsistência' e 'baixa inserção' — era exportação com alta inserção comercial)."
+    },
+    {
+      "id": "HUM_HIS_010",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "A Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888, declarou extinta a escravidão no Brasil. O país foi o último das Américas a abolir formalmente a escravidão. A lei, composta por apenas dois artigos, não previu nenhuma forma de reparação ou apoio à população recém-liberta."
+      },
+      "enunciado": "Uma limitação da Lei Áurea, identificada no texto, foi",
+      "alternativas": {
+        "A": "a manutenção legal do trabalho escravo em algumas províncias do Nordeste.",
+        "B": "a exigência de que os ex-escravizados permanecessem nas fazendas por mais cinco anos.",
+        "C": "a ausência de medidas de reparação ou apoio à população recém-liberta.",
+        "D": "a abolição gradual que previa a libertação dos escravizados ao longo de décadas."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a lei 'não previu nenhuma forma de reparação ou apoio'. A é erro factual (a lei declarou extinta a escravidão em todo o país). B é invenção sem respaldo no texto (confusão conceitual). D contradiz o texto (a lei foi imediata, não gradual)."
+    },
+    {
+      "id": "HUM_HIS_011",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de MATTOSO, Kátia de Queirós. Ser escravo no Brasil. São Paulo: Brasiliense, 1982",
+        "conteudo": "Os senhores de engenho utilizavam diversas estratégias para manter o controle sobre as pessoas escravizadas: a separação de famílias, a proibição de práticas religiosas de origem africana, o castigo físico exemplar e a criação de hierarquias entre os próprios escravizados, distinguindo os do trabalho doméstico dos do eito (trabalho no campo)."
+      },
+      "enunciado": "As estratégias de controle descritas no texto tinham como objetivo comum",
+      "alternativas": {
+        "A": "enfraquecer os laços de solidariedade e a capacidade de organização coletiva dos escravizados.",
+        "B": "promover a integração dos escravizados à cultura europeia de forma harmoniosa.",
+        "C": "garantir a proteção jurídica e os direitos básicos da população escravizada.",
+        "D": "facilitar a transição do trabalho escravo para o trabalho assalariado no campo."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: separar famílias, proibir práticas culturais, punir e criar hierarquias internas visavam fragmentar a solidariedade e dificultar a resistência coletiva. B é inversão de papéis (as práticas eram de dominação, não de integração harmoniosa). C é inversão de papéis (as estratégias negavam direitos, não os garantiam). D é anacronismo (o objetivo era manter a escravidão, não transicionar para trabalho assalariado)."
+    },
+    {
+      "id": "HUM_HIS_012",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de reportagem sobre comunidades quilombolas no Brasil contemporâneo",
+        "conteudo": "O artigo 68 das Disposições Constitucionais Transitórias da Constituição de 1988 reconhece aos remanescentes das comunidades dos quilombos a propriedade definitiva das terras que ocupam. No entanto, décadas após a promulgação da Constituição, milhares de comunidades quilombolas ainda aguardam a titulação de seus territórios."
+      },
+      "enunciado": "A situação descrita no texto revela uma tensão entre",
+      "alternativas": {
+        "A": "o interesse dos quilombolas em abandonar seus territórios e a obrigação estatal de mantê-los.",
+        "B": "o direito constitucional reconhecido e a efetivação desse direito na prática.",
+        "C": "a ausência de legislação sobre o tema e a demanda por novas leis específicas.",
+        "D": "o desinteresse das comunidades pela regularização fundiária e a insistência governamental."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: há um direito reconhecido (art. 68) que não se efetivou plenamente (milhares aguardam titulação). A é inversão de papéis (os quilombolas lutam para permanecer, não para abandonar). C é erro factual (a legislação existe — art. 68 da CF/88). D é inversão de papéis (as comunidades demandam a regularização)."
+    },
+    {
+      "id": "HUM_HIS_013",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de COSTA, Emília Viotti da. Da senzala à colônia. São Paulo: Ed. UNESP, 1998",
+        "conteudo": "O processo de substituição da mão de obra escravizada pela do imigrante europeu, ocorrido sobretudo em São Paulo nas últimas décadas do século XIX, não teve como motivação principal o humanitarismo. A imigração estava ligada a interesses econômicos dos cafeicultores e a um projeto de 'branqueamento' da população brasileira, baseado em teorias racistas vigentes na época."
+      },
+      "enunciado": "De acordo com o texto, a política de incentivo à imigração europeia no final do século XIX relacionava-se a",
+      "alternativas": {
+        "A": "um compromisso do Estado brasileiro com a igualdade racial e a valorização da mão de obra nacional.",
+        "B": "interesses econômicos dos produtores de café combinados com um projeto racista de branqueamento da população.",
+        "C": "uma política de acolhimento humanitário voltada a refugiados europeus em situação de vulnerabilidade.",
+        "D": "um planejamento de longo prazo para garantir direitos trabalhistas iguais a imigrantes e ex-escravizados."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto associa explicitamente a imigração a 'interesses econômicos dos cafeicultores' e ao 'projeto de branqueamento'. A é inversão de papéis (o projeto era racista, não igualitário). C é senso comum equivocado (o texto nega explicitamente a motivação humanitária). D é anacronismo (direitos trabalhistas não eram parte dessa política)."
+    },
+    {
+      "id": "HUM_HIS_014",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre o Dia da Consciência Negra",
+        "conteudo": "O dia 20 de novembro é celebrado como o Dia da Consciência Negra no Brasil. A data faz referência à morte de Zumbi dos Palmares, líder do Quilombo dos Palmares, que resistiu por décadas às investidas militares coloniais no interior de Alagoas. A escolha dessa data, em vez do 13 de maio (abolição), representa uma valorização da luta e da resistência negra."
+      },
+      "enunciado": "A escolha do 20 de novembro como Dia da Consciência Negra, conforme o texto, busca",
+      "alternativas": {
+        "A": "homenagear a Princesa Isabel pela assinatura da Lei Áurea.",
+        "B": "comemorar a chegada dos primeiros africanos ao território brasileiro.",
+        "C": "valorizar a resistência negra representada pela figura de Zumbi dos Palmares.",
+        "D": "celebrar o fim do preconceito racial no Brasil contemporâneo."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a data 'representa uma valorização da luta e da resistência negra', referenciando Zumbi. A é confusão conceitual (13 de maio é a data ligada à Princesa Isabel, não o 20 de novembro). B não tem respaldo no texto. D é senso comum equivocado (o preconceito racial não foi eliminado)."
+    },
+    {
+      "id": "HUM_HIS_015",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem jornalística sobre trabalho análogo à escravidão",
+        "conteudo": "O Ministério do Trabalho resgatou, em um único ano recente, mais de 1.400 pessoas de condições análogas à escravidão em diversas regiões do Brasil. As vítimas foram encontradas em fazendas, oficinas de costura e canteiros de obras, submetidas a jornadas exaustivas, servidão por dívida e condições degradantes de moradia e alimentação."
+      },
+      "enunciado": "A persistência do trabalho em condições análogas à escravidão no Brasil contemporâneo demonstra que",
+      "alternativas": {
+        "A": "a escravidão foi completamente superada com a Lei Áurea de 1888.",
+        "B": "as relações de exploração extrema do trabalho mantêm raízes na herança escravista do país.",
+        "C": "o problema atinge exclusivamente trabalhadores rurais nas regiões Norte e Nordeste.",
+        "D": "a legislação trabalhista brasileira autoriza esse tipo de relação em casos específicos."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a persistência de trabalho análogo à escravidão revela continuidades históricas da herança escravista. A contradiz diretamente a informação do texto (o problema persiste). C é generalização indevida (o texto menciona diversas regiões e atividades, incluindo urbanas). D é erro factual (a legislação criminaliza essa prática)."
+    },
+    {
+      "id": "HUM_HIS_016",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FERNANDES, Florestan. A integração do negro na sociedade de classes. São Paulo: Globo, 2008",
+        "conteudo": "Após a abolição de 1888, os ex-escravizados foram lançados à própria sorte, sem terra, sem educação formal e sem qualquer mecanismo de proteção social. Ao mesmo tempo, o Estado brasileiro incentivava a imigração europeia, oferecendo aos recém-chegados terras, instrumentos de trabalho e financiamento — benefícios negados à população negra liberta."
+      },
+      "enunciado": "A situação descrita por Florestan Fernandes evidencia que o processo de abolição da escravidão no Brasil",
+      "alternativas": {
+        "A": "promoveu a igualdade de condições entre ex-escravizados e imigrantes europeus.",
+        "B": "foi acompanhado de políticas de reparação que garantiram inserção social à população negra.",
+        "C": "produziu uma liberdade formal desacompanhada de condições materiais para o exercício pleno da cidadania.",
+        "D": "resultou na imediata ascensão social dos ex-escravizados nas cidades industriais do Sudeste."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: houve liberdade legal sem terras, educação ou proteção social, configurando uma liberdade meramente formal. A é inversão do que o texto descreve (houve desigualdade explícita). B contradiz diretamente o texto (não houve reparação). D é senso comum equivocado e anacronismo (não houve ascensão imediata)."
+    },
+    {
+      "id": "HUM_HIS_017",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material do IPHAN sobre patrimônio cultural afro-brasileiro",
+        "conteudo": "O candomblé é uma prática religiosa de matriz africana desenvolvida no Brasil, especialmente na Bahia. Seus rituais combinam elementos de diferentes tradições religiosas africanas, incorporando também influências indígenas e católicas. Durante séculos, o candomblé foi perseguido pelas autoridades policiais e religiosas, sendo praticado de forma clandestina."
+      },
+      "enunciado": "A trajetória do candomblé no Brasil, conforme o texto, é marcada por",
+      "alternativas": {
+        "A": "uma origem exclusivamente católica com adaptações folclóricas regionais.",
+        "B": "sua aceitação imediata pela sociedade colonial como religião oficial.",
+        "C": "perseguição histórica e prática clandestina ao longo de séculos.",
+        "D": "sua criação recente como movimento cultural do século XX."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que 'durante séculos, o candomblé foi perseguido' e 'praticado de forma clandestina'. A é erro factual (a origem é de matriz africana). B é inversão de papéis (foi perseguido, não aceito). D é anacronismo (desenvolveu-se ao longo de séculos, não é criação recente)."
+    },
+    {
+      "id": "HUM_HIS_018",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FURTADO, Celso. Formação econômica do Brasil. São Paulo: Companhia das Letras, 2007",
+        "conteudo": "O ciclo do ouro em Minas Gerais, no século XVIII, intensificou a demanda por mão de obra escravizada. As condições de trabalho nas minas eram extremamente duras: os trabalhadores escravizados eram submetidos a jornadas exaustivas, ambientes insalubres, desabamentos e contato com substâncias tóxicas, o que reduzia drasticamente sua expectativa de vida."
+      },
+      "enunciado": "As condições de trabalho nas minas de ouro descritas no texto revelam que a exploração colonial",
+      "alternativas": {
+        "A": "oferecia condições adequadas de segurança para os trabalhadores escravizados.",
+        "B": "baseava-se na extração de riquezas à custa da saúde e da vida dos escravizados.",
+        "C": "permitia que os escravizados acumulassem riqueza pessoal por meio da mineração.",
+        "D": "priorizava a preservação da mão de obra como estratégia de longo prazo."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto descreve jornadas exaustivas, ambientes insalubres e redução drástica da expectativa de vida — extração de riqueza à custa de vidas. A contradiz diretamente o texto. C é senso comum equivocado (escravizados não acumulavam riqueza). D contradiz o texto (a exploração reduzia a expectativa de vida, mostrando que não havia preservação da mão de obra)."
+    },
+    {
+      "id": "HUM_HIS_019",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de SLENES, Robert. Na senzala, uma flor. Campinas: Ed. Unicamp, 2011",
+        "conteudo": "Apesar das condições brutais da escravidão, os africanos e seus descendentes mantiveram laços familiares, criaram redes de solidariedade e preservaram tradições culturais. As festas, os batuques e as irmandades religiosas funcionavam como espaços de encontro, fortalecimento comunitário e transmissão de saberes entre gerações."
+      },
+      "enunciado": "As práticas culturais dos escravizados mencionadas no texto indicam que",
+      "alternativas": {
+        "A": "os escravizados aceitavam passivamente a condição de dominação imposta pelos senhores.",
+        "B": "a escravidão destruiu por completo os laços culturais e familiares dos africanos no Brasil.",
+        "C": "a preservação de tradições e laços comunitários representava uma forma de resistência cultural.",
+        "D": "os senhores incentivavam livremente as práticas culturais africanas nos engenhos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: manter laços familiares, redes de solidariedade e tradições culturais em meio à dominação configura resistência cultural. A é inversão de papéis (o texto mostra ação, não passividade). B contradiz diretamente o texto (os laços foram mantidos). D é senso comum equivocado (as práticas eram geralmente reprimidas ou toleradas com restrições, não incentivadas)."
+    },
+    {
+      "id": "HUM_HIS_020",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "anuncio_historico",
+        "fonte": "Adaptado de anúncios publicados em jornais brasileiros do século XIX",
+        "conteudo": "'Vende-se uma escrava de 25 anos, boa cozinheira e lavadeira, sem vícios e com boa aparência. Tratar na Rua da Quitanda, nº 12.' Anúncios como este eram comuns nos jornais brasileiros durante o período escravista, evidenciando o tratamento das pessoas como mercadorias."
+      },
+      "enunciado": "O anúncio reproduzido no texto evidencia que, no período escravista brasileiro,",
+      "alternativas": {
+        "A": "os escravizados eram legalmente reconhecidos como sujeitos de direitos.",
+        "B": "a comercialização de pessoas era proibida, mas ocorria de forma clandestina.",
+        "C": "os jornais se recusavam a publicar conteúdos relacionados à escravidão.",
+        "D": "seres humanos eram tratados como mercadorias, com valor comercial definido por suas habilidades."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o anúncio descreve qualidades (cozinheira, lavadeira, boa aparência) como atributos comerciais, tratando a pessoa como mercadoria. A contradiz a lógica do anúncio (não eram sujeitos de direitos, mas propriedade). B contradiz o texto (era publicado abertamente nos jornais). C contradiz diretamente o texto (os jornais publicavam esses anúncios)."
+    },
+    {
+      "id": "HUM_HIS_021",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de NABUCO, Joaquim. O abolicionismo. Publicação original de 1883",
+        "conteudo": "Para Joaquim Nabuco, a abolição não deveria ser apenas a extinção legal da escravidão, mas uma reforma profunda da sociedade brasileira. Ele argumentava que seria necessário oferecer educação, terra e condições dignas de trabalho à população liberta, pois, sem essas medidas, a liberdade seria apenas nominal e a desigualdade persistiria por gerações."
+      },
+      "enunciado": "A proposta de Joaquim Nabuco descrita no texto diferia do que efetivamente ocorreu após a abolição porque",
+      "alternativas": {
+        "A": "Nabuco defendia a manutenção da escravidão sob novas formas jurídicas.",
+        "B": "a abolição de 1888 foi acompanhada de ampla reforma agrária em favor dos ex-escravizados.",
+        "C": "a Lei Áurea libertou os escravizados sem as reformas sociais que Nabuco considerava necessárias.",
+        "D": "Nabuco propunha que os ex-escravizados retornassem ao continente africano."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: Nabuco defendia abolição com reforma social, mas o que ocorreu foi abolição sem terra, educação ou condições dignas. A é inversão de papéis (Nabuco era abolicionista). B é erro factual (não houve reforma agrária pós-abolição). D é invenção sem respaldo no texto (confusão conceitual)."
+    },
+    {
+      "id": "HUM_HIS_022",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem sobre ações afirmativas no ensino superior brasileiro",
+        "conteudo": "A Lei nº 12.711/2012 estabeleceu a reserva de vagas em universidades federais e institutos federais para estudantes de escolas públicas, incluindo cotas raciais para pretos, pardos e indígenas. Defensores da medida argumentam que ela busca reparar desigualdades históricas originadas no período escravista, quando o acesso à educação era negado à população negra."
+      },
+      "enunciado": "A política de cotas raciais mencionada no texto fundamenta-se na compreensão de que",
+      "alternativas": {
+        "A": "as desigualdades educacionais entre negros e brancos surgiram recentemente e não têm relação com a escravidão.",
+        "B": "a igualdade formal perante a lei é suficiente para garantir oportunidades iguais a todas as pessoas.",
+        "C": "as desigualdades no acesso à educação têm raízes históricas que exigem ações reparatórias no presente.",
+        "D": "a meritocracia individual garante que qualquer cidadão alcance o ensino superior independentemente de sua origem."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: as cotas buscam reparar 'desigualdades históricas originadas no período escravista'. A contradiz o fundamento da política (as desigualdades são históricas). B é senso comum equivocado (a igualdade formal não basta diante de desigualdades estruturais). D é senso comum equivocado (ignora a dimensão estrutural da desigualdade)."
+    },
+    {
+      "id": "HUM_HIS_023",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre resistência à escravidão no Brasil",
+        "conteudo": "Além dos quilombos e das revoltas armadas, os escravizados desenvolveram outras formas de resistência no cotidiano: o trabalho lento proposital, a sabotagem de ferramentas e máquinas, a fuga individual, o suicídio e o aborto como recusa a gerar novos escravizados. Essas ações demonstram que a população escravizada nunca aceitou passivamente sua condição."
+      },
+      "enunciado": "As formas de resistência descritas no texto indicam que os escravizados",
+      "alternativas": {
+        "A": "eram incapazes de se organizar contra o sistema que os oprimia.",
+        "B": "encontravam no cotidiano formas variadas de contestar a escravidão.",
+        "C": "resistiam exclusivamente por meio de grandes revoltas armadas.",
+        "D": "aceitavam a escravidão como condição natural e inevitável."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto lista diversas formas cotidianas de resistência (trabalho lento, sabotagem, fuga, etc.). A contradiz diretamente o texto (mostra capacidade de ação). C contém 'exclusivamente', e o texto mostra formas ALÉM de revoltas armadas. D contradiz diretamente a frase final do texto."
+    },
+    {
+      "id": "HUM_HIS_024",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H10 - Relação entre cultura e identidade",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FREYRE, Gilberto. Casa-grande & senzala. Rio de Janeiro: Record, 2003 (publicação original de 1933)",
+        "conteudo": "Gilberto Freyre apresentou a ideia de que as relações entre senhores e escravizados no Brasil teriam sido marcadas por uma convivência harmoniosa, dando origem a uma 'democracia racial'. Essa interpretação foi amplamente criticada por pesquisadores posteriores, que demonstraram que tal visão mascarava a violência e a desigualdade estrutural da sociedade escravista."
+      },
+      "enunciado": "A crítica à ideia de 'democracia racial' mencionada no texto fundamenta-se na constatação de que essa interpretação",
+      "alternativas": {
+        "A": "reconhecia a violência da escravidão e propunha reparações para a população negra.",
+        "B": "destacava as desigualdades raciais como problema central da sociedade brasileira.",
+        "C": "ocultava as relações de dominação e a violência estrutural do sistema escravista.",
+        "D": "foi elaborada por pesquisadores do movimento negro como instrumento de luta política."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a crítica é de que a 'democracia racial' 'mascarava a violência e a desigualdade estrutural'. A é inversão (a tese de Freyre não reconhecia a violência nessa dimensão). B é inversão (a tese minimizava, não destacava, as desigualdades). D é confusão conceitual (a tese é de Freyre, não do movimento negro)."
+    },
+    {
+      "id": "HUM_HIS_025",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre o tráfico de escravizados",
+        "conteudo": "A travessia do Atlântico nos navios negreiros, conhecida como 'passagem do meio', durava entre 30 e 50 dias. Os africanos eram transportados em condições desumanas: amontoados no porão dos navios, acorrentados, com alimentação e água insuficientes. Estima-se que entre 10% e 20% dos embarcados morriam durante a viagem, vítimas de doenças, desidratação, maus-tratos e suicídio."
+      },
+      "enunciado": "As condições da travessia atlântica descritas no texto demonstram que o tráfico de escravizados",
+      "alternativas": {
+        "A": "garantia condições mínimas de sobrevivência para preservar o valor comercial dos embarcados.",
+        "B": "representava um empreendimento comercial que desconsiderava a humanidade dos africanos.",
+        "C": "era realizado em embarcações adaptadas ao transporte digno de passageiros.",
+        "D": "resultava em baixas taxas de mortalidade devido ao cuidado dos traficantes com a carga humana."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: condições desumanas, acorrentamento, alta mortalidade — o tráfico tratava pessoas como mercadoria. A é parcialmente correto invertido (a alta mortalidade de 10-20% contradiz 'condições mínimas de sobrevivência'). C contradiz diretamente o texto. D contradiz diretamente o texto (10-20% de mortalidade é alta)."
+    },
+    {
+      "id": "HUM_HIS_026",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "A Lei Eusébio de Queirós, promulgada em 1850, proibiu efetivamente o tráfico transatlântico de pessoas escravizadas para o Brasil. Após essa lei, o tráfico interprovincial — ou seja, a compra e venda de escravizados entre diferentes províncias brasileiras — se intensificou, especialmente do Nordeste para as fazendas de café do Sudeste."
+      },
+      "enunciado": "Uma consequência da Lei Eusébio de Queirós, identificada no texto, foi",
+      "alternativas": {
+        "A": "o fim imediato da escravidão em todo o território brasileiro.",
+        "B": "a redução do número de escravizados em todas as províncias do país.",
+        "C": "a intensificação do comércio interno de escravizados entre províncias.",
+        "D": "o aumento do tráfico transatlântico como resposta à proibição legal."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que 'o tráfico interprovincial se intensificou'. A é exagero (a lei proibiu o tráfico externo, não aboliu a escravidão). B não tem respaldo (o texto fala em transferência entre regiões, não em redução geral). D contradiz a lei (o tráfico transatlântico diminuiu efetivamente)."
+    },
+    {
+      "id": "HUM_HIS_027",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "dado_estatistico",
+        "fonte": "Adaptado de IBGE, Pesquisa sobre desigualdade racial no Brasil",
+        "conteudo": "Dados do IBGE indicam que a taxa de homicídios entre jovens negros é significativamente superior à verificada entre jovens brancos. Além disso, a população negra apresenta menor escolaridade média, menor renda per capita e menor acesso a serviços de saúde de qualidade em comparação com a população branca."
+      },
+      "enunciado": "Os indicadores apresentados no texto podem ser compreendidos historicamente como reflexos",
+      "alternativas": {
+        "A": "de escolhas individuais que independem de fatores históricos ou sociais.",
+        "B": "de um processo recente de segregação racial iniciado no século XXI.",
+        "C": "da herança colonial escravista que estruturou as desigualdades raciais no país.",
+        "D": "da igualdade de oportunidades que caracteriza a sociedade brasileira desde a abolição."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: as desigualdades em homicídios, escolaridade, renda e saúde têm raízes estruturais na herança escravista. A é senso comum equivocado (ignora dimensão estrutural). B é anacronismo (as desigualdades não são recentes, são históricas). D contradiz os dados apresentados no texto."
+    },
+    {
+      "id": "HUM_HIS_028",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre a Lei de Terras de 1850",
+        "conteudo": "A Lei de Terras de 1850, promulgada no mesmo ano da Lei Eusébio de Queirós, estabeleceu que as terras devolutas só poderiam ser adquiridas por meio de compra. Essa medida impediu que ex-escravizados e trabalhadores pobres tivessem acesso à terra, uma vez que não possuíam recursos financeiros para comprá-la. A concentração fundiária resultante desse processo marca a estrutura agrária brasileira até hoje."
+      },
+      "enunciado": "A relação entre a Lei de Terras e a questão escravista indica que",
+      "alternativas": {
+        "A": "a legislação garantiu o acesso igualitário à terra para escravizados e homens livres.",
+        "B": "o fim do tráfico foi compensado com políticas de distribuição de terras aos libertos.",
+        "C": "a restrição ao acesso à terra reforçou a exclusão social dos ex-escravizados e dos trabalhadores pobres.",
+        "D": "a lei foi elaborada com o objetivo de beneficiar os pequenos agricultores brasileiros."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a exigência de compra impediu que ex-escravizados e pobres acessassem a terra, reforçando a exclusão. A é inversão (a lei criou desigualdade, não igualdade). B é erro factual (não houve distribuição de terras). D é inversão de papéis (a lei beneficiou grandes proprietários)."
+    },
+    {
+      "id": "HUM_HIS_029",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre a Revolta dos Malês",
+        "conteudo": "Em janeiro de 1835, na cidade de Salvador, escravizados e libertos de origem muçulmana organizaram uma revolta que ficou conhecida como Revolta dos Malês. Os revoltosos, muitos deles alfabetizados em árabe, planejaram a insurreição e chegaram a tomar ruas da capital baiana antes de serem reprimidos pelas forças do governo provincial."
+      },
+      "enunciado": "A Revolta dos Malês, descrita no texto, demonstra que os escravizados",
+      "alternativas": {
+        "A": "eram incapazes de organização política por não possuírem formação cultural.",
+        "B": "possuíam organização, formação cultural própria e capacidade de articulação coletiva.",
+        "C": "agiam de forma desordenada e sem lideranças definidas nas revoltas urbanas.",
+        "D": "dependiam exclusivamente de apoio externo para promover qualquer tipo de resistência."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto mostra escravizados alfabetizados em árabe, organizados e com planejamento — formação cultural e articulação coletiva. A contradiz diretamente o texto. C contradiz o texto (havia planejamento e organização). D contradiz o texto (a organização era interna ao grupo)."
+    },
+    {
+      "id": "HUM_HIS_030",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de AZEVEDO, Celia Maria Marinho de. Onda negra, medo branco. São Paulo: Annablume, 2004",
+        "conteudo": "Nas décadas finais da escravidão, parte da elite brasileira temia que a abolição provocasse uma 'onda negra' — uma suposta ameaça de desordem social causada pela massa de libertos sem ocupação. Esse medo alimentou tanto as teorias de branqueamento da população quanto as políticas de repressão e controle social sobre a população negra livre e liberta."
+      },
+      "enunciado": "O conceito de 'onda negra' mencionado no texto revela que, no processo abolicionista brasileiro, a elite",
+      "alternativas": {
+        "A": "acolheu com entusiasmo a perspectiva de integração plena dos ex-escravizados à sociedade.",
+        "B": "elaborou políticas reparatórias para facilitar a transição dos ex-escravizados à vida livre.",
+        "C": "associou a liberdade da população negra a uma ameaça, justificando mecanismos de controle e exclusão.",
+        "D": "promoveu a igualdade racial como valor central da construção do Estado republicano."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o 'medo' da 'onda negra' levou a políticas de repressão, controle e branqueamento — associando liberdade negra a ameaça. A é inversão (havia medo, não entusiasmo). B é erro factual (não houve reparação). D é inversão (igualdade racial não era valor da elite — ao contrário, buscava-se o branqueamento)."
     }
   ]
 }
