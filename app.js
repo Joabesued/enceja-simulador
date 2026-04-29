@@ -65,7 +65,9 @@ let state = {
 // ============ STORAGE ============
 const LS = {
   RESP: 'fe_respostas',
-  SES: 'fe_sessoes'
+  SES: 'fe_sessoes',
+  REP: 'fe_reports',
+  BANCO_LOCAL: 'fe_banco_local'
 };
 
 function loadRespostas() {
@@ -83,6 +85,20 @@ function saveSessao(s) {
   const arr = loadSessoes();
   arr.push(s);
   localStorage.setItem(LS.SES, JSON.stringify(arr));
+}
+function loadReports() {
+  try { return JSON.parse(localStorage.getItem(LS.REP) || '[]'); } catch { return []; }
+}
+function saveReport(r) {
+  const arr = loadReports();
+  const existe = arr.find(x => x.id_questao === r.id_questao);
+  if (existe) { existe.motivo = r.motivo; existe.timestamp = r.timestamp; }
+  else arr.push(r);
+  localStorage.setItem(LS.REP, JSON.stringify(arr));
+}
+function removeReport(id_questao) {
+  const arr = loadReports().filter(x => x.id_questao !== id_questao);
+  localStorage.setItem(LS.REP, JSON.stringify(arr));
 }
 
 // ============ UTILS ============
@@ -135,17 +151,39 @@ function fraseDia() {
 }
 
 // ============ CARREGAR BANCO ============
+function loadBancoLocal() {
+  try { return JSON.parse(localStorage.getItem(LS.BANCO_LOCAL) || '[]'); } catch { return []; }
+}
+function saveBancoLocal(arr) {
+  localStorage.setItem(LS.BANCO_LOCAL, JSON.stringify(arr));
+}
+
 async function carregarBanco() {
+  let remotas = [];
   try {
     const res = await fetch('./questoes.json?v=' + Date.now());
     const data = await res.json();
-    state.questoes = data.questoes || [];
-    return true;
+    remotas = data.questoes || [];
   } catch (err) {
-    console.error('Erro ao carregar banco:', err);
-    state.questoes = [];
-    return false;
+    console.warn('Banco remoto indisponível, usando só localStorage:', err);
   }
+  const locais = loadBancoLocal();
+
+  // Combina, dando prioridade ao local em caso de id duplicado
+  const idsLocais = new Set(locais.map(q => q.id));
+  const combinado = [...remotas.filter(q => !idsLocais.has(q.id)), ...locais];
+  state.questoes = combinado;
+  return true; // sempre ok, mesmo sem remoto
+}
+
+// Validação de schema mínima
+function validarQuestao(q) {
+  const camposObrig = ['id', 'area', 'capitulo', 'enunciado', 'alternativas', 'gabarito'];
+  for (const c of camposObrig) if (!q[c]) return `falta campo "${c}"`;
+  if (!['humanas','natureza','matematica','linguagens'].includes(q.area)) return `area inválida: ${q.area}`;
+  if (!['A','B','C','D'].includes(q.gabarito)) return `gabarito inválido: ${q.gabarito}`;
+  if (!q.alternativas.A || !q.alternativas.B || !q.alternativas.C || !q.alternativas.D) return 'faltam alternativas A-D';
+  return null;
 }
 
 // ============ ESTATÍSTICAS ============
@@ -202,6 +240,9 @@ function render() {
   else if (tela === 'resultado') renderResultado(app);
   else if (tela === 'relatorio') renderRelatorio(app);
   else if (tela === 'revisao') renderRevisao(app);
+  else if (tela === 'admin') renderAdmin(app);
+  else if (tela === 'admin-colar') renderAdminColar(app);
+  else if (tela === 'admin-listar') renderAdminListar(app);
   window.scrollTo(0, 0);
 }
 
@@ -294,6 +335,14 @@ function renderHome(app) {
   },
     el('span', { class: 't' }, 'Relatório de desempenho'),
     el('span', { class: 'd' }, 'Evolução por área, capítulo e tempo')
+  ));
+
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    onclick: () => { state.tela = 'admin'; render(); }
+  },
+    el('span', { class: 't' }, 'Banco de questões'),
+    el('span', { class: 'd' }, `${totalQ} questões · adicionar, exportar, importar`)
   ));
 
   app.appendChild(modes);
@@ -544,6 +593,15 @@ function renderSimulado(app) {
       el('strong', { style: 'color: var(--gold); font-family: var(--mono); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em;' }, 'Comentário'),
       el('p', { style: 'margin-top: 0.5rem;' }, q.comentario)
     ));
+
+    // Link discreto pra reportar (só aparece após confirmar)
+    const jaReportada = loadReports().find(r => r.id_questao === q.id);
+    app.appendChild(el('div', { class: 'report-row' },
+      el('button', {
+        class: 'report-link',
+        onclick: () => abrirModalReporte(q)
+      }, jaReportada ? '⚑ Reportada · editar' : 'Reportar problema')
+    ));
   }
 
   // Nav
@@ -653,6 +711,58 @@ function finalizarSimulado() {
 
   state.tela = 'resultado';
   render();
+}
+
+function abrirModalReporte(q) {
+  const jaReportada = loadReports().find(r => r.id_questao === q.id);
+  const motivos = [
+    { k: 'gabarito', t: 'Gabarito parece errado' },
+    { k: 'ambigua', t: 'Mais de uma alternativa defensável' },
+    { k: 'texto', t: 'Texto-base confuso ou inventado' },
+    { k: 'nivel', t: 'Muito difícil / fora do padrão' },
+    { k: 'outro', t: 'Outro problema' }
+  ];
+
+  const overlay = el('div', { class: 'modal-overlay', onclick: (e) => { if (e.target === overlay) overlay.remove(); } });
+  const modal = el('div', { class: 'modal' });
+
+  modal.appendChild(el('h3', { class: 'modal-title' }, 'Reportar questão'));
+  modal.appendChild(el('div', { class: 'modal-sub' }, q.id + ' · ' + (LABELS_CAP[q.capitulo] || q.capitulo)));
+
+  const btnGroup = el('div', { class: 'motivos' });
+  motivos.forEach(m => {
+    const selecionado = jaReportada && jaReportada.motivo === m.k;
+    btnGroup.appendChild(el('button', {
+      class: 'motivo-btn' + (selecionado ? ' selected' : ''),
+      onclick: () => {
+        saveReport({ id_questao: q.id, motivo: m.k, timestamp: Date.now() });
+        toast('Questão reportada.');
+        overlay.remove();
+        render();
+      }
+    }, m.t));
+  });
+  modal.appendChild(btnGroup);
+
+  if (jaReportada) {
+    modal.appendChild(el('button', {
+      class: 'btn danger', style: 'width: 100%; margin-top: 1rem;',
+      onclick: () => {
+        removeReport(q.id);
+        toast('Reporte removido.');
+        overlay.remove();
+        render();
+      }
+    }, 'Remover reporte'));
+  }
+
+  modal.appendChild(el('button', {
+    class: 'btn', style: 'width: 100%; margin-top: 0.5rem;',
+    onclick: () => overlay.remove()
+  }, 'Cancelar'));
+
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
 }
 
 // -------- RESULTADO --------
@@ -791,6 +901,34 @@ function renderRelatorio(app) {
     });
   }
 
+  // Questões reportadas
+  const reports = loadReports();
+  if (reports.length > 0) {
+    app.appendChild(el('h2', { class: 'section-title' },
+      'Questões reportadas',
+      el('span', { class: 'count' }, `${reports.length} pendente${reports.length > 1 ? 's' : ''}`)
+    ));
+    const motivosLabels = {
+      gabarito: 'Gabarito errado', ambigua: 'Ambígua',
+      texto: 'Texto confuso/inventado', nivel: 'Fora do padrão', outro: 'Outro'
+    };
+    reports.forEach(r => {
+      const q = state.questoes.find(x => x.id === r.id_questao);
+      if (!q) return;
+      app.appendChild(el('div', { class: 'review-item' },
+        el('div', { class: 'head' },
+          el('span', {}, q.id + ' · ' + (LABELS_CAP[q.capitulo] || q.capitulo)),
+          el('span', { class: 'err' }, motivosLabels[r.motivo] || r.motivo)
+        ),
+        el('div', { class: 'q' }, q.enunciado.substring(0, 120) + (q.enunciado.length > 120 ? '...' : '')),
+        el('button', {
+          class: 'btn', style: 'margin-top: 0.5rem; width: auto; padding: 0.4rem 0.8rem;',
+          onclick: () => { removeReport(r.id_questao); toast('Reporte removido.'); render(); }
+        }, 'Remover reporte')
+      ));
+    });
+  }
+
   // Reset
   app.appendChild(el('button', {
     class: 'btn danger', style: 'width: 100%; margin-top: 2rem;',
@@ -808,6 +946,423 @@ function renderRelatorio(app) {
     class: 'btn', style: 'width: 100%; margin-top: 0.5rem;',
     onclick: () => { state.tela = 'home'; render(); }
   }, '← Voltar'));
+}
+
+// ============ ADMIN ============
+function statsBanco() {
+  const remotas = state.questoes.filter(q => !loadBancoLocal().some(l => l.id === q.id));
+  const locais = loadBancoLocal();
+  const porArea = {};
+  Object.keys(AREAS).forEach(a => { porArea[a] = 0; });
+  state.questoes.forEach(q => { if (porArea[q.area] !== undefined) porArea[q.area]++; });
+  return { total: state.questoes.length, remotas: remotas.length, locais: locais.length, porArea };
+}
+
+function renderAdmin(app) {
+  const s = statsBanco();
+
+  app.appendChild(el('header', { class: 'brand' },
+    el('h1', {}, 'Banco de ', el('em', {}, 'questões')),
+    el('div', { class: 'sub' }, 'Adicionar · exportar · importar · remover')
+  ));
+
+  app.appendChild(el('div', { class: 'stats' },
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(s.total)), el('div', { class: 'l' }, 'Total')),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(s.remotas)), el('div', { class: 'l' }, 'No GitHub')),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(s.locais)), el('div', { class: 'l' }, 'Só local'))
+  ));
+
+  app.appendChild(el('h2', { class: 'section-title' }, 'Por área'));
+  const bk = el('div', { class: 'breakdown' });
+  Object.entries(s.porArea).forEach(([a, n]) => {
+    const meta = 153; // 30 questões mín por área pra ENCCEJA + folga
+    const p = Math.min(100, Math.round(n / meta * 100));
+    bk.appendChild(el('div', { class: 'bar-row' },
+      el('div', { class: 'cap' }, AREAS[a].nome),
+      el('div', { class: 'bar' }, el('div', { class: 'fill', style: `width: ${p}%;` })),
+      el('div', { class: 'pct' }, `${n}q`)
+    ));
+  });
+  app.appendChild(bk);
+
+  app.appendChild(el('h2', { class: 'section-title' }, 'Ações'));
+  const modes = el('div', { class: 'modes' });
+
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    onclick: () => { state.tela = 'admin-colar'; render(); }
+  },
+    el('span', { class: 't' }, '+ Adicionar lote'),
+    el('span', { class: 'd' }, 'Colar JSON gerado pelo Claude e validar')
+  ));
+
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    disabled: s.total > 0 ? null : '',
+    onclick: () => { state.tela = 'admin-listar'; render(); }
+  },
+    el('span', { class: 't' }, 'Ver e remover questões'),
+    el('span', { class: 'd' }, `Listar todas as ${s.total} no banco, com filtro`)
+  ));
+
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    disabled: s.total > 0 ? null : '',
+    onclick: () => exportarBanco()
+  },
+    el('span', { class: 't' }, '↓ Exportar banco'),
+    el('span', { class: 'd' }, `Baixa questoes.json com tudo (${s.total}) — pra subir no GitHub`)
+  ));
+
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    onclick: () => importarBanco()
+  },
+    el('span', { class: 't' }, '↑ Importar banco'),
+    el('span', { class: 'd' }, 'Carrega .json de outro dispositivo (substitui o local)')
+  ));
+
+  if (s.locais > 0) {
+    modes.appendChild(el('button', {
+      class: 'mode-btn',
+      style: 'border-left-color: var(--error);',
+      onclick: () => {
+        if (confirm(`Apagar as ${s.locais} questões locais? As do GitHub permanecem. Recomendado exportar antes.`)) {
+          localStorage.removeItem(LS.BANCO_LOCAL);
+          carregarBanco().then(() => { toast('Banco local apagado.'); render(); });
+        }
+      }
+    },
+      el('span', { class: 't' }, 'Apagar banco local'),
+      el('span', { class: 'd' }, `Remove só as ${s.locais} questões do localStorage`)
+    ));
+  }
+
+  app.appendChild(modes);
+
+  app.appendChild(el('button', {
+    class: 'btn', style: 'width: 100%; margin-top: 1.5rem;',
+    onclick: () => { state.tela = 'home'; render(); }
+  }, '← Voltar'));
+}
+
+function renderAdminColar(app) {
+  app.appendChild(el('header', { class: 'brand' },
+    el('h1', {}, 'Adicionar ', el('em', {}, 'lote')),
+    el('div', { class: 'sub' }, 'Cole o JSON gerado pelo Claude. Aceita array ou objeto com {questoes:[...]}.')
+  ));
+
+  const textarea = el('textarea', {
+    class: 'admin-textarea',
+    placeholder: '[\n  { "id": "HUM_HIS_001", "area": "humanas", ... },\n  ...\n]',
+    rows: '14'
+  });
+  app.appendChild(textarea);
+
+  const previewBox = el('div', { class: 'admin-preview hidden' });
+  app.appendChild(previewBox);
+
+  const validar = () => {
+    previewBox.innerHTML = '';
+    previewBox.classList.remove('hidden');
+    let txt = textarea.value.trim();
+    if (!txt) { previewBox.innerHTML = '<p class="err-msg">Cole alguma coisa primeiro.</p>'; return null; }
+
+    // Remove possíveis comentários `// ...` no topo (auto-revisão)
+    txt = txt.split('\n').filter(l => !l.trim().startsWith('//')).join('\n').trim();
+    // Remove fences ```json
+    txt = txt.replace(/^```(?:json)?/, '').replace(/```$/, '').trim();
+
+    let parsed;
+    try { parsed = JSON.parse(txt); }
+    catch (e) {
+      previewBox.innerHTML = `<p class="err-msg">JSON inválido: ${e.message}</p>`;
+      return null;
+    }
+
+    let questoes;
+    if (Array.isArray(parsed)) questoes = parsed;
+    else if (parsed.questoes && Array.isArray(parsed.questoes)) questoes = parsed.questoes;
+    else {
+      previewBox.innerHTML = '<p class="err-msg">Esperado: array de questões ou objeto com campo "questoes".</p>';
+      return null;
+    }
+
+    if (questoes.length === 0) {
+      previewBox.innerHTML = '<p class="err-msg">Array vazio.</p>';
+      return null;
+    }
+
+    // Validar cada uma
+    const erros = [];
+    const idsExistentes = new Set(state.questoes.map(q => q.id));
+    const idsLote = new Set();
+    const duplicadasNoLote = [];
+    const duplicadasNoBanco = [];
+
+    questoes.forEach((q, i) => {
+      const erro = validarQuestao(q);
+      if (erro) erros.push(`Q${i+1} (${q.id || 'sem id'}): ${erro}`);
+      if (q.id) {
+        if (idsLote.has(q.id)) duplicadasNoLote.push(q.id);
+        idsLote.add(q.id);
+        if (idsExistentes.has(q.id)) duplicadasNoBanco.push(q.id);
+      }
+    });
+
+    const stats = {};
+    questoes.forEach(q => { stats[q.area] = (stats[q.area] || 0) + 1; });
+    const distribuicao = Object.entries(stats).map(([a, n]) => `${AREAS[a]?.nome || a}: ${n}`).join(' · ');
+
+    let html = `<h3 class="modal-title">${questoes.length} questões detectadas</h3>`;
+    html += `<div class="modal-sub">${distribuicao}</div>`;
+
+    if (erros.length > 0) {
+      html += `<p class="err-msg"><strong>${erros.length} erro(s) de schema:</strong></p><ul class="err-list">`;
+      erros.slice(0, 10).forEach(e => html += `<li>${e}</li>`);
+      if (erros.length > 10) html += `<li>... e mais ${erros.length - 10}</li>`;
+      html += `</ul>`;
+    }
+
+    if (duplicadasNoLote.length > 0) {
+      html += `<p class="err-msg"><strong>${duplicadasNoLote.length} ID(s) duplicado(s) no próprio lote:</strong> ${duplicadasNoLote.slice(0,5).join(', ')}${duplicadasNoLote.length > 5 ? '...' : ''}</p>`;
+    }
+
+    if (duplicadasNoBanco.length > 0) {
+      html += `<p class="warn-msg"><strong>${duplicadasNoBanco.length} ID(s) já existem no banco</strong> (serão sobrescritos): ${duplicadasNoBanco.slice(0,5).join(', ')}${duplicadasNoBanco.length > 5 ? '...' : ''}</p>`;
+    }
+
+    if (erros.length === 0 && duplicadasNoLote.length === 0) {
+      html += `<p class="ok-msg">✓ Tudo válido. Pronto pra adicionar ${questoes.length} questões${duplicadasNoBanco.length > 0 ? ` (${duplicadasNoBanco.length} sobrescritas)` : ''}.</p>`;
+    }
+
+    previewBox.innerHTML = html;
+    return { questoes, erros, duplicadasNoLote, duplicadasNoBanco };
+  };
+
+  const nav = el('div', { class: 'nav' });
+  nav.appendChild(el('button', {
+    class: 'btn',
+    onclick: () => validar()
+  }, 'Validar'));
+
+  nav.appendChild(el('button', {
+    class: 'btn primary',
+    onclick: async () => {
+      const resultado = validar();
+      if (!resultado) return;
+      if (resultado.erros.length > 0 || resultado.duplicadasNoLote.length > 0) {
+        toast('Corrija os erros antes de adicionar.');
+        return;
+      }
+      const conf = resultado.duplicadasNoBanco.length > 0
+        ? confirm(`Adicionar ${resultado.questoes.length} questões? ${resultado.duplicadasNoBanco.length} serão sobrescritas.`)
+        : true;
+      if (!conf) return;
+
+      // Mescla com banco local: novas/atualizadas substituem antigas
+      const local = loadBancoLocal();
+      const idsNovo = new Set(resultado.questoes.map(q => q.id));
+      const localFiltrado = local.filter(q => !idsNovo.has(q.id));
+      const novoLocal = [...localFiltrado, ...resultado.questoes];
+      saveBancoLocal(novoLocal);
+
+      await carregarBanco();
+      toast(`${resultado.questoes.length} questões adicionadas.`);
+      state.tela = 'admin'; render();
+    }
+  }, 'Adicionar ao banco'));
+
+  app.appendChild(nav);
+
+  app.appendChild(el('button', {
+    class: 'btn', style: 'width: 100%; margin-top: 0.5rem;',
+    onclick: () => { state.tela = 'admin'; render(); }
+  }, '← Voltar'));
+}
+
+function renderAdminListar(app) {
+  if (!state.adminFiltro) state.adminFiltro = { area: 'todas', busca: '' };
+  const f = state.adminFiltro;
+
+  app.appendChild(el('header', { class: 'brand' },
+    el('h1', {}, 'Questões ', el('em', {}, 'do banco')),
+    el('div', { class: 'sub' }, `${state.questoes.length} no total`)
+  ));
+
+  // Tabs por área
+  const tabs = el('div', { class: 'tabs' });
+  ['todas', ...Object.keys(AREAS)].forEach(a => {
+    const lbl = a === 'todas' ? 'Todas' : AREAS[a].nome.split(' ').slice(-1)[0];
+    tabs.appendChild(el('button', {
+      class: 'tab' + (a === f.area ? ' active' : ''),
+      onclick: () => { f.area = a; render(); }
+    }, lbl));
+  });
+  app.appendChild(tabs);
+
+  // Busca
+  const busca = el('input', {
+    class: 'admin-search',
+    type: 'text',
+    placeholder: 'Buscar por ID, capítulo ou texto...',
+    value: f.busca,
+    oninput: (e) => { f.busca = e.target.value; renderListaItens(); }
+  });
+  app.appendChild(busca);
+
+  const listaContainer = el('div', { class: 'admin-list' });
+  app.appendChild(listaContainer);
+
+  function renderListaItens() {
+    listaContainer.innerHTML = '';
+    let items = state.questoes;
+    if (f.area !== 'todas') items = items.filter(q => q.area === f.area);
+    if (f.busca) {
+      const b = f.busca.toLowerCase();
+      items = items.filter(q =>
+        q.id.toLowerCase().includes(b) ||
+        (q.capitulo || '').toLowerCase().includes(b) ||
+        (q.enunciado || '').toLowerCase().includes(b)
+      );
+    }
+
+    if (items.length === 0) {
+      listaContainer.appendChild(el('div', { class: 'empty' }, 'Nenhuma questão encontrada.'));
+      return;
+    }
+
+    const idsLocais = new Set(loadBancoLocal().map(q => q.id));
+
+    items.slice(0, 100).forEach(q => {
+      const isLocal = idsLocais.has(q.id);
+      const item = el('div', { class: 'review-item' });
+      item.appendChild(el('div', { class: 'head' },
+        el('span', {}, q.id + ' · ' + (LABELS_CAP[q.capitulo] || q.capitulo)),
+        el('span', { class: isLocal ? 'ok' : '' }, isLocal ? 'local' : 'remoto')
+      ));
+      item.appendChild(el('div', { class: 'q' }, q.enunciado.substring(0, 140) + (q.enunciado.length > 140 ? '...' : '')));
+      const acoes = el('div', { style: 'display: flex; gap: 0.4rem; margin-top: 0.5rem;' });
+      acoes.appendChild(el('button', {
+        class: 'btn', style: 'padding: 0.4rem 0.75rem; flex: 0;',
+        onclick: () => mostrarQuestaoCompleta(q)
+      }, 'Ver'));
+      if (isLocal) {
+        acoes.appendChild(el('button', {
+          class: 'btn danger', style: 'padding: 0.4rem 0.75rem; flex: 0;',
+          onclick: () => {
+            if (confirm(`Remover ${q.id}?`)) {
+              const novo = loadBancoLocal().filter(x => x.id !== q.id);
+              saveBancoLocal(novo);
+              carregarBanco().then(() => { toast('Removida.'); renderListaItens(); });
+            }
+          }
+        }, 'Remover'));
+      }
+      item.appendChild(acoes);
+      listaContainer.appendChild(item);
+    });
+
+    if (items.length > 100) {
+      listaContainer.appendChild(el('div', { class: 'empty' }, `Mostrando 100 de ${items.length}. Refine a busca pra ver as restantes.`));
+    }
+  }
+  renderListaItens();
+
+  app.appendChild(el('button', {
+    class: 'btn', style: 'width: 100%; margin-top: 1rem;',
+    onclick: () => { state.tela = 'admin'; render(); }
+  }, '← Voltar'));
+}
+
+function mostrarQuestaoCompleta(q) {
+  const overlay = el('div', { class: 'modal-overlay', onclick: (e) => { if (e.target === overlay) overlay.remove(); } });
+  const modal = el('div', { class: 'modal', style: 'max-width: 560px;' });
+  modal.appendChild(el('h3', { class: 'modal-title' }, q.id));
+  modal.appendChild(el('div', { class: 'modal-sub' }, `${AREAS[q.area]?.nome || q.area} · ${LABELS_CAP[q.capitulo] || q.capitulo}`));
+
+  if (q.texto_base?.conteudo) {
+    modal.appendChild(el('div', { class: 'q-base', style: 'margin-bottom: 1rem;' },
+      q.texto_base.conteudo,
+      q.texto_base.fonte ? el('span', { class: 'fonte' }, q.texto_base.fonte) : null
+    ));
+  }
+  modal.appendChild(el('div', { class: 'q-enunciado' }, q.enunciado));
+  ['A','B','C','D'].forEach(letra => {
+    const t = q.alternativas?.[letra];
+    if (!t) return;
+    const cls = letra === q.gabarito ? 'alt correta' : 'alt';
+    modal.appendChild(el('div', { class: cls, style: 'cursor: default;' },
+      el('span', { class: 'letra' }, letra),
+      el('span', {}, t)
+    ));
+  });
+  if (q.comentario) {
+    modal.appendChild(el('div', { class: 'q-base', style: 'margin-top: 1rem; font-style: normal;' },
+      el('strong', { style: 'color: var(--gold); font-family: var(--mono); font-size: 0.7rem; text-transform: uppercase;' }, 'Comentário'),
+      el('p', { style: 'margin-top: 0.4rem;' }, q.comentario)
+    ));
+  }
+  modal.appendChild(el('button', {
+    class: 'btn', style: 'width: 100%; margin-top: 1rem;',
+    onclick: () => overlay.remove()
+  }, 'Fechar'));
+  overlay.appendChild(modal);
+  document.body.appendChild(overlay);
+}
+
+function exportarBanco() {
+  const data = {
+    versao: '2.0',
+    atualizado_em: new Date().toISOString().slice(0, 10),
+    notas_schema: {
+      area: 'humanas | natureza | matematica | linguagens',
+      disciplina: 'campo opcional',
+      gabarito: 'A | B | C | D'
+    },
+    questoes: state.questoes
+  };
+  const json = JSON.stringify(data, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = el('a', {
+    href: url,
+    download: `questoes-${new Date().toISOString().slice(0, 10)}.json`
+  });
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(() => { a.remove(); URL.revokeObjectURL(url); }, 1000);
+  toast(`Exportado ${state.questoes.length} questões.`);
+}
+
+function importarBanco() {
+  const input = el('input', { type: 'file', accept: '.json,application/json' });
+  input.onchange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+      const txt = await file.text();
+      const data = JSON.parse(txt);
+      const questoes = Array.isArray(data) ? data : (data.questoes || []);
+      if (questoes.length === 0) { toast('Arquivo sem questões.'); return; }
+
+      const erros = questoes.map(q => validarQuestao(q)).filter(Boolean);
+      if (erros.length > 0) {
+        toast(`${erros.length} questões inválidas. Importação cancelada.`);
+        return;
+      }
+
+      if (!confirm(`Importar ${questoes.length} questões? Isso vai substituir o banco local atual.`)) return;
+
+      saveBancoLocal(questoes);
+      await carregarBanco();
+      toast(`${questoes.length} questões importadas.`);
+      render();
+    } catch (err) {
+      toast('Erro ao ler arquivo: ' + err.message);
+    }
+  };
+  input.click();
 }
 
 // ============ INIT ============

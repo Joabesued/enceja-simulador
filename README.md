@@ -28,13 +28,24 @@ Igual ao Foco Essencial:
 4. Aguarde ~1 minuto. Acesse em `https://joabesued.github.io/encceja-simulador/`.
 5. No celular: abra no navegador → "Adicionar à tela inicial". Pronto, PWA instalado.
 
-## Como adicionar questões ao banco
+## Como adicionar questões ao banco (fluxo automatizado)
 
-1. Use o prompt-mestre do ENCCEJA (já gerado anteriormente) em uma conversa nova do Claude com Research ativado.
-2. Peça: *"Gere 30 questões de [ÁREA], capítulo [CAPÍTULO], no padrão JSON."*
-3. Copie o array de questões e cole dentro do campo `questoes` em `questoes.json`.
-4. Faça commit/push no GitHub.
-5. O app pega a versão nova automaticamente (service worker faz network-first nesse arquivo).
+**Fluxo recomendado (sem editar arquivos):**
+
+1. Em conversa nova do Claude (com Research ativado), cole o `PROMPT-MESTRE.md`.
+2. Peça: *"Gere 30 questões de [ÁREA], disciplina [DISCIPLINA]."*
+3. Copie o JSON inteiro que o Claude entregou (pode incluir o comentário `// auto-revisão...` no topo, o app ignora).
+4. Abra o app → "Banco de questões" → "+ Adicionar lote".
+5. Cole o JSON na caixa de texto, toque "Validar" — o app checa schema, IDs duplicados, e mostra a distribuição por área.
+6. Se tudo verde, toque "Adicionar ao banco". Pronto.
+
+As questões adicionadas pelo Admin ficam salvas no `localStorage` do navegador (marcadas como "local"). Elas funcionam offline e não dependem do GitHub.
+
+**Backup semanal (recomendado):** no domingo, vá em "Banco de questões" → "↓ Exportar banco". Isso baixa o `questoes.json` atualizado. Substitua o arquivo no repositório do GitHub e dê commit. Assim o banco fica versionado e disponível em outros dispositivos.
+
+**Trocar de celular:** após exportar do antigo, no novo abra "Banco" → "↑ Importar banco" → escolha o arquivo. Tudo é restaurado.
+
+**Fluxo manual (alternativa):** se preferir, ainda dá pra editar `questoes.json` direto no GitHub (vide schema abaixo) e o app puxa automaticamente.
 
 ### Schema obrigatório de cada questão
 
