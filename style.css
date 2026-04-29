@@ -655,6 +655,20 @@ h2.section-title span.count {
 }
 .admin-preview .err-list li { padding: 0.15rem 0; border-bottom: 1px dashed var(--border); }
 
+/* Back button no topo das telas */
+.back-btn {
+  width: auto;
+  padding: 0.5rem 0.85rem;
+  font-size: 0.72rem;
+  margin-bottom: 1rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--ink-dim);
+  align-self: flex-start;
+  display: inline-block;
+}
+.back-btn:hover { background: var(--bg-elev); color: var(--ink); border-color: var(--ink-faint); }
+
 /* Hidden */
 .hidden { display: none !important; }
 

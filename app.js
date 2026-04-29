@@ -228,6 +228,13 @@ function statsPorCapitulo(area) {
 
 // ============ TELAS ============
 
+function botaoVoltar(texto, destino) {
+  return el('button', {
+    class: 'btn back-btn',
+    onclick: () => { state.tela = destino; render(); }
+  }, '← ' + (texto || 'Voltar'));
+}
+
 function render() {
   const app = document.getElementById('app');
   app.innerHTML = '';
@@ -355,6 +362,7 @@ function renderHome(app) {
 
 // -------- SELECIONAR ÁREA --------
 function renderModoArea(app) {
+  app.appendChild(botaoVoltar('Voltar', 'home'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Simulado ', el('em', {}, 'por área')),
     el('div', { class: 'sub' }, 'Escolha uma área · 30 questões · 1h')
@@ -375,14 +383,11 @@ function renderModoArea(app) {
   });
 
   app.appendChild(modes);
-  app.appendChild(el('button', {
-    class: 'btn', style: 'margin-top: 1.5rem;',
-    onclick: () => { state.tela = 'home'; render(); }
-  }, '← Voltar'));
 }
 
 // -------- SELECIONAR CAPÍTULO: primeiro área --------
 function renderModoCapitulo(app) {
+  app.appendChild(botaoVoltar('Voltar', 'home'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Simulado ', el('em', {}, 'por capítulo')),
     el('div', { class: 'sub' }, 'Escolha a área primeiro')
@@ -402,15 +407,12 @@ function renderModoCapitulo(app) {
   });
 
   app.appendChild(modes);
-  app.appendChild(el('button', {
-    class: 'btn', style: 'margin-top: 1.5rem;',
-    onclick: () => { state.tela = 'home'; render(); }
-  }, '← Voltar'));
 }
 
 // -------- LISTA DE CAPÍTULOS --------
 function renderModoCapituloLista(app) {
   const area = state.areaEscolhida;
+  app.appendChild(botaoVoltar('Voltar', 'modo-capitulo'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, AREAS[area].nome),
     el('div', { class: 'sub' }, '9 capítulos · mínimo 10 questões por simulado')
@@ -437,10 +439,6 @@ function renderModoCapituloLista(app) {
   });
 
   app.appendChild(list);
-  app.appendChild(el('button', {
-    class: 'btn', style: 'margin-top: 1.5rem;',
-    onclick: () => { state.tela = 'modo-capitulo'; render(); }
-  }, '← Voltar'));
 }
 
 // ============ SIMULADO ============
@@ -773,6 +771,11 @@ function renderResultado(app) {
   const pct = total ? Math.round(acertos / total * 100) : 0;
   const classe = pct >= 70 ? 'high' : pct < 50 ? 'low' : '';
 
+  app.appendChild(el('button', {
+    class: 'btn back-btn',
+    onclick: () => { state.sessao = null; state.tela = 'home'; render(); }
+  }, '← Voltar ao início'));
+
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Resultado'),
     el('div', { class: 'sub' }, s.tipo === 'completo' ? 'Simulado completo' : s.tipo === 'area' ? `Área: ${AREAS[s.filtro.area].nome}` : s.tipo === 'revisao' ? 'Revisão de erros' : `Capítulo: ${LABELS_CAP[s.filtro.capitulo]}`)
@@ -823,15 +826,11 @@ function renderResultado(app) {
     ));
     app.appendChild(item);
   });
-
-  app.appendChild(el('button', {
-    class: 'btn primary', style: 'width: 100%; margin-top: 1.5rem;',
-    onclick: () => { state.sessao = null; state.tela = 'home'; render(); }
-  }, 'Voltar ao início'));
 }
 
 // -------- RELATÓRIO --------
 function renderRelatorio(app) {
+  app.appendChild(botaoVoltar('Voltar', 'home'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Relatório de ', el('em', {}, 'desempenho')),
     el('div', { class: 'sub' }, 'Análise histórica por área e capítulo')
@@ -941,11 +940,6 @@ function renderRelatorio(app) {
       }
     }
   }, 'Apagar histórico'));
-
-  app.appendChild(el('button', {
-    class: 'btn', style: 'width: 100%; margin-top: 0.5rem;',
-    onclick: () => { state.tela = 'home'; render(); }
-  }, '← Voltar'));
 }
 
 // ============ ADMIN ============
@@ -961,6 +955,7 @@ function statsBanco() {
 function renderAdmin(app) {
   const s = statsBanco();
 
+  app.appendChild(botaoVoltar('Voltar', 'home'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Banco de ', el('em', {}, 'questões')),
     el('div', { class: 'sub' }, 'Adicionar · exportar · importar · remover')
@@ -1038,15 +1033,43 @@ function renderAdmin(app) {
     ));
   }
 
-  app.appendChild(modes);
+  if (s.total > 0) {
+    modes.appendChild(el('button', {
+      class: 'mode-btn',
+      style: 'border-left-color: var(--error);',
+      onclick: () => {
+        const aviso = `Apagar TODAS as ${s.total} questões do banco?\n\n` +
+          `• ${s.locais} questões locais (do localStorage) — serão APAGADAS\n` +
+          `• ${s.remotas} questões do GitHub — serão IGNORADAS na próxima carga\n\n` +
+          `Isso também apaga histórico de respostas e simulados pra evitar inconsistência.\n` +
+          `RECOMENDADO exportar antes!\n\n` +
+          `Confirmar?`;
+        if (!confirm(aviso)) return;
+        if (!confirm('Tem certeza absoluta? Última chance de cancelar.')) return;
+        localStorage.removeItem(LS.BANCO_LOCAL);
+        localStorage.removeItem(LS.RESP);
+        localStorage.removeItem(LS.SES);
+        localStorage.removeItem(LS.REP);
+        // Sobrescreve o cache do questoes.json com array vazio
+        if ('caches' in window) {
+          caches.keys().then(keys => keys.forEach(k => caches.delete(k)));
+        }
+        // Substitui banco em memória por vazio (mas o GitHub vai recarregar na próxima)
+        state.questoes = [];
+        toast('Banco e histórico apagados completamente.');
+        setTimeout(() => { state.tela = 'home'; render(); }, 800);
+      }
+    },
+      el('span', { class: 't' }, '⚠ Apagar TUDO (banco + histórico)'),
+      el('span', { class: 'd' }, 'Limpa tudo · use pra começar do zero ou trocar fonte')
+    ));
+  }
 
-  app.appendChild(el('button', {
-    class: 'btn', style: 'width: 100%; margin-top: 1.5rem;',
-    onclick: () => { state.tela = 'home'; render(); }
-  }, '← Voltar'));
+  app.appendChild(modes);
 }
 
 function renderAdminColar(app) {
+  app.appendChild(botaoVoltar('Voltar', 'admin'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Adicionar ', el('em', {}, 'lote')),
     el('div', { class: 'sub' }, 'Cole o JSON gerado pelo Claude. Aceita array ou objeto com {questoes:[...]}.')
@@ -1174,17 +1197,13 @@ function renderAdminColar(app) {
   }, 'Adicionar ao banco'));
 
   app.appendChild(nav);
-
-  app.appendChild(el('button', {
-    class: 'btn', style: 'width: 100%; margin-top: 0.5rem;',
-    onclick: () => { state.tela = 'admin'; render(); }
-  }, '← Voltar'));
 }
 
 function renderAdminListar(app) {
   if (!state.adminFiltro) state.adminFiltro = { area: 'todas', busca: '' };
   const f = state.adminFiltro;
 
+  app.appendChild(botaoVoltar('Voltar', 'admin'));
   app.appendChild(el('header', { class: 'brand' },
     el('h1', {}, 'Questões ', el('em', {}, 'do banco')),
     el('div', { class: 'sub' }, `${state.questoes.length} no total`)
@@ -1268,11 +1287,6 @@ function renderAdminListar(app) {
     }
   }
   renderListaItens();
-
-  app.appendChild(el('button', {
-    class: 'btn', style: 'width: 100%; margin-top: 1rem;',
-    onclick: () => { state.tela = 'admin'; render(); }
-  }, '← Voltar'));
 }
 
 function mostrarQuestaoCompleta(q) {
