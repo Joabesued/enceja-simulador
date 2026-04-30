@@ -57,6 +57,7 @@ const FRASES = [
 // ============ ESTADO ============
 let state = {
   questoes: [],
+  materiais: [],
   tela: 'home',
   sessao: null, // { tipo, filtro, questoes, respostas, iniciadoEm, duracaoMin }
   timer: null
@@ -67,7 +68,8 @@ const LS = {
   RESP: 'fe_respostas',
   SES: 'fe_sessoes',
   REP: 'fe_reports',
-  BANCO_LOCAL: 'fe_banco_local'
+  BANCO_LOCAL: 'fe_banco_local',
+  MAT_PROG: 'fe_materiais_progresso'
 };
 
 function loadRespostas() {
@@ -186,6 +188,32 @@ function validarQuestao(q) {
   return null;
 }
 
+// ============ MATERIAIS DE ESTUDO ============
+async function carregarMateriais() {
+  try {
+    const res = await fetch('./materiais.json?v=' + Date.now());
+    const data = await res.json();
+    state.materiais = data.materiais || [];
+  } catch (err) {
+    console.warn('materiais.json não encontrado:', err);
+    state.materiais = [];
+  }
+}
+
+function loadProgressoMateriais() {
+  try { return JSON.parse(localStorage.getItem(LS.MAT_PROG) || '{}'); } catch { return {}; }
+}
+function saveProgressoMaterial(id, status) {
+  const p = loadProgressoMateriais();
+  if (status === 'nao_iniciado') delete p[id];
+  else p[id] = { status, timestamp: Date.now() };
+  localStorage.setItem(LS.MAT_PROG, JSON.stringify(p));
+}
+function getStatusMaterial(id) {
+  const p = loadProgressoMateriais();
+  return p[id]?.status || 'nao_iniciado';
+}
+
 // ============ ESTATÍSTICAS ============
 function statsGerais() {
   const resp = loadRespostas();
@@ -250,6 +278,7 @@ function render() {
   else if (tela === 'admin') renderAdmin(app);
   else if (tela === 'admin-colar') renderAdminColar(app);
   else if (tela === 'admin-listar') renderAdminListar(app);
+  else if (tela === 'materiais') renderMateriais(app);
   window.scrollTo(0, 0);
 }
 
@@ -342,6 +371,17 @@ function renderHome(app) {
   },
     el('span', { class: 't' }, 'Relatório de desempenho'),
     el('span', { class: 'd' }, 'Evolução por área, capítulo e tempo')
+  ));
+
+  // Materiais de estudo
+  const totalMat = (state.materiais || []).length;
+  const matEstudados = Object.values(loadProgressoMateriais()).filter(p => p.status === 'estudado').length;
+  modes.appendChild(el('button', {
+    class: 'mode-btn',
+    onclick: () => { state.tela = 'materiais'; render(); }
+  },
+    el('span', { class: 't' }, 'Materiais de estudo'),
+    el('span', { class: 'd' }, totalMat > 0 ? `${matEstudados} de ${totalMat} estudados` : 'Nenhum material cadastrado ainda')
   ));
 
   modes.appendChild(el('button', {
@@ -1289,6 +1329,127 @@ function renderAdminListar(app) {
   renderListaItens();
 }
 
+// -------- MATERIAIS DE ESTUDO --------
+function renderMateriais(app) {
+  app.appendChild(botaoVoltar('Voltar', 'home'));
+  app.appendChild(el('header', { class: 'brand' },
+    el('h1', {}, 'Materiais de ', el('em', {}, 'estudo')),
+    el('div', { class: 'sub' }, 'Leia · marque · estude com método')
+  ));
+
+  const materiais = state.materiais || [];
+
+  if (materiais.length === 0) {
+    app.appendChild(el('div', { class: 'empty' },
+      el('p', {}, 'Nenhum material cadastrado ainda.'),
+      el('p', { style: 'font-size: 0.85rem; margin-top: 0.5rem; color: var(--ink-faint);' },
+        'Adicione seus PDFs na pasta /materiais/ do repositório GitHub e edite o arquivo materiais.json. Veja o README.'
+      )
+    ));
+    return;
+  }
+
+  // Stats
+  const prog = loadProgressoMateriais();
+  const estudados = Object.values(prog).filter(p => p.status === 'estudado').length;
+  const andamento = Object.values(prog).filter(p => p.status === 'em_andamento').length;
+  const naoIniciados = materiais.length - estudados - andamento;
+
+  app.appendChild(el('div', { class: 'stats' },
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(estudados)), el('div', { class: 'l' }, 'Estudados')),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(andamento)), el('div', { class: 'l' }, 'Em andamento')),
+    el('div', { class: 'stat' }, el('div', { class: 'n' }, String(naoIniciados)), el('div', { class: 'l' }, 'Não iniciados'))
+  ));
+
+  // Filtro por área
+  if (!state.matFiltro) state.matFiltro = 'todas';
+  const tabs = el('div', { class: 'tabs' });
+  ['todas', ...Object.keys(AREAS)].forEach(a => {
+    const lbl = a === 'todas' ? 'Todas' : AREAS[a].nome.split(' ').slice(-1)[0];
+    tabs.appendChild(el('button', {
+      class: 'tab' + (a === state.matFiltro ? ' active' : ''),
+      onclick: () => { state.matFiltro = a; render(); }
+    }, lbl));
+  });
+  app.appendChild(tabs);
+
+  // Agrupa por área
+  let lista = materiais;
+  if (state.matFiltro !== 'todas') lista = lista.filter(m => m.area === state.matFiltro);
+
+  if (lista.length === 0) {
+    app.appendChild(el('div', { class: 'empty' }, 'Nenhum material nesta área.'));
+    return;
+  }
+
+  // Renderiza cada material
+  const matBox = el('div', { class: 'mat-list' });
+  lista.forEach(m => {
+    const status = getStatusMaterial(m.id);
+    const item = el('div', { class: 'mat-item ' + status });
+
+    // Header do item
+    const head = el('div', { class: 'mat-head' });
+    head.appendChild(el('div', { class: 'mat-meta' },
+      `${AREAS[m.area]?.nome || m.area}${m.disciplina && DISCIPLINAS[m.disciplina] ? ' · ' + DISCIPLINAS[m.disciplina] : ''}${m.capitulo && LABELS_CAP[m.capitulo] ? ' · ' + LABELS_CAP[m.capitulo] : ''}`
+    ));
+    const badge = el('span', { class: 'mat-badge ' + status },
+      status === 'estudado' ? '✓ Estudado' : status === 'em_andamento' ? '◐ Em andamento' : '○ Não iniciado'
+    );
+    head.appendChild(badge);
+    item.appendChild(head);
+
+    // Título e descrição
+    item.appendChild(el('h3', { class: 'mat-titulo' }, m.titulo));
+    if (m.descricao) item.appendChild(el('p', { class: 'mat-desc' }, m.descricao));
+    if (m.paginas) item.appendChild(el('div', { class: 'mat-pg' }, `${m.paginas} páginas`));
+
+    // Ações
+    const acoes = el('div', { class: 'mat-acoes' });
+
+    // Abrir PDF
+    acoes.appendChild(el('a', {
+      class: 'btn primary',
+      href: './materiais/' + m.arquivo,
+      target: '_blank',
+      rel: 'noopener',
+      onclick: () => {
+        if (status === 'nao_iniciado') {
+          saveProgressoMaterial(m.id, 'em_andamento');
+          setTimeout(() => render(), 500);
+        }
+      }
+    }, 'Abrir PDF'));
+
+    // Marcar como estudado / desfazer
+    if (status === 'estudado') {
+      acoes.appendChild(el('button', {
+        class: 'btn',
+        onclick: () => { saveProgressoMaterial(m.id, 'em_andamento'); render(); }
+      }, 'Voltar pra "em andamento"'));
+    } else {
+      acoes.appendChild(el('button', {
+        class: 'btn',
+        onclick: () => { saveProgressoMaterial(m.id, 'estudado'); toast('Marcado como estudado.'); render(); }
+      }, '✓ Estudei'));
+    }
+
+    // Resetar
+    if (status !== 'nao_iniciado') {
+      acoes.appendChild(el('button', {
+        class: 'btn',
+        style: 'flex: 0; padding: 0.5rem 0.7rem;',
+        onclick: () => { saveProgressoMaterial(m.id, 'nao_iniciado'); render(); },
+        title: 'Resetar progresso'
+      }, '↺'));
+    }
+
+    item.appendChild(acoes);
+    matBox.appendChild(item);
+  });
+  app.appendChild(matBox);
+}
+
 function mostrarQuestaoCompleta(q) {
   const overlay = el('div', { class: 'modal-overlay', onclick: (e) => { if (e.target === overlay) overlay.remove(); } });
   const modal = el('div', { class: 'modal', style: 'max-width: 560px;' });
@@ -1386,6 +1547,7 @@ async function init() {
     document.getElementById('app').innerHTML = '<div class="empty">Erro ao carregar banco de questões. Verifique se <code>questoes.json</code> está acessível.</div>';
     return;
   }
+  await carregarMateriais();
   state.tela = 'home';
   render();
 }

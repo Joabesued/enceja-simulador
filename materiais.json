@@ -1,0 +1,28 @@
+{
+  "versao": "1.0",
+  "atualizado_em": "2026-04-29",
+  "notas_schema": {
+    "id": "identificador único, ex: HUM_HIS_republica-velha",
+    "titulo": "nome amigável que aparece na lista",
+    "area": "humanas | natureza | matematica | linguagens",
+    "disciplina": "historia | geografia | sociologia | filosofia | biologia | quimica | fisica | portugues | literatura | lingua_estrangeira | artes | educacao_fisica",
+    "capitulo": "código do capítulo (opcional, ajuda a vincular com banco de questões)",
+    "arquivo": "caminho relativo, ex: materiais/humanas/historia-republica-velha.pdf",
+    "paginas": "número de páginas (opcional, exibe no card)",
+    "fonte": "origem do material (ex: 'Apostila ENCCEJA INEP')",
+    "descricao": "1-2 linhas descrevendo o conteúdo (opcional)"
+  },
+  "materiais": [
+    {
+      "id": "HUM_HIS_exemplo",
+      "titulo": "EXEMPLO — Apostila de História do Brasil",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "tempo_espaco",
+      "arquivo": "materiais/humanas/exemplo-historia.pdf",
+      "paginas": 42,
+      "fonte": "Material de estudo do INEP",
+      "descricao": "Material de exemplo. Substitua pelos seus PDFs reais e edite este arquivo."
+    }
+  ]
+}

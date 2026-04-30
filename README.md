@@ -6,13 +6,19 @@ PWA offline para simulados do ENCCEJA 2026. Banco de questões em JSON, progress
 
 ```
 encceja-simulador/
-├── index.html       # estrutura
-├── app.js           # lógica (carregamento, simulado, relatórios)
-├── style.css        # estilo (editorial dark, serif)
-├── manifest.json    # PWA
-├── sw.js            # service worker (offline + cache)
-├── questoes.json    # BANCO DE QUESTÕES (onde você adiciona conteúdo)
-├── PROMPT-MESTRE-v2.md  # prompt pra gerar questões (pesquisa ENCCEJA embutida)
+├── index.html           # estrutura
+├── app.js               # lógica (carregamento, simulado, relatórios, materiais)
+├── style.css            # estilo (editorial dark, serif)
+├── manifest.json        # PWA
+├── sw.js                # service worker (offline + cache)
+├── questoes.json        # BANCO DE QUESTÕES (adicionar pelo painel Admin do app)
+├── materiais.json       # LISTA DE MATERIAIS DE ESTUDO (PDFs)
+├── materiais/           # PASTA com os PDFs (organize por área)
+│   ├── humanas/
+│   ├── natureza/
+│   ├── matematica/
+│   └── linguagens/
+├── PROMPT-MESTRE.md     # prompt pra gerar questões (pesquisa ENCCEJA embutida)
 └── README.md
 ```
 
@@ -90,6 +96,51 @@ As questões adicionadas pelo Admin ficam salvas no `localStorage` do navegador 
 ## Estado inicial
 
 6 questões de Humanas (as 3 da dose de 21/04 + 3 da dose de 22/04).
+
+## Materiais de estudo (PDFs)
+
+A aba "Materiais de estudo" na home mostra teus PDFs organizados por área, com marcação de progresso (não iniciado / em andamento / estudado).
+
+### Como adicionar PDFs
+
+1. Crie a pasta `materiais/` na raiz do repositório (e subpastas por área):
+   ```
+   materiais/
+   ├── humanas/
+   ├── natureza/
+   ├── matematica/
+   └── linguagens/
+   ```
+
+2. Suba cada PDF na subpasta correta. Ex: `materiais/humanas/historia-republica-velha.pdf`
+
+3. Edite `materiais.json` adicionando uma entrada por PDF:
+
+   ```json
+   {
+     "id": "HUM_HIS_republica-velha",
+     "titulo": "República Velha (1889-1930)",
+     "area": "humanas",
+     "disciplina": "historia",
+     "capitulo": "tempo_espaco",
+     "arquivo": "humanas/historia-republica-velha.pdf",
+     "paginas": 24,
+     "fonte": "Apostila ENCCEJA INEP",
+     "descricao": "Política do café-com-leite, coronelismo, Revolução de 1930."
+   }
+   ```
+
+   - **`id`** precisa ser único (ex: `AREA_DISC_slug`)
+   - **`arquivo`** é o caminho **dentro da pasta `materiais/`** (não inclua `materiais/` no início)
+   - **`disciplina`**, **`capitulo`**, **`paginas`**, **`fonte`** e **`descricao`** são opcionais
+
+4. Commit no GitHub. O app puxa automaticamente.
+
+### Cache offline
+
+Quando você abre um PDF pela primeira vez, ele fica salvo no cache do navegador. Depois disso, abre offline. Os PDFs ficam guardados até você limpar dados do site.
+
+**Atenção GitHub:** limite de 100 MB por arquivo. PDFs maiores precisam ser hospedados em outro lugar (Drive, Dropbox) e linkados via URL completa em `arquivo`.
 
 ## Notas técnicas
 

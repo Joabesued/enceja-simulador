@@ -669,6 +669,88 @@ h2.section-title span.count {
 }
 .back-btn:hover { background: var(--bg-elev); color: var(--ink); border-color: var(--ink-faint); }
 
+/* Materiais de estudo */
+.mat-list { display: flex; flex-direction: column; gap: 0.65rem; }
+
+.mat-item {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--ink-faint);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  transition: border-color 0.15s;
+}
+.mat-item.em_andamento { border-left-color: var(--gold); }
+.mat-item.estudado { border-left-color: var(--success); }
+
+.mat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.mat-meta {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.mat-badge {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  color: var(--ink-faint);
+  background: var(--bg);
+  white-space: nowrap;
+}
+.mat-badge.em_andamento { color: var(--gold); border-color: var(--gold-dim); }
+.mat-badge.estudado { color: var(--success); border-color: var(--success); }
+
+.mat-titulo {
+  font-family: var(--serif-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+  line-height: 1.25;
+}
+.mat-desc {
+  font-size: 0.92rem;
+  color: var(--ink-dim);
+  font-style: italic;
+  margin-bottom: 0.4rem;
+  line-height: 1.45;
+}
+.mat-pg {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.7rem;
+}
+
+.mat-acoes {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+  flex-wrap: wrap;
+}
+.mat-acoes .btn,
+.mat-acoes a.btn {
+  flex: 1;
+  min-width: 0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Hidden */
 .hidden { display: none !important; }
 
