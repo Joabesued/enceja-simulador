@@ -1,6 +1,6 @@
 {
   "versao": "2.0",
-  "atualizado_em": "2026-04-29",
+  "atualizado_em": "2026-04-30",
   "notas_schema": {
     "area": "humanas | natureza | matematica | linguagens",
     "disciplina": "campo opcional",
@@ -1458,6 +1458,1986 @@
       },
       "gabarito": "C",
       "comentario": "C está correta: o texto descreve 'disputas em torno da memória sobre o período militar'. A é inversão (não há consenso, há disputa). B contradiz a premissa do próprio debate (a memória é relevante, por isso se disputa sobre ela). D é erro factual (há iniciativas de homenagem a vítimas, não proibição)."
+    },
+    {
+      "id": "MAT_NUM_001",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Resolução de problemas envolvendo operações com números naturais e racionais",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Uma loja de eletrodomésticos anunciou uma promoção com 20% de desconto em todos os produtos. Dona Marta, que trabalha como auxiliar de limpeza, deseja comprar um ventilador que custa R$ 150,00."
+      },
+      "enunciado": "Com o desconto da promoção, Dona Marta pagará pelo ventilador o valor de",
+      "alternativas": {
+        "A": "R$ 120,00",
+        "B": "R$ 130,00",
+        "C": "R$ 135,00",
+        "D": "R$ 140,00"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 20% de R$ 150,00 = R$ 30,00 de desconto. Preço final: R$ 150,00 – R$ 30,00 = R$ 120,00. B (R$ 130,00) seria o resultado se o desconto fosse de ~13% — dado errado. C (R$ 135,00) seria desconto de 10% — resultado parcial (metade do desconto). D (R$ 140,00) seria desconto de ~7% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_002",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Carlos trabalha como porteiro em um condomínio e recebe um salário mensal de R$ 2.000,00. Ele destina 25% desse valor para o pagamento do aluguel."
+      },
+      "enunciado": "O valor que Carlos gasta mensalmente com aluguel é de",
+      "alternativas": {
+        "A": "R$ 500,00",
+        "B": "R$ 450,00",
+        "C": "R$ 400,00",
+        "D": "R$ 550,00"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 25% de R$ 2.000,00 = R$ 2.000,00 × 0,25 = R$ 500,00. C (R$ 400,00) corresponde a 20% — operação trocada. B (R$ 450,00) não corresponde a porcentagem redonda — dado errado. D (R$ 550,00) corresponde a 27,5% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_003",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma fábrica de móveis produz 120 cadeiras em 5 dias de trabalho, mantendo o mesmo ritmo de produção todos os dias. O gerente precisa calcular quantas cadeiras serão produzidas em 8 dias para atender a uma encomenda."
+      },
+      "enunciado": "Mantendo o mesmo ritmo de produção, a quantidade de cadeiras produzidas em 8 dias será de",
+      "alternativas": {
+        "A": "150",
+        "B": "168",
+        "C": "180",
+        "D": "192"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Regra de três direta — 120 cadeiras / 5 dias = 24 cadeiras/dia. Em 8 dias: 24 × 8 = 192. A (150) seria 120 + 30, como se produzisse apenas 10/dia nos dias extras — resultado parcial. B (168) seria 24 × 7 — uso do dado errado (7 dias em vez de 8). C (180) seria 24 × 7,5 — dado errado."
+    },
+    {
+      "id": "MAT_NUM_004",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Um supermercado oferece dois tipos de pagamento para uma cesta básica que custa R$ 400,00: à vista com 10% de desconto, ou parcelado em 4 vezes iguais sem desconto. Seu João, aposentado, quer saber quanto economizaria pagando à vista."
+      },
+      "enunciado": "A economia de Seu João ao pagar à vista será de",
+      "alternativas": {
+        "A": "R$ 40,00",
+        "B": "R$ 30,00",
+        "C": "R$ 20,00",
+        "D": "R$ 50,00"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 10% de R$ 400,00 = R$ 40,00 de economia. C (R$ 20,00) corresponde a 5% — resultado parcial (metade do desconto). B (R$ 30,00) corresponde a 7,5% — dado errado. D (R$ 50,00) corresponde a 12,5% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_005",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Na padaria onde trabalha, Dona Rosa prepara 60 pães a cada 2 horas. A dona da padaria pediu que ela calculasse quantos pães conseguirá preparar em 6 horas, mantendo o mesmo ritmo."
+      },
+      "enunciado": "Mantendo o ritmo, a quantidade de pães que Dona Rosa preparará em 6 horas é de",
+      "alternativas": {
+        "A": "180",
+        "B": "150",
+        "C": "120",
+        "D": "200"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: Regra de três direta — 60 pães / 2 horas = 30 pães/hora. Em 6 horas: 30 × 6 = 180. C (120) seria 30 × 4 — uso de dado errado (4 horas). B (150) seria 30 × 5 — uso de dado errado (5 horas). D (200) não corresponde a múltiplo exato de 30 — dado errado."
+    },
+    {
+      "id": "MAT_NUM_006",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Em uma empresa, 300 funcionários responderam a uma pesquisa interna sobre transporte. O resultado mostrou que 40% dos funcionários utilizam transporte público para ir ao trabalho."
+      },
+      "enunciado": "O número de funcionários que utilizam transporte público é",
+      "alternativas": {
+        "A": "120",
+        "B": "100",
+        "C": "80",
+        "D": "140"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 40% de 300 = 300 × 0,40 = 120 funcionários. C (80) seria resultado de 300 × 0,40 ÷ 1,5 — operação errada. B (100) seria 300 ÷ 3 — operação trocada (confunde 40% com 1/3). D (140) seria resultado se fossem 350 funcionários — dado errado."
+    },
+    {
+      "id": "MAT_NUM_007",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Uma loja de roupas oferece um desconto de 30% em um vestido que custava R$ 200,00. Após aplicar o desconto, a vendedora informou que, para pagamento no cartão de crédito, haverá um acréscimo de 10% sobre o valor já descontado."
+      },
+      "enunciado": "O valor final do vestido, pago no cartão de crédito, será de",
+      "alternativas": {
+        "A": "R$ 154,00",
+        "B": "R$ 148,00",
+        "C": "R$ 140,00",
+        "D": "R$ 160,00"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: Desconto de 30% em R$ 200,00 = R$ 60,00. Preço com desconto: R$ 140,00. Acréscimo de 10% sobre R$ 140,00 = R$ 14,00. Valor final: R$ 140,00 + R$ 14,00 = R$ 154,00. C (R$ 140,00) é resultado parcial (calculou apenas o desconto, esqueceu o acréscimo). B (R$ 148,00) aplicou acréscimo errado de ~5,7% — dado errado. D (R$ 160,00) fez 200 – 30% + 10% = 200 × 0,80 — erro de operação (aplicou desconto líquido de 20% sobre o original, não sequencial)."
+    },
+    {
+      "id": "MAT_NUM_008",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de receita culinária para evento comunitário",
+        "conteudo": "Uma receita de bolo para 8 pessoas utiliza 400 gramas de farinha de trigo. Dona Lúcia, que trabalha em uma escola, precisa preparar o mesmo bolo para servir 20 pessoas em uma festa junina."
+      },
+      "enunciado": "A quantidade de farinha de trigo que Dona Lúcia precisará para 20 pessoas é de",
+      "alternativas": {
+        "A": "1.000 gramas",
+        "B": "900 gramas",
+        "C": "800 gramas",
+        "D": "1.200 gramas"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: Regra de três direta — 400 g / 8 pessoas = 50 g/pessoa. Para 20 pessoas: 50 × 20 = 1.000 g. C (800 g) seria para 16 pessoas — dado errado. B (900 g) seria para 18 pessoas — dado errado. D (1.200 g) seria para 24 pessoas — dado errado."
+    },
+    {
+      "id": "MAT_NUM_009",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação escolar",
+        "conteudo": "Em uma turma de educação de jovens e adultos (EJA), há 40 alunos matriculados. Em um determinado dia, 10% dos alunos faltaram à aula."
+      },
+      "enunciado": "O número de alunos que faltaram à aula nesse dia foi de",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: 10% de 40 = 40 × 0,10 = 4 alunos. A (3) seria 7,5% — dado errado. C (5) seria 12,5% — dado errado. D (6) seria 15% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_010",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H4 - Resolução de problemas envolvendo proporcionalidade inversa",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma equipe de 4 pintores consegue pintar um muro em 6 dias. O dono da obra precisa que o serviço fique pronto mais rápido e está pensando em contratar mais pintores, todos com o mesmo ritmo de trabalho."
+      },
+      "enunciado": "Para que o muro seja pintado em 3 dias, o número total de pintores necessários será de",
+      "alternativas": {
+        "A": "6",
+        "B": "8",
+        "C": "10",
+        "D": "12"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Proporcionalidade inversa — mais pintores, menos dias. 4 pintores × 6 dias = 24 (total de trabalho). Para 3 dias: 24 ÷ 3 = 8 pintores. A (6) seria 24 ÷ 4 — uso do dado errado (dividiu pelo número original de pintores). C (10) fez 4 + 6 — operação trocada (somou em vez de calcular). D (12) fez 4 × 3 — operação trocada (multiplicou pintores por dias novos)."
+    },
+    {
+      "id": "MAT_NUM_011",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Pedro recebeu um aumento salarial de 10%, passando a ganhar R$ 2.200,00 por mês. Seu colega de trabalho, Anderson, quer saber qual era o salário de Pedro antes do aumento."
+      },
+      "enunciado": "O salário de Pedro antes do aumento era de",
+      "alternativas": {
+        "A": "R$ 1.980,00",
+        "B": "R$ 2.000,00",
+        "C": "R$ 2.020,00",
+        "D": "R$ 2.100,00"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Se o salário com 10% de aumento é R$ 2.200,00, então: salário original × 1,10 = R$ 2.200,00. Salário original = R$ 2.200,00 ÷ 1,10 = R$ 2.000,00. A (R$ 1.980,00) fez 2.200 – 220 — cálculo errado. C (R$ 2.020,00) é dado errado. D (R$ 2.100,00) fez 2.200 – 100 — operação errada (subtraiu valor fixo em vez de calcular porcentagem)."
+    },
+    {
+      "id": "MAT_NUM_012",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação de abastecimento doméstico",
+        "conteudo": "Uma família consome 3 litros de leite a cada 2 dias. A mãe da família quer saber quantos litros precisa comprar para uma semana completa (7 dias)."
+      },
+      "enunciado": "A quantidade de leite necessária para 7 dias é de",
+      "alternativas": {
+        "A": "10,5 litros",
+        "B": "9,5 litros",
+        "C": "9,0 litros",
+        "D": "12,0 litros"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: Regra de três direta — 3 litros / 2 dias = 1,5 litro/dia. Em 7 dias: 1,5 × 7 = 10,5 litros. C (9,0) seria 1,5 × 6 — dado errado (6 dias). B (9,5) não corresponde a cálculo exato — dado errado. D (12,0) seria 1,5 × 8 — dado errado (8 dias)."
+    },
+    {
+      "id": "MAT_NUM_013",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Em uma concessionária, um carro usado está sendo vendido por R$ 30.000,00. O vendedor ofereceu duas opções: pagamento à vista com 15% de desconto, ou financiamento com acréscimo de 20% sobre o valor anunciado."
+      },
+      "enunciado": "A diferença entre o valor financiado e o valor à vista é de",
+      "alternativas": {
+        "A": "R$ 9.000,00",
+        "B": "R$ 10.500,00",
+        "C": "R$ 11.500,00",
+        "D": "R$ 12.000,00"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: À vista: R$ 30.000 – 15% = R$ 30.000 – R$ 4.500 = R$ 25.500. Financiado: R$ 30.000 + 20% = R$ 30.000 + R$ 6.000 = R$ 36.000. Diferença: R$ 36.000 – R$ 25.500 = R$ 10.500. A (R$ 9.000) calculou apenas desconto + acréscimo sem considerar a base diferente — resultado parcial. C (R$ 11.500) é dado errado. D (R$ 12.000) fez 20% + 20% de R$ 30.000 — operação trocada."
+    },
+    {
+      "id": "MAT_NUM_014",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Resolução de problemas envolvendo operações com números naturais e racionais",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Em um estacionamento, há 200 vagas. No horário de pico, 75% das vagas estão ocupadas."
+      },
+      "enunciado": "O número de vagas ocupadas no horário de pico é de",
+      "alternativas": {
+        "A": "125",
+        "B": "140",
+        "C": "160",
+        "D": "150"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 75% de 200 = 200 × 0,75 = 150 vagas. A (125) seria 62,5% — dado errado. B (140) seria 70% — dado errado. C (160) seria 80% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_015",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um motorista de aplicativo percorre, em média, 180 quilômetros a cada 12 litros de combustível. Em uma viagem interestadual, ele precisará percorrer 300 quilômetros."
+      },
+      "enunciado": "A quantidade de combustível necessária para a viagem de 300 km é de",
+      "alternativas": {
+        "A": "15 litros",
+        "B": "18 litros",
+        "C": "22 litros",
+        "D": "20 litros"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Regra de três direta — 180 km / 12 litros = 15 km/litro. Para 300 km: 300 ÷ 15 = 20 litros. A (15) seria para 225 km — dado errado. B (18) seria para 270 km — dado errado. C (22) seria para 330 km — dado errado."
+    },
+    {
+      "id": "MAT_NUM_016",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma costureira compra tecido por R$ 40,00 o metro e confecciona saias que vende por R$ 100,00 cada uma. Cada saia utiliza 2 metros de tecido. Ela quer saber qual é o percentual de lucro sobre o custo do tecido em cada saia vendida."
+      },
+      "enunciado": "O percentual de lucro sobre o custo do tecido em cada saia é de",
+      "alternativas": {
+        "A": "20%",
+        "B": "25%",
+        "C": "50%",
+        "D": "100%"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Custo do tecido por saia: 2 × R$ 40,00 = R$ 80,00. Lucro: R$ 100,00 – R$ 80,00 = R$ 20,00. Percentual sobre o custo: (R$ 20,00 ÷ R$ 80,00) × 100 = 25%. A (20%) calcula o lucro sobre o preço de venda (20/100) em vez de sobre o custo — operação trocada. C (50%) seria se usasse 1 metro (custo de R$ 40, lucro de R$ 60, mas 60/40 ≠ 50) — dado errado. D (100%) seria se o custo fosse R$ 50 — dado errado."
+    },
+    {
+      "id": "MAT_NUM_017",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H4 - Resolução de problemas envolvendo proporcionalidade inversa",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma torneira enche um reservatório de água em 6 horas. O dono da casa instalou uma segunda torneira com a mesma vazão para encher o reservatório mais rapidamente."
+      },
+      "enunciado": "Com as duas torneiras funcionando ao mesmo tempo, o reservatório será cheio em",
+      "alternativas": {
+        "A": "2 horas",
+        "B": "3 horas",
+        "C": "4 horas",
+        "D": "5 horas"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Uma torneira enche em 6 horas. Duas torneiras iguais enchem o dobro do volume por hora, logo enchem em 6 ÷ 2 = 3 horas. A (2 horas) seria com 3 torneiras — dado errado. C (4 horas) seria com torneiras de vazão diferente — dado errado. D (5 horas) fez 6 – 1 — operação trocada."
+    },
+    {
+      "id": "MAT_NUM_018",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de pesquisa sobre hábitos alimentares",
+        "conteudo": "Em uma pesquisa realizada com 500 moradores de um bairro, verificou-se que 60% dos entrevistados consomem frutas diariamente."
+      },
+      "enunciado": "O número de moradores que consomem frutas diariamente é de",
+      "alternativas": {
+        "A": "250",
+        "B": "280",
+        "C": "320",
+        "D": "300"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 60% de 500 = 500 × 0,60 = 300 moradores. A (250) seria 50% — dado errado. B (280) seria 56% — dado errado. C (320) seria 64% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_019",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Em um canteiro de obras, uma equipe utiliza 150 sacos de cimento para construir um muro de 50 metros de comprimento. O engenheiro responsável precisa calcular quantos sacos serão necessários para construir outro muro, do mesmo tipo, com 80 metros de comprimento."
+      },
+      "enunciado": "A quantidade de sacos de cimento necessária para o muro de 80 metros é de",
+      "alternativas": {
+        "A": "200",
+        "B": "220",
+        "C": "260",
+        "D": "240"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Regra de três direta — 150 sacos / 50 m = 3 sacos/m. Para 80 m: 3 × 80 = 240 sacos. A (200) seria para ~67 metros — dado errado. B (220) seria para ~73 metros — dado errado. C (260) seria para ~87 metros — dado errado."
+    },
+    {
+      "id": "MAT_NUM_020",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Uma geladeira custa R$ 2.500,00. A loja oferece desconto de 12% para pagamento à vista. José, que trabalha como eletricista, juntou dinheiro e pretende aproveitar a oferta."
+      },
+      "enunciado": "O valor da geladeira com o desconto será de",
+      "alternativas": {
+        "A": "R$ 2.100,00",
+        "B": "R$ 2.150,00",
+        "C": "R$ 2.200,00",
+        "D": "R$ 2.250,00"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 12% de R$ 2.500 = R$ 300. Valor com desconto: R$ 2.500 – R$ 300 = R$ 2.200. A (R$ 2.100) seria desconto de 16% — dado errado. B (R$ 2.150) seria desconto de 14% — dado errado. D (R$ 2.250) seria desconto de 10% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_021",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano doméstico",
+        "conteudo": "Para limpar o chão de casa, Dona Ana mistura 1 tampa de desinfetante para cada 5 litros de água, conforme indicado no rótulo do produto. Ela precisa preparar uma mistura usando 20 litros de água."
+      },
+      "enunciado": "A quantidade de tampas de desinfetante que Dona Ana deve usar em 20 litros de água é de",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 1 tampa / 5 litros. Para 20 litros: 20 ÷ 5 = 4 tampas. A (2) seria para 10 litros — dado errado. B (3) seria para 15 litros — dado errado. D (5) seria para 25 litros — dado errado."
+    },
+    {
+      "id": "MAT_NUM_022",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um restaurante popular serve, em média, 400 refeições por dia. Após uma reforma e divulgação nas redes sociais, o número de refeições aumentou 30%. Com o novo movimento, o dono precisa calcular a nova quantidade de refeições diárias e o total semanal (6 dias de funcionamento)."
+      },
+      "enunciado": "O total de refeições servidas por semana, após o aumento, é de",
+      "alternativas": {
+        "A": "2.400",
+        "B": "2.880",
+        "C": "3.120",
+        "D": "3.360"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: Aumento de 30%: 400 × 1,30 = 520 refeições/dia. Total semanal (6 dias): 520 × 6 = 3.120. A (2.400) é 400 × 6 — resultado parcial (calculou o semanal sem o aumento). B (2.880) fez 400 × 1,20 × 6 — aplicou aumento de 20% em vez de 30% — dado errado. D (3.360) fez 400 × 1,20 × 7 — usou 7 dias e 20% — dois erros combinados."
+    },
+    {
+      "id": "MAT_NUM_023",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H1 - Resolução de problemas envolvendo operações com números naturais e racionais",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Fernanda trabalha como cabeleireira e atende, em média, 5 clientes por dia. Ela cobra R$ 60,00 por corte. Em um mês com 24 dias úteis de trabalho, Fernanda quer saber sua receita total."
+      },
+      "enunciado": "A receita mensal de Fernanda, considerando 24 dias úteis, é de",
+      "alternativas": {
+        "A": "R$ 6.000,00",
+        "B": "R$ 6.600,00",
+        "C": "R$ 7.000,00",
+        "D": "R$ 7.200,00"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 5 clientes × R$ 60,00 = R$ 300,00/dia. Em 24 dias: R$ 300,00 × 24 = R$ 7.200,00. A (R$ 6.000) seria R$ 300 × 20 — dado errado (20 dias). B (R$ 6.600) seria R$ 300 × 22 — dado errado (22 dias). C (R$ 7.000) não é múltiplo exato de R$ 300 — dado errado."
+    },
+    {
+      "id": "MAT_NUM_024",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Em uma farmácia, um medicamento custa R$ 80,00. O programa Farmácia Popular oferece desconto de 50% nesse medicamento para beneficiários cadastrados."
+      },
+      "enunciado": "O valor que o beneficiário pagará pelo medicamento com o desconto é de",
+      "alternativas": {
+        "A": "R$ 30,00",
+        "B": "R$ 35,00",
+        "C": "R$ 40,00",
+        "D": "R$ 45,00"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 50% de R$ 80,00 = R$ 40,00. A (R$ 30,00) seria desconto de 62,5% — dado errado. B (R$ 35,00) seria desconto de ~56% — dado errado. D (R$ 45,00) seria desconto de ~44% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_025",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Em uma propriedade rural, um trabalhador colhe 90 quilos de café em 3 horas de trabalho. O patrão precisa saber quantos quilos o mesmo trabalhador colherá durante uma jornada completa de 8 horas, mantendo o mesmo ritmo."
+      },
+      "enunciado": "A quantidade de café colhida em 8 horas de trabalho será de",
+      "alternativas": {
+        "A": "200 quilos",
+        "B": "210 quilos",
+        "C": "230 quilos",
+        "D": "240 quilos"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 90 kg / 3 horas = 30 kg/hora. Em 8 horas: 30 × 8 = 240 kg. A (200 kg) seria ~6,7 horas — dado errado. B (210 kg) seria 7 horas — dado errado. C (230 kg) não é múltiplo exato de 30 — dado errado."
+    },
+    {
+      "id": "MAT_NUM_026",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "O salário de Marcos é de R$ 3.000,00 por mês. Ele distribui seus gastos da seguinte forma: 30% com aluguel, 20% com alimentação, 10% com transporte e 15% com contas de água, luz e internet. O restante é poupado."
+      },
+      "enunciado": "O valor mensal que Marcos consegue poupar é de",
+      "alternativas": {
+        "A": "R$ 600,00",
+        "B": "R$ 700,00",
+        "C": "R$ 750,00",
+        "D": "R$ 800,00"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: Total de gastos: 30% + 20% + 10% + 15% = 75%. Poupança: 100% – 75% = 25%. 25% de R$ 3.000 = R$ 750,00. A (R$ 600) seria 20% — esqueceu de somar corretamente os gastos. B (R$ 700) é dado errado. D (R$ 800) fez 3.000 – (900 + 600 + 300 + 400) — somou contas erradas."
+    },
+    {
+      "id": "MAT_NUM_027",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Resolução de problemas envolvendo proporcionalidade direta",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma costureira cobra R$ 45,00 para fazer a bainha de 3 calças. Uma cliente trouxe 5 calças para o mesmo serviço e quer saber o valor total."
+      },
+      "enunciado": "O valor que a cliente pagará pelas 5 calças é de",
+      "alternativas": {
+        "A": "R$ 60,00",
+        "B": "R$ 75,00",
+        "C": "R$ 80,00",
+        "D": "R$ 90,00"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: R$ 45 / 3 calças = R$ 15 por calça. Para 5 calças: R$ 15 × 5 = R$ 75,00. A (R$ 60) seria 4 calças — dado errado. C (R$ 80) é dado errado. D (R$ 90) seria 6 calças ou R$ 45 × 2 — operação trocada."
+    },
+    {
+      "id": "MAT_NUM_028",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano escolar",
+        "conteudo": "Em uma prova com 50 questões, um estudante da EJA acertou 80% das questões."
+      },
+      "enunciado": "O número de questões que o estudante acertou foi de",
+      "alternativas": {
+        "A": "35",
+        "B": "38",
+        "C": "40",
+        "D": "42"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 80% de 50 = 50 × 0,80 = 40 questões. A (35) seria 70% — dado errado. B (38) seria 76% — dado errado. D (42) seria 84% — dado errado."
+    },
+    {
+      "id": "MAT_NUM_029",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H4 - Resolução de problemas envolvendo proporcionalidade inversa",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma empresa de mudanças possui caminhões de diferentes capacidades. Um caminhão pequeno faz 6 viagens para transportar toda a carga de um apartamento. A empresa também dispõe de um caminhão grande, com o dobro da capacidade do pequeno."
+      },
+      "enunciado": "O número de viagens necessárias usando o caminhão grande é de",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Proporcionalidade inversa — caminhão com o dobro da capacidade faz metade das viagens: 6 ÷ 2 = 3 viagens. A (2) seria com o triplo da capacidade — dado errado. C (4) seria com 1,5× a capacidade — dado errado. D (5) fez 6 – 1 — operação trocada."
+    },
+    {
+      "id": "MAT_NUM_030",
+      "area": "matematica",
+      "disciplina": "numeros",
+      "capitulo": "porcentagem_regra_de_tres_proporcao",
+      "dificuldade": "media",
+      "habilidade_inep": "H2 - Utilização de porcentagem em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de dados sobre saneamento no Brasil (IBGE)",
+        "conteudo": "Segundo dados adaptados do IBGE, em um município com 80.000 habitantes, 35% da população ainda não tem acesso à rede de esgoto. A prefeitura lançou um programa para ampliar o saneamento básico na cidade."
+      },
+      "enunciado": "O número de habitantes desse município que não têm acesso à rede de esgoto é de",
+      "alternativas": {
+        "A": "24.000",
+        "B": "26.000",
+        "C": "28.000",
+        "D": "30.000"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 35% de 80.000 = 80.000 × 0,35 = 28.000 habitantes. A (24.000) seria 30% — dado errado. B (26.000) seria 32,5% — dado errado. D (30.000) seria 37,5% — dado errado."
+    },
+    {
+      "id": "NAT_BIO_001",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre dengue",
+        "conteudo": "O mosquito Aedes aegypti é o principal transmissor da dengue, zika e chikungunya no Brasil. A fêmea deposita seus ovos em recipientes com água parada e limpa, como pneus velhos, vasos de planta, caixas d'água destampadas e garrafas abandonadas. Os ovos podem resistir por meses em ambiente seco, eclodindo quando entram em contato com a água."
+      },
+      "enunciado": "Com base no texto, uma medida eficaz para prevenir a proliferação do Aedes aegypti é",
+      "alternativas": {
+        "A": "eliminar recipientes que possam acumular água parada no ambiente doméstico.",
+        "B": "aplicar inseticida diretamente nos rios e lagos próximos às residências.",
+        "C": "manter os reservatórios de água abertos para facilitar a evaporação natural.",
+        "D": "espalhar sal nos terrenos baldios para impedir a reprodução de todos os insetos."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto indica que o mosquito deposita ovos em recipientes com água parada — eliminar esses recipientes impede a reprodução. B é apelo ao senso comum (o Aedes não se reproduz em rios e lagos, e sim em recipientes pequenos com água parada). C contradiz o texto (caixas d'água destampadas favorecem a proliferação, devem ser tampadas). D é generalização indevida e apelo ao senso comum (sal não é método de controle do Aedes)."
+    },
+    {
+      "id": "NAT_BIO_002",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H22 - Compreensão do funcionamento do sistema de saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre o SUS",
+        "conteudo": "O Sistema Único de Saúde (SUS), criado pela Constituição de 1988, é baseado em três princípios fundamentais: universalidade (atendimento a todas as pessoas), equidade (priorização de quem mais precisa) e integralidade (atendimento completo, da prevenção ao tratamento). O SUS é responsável por campanhas de vacinação, atendimento de emergência, transplantes, distribuição de medicamentos e programas de saúde da família."
+      },
+      "enunciado": "O princípio da equidade do SUS, mencionado no texto, significa que o sistema deve",
+      "alternativas": {
+        "A": "oferecer o mesmo tratamento a todas as pessoas, independentemente de suas necessidades.",
+        "B": "atender exclusivamente a população de baixa renda, excluindo os demais cidadãos.",
+        "C": "restringir o acesso a serviços de alta complexidade para reduzir custos públicos.",
+        "D": "priorizar o atendimento de quem apresenta maior necessidade de cuidados."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: equidade é 'priorização de quem mais precisa', conforme o texto. A confunde equidade com igualdade (tratar igual vs. tratar conforme a necessidade) — confusão conceitual entre conceitos próximos. B contradiz o princípio de universalidade (o SUS atende a todos). C não tem respaldo no texto e contradiz o princípio de integralidade."
+    },
+    {
+      "id": "NAT_BIO_003",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H23 - Compreensão dos mecanismos de prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Programa Nacional de Imunizações (PNI)",
+        "conteudo": "As vacinas funcionam estimulando o sistema imunológico a produzir defesas contra agentes causadores de doenças, sem que a pessoa precise adoecer. Quando uma pessoa vacinada entra em contato com o microrganismo real, seu corpo já possui anticorpos prontos para combatê-lo de forma rápida e eficiente."
+      },
+      "enunciado": "De acordo com o texto, as vacinas protegem o organismo porque",
+      "alternativas": {
+        "A": "estimulam o sistema imunológico a produzir defesas antes do contato com a doença.",
+        "B": "eliminam diretamente os microrganismos presentes no ambiente ao redor da pessoa.",
+        "C": "substituem os medicamentos necessários para o tratamento de infecções já instaladas.",
+        "D": "fortalecem os músculos e os ossos, tornando o corpo mais resistente a doenças."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma que as vacinas estimulam o sistema imunológico a produzir defesas 'sem que a pessoa precise adoecer'. B é apelo ao senso comum (vacinas atuam no corpo, não no ambiente). C é confusão conceitual (vacinas são preventivas, não curativas — não substituem medicamentos). D é apelo ao senso comum (vacinas atuam no sistema imunológico, não em músculos e ossos)."
+    },
+    {
+      "id": "NAT_BIO_004",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H24 - Relação entre saneamento e qualidade de vida",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de dados do Sistema Nacional de Informações sobre Saneamento (SNIS)",
+        "conteudo": "O saneamento básico compreende o abastecimento de água tratada, a coleta e o tratamento de esgoto, a limpeza urbana e o manejo de resíduos sólidos, e a drenagem de águas pluviais. No Brasil, milhões de pessoas ainda não têm acesso à rede de esgoto, o que contribui para a contaminação de rios e lençóis freáticos e para a disseminação de doenças como diarreia, hepatite A e leptospirose."
+      },
+      "enunciado": "A relação entre falta de saneamento e disseminação de doenças, conforme o texto, ocorre porque",
+      "alternativas": {
+        "A": "a ausência de coleta de esgoto contamina fontes de água utilizadas pela população.",
+        "B": "o excesso de água tratada nas cidades favorece a reprodução de bactérias patogênicas.",
+        "C": "a drenagem de águas pluviais é a única responsável pela transmissão de doenças infecciosas.",
+        "D": "o manejo de resíduos sólidos elimina completamente os riscos de contaminação hídrica."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma que a falta de esgoto contribui para 'contaminação de rios e lençóis freáticos' e disseminação de doenças. B é inversão causa-efeito (água tratada previne doenças, não favorece bactérias). C contém 'única responsável' — generalização indevida. D contém 'completamente' — generalização indevida."
+    },
+    {
+      "id": "NAT_BIO_005",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre imunidade coletiva",
+        "conteudo": "A imunidade coletiva, também chamada de 'imunidade de rebanho', ocorre quando uma parcela significativa da população está vacinada contra determinada doença. Quando isso acontece, a circulação do agente infeccioso é reduzida, o que protege indiretamente pessoas que não podem ser vacinadas, como recém-nascidos, idosos debilitados e indivíduos com deficiências no sistema imunológico."
+      },
+      "enunciado": "A importância da imunidade coletiva, conforme descrita no texto, está no fato de que ela",
+      "alternativas": {
+        "A": "torna desnecessária a vacinação individual, pois o ambiente se torna naturalmente livre de doenças.",
+        "B": "protege apenas as pessoas vacinadas, sem qualquer benefício para os demais membros da comunidade.",
+        "C": "garante que nenhuma pessoa vacinada desenvolverá a doença em qualquer circunstância.",
+        "D": "reduz a circulação do agente infeccioso, protegendo indiretamente quem não pode ser vacinado."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que a imunidade coletiva 'protege indiretamente pessoas que não podem ser vacinadas' ao reduzir a circulação do agente. A é inversão causa-efeito (a imunidade coletiva depende da vacinação individual, não a substitui). B contradiz o texto (há proteção indireta para não vacinados). C contém 'nenhuma' e 'qualquer' — generalização indevida."
+    },
+    {
+      "id": "NAT_BIO_006",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H25 - Identificação de agentes causadores de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre doenças de veiculação hídrica",
+        "conteudo": "A leptospirose é uma doença causada por uma bactéria presente na urina de ratos. Em períodos de enchente, a água contaminada invade casas e ruas, facilitando o contato da bactéria com a pele humana, especialmente em regiões com saneamento precário. Os principais sintomas são febre alta, dor de cabeça, dores musculares e, em casos graves, insuficiência renal."
+      },
+      "enunciado": "De acordo com o texto, o risco de leptospirose aumenta em períodos de enchente porque",
+      "alternativas": {
+        "A": "a água das enchentes transporta a bactéria presente na urina de ratos para o contato com as pessoas.",
+        "B": "o excesso de chuva elimina os ratos das cidades, aumentando a concentração de bactérias no solo.",
+        "C": "a leptospirose é transmitida pela picada de mosquitos que se proliferam após as enchentes.",
+        "D": "as enchentes aumentam a temperatura da água, favorecendo a reprodução de vírus causadores da doença."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto explica que a água contaminada com urina de rato 'invade casas e ruas, facilitando o contato da bactéria com a pele humana'. B é inversão causa-efeito (as enchentes não eliminam os ratos). C é confusão conceitual (leptospirose é transmitida pela água, não por mosquitos). D contém dois erros: confusão conceitual (a doença é causada por bactéria, não vírus) e apelo ao senso comum (temperatura não é o fator determinante)."
+    },
+    {
+      "id": "NAT_BIO_007",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre arboviroses",
+        "conteudo": "Dengue, zika e chikungunya são doenças causadas por vírus diferentes, mas transmitidas pelo mesmo vetor: o mosquito Aedes aegypti. A dengue pode se manifestar de forma leve ou grave (dengue hemorrágica). A zika ganhou destaque por sua associação com casos de microcefalia em recém-nascidos de mães infectadas durante a gestação. A chikungunya é conhecida por causar dores intensas nas articulações que podem persistir por meses."
+      },
+      "enunciado": "Um aspecto comum às três doenças mencionadas no texto é",
+      "alternativas": {
+        "A": "a transmissão por meio do contato direto entre pessoas infectadas.",
+        "B": "o fato de serem causadas pelo mesmo tipo de vírus, com sintomas idênticos.",
+        "C": "a existência de vacinas disponíveis para as três doenças no calendário nacional.",
+        "D": "a possibilidade de prevenção por meio do combate ao mosquito transmissor."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: como as três são transmitidas pelo mesmo vetor (Aedes aegypti), combater o mosquito previne todas. A é confusão conceitual (a transmissão é pelo mosquito, não por contato direto). B contradiz o texto ('vírus diferentes' e sintomas distintos). C é apelo ao senso comum (nem todas possuem vacina disponível no calendário nacional)."
+    },
+    {
+      "id": "NAT_BIO_008",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H24 - Relação entre saneamento e qualidade de vida",
+      "texto_base": {
+        "tipo": "grafico_tabela",
+        "fonte": "Adaptado de dados do Ministério da Saúde sobre internações por doenças diarreicas",
+        "conteudo": "Uma tabela mostra a relação entre cobertura de saneamento básico e internações por doenças diarreicas em quatro municípios fictícios: Município A — 90% de saneamento, 5 internações por mil habitantes; Município B — 70% de saneamento, 12 internações por mil habitantes; Município C — 50% de saneamento, 22 internações por mil habitantes; Município D — 30% de saneamento, 38 internações por mil habitantes."
+      },
+      "enunciado": "A análise dos dados apresentados permite concluir que",
+      "alternativas": {
+        "A": "não existe relação entre cobertura de saneamento e número de internações por diarreia.",
+        "B": "o município com menor cobertura de saneamento apresenta a menor taxa de internações.",
+        "C": "a taxa de internações depende exclusivamente do número de hospitais disponíveis no município.",
+        "D": "quanto maior a cobertura de saneamento, menor o número de internações por doenças diarreicas."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: os dados mostram relação inversa — mais saneamento, menos internações (90% → 5; 30% → 38). A contradiz diretamente os dados (há relação clara). B é inversão (o município com 30% tem a maior taxa, 38 por mil). C é generalização indevida (os dados mostram relação com saneamento, não com hospitais)."
+    },
+    {
+      "id": "NAT_BIO_009",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H23 - Compreensão dos mecanismos de prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre higiene alimentar",
+        "conteudo": "Lavar as mãos com água e sabão antes de preparar alimentos e após usar o banheiro é uma das medidas mais simples e eficazes para prevenir doenças infecciosas. Essa prática reduz significativamente a transmissão de bactérias, vírus e parasitas que causam diarreia, hepatite A e outras infecções intestinais."
+      },
+      "enunciado": "A lavagem das mãos previne doenças porque",
+      "alternativas": {
+        "A": "remove microrganismos que podem ser transmitidos ao preparar alimentos ou tocar superfícies.",
+        "B": "fortalece o sistema imunológico ao estimular a produção de anticorpos pela pele.",
+        "C": "substitui a necessidade de vacinação contra doenças infecciosas intestinais.",
+        "D": "elimina permanentemente todas as bactérias do corpo humano."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: lavar as mãos remove bactérias, vírus e parasitas que causam infecções — conforme o texto. B é apelo ao senso comum (a lavagem remove microrganismos, não estimula anticorpos). C é confusão conceitual (higiene complementa, não substitui vacinação). D contém 'permanentemente' e 'todas' — generalização indevida."
+    },
+    {
+      "id": "NAT_BIO_010",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H25 - Identificação de agentes causadores de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre resistência bacteriana a antibióticos",
+        "conteudo": "O uso inadequado de antibióticos — como a automedicação, a interrupção do tratamento antes do prazo e o uso para tratar infecções virais — contribui para o surgimento de bactérias resistentes. Quando uma pessoa toma antibiótico sem necessidade ou interrompe o tratamento precocemente, as bactérias mais resistentes sobrevivem e se multiplicam, tornando futuras infecções mais difíceis de tratar."
+      },
+      "enunciado": "De acordo com o texto, a resistência bacteriana a antibióticos é agravada quando o paciente",
+      "alternativas": {
+        "A": "utiliza antibióticos para combater infecções causadas por vírus, sem orientação profissional.",
+        "B": "completa o tratamento conforme a prescrição médica, eliminando todas as bactérias sensíveis.",
+        "C": "procura atendimento médico antes de iniciar qualquer tipo de medicação por conta própria.",
+        "D": "armazena os medicamentos em local adequado conforme as instruções da bula."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto cita como causa de resistência o 'uso para tratar infecções virais' (antibióticos não combatem vírus). B descreve comportamento correto (completar tratamento), não agravante. C descreve comportamento correto (buscar orientação médica). D é irrelevante (armazenamento adequado não está relacionado à resistência bacteriana)."
+    },
+    {
+      "id": "NAT_BIO_011",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H22 - Compreensão do funcionamento do sistema de saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre Estratégia Saúde da Família",
+        "conteudo": "A Estratégia Saúde da Família (ESF) é um programa do SUS que leva equipes de saúde compostas por médico, enfermeiro, técnico de enfermagem e agentes comunitários para atuar diretamente nas comunidades. Esses profissionais realizam visitas domiciliares, acompanham gestantes e crianças, orientam sobre prevenção de doenças e encaminham pacientes para tratamentos especializados quando necessário."
+      },
+      "enunciado": "A Estratégia Saúde da Família, conforme o texto, contribui para a saúde pública ao",
+      "alternativas": {
+        "A": "concentrar o atendimento em grandes hospitais localizados nos centros das cidades.",
+        "B": "substituir completamente os hospitais e pronto-socorros no atendimento à população.",
+        "C": "restringir o atendimento médico a consultas agendadas nas unidades básicas de saúde.",
+        "D": "levar profissionais de saúde diretamente às comunidades com ações de prevenção e acompanhamento."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto descreve equipes que atuam 'diretamente nas comunidades' com visitas, acompanhamento e orientação preventiva. A contradiz o texto (a ESF descentraliza o atendimento, levando-o às comunidades). B contém 'completamente' — generalização indevida (a ESF complementa, não substitui hospitais). C é generalização indevida (a ESF inclui visitas domiciliares, não se restringe a consultas agendadas)."
+    },
+    {
+      "id": "NAT_BIO_012",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H24 - Relação entre saneamento e qualidade de vida",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre tratamento de água para consumo humano",
+        "conteudo": "O tratamento de água para consumo humano envolve diversas etapas: captação em rios ou poços, coagulação e floculação (agrupamento de impurezas), decantação (separação por gravidade), filtração (remoção de partículas menores) e desinfecção com cloro (eliminação de microrganismos). Após o tratamento, a água é distribuída para as residências pela rede de abastecimento."
+      },
+      "enunciado": "A etapa de desinfecção com cloro no tratamento da água tem como objetivo",
+      "alternativas": {
+        "A": "dar cor e sabor agradáveis à água que será distribuída à população.",
+        "B": "agrupar as impurezas presentes na água para facilitar sua remoção.",
+        "C": "remover partículas sólidas visíveis que estejam presentes na água captada.",
+        "D": "eliminar microrganismos que podem causar doenças na população."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto define desinfecção com cloro como 'eliminação de microrganismos'. A é apelo ao senso comum (cloro não tem função estética). B descreve coagulação/floculação, não desinfecção — confusão conceitual. C descreve filtração, não desinfecção — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_013",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre dengue",
+        "conteudo": "A dengue possui quatro sorotipos diferentes (DENV-1, DENV-2, DENV-3 e DENV-4). Quando uma pessoa é infectada por um sorotipo, ela desenvolve imunidade permanente contra aquele sorotipo específico, mas continua suscetível aos outros três. Infecções subsequentes por sorotipos diferentes aumentam o risco de desenvolver a forma grave da doença, a dengue hemorrágica."
+      },
+      "enunciado": "O risco de dengue hemorrágica aumenta quando a pessoa",
+      "alternativas": {
+        "A": "é infectada pela primeira vez por qualquer um dos quatro sorotipos do vírus.",
+        "B": "toma a vacina contra dengue e, em seguida, é picada pelo mosquito transmissor.",
+        "C": "utiliza repelente de forma contínua durante os períodos de maior incidência da doença.",
+        "D": "é infectada por um sorotipo diferente daquele que causou uma infecção anterior."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que 'infecções subsequentes por sorotipos diferentes aumentam o risco'. A contradiz o texto (o risco maior está na reinfecção, não na primeira infecção). B não tem respaldo no texto (confusão conceitual). C descreve prevenção, não fator de risco — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_014",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H26 - Compreensão de métodos científicos e procedimentos de segurança em saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre vigilância epidemiológica",
+        "conteudo": "A vigilância epidemiológica é o conjunto de ações que permite acompanhar o comportamento de doenças na população. Ela inclui a notificação obrigatória de casos (quando profissionais de saúde informam às autoridades sobre diagnósticos de certas doenças), a investigação de surtos, a análise de dados e a tomada de decisões sobre medidas de controle. Doenças como dengue, tuberculose, sarampo e COVID-19 são de notificação compulsória no Brasil."
+      },
+      "enunciado": "A notificação compulsória de doenças é importante para a saúde pública porque permite",
+      "alternativas": {
+        "A": "identificar precocemente surtos e adotar medidas de controle antes que se agravem.",
+        "B": "punir os profissionais de saúde que atenderem pacientes com doenças infecciosas.",
+        "C": "garantir que os pacientes diagnosticados sejam isolados permanentemente da sociedade.",
+        "D": "eliminar a necessidade de campanhas de vacinação nas regiões afetadas por surtos."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto descreve que a vigilância inclui 'investigação de surtos' e 'tomada de decisões sobre medidas de controle'. B é apelo ao senso comum equivocado (a notificação é ferramenta epidemiológica, não punitiva). C contém 'permanentemente' — generalização indevida. D é inversão causa-efeito (surtos geralmente intensificam, não eliminam, campanhas de vacinação)."
+    },
+    {
+      "id": "NAT_BIO_015",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H23 - Compreensão dos mecanismos de prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Programa Nacional de Imunizações sobre o calendário vacinal",
+        "conteudo": "O calendário nacional de vacinação estabelece as vacinas que devem ser aplicadas em cada faixa etária, desde o nascimento até a terceira idade. As crianças recebem vacinas contra doenças como poliomielite, sarampo, caxumba e rubéola. Os adultos devem manter em dia a vacina contra tétano, hepatite B e febre amarela, entre outras. A vacinação é oferecida gratuitamente pelo SUS nas Unidades Básicas de Saúde."
+      },
+      "enunciado": "De acordo com o texto, o calendário nacional de vacinação",
+      "alternativas": {
+        "A": "determina vacinas exclusivamente para crianças até os 5 anos de idade.",
+        "B": "é restrito a pessoas que possuem plano de saúde particular.",
+        "C": "abrange diferentes faixas etárias, do nascimento à terceira idade, com acesso gratuito pelo SUS.",
+        "D": "exige pagamento de taxa para a aplicação de vacinas em adultos nas unidades de saúde."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que o calendário vai 'desde o nascimento até a terceira idade' e que é 'oferecida gratuitamente pelo SUS'. A contém 'exclusivamente' — contradiz o texto (adultos também são vacinados). B contradiz o texto (o SUS oferece gratuitamente). D contradiz o texto ('oferecida gratuitamente')."
+    },
+    {
+      "id": "NAT_BIO_016",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H25 - Identificação de agentes causadores de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre doenças parasitárias no Brasil",
+        "conteudo": "A esquistossomose, conhecida popularmente como 'barriga d'água', é causada por um verme que vive em caramujos de água doce. A contaminação ocorre quando a pessoa entra em contato com água de rios, lagos ou lagoas onde existem caramujos infectados. As larvas do verme penetram pela pele e se instalam no fígado, causando inflamação e aumento do abdômen. A doença está associada à falta de saneamento básico e ao despejo de esgoto em corpos d'água."
+      },
+      "enunciado": "A prevenção da esquistossomose, com base no texto, depende de ações como",
+      "alternativas": {
+        "A": "vacinação em massa da população que vive próxima a rios e lagos contaminados.",
+        "B": "uso de antibióticos preventivos antes de entrar em contato com água de rios.",
+        "C": "investimento em saneamento básico e tratamento do esgoto antes de seu despejo em corpos d'água.",
+        "D": "aplicação de inseticidas nos rios para eliminar os caramujos transmissores da doença."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto associa a doença à 'falta de saneamento básico e ao despejo de esgoto' — logo, saneamento e tratamento de esgoto são medidas preventivas. A é confusão conceitual (não existe vacina contra esquistossomose para uso em massa). B é confusão conceitual (antibióticos combatem bactérias, não vermes — a esquistossomose é parasitária). D é confusão conceitual (caramujos não são insetos, e inseticidas atuam sobre insetos)."
+    },
+    {
+      "id": "NAT_BIO_017",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H22 - Compreensão do funcionamento do sistema de saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre atenção básica",
+        "conteudo": "O SUS organiza seus serviços em três níveis de complexidade: atenção básica (postos e unidades de saúde — prevenção, consultas e acompanhamento), média complexidade (exames especializados, cirurgias ambulatoriais) e alta complexidade (internações, UTI, transplantes, tratamento de câncer). A atenção básica é considerada a porta de entrada do sistema e deve resolver cerca de 80% das demandas de saúde da população."
+      },
+      "enunciado": "A organização do SUS em níveis de complexidade, conforme o texto, tem como objetivo",
+      "alternativas": {
+        "A": "direcionar todos os pacientes diretamente para hospitais de alta complexidade.",
+        "B": "restringir o acesso a exames especializados e tratamentos de alto custo.",
+        "C": "organizar o atendimento de forma que a maioria das demandas seja resolvida na atenção básica.",
+        "D": "substituir os postos de saúde por hospitais de grande porte em todas as cidades."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a atenção básica 'deve resolver cerca de 80% das demandas'. A contradiz a lógica do sistema (a porta de entrada é a atenção básica, não a alta complexidade). B não tem respaldo no texto (o objetivo é organizar, não restringir). D contradiz o texto (os postos de saúde são mantidos como porta de entrada)."
+    },
+    {
+      "id": "NAT_BIO_018",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material educativo sobre combate à dengue",
+        "conteudo": "Em uma comunidade, agentes de saúde realizaram uma campanha de combate à dengue. Eles orientaram os moradores a tampar caixas d'água, eliminar pneus velhos dos quintais, colocar areia nos pratos de vasos de plantas, recolher garrafas e latas abandonadas e manter calhas limpas. Todas essas ações visam eliminar possíveis criadouros do mosquito Aedes aegypti."
+      },
+      "enunciado": "As ações descritas no texto têm em comum o objetivo de",
+      "alternativas": {
+        "A": "eliminar os locais onde o mosquito pode depositar seus ovos e se reproduzir.",
+        "B": "matar os mosquitos adultos por meio de substâncias químicas aplicadas nos recipientes.",
+        "C": "impedir que a água da chuva chegue ao solo e se acumule em terrenos baldios.",
+        "D": "aumentar a umidade do ambiente para dificultar o voo do mosquito transmissor."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: todas as ações (tampar, eliminar, colocar areia) visam 'eliminar possíveis criadouros do mosquito'. B é confusão conceitual (as ações eliminam criadouros, não aplicam substâncias químicas). C é apelo ao senso comum (o objetivo não é impedir a chegada da chuva ao solo). D é apelo ao senso comum (não há relação entre umidade e dificuldade de voo)."
+    },
+    {
+      "id": "NAT_BIO_019",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H23 - Compreensão dos mecanismos de prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre erradicação da varíola",
+        "conteudo": "A varíola foi a primeira doença erradicada da história da humanidade, graças a uma campanha global de vacinação coordenada pela Organização Mundial da Saúde (OMS). O último caso natural foi registrado em 1977, na Somália. A erradicação foi possível porque o vírus da varíola só infectava seres humanos, não possuía reservatório animal, e a vacina disponível era altamente eficaz e de fácil aplicação."
+      },
+      "enunciado": "A erradicação da varíola foi possível, entre outros fatores, porque",
+      "alternativas": {
+        "A": "o vírus sofria mutações constantes que facilitavam o desenvolvimento de vacinas.",
+        "B": "a doença era transmitida por mosquitos, o que permitiu o controle do vetor.",
+        "C": "o vírus tinha reservatório apenas em seres humanos e a vacina era altamente eficaz.",
+        "D": "a varíola afetava apenas populações de regiões tropicais, limitando sua disseminação."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto lista como fatores a ausência de reservatório animal e a eficácia da vacina. A é inversão (mutações dificultam, não facilitam o controle). B é confusão conceitual (a varíola não era transmitida por mosquitos). D é apelo ao senso comum (a varíola era global, não limitada a regiões tropicais)."
+    },
+    {
+      "id": "NAT_BIO_020",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H26 - Compreensão de métodos científicos e procedimentos de segurança em saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre controle biológico do Aedes aegypti",
+        "conteudo": "Uma estratégia de combate ao Aedes aegypti utiliza peixes larvófagos — como o Gambusia affinis e o Betta splendens — em reservatórios de água. Esses peixes se alimentam das larvas do mosquito, reduzindo a população do Aedes sem o uso de produtos químicos. Outra abordagem consiste na liberação de mosquitos machos esterilizados em laboratório: ao cruzarem com fêmeas selvagens, os ovos gerados são inviáveis, o que reduz gradualmente a população do mosquito."
+      },
+      "enunciado": "As estratégias descritas no texto são classificadas como controle biológico porque",
+      "alternativas": {
+        "A": "utilizam substâncias químicas para eliminar as larvas do mosquito nos criadouros.",
+        "B": "empregam organismos vivos ou técnicas genéticas para reduzir a população do vetor.",
+        "C": "dependem da aplicação de inseticidas por agentes de saúde nas residências.",
+        "D": "consistem na eliminação manual dos recipientes com água parada pelos moradores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: peixes (organismos vivos) e mosquitos esterilizados (técnica genética) são métodos biológicos de controle. A contradiz o texto ('sem o uso de produtos químicos'). C é confusão conceitual (controle biológico é diferente de controle químico com inseticidas). D descreve controle mecânico, não biológico — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_021",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H24 - Relação entre saneamento e qualidade de vida",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre verminoses",
+        "conteudo": "A ascaridíase, causada pelo verme Ascaris lumbricoides (lombriga), é uma das parasitoses mais comuns no Brasil. A contaminação ocorre pela ingestão de ovos do parasita presentes em água ou alimentos contaminados com fezes humanas. Crianças que brincam em terrenos onde há esgoto a céu aberto estão especialmente expostas à infecção."
+      },
+      "enunciado": "Uma medida de prevenção contra a ascaridíase, com base no texto, é",
+      "alternativas": {
+        "A": "tomar antibióticos regularmente para eliminar os vermes do organismo.",
+        "B": "evitar o consumo de frutas e verduras, mesmo quando higienizadas.",
+        "C": "garantir o tratamento adequado do esgoto e a higienização dos alimentos.",
+        "D": "aplicar repelentes na pele para impedir a entrada das larvas do parasita."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: como a contaminação ocorre por 'água ou alimentos contaminados com fezes' e 'esgoto a céu aberto', tratar esgoto e higienizar alimentos previne a doença. A é confusão conceitual (antibióticos combatem bactérias, não vermes; além disso, prevenção é diferente de tratamento). B é generalização indevida (o correto é higienizar os alimentos, não evitá-los). D é confusão conceitual (a ascaridíase é ingerida, não penetra pela pele — repelentes são para mosquitos)."
+    },
+    {
+      "id": "NAT_BIO_022",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H22 - Compreensão do funcionamento do sistema de saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre o Programa Nacional de Imunizações",
+        "conteudo": "O Programa Nacional de Imunizações (PNI), criado em 1973, é responsável pela organização de campanhas de vacinação em todo o Brasil. Graças ao PNI, doenças como a poliomielite foram eliminadas do território nacional e o sarampo chegou a ser considerado erradicado. No entanto, a queda nas coberturas vacinais nos últimos anos levou ao retorno de casos de sarampo em diferentes estados brasileiros."
+      },
+      "enunciado": "O retorno de casos de sarampo no Brasil, mencionado no texto, está relacionado",
+      "alternativas": {
+        "A": "ao surgimento de uma nova cepa do vírus do sarampo que não existia anteriormente.",
+        "B": "à queda nas coberturas vacinais, que reduziu a proteção coletiva da população.",
+        "C": "ao aumento do número de postos de vacinação disponíveis em áreas urbanas.",
+        "D": "à eficácia excessiva da vacina, que causou mutações no vírus do sarampo."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma diretamente que 'a queda nas coberturas vacinais' levou ao retorno do sarampo. A não tem respaldo no texto (confusão conceitual). C é inversão causa-efeito (mais postos ajudariam, não prejudicariam). D é apelo ao senso comum equivocado (eficácia da vacina não causa mutações no vírus)."
+    },
+    {
+      "id": "NAT_BIO_023",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H25 - Identificação de agentes causadores de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre ciclo de vida do Aedes aegypti",
+        "conteudo": "O ciclo de vida do Aedes aegypti compreende quatro fases: ovo, larva, pupa e adulto. Os ovos são depositados pela fêmea nas paredes internas de recipientes com água, logo acima da linha d'água. Em condições adversas, os ovos podem entrar em dormência e sobreviver por até um ano fora da água. Quando chove e o nível da água sobe, os ovos eclodem e as larvas se desenvolvem na água. O ciclo completo de ovo a adulto pode levar de 7 a 10 dias em condições favoráveis."
+      },
+      "enunciado": "A capacidade dos ovos do Aedes aegypti de sobreviver fora da água por meses, conforme o texto, dificulta o combate ao mosquito porque",
+      "alternativas": {
+        "A": "a eliminação da água acumulada em recipientes é suficiente para impedir o desenvolvimento dos ovos.",
+        "B": "os ovos dependem exclusivamente de temperaturas elevadas para eclodir, independentemente da presença de água.",
+        "C": "recipientes aparentemente secos podem conter ovos viáveis que eclodirão quando entrarem em contato com água.",
+        "D": "o período de dormência enfraquece os ovos, tornando-os inviáveis após poucos dias de exposição ao ar."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: ovos que sobrevivem em dormência por até um ano em recipientes secos eclodirão quando a água retornar — recipientes 'limpos' podem ser criadouros potenciais. A contradiz o texto (esvaziar a água não elimina ovos aderidos às paredes — eles eclodem quando a água volta). B contradiz o texto (é a água, não a temperatura, que desencadeia a eclosão). D contradiz o texto (os ovos sobrevivem por até um ano, não enfraquecem em poucos dias)."
+    },
+    {
+      "id": "NAT_BIO_024",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H24 - Relação entre saneamento e qualidade de vida",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre destinação de resíduos sólidos no Brasil",
+        "conteudo": "O descarte inadequado de lixo em terrenos baldios e lixões a céu aberto gera diversos problemas de saúde pública. O acúmulo de resíduos atrai ratos, baratas e mosquitos, que podem transmitir doenças. Além disso, a decomposição do lixo produz um líquido escuro chamado chorume, que pode contaminar o solo e os lençóis freáticos, comprometendo a qualidade da água utilizada pela população."
+      },
+      "enunciado": "O descarte inadequado de lixo compromete a saúde pública porque",
+      "alternativas": {
+        "A": "reduz a quantidade de nutrientes disponíveis no solo para a agricultura.",
+        "B": "atrai animais transmissores de doenças e contamina fontes de água.",
+        "C": "aumenta a produção de oxigênio na atmosfera de forma prejudicial.",
+        "D": "dificulta o transporte público nas áreas urbanas próximas aos lixões."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto menciona atração de ratos, baratas e mosquitos (transmissores de doenças) e contaminação do solo e lençóis freáticos pelo chorume. A não é o foco do texto (apelo ao senso comum). C é apelo ao senso comum equivocado (o lixo não aumenta produção de oxigênio). D não tem relação com saúde pública (confusão conceitual)."
+    },
+    {
+      "id": "NAT_BIO_025",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H23 - Compreensão dos mecanismos de prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre tuberculose",
+        "conteudo": "A tuberculose é uma doença infecciosa causada por uma bactéria que atinge principalmente os pulmões. A transmissão ocorre pelo ar, quando uma pessoa doente tosse, espirra ou fala, liberando gotículas contendo a bactéria. O tratamento é gratuito pelo SUS e dura, em média, seis meses. A interrupção precoce do tratamento é o principal fator de insucesso terapêutico e contribui para o surgimento de bactérias resistentes aos medicamentos."
+      },
+      "enunciado": "A interrupção precoce do tratamento da tuberculose é preocupante porque",
+      "alternativas": {
+        "A": "os medicamentos utilizados perdem a validade após o primeiro mês de uso.",
+        "B": "favorece o surgimento de bactérias resistentes, dificultando tratamentos futuros.",
+        "C": "o sistema imunológico do paciente fica mais forte após a interrupção, dispensando o tratamento.",
+        "D": "a bactéria é completamente eliminada nos primeiros dias, tornando o restante do tratamento desnecessário."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que a interrupção 'contribui para o surgimento de bactérias resistentes aos medicamentos'. A é apelo ao senso comum equivocado. C é inversão causa-efeito (a interrupção prejudica, não fortalece o combate à doença). D contradiz o texto (o tratamento dura seis meses justamente porque a bactéria não é eliminada nos primeiros dias)."
+    },
+    {
+      "id": "NAT_BIO_026",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre determinantes sociais da saúde (OMS)",
+        "conteudo": "A Organização Mundial da Saúde (OMS) define os determinantes sociais da saúde como as condições em que as pessoas nascem, crescem, vivem, trabalham e envelhecem. Fatores como renda, escolaridade, moradia, acesso a alimentação adequada, condições de trabalho e saneamento influenciam diretamente a saúde das populações. Comunidades com menor renda e menor acesso a serviços básicos tendem a apresentar indicadores de saúde mais desfavoráveis."
+      },
+      "enunciado": "O conceito de determinantes sociais da saúde, conforme o texto, indica que",
+      "alternativas": {
+        "A": "a saúde das populações depende exclusivamente de fatores genéticos e hereditários.",
+        "B": "condições socioeconômicas como renda, moradia e saneamento influenciam os indicadores de saúde.",
+        "C": "o acesso a serviços de saúde é irrelevante quando a população possui boa alimentação.",
+        "D": "todas as comunidades apresentam os mesmos indicadores de saúde, independentemente de suas condições de vida."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que 'renda, escolaridade, moradia, acesso a alimentação, condições de trabalho e saneamento influenciam diretamente a saúde'. A contém 'exclusivamente' e ignora os fatores sociais — generalização indevida. C contém 'irrelevante' — generalização indevida (o texto menciona múltiplos fatores). D contradiz o texto (comunidades com menor renda têm indicadores mais desfavoráveis)."
+    },
+    {
+      "id": "NAT_BIO_027",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "facil",
+      "habilidade_inep": "H25 - Identificação de agentes causadores de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre doenças transmitidas por alimentos",
+        "conteudo": "A salmonelose é uma infecção intestinal causada pela bactéria Salmonella, frequentemente encontrada em ovos, carnes e produtos lácteos mal conservados ou mal cozidos. Os principais sintomas são diarreia, febre, vômitos e dores abdominais, que geralmente aparecem entre 6 e 72 horas após a ingestão do alimento contaminado."
+      },
+      "enunciado": "Para prevenir a salmonelose, com base no texto, é recomendado",
+      "alternativas": {
+        "A": "consumir carnes e ovos crus para preservar seus nutrientes naturais.",
+        "B": "armazenar alimentos perecíveis fora da geladeira para evitar mudanças de temperatura.",
+        "C": "cozinhar adequadamente carnes e ovos e conservar alimentos perecíveis de forma correta.",
+        "D": "evitar o consumo de qualquer alimento de origem animal, independentemente do preparo."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: como a bactéria está em alimentos 'mal conservados ou mal cozidos', cozinhar adequadamente e conservar corretamente previne a infecção. A contradiz o texto (alimentos crus são fator de risco). B contradiz o texto (má conservação favorece a contaminação). D é generalização indevida (o texto indica que o problema é o preparo/conservação inadequados, não o alimento em si)."
+    },
+    {
+      "id": "NAT_BIO_028",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H21 - Reconhecimento de ações de saúde pública e prevenção de doenças",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre o controle da raiva no Brasil",
+        "conteudo": "A raiva é uma doença viral transmitida pela mordida de animais infectados, como cães, gatos e morcegos. No Brasil, as campanhas de vacinação de cães e gatos reduziram drasticamente os casos de raiva humana transmitida por animais domésticos. No entanto, casos de raiva transmitida por morcegos ainda ocorrem, principalmente em regiões rurais e comunidades ribeirinhas da Amazônia."
+      },
+      "enunciado": "A redução dos casos de raiva humana no Brasil, conforme o texto, foi alcançada principalmente por meio",
+      "alternativas": {
+        "A": "da eliminação de todos os morcegos presentes nas áreas urbanas e rurais.",
+        "B": "da vacinação de animais domésticos, que reduziu a transmissão por cães e gatos.",
+        "C": "do isolamento de todas as pessoas mordidas por animais em hospitais especializados.",
+        "D": "da proibição da criação de animais domésticos em áreas urbanas do país."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que 'campanhas de vacinação de cães e gatos reduziram drasticamente os casos'. A contém 'todos' — generalização indevida (morcegos não foram eliminados). C contém 'todas' — generalização indevida e não é o que o texto descreve. D não tem respaldo no texto (apelo ao senso comum)."
+    },
+    {
+      "id": "NAT_BIO_029",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H26 - Compreensão de métodos científicos e procedimentos de segurança em saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre a técnica do mosquito estéril no combate ao Aedes aegypti",
+        "conteudo": "Pesquisadores brasileiros desenvolveram uma técnica que consiste em infectar mosquitos Aedes aegypti com a bactéria Wolbachia, que reduz a capacidade do mosquito de transmitir os vírus da dengue, zika e chikungunya. Os mosquitos modificados são criados em laboratório e liberados no ambiente, onde se cruzam com a população selvagem. Com o tempo, a bactéria se espalha pela população de mosquitos, reduzindo a transmissão das doenças sem eliminar os insetos."
+      },
+      "enunciado": "A estratégia com a bactéria Wolbachia, descrita no texto, se diferencia dos métodos tradicionais porque",
+      "alternativas": {
+        "A": "utiliza inseticidas mais potentes para eliminar rapidamente a população de mosquitos.",
+        "B": "reduz a capacidade de transmissão de doenças sem a necessidade de eliminar os mosquitos.",
+        "C": "impede completamente a reprodução do Aedes aegypti, levando à sua extinção local.",
+        "D": "depende da eliminação de todos os criadouros antes da liberação dos mosquitos modificados."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que a técnica 'reduz a transmissão das doenças sem eliminar os insetos'. A contradiz o texto (não são inseticidas, é uma bactéria). C contém 'completamente' e 'extinção' — generalização indevida (os mosquitos continuam existindo). D contém 'todos' — generalização indevida e não é requisito da técnica."
+    },
+    {
+      "id": "NAT_BIO_030",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "saude_publica",
+      "dificuldade": "media",
+      "habilidade_inep": "H22 - Compreensão do funcionamento do sistema de saúde",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério da Saúde sobre o SUS e direitos dos usuários",
+        "conteudo": "A Carta dos Direitos dos Usuários da Saúde estabelece que todo cidadão tem direito ao acesso ordenado e organizado ao sistema de saúde, ao tratamento adequado e no tempo certo, ao atendimento humanizado e livre de discriminação, e à informação sobre seu estado de saúde. O paciente também tem o direito de recusar tratamentos, desde que seja informado sobre as consequências dessa decisão."
+      },
+      "enunciado": "O direito do paciente de recusar tratamentos, conforme o texto, está condicionado",
+      "alternativas": {
+        "A": "à autorização prévia de um familiar responsável, independentemente da idade do paciente.",
+        "B": "à decisão exclusiva do médico, que pode impor o tratamento sem consentimento.",
+        "C": "ao recebimento de informações sobre as consequências da recusa do tratamento.",
+        "D": "à assinatura de um documento que isente o hospital de qualquer responsabilidade futura."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que o paciente pode recusar tratamentos 'desde que seja informado sobre as consequências'. A não tem respaldo no texto (confusão conceitual). B contradiz o texto (o paciente tem direito de recusar). D não é mencionado no texto (confusão conceitual)."
+    },
+    {
+      "id": "LIN_POR_001",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H26 - Identificação de gêneros textuais e suas funções sociais",
+      "texto_base": {
+        "tipo": "noticia",
+        "fonte": "Adaptado de reportagem jornalística sobre transporte público",
+        "conteudo": "Prefeitura anuncia reajuste de 8% na tarifa de ônibus a partir de março\n\nA Prefeitura de São Paulo anunciou nesta segunda-feira que a tarifa de ônibus passará de R$ 4,40 para R$ 4,75 a partir do dia 1º de março. Segundo a Secretaria de Transportes, o aumento é necessário para cobrir os custos operacionais do sistema. Entidades de defesa do consumidor criticaram a decisão e pedem audiência pública para discutir o tema."
+      },
+      "enunciado": "O texto acima pertence ao gênero textual notícia porque",
+      "alternativas": {
+        "A": "relata um fato recente de interesse público, com linguagem objetiva e informativa.",
+        "B": "apresenta uma história fictícia com personagens e cenários imaginários.",
+        "C": "utiliza linguagem poética para expressar os sentimentos do autor sobre o transporte.",
+        "D": "tem como objetivo convencer o leitor a apoiar o reajuste da tarifa de ônibus."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto relata um fato (reajuste da tarifa), com dados objetivos (valores, datas) e linguagem informativa — características da notícia. B descreve ficção (gênero narrativo literário) — confusão conceitual. C descreve poesia — confusão conceitual com outro gênero. D confunde notícia com texto publicitário ou editorial — a notícia informa, não convence (verdadeiro mas irrelevante ao comando)."
+    },
+    {
+      "id": "LIN_POR_002",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H31 - Reconhecimento de estratégias argumentativas em textos",
+      "texto_base": {
+        "tipo": "charge_descritiva",
+        "fonte": "Adaptado de descrição de charge sobre desigualdade social",
+        "conteudo": "Em uma charge, dois homens estão diante de uma cerca. De um lado, um homem bem vestido, de terno, observa a cerca e diz: 'Veja, somos todos iguais perante a lei!'. Do outro lado da cerca, um homem com roupas simples e descalço responde: 'A cerca é a mesma, mas os lados são bem diferentes.' Ao fundo, de um lado há edifícios modernos; do outro, barracos em um morro."
+      },
+      "enunciado": "Na charge descrita, o humor crítico é construído por meio",
+      "alternativas": {
+        "A": "do contraste entre o discurso de igualdade formal e a desigualdade visível no cenário.",
+        "B": "da concordância entre as falas dos dois personagens sobre a igualdade social.",
+        "C": "da descrição detalhada dos edifícios modernos como símbolo de progresso nacional.",
+        "D": "da valorização da cerca como elemento que une os dois personagens em condição semelhante."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: a charge opõe a fala sobre igualdade perante a lei ao cenário visual de desigualdade (edifícios × barracos), produzindo ironia. B é inversão — não há concordância, há contradição entre as falas (literal vs. figurado). C é verdadeiro mas irrelevante (os edifícios são parte do cenário contrastante, não o foco da crítica). D é inversão — a cerca separa, não une (óbvio lexical/visual)."
+    },
+    {
+      "id": "LIN_POR_003",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H27 - Identificação da finalidade comunicativa de um texto",
+      "texto_base": {
+        "tipo": "texto_instrucional",
+        "fonte": "Adaptado de bula de medicamento genérico",
+        "conteudo": "MODO DE USAR: Tomar 1 comprimido de 500 mg por via oral, a cada 8 horas, preferencialmente após as refeições. Não exceder a dose de 3 comprimidos por dia. Em caso de reação adversa, suspender o uso e procurar orientação médica. Manter fora do alcance de crianças. Conservar em temperatura ambiente, protegido da luz e da umidade."
+      },
+      "enunciado": "O texto acima tem como principal finalidade comunicativa",
+      "alternativas": {
+        "A": "orientar o usuário sobre a forma correta de utilizar o medicamento.",
+        "B": "entreter o leitor com uma narrativa sobre o uso de medicamentos.",
+        "C": "convencer o consumidor a comprar o medicamento anunciado.",
+        "D": "relatar os resultados de uma pesquisa científica sobre o medicamento."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto instrucional da bula orienta sobre modo de usar, dosagem, conservação — função de orientar/instruir. B confunde com gênero narrativo de entretenimento — confusão conceitual. C confunde com publicidade — confusão conceitual (inversão de função comunicativa). D confunde com artigo científico — confusão conceitual."
+    },
+    {
+      "id": "LIN_POR_004",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H32 - Reconhecimento de figuras de linguagem em contexto",
+      "texto_base": {
+        "tipo": "fragmento_literario",
+        "fonte": "Adaptado de crônica brasileira contemporânea",
+        "conteudo": "'O relógio da parede não para de me julgar. Ele me olha com seus números firmes e diz, sem dizer, que estou atrasado de novo. A manhã corre enquanto eu arrasto meus passos pelo corredor. O café é a única coisa que ainda tem paciência comigo nesta casa.'"
+      },
+      "enunciado": "No trecho, o recurso linguístico predominante é a",
+      "alternativas": {
+        "A": "personificação, pois objetos recebem características humanas como julgar e ter paciência.",
+        "B": "comparação, pois o narrador se iguala aos objetos da casa.",
+        "C": "hipérbole, pois o narrador exagera a velocidade com que se desloca pelo corredor.",
+        "D": "onomatopeia, pois o texto reproduz o som do relógio e dos passos do narrador."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o relógio 'julga', 'olha' e 'diz'; o café 'tem paciência' — objetos com atributos humanos, que é a definição de personificação (prosopopeia). B é confusão conceitual (não há estrutura comparativa com 'como' ou 'tal qual' — o narrador não se iguala aos objetos). C é óbvio lexical (pega a palavra 'arrasto', mas o recurso dominante não é hipérbole). D é confusão conceitual (não há reprodução de sons no texto)."
+    },
+    {
+      "id": "LIN_POR_005",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H33 - Identificação de posicionamentos e intenções em textos",
+      "texto_base": {
+        "tipo": "editorial",
+        "fonte": "Adaptado de editorial de jornal sobre educação",
+        "conteudo": "Não basta construir escolas se faltam professores. Não basta contratar professores se faltam condições de trabalho. E não basta melhorar as condições de trabalho se a sociedade não reconhece o valor da educação. Enquanto tratarmos a escola como depósito de crianças e o professor como funcionário dispensável, continuaremos colhendo os mesmos resultados medíocres."
+      },
+      "enunciado": "O autor do editorial constrói sua argumentação por meio de",
+      "alternativas": {
+        "A": "enumeração de soluções práticas e imediatas para os problemas educacionais.",
+        "B": "elogios às políticas públicas recentes que melhoraram a qualidade do ensino.",
+        "C": "repetição de estruturas sintáticas que revelam a insuficiência de medidas isoladas.",
+        "D": "apresentação de dados estatísticos que comprovam a eficiência do sistema educacional."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a repetição de 'Não basta... se faltam...' constrói uma cadeia argumentativa mostrando que medidas isoladas são insuficientes — anáfora como recurso persuasivo. A é inversão (o texto critica, não propõe soluções práticas). B é inversão (o texto critica, não elogia políticas). D é verdadeiro mas irrelevante (não há dados estatísticos no texto)."
+    },
+    {
+      "id": "LIN_POR_006",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H28 - Reconhecimento de variação linguística",
+      "texto_base": {
+        "tipo": "dialogo",
+        "fonte": "Adaptado de diálogo em obra de ficção brasileira",
+        "conteudo": "— Ô cumpadre, cê viu o preço do feijão? Tá um absurdo!\n— Oxe, nem me fale! A muié lá de casa disse que o dinheiro num tá dando pra nada.\n— É, a situação tá braba. Vamo vê se melhora, né?"
+      },
+      "enunciado": "A variação linguística presente no diálogo é característica de um registro",
+      "alternativas": {
+        "A": "formal, típico de documentos jurídicos e acadêmicos.",
+        "B": "técnico, utilizado em manuais de instrução e bulas de medicamento.",
+        "C": "informal, com marcas de oralidade e expressões regionais do cotidiano.",
+        "D": "literário, com uso intencional de figuras de linguagem e ritmo poético."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 'cê', 'muié', 'num', 'vamo', 'tá braba', 'Oxe' são marcas de oralidade e expressões regionais — registro informal coloquial. A é confusão conceitual (registros formais não usam essas contrações). B é confusão conceitual (linguagem técnica é padronizada). D é confusão conceitual (não há figuras poéticas intencionais)."
+    },
+    {
+      "id": "LIN_POR_007",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H34 - Reconhecimento das funções da linguagem em textos",
+      "texto_base": {
+        "tipo": "publicidade",
+        "fonte": "Adaptado de anúncio publicitário de produto de limpeza",
+        "conteudo": "'Sua casa merece o melhor. Limpol: limpa, perfuma e protege sua família. Compre já e ganhe 20% de desconto na segunda unidade. Oferta válida até o fim do mês. Limpol — porque cuidar é um ato de amor.'"
+      },
+      "enunciado": "A função da linguagem predominante no anúncio publicitário é a",
+      "alternativas": {
+        "A": "conativa, pois o texto busca influenciar o comportamento do consumidor.",
+        "B": "referencial, pois o texto transmite informações objetivas sobre o produto.",
+        "C": "emotiva, pois o texto expressa os sentimentos pessoais do autor.",
+        "D": "metalinguística, pois o texto explica o significado das palavras utilizadas."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 'Compre já', 'Sua casa merece', verbos no imperativo e apelo direto ao consumidor caracterizam a função conativa (apelativa). B é parcialmente correto (há informação, mas o foco é persuadir, não informar — verdadeiro mas irrelevante ao comando). C confunde o slogan emocional ('ato de amor') com função emotiva — na função emotiva o foco é o emissor, não o receptor (inversão de função comunicativa). D é confusão conceitual (não há explicação de significado de palavras)."
+    },
+    {
+      "id": "LIN_POR_008",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H30 - Identificação de progressão temática e coesão textual",
+      "texto_base": {
+        "tipo": "tirinha_descritiva",
+        "fonte": "Adaptado de descrição de tirinha sobre uso de celular",
+        "conteudo": "Quadrinho 1: Um pai e um filho estão sentados no sofá. O pai olha para o celular. O filho diz: 'Pai, posso te contar uma coisa?'\nQuadrinho 2: O pai, sem tirar os olhos do celular, responde: 'Claro, filho.'\nQuadrinho 3: O filho fala por vários minutos (indicado por balão longo com texto ilegível).\nQuadrinho 4: O pai, ainda olhando o celular, diz: 'Legal, filho. Muito legal.' O filho sai com expressão triste."
+      },
+      "enunciado": "A tirinha constrói sua crítica ao mostrar que",
+      "alternativas": {
+        "A": "o uso excessivo do celular compromete a atenção e a qualidade das relações familiares.",
+        "B": "o pai demonstra interesse genuíno pela conversa ao responder positivamente ao filho.",
+        "C": "a comunicação entre pai e filho é plena, pois ambos utilizam a mesma linguagem.",
+        "D": "o filho não se esforça para manter uma conversa significativa com o pai."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o pai responde mecanicamente ('Legal, filho') sem tirar os olhos do celular — o filho sai triste porque não foi ouvido de verdade. B é leitura literal da resposta 'Claro, filho' sem captar a ironia visual — literal vs. figurado. C contradiz o desfecho (o filho sai triste, logo a comunicação falhou). D é inversão de papéis (o filho tentou conversar; quem falhou foi o pai)."
+    },
+    {
+      "id": "LIN_POR_009",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H26 - Identificação de gêneros textuais e suas funções sociais",
+      "texto_base": {
+        "tipo": "receita_culinaria",
+        "fonte": "Adaptado de receita popular brasileira",
+        "conteudo": "Bolo de milho cremoso\nIngredientes: 3 espigas de milho, 1 lata de leite condensado, 3 ovos, 1 xícara de leite, 2 colheres de manteiga.\nModo de preparo: Bata todos os ingredientes no liquidificador. Despeje em uma forma untada. Leve ao forno pré-aquecido a 180°C por 40 minutos ou até dourar."
+      },
+      "enunciado": "O texto acima é um exemplo de gênero textual",
+      "alternativas": {
+        "A": "narrativo, pois conta uma história com início, meio e fim.",
+        "B": "informativo, pois relata um fato recente sobre a culinária brasileira.",
+        "C": "argumentativo, pois defende um ponto de vista sobre alimentação saudável.",
+        "D": "instrucional, pois orienta o leitor sobre como realizar uma atividade passo a passo."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: a receita apresenta ingredientes e modo de preparo com instruções sequenciais — gênero instrucional. A confunde com narrativa (não há personagens nem enredo) — confusão conceitual. C confunde com texto de opinião (não há defesa de ponto de vista) — confusão conceitual. B confunde com notícia (não relata fato jornalístico) — confusão conceitual."
+    },
+    {
+      "id": "LIN_POR_010",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H34 - Reconhecimento das funções da linguagem em textos",
+      "texto_base": {
+        "tipo": "poema",
+        "fonte": "Adaptado de poema contemporâneo brasileiro",
+        "conteudo": "'Dentro de mim há um rio\nque não sei aonde vai.\nCarrega pedras, carrega dias,\ncarrega o que ficou pra trás.\nEu queria ser a margem\nque segura e que abraça,\nmas sou só a correnteza\nque não para, que não cansa.'"
+      },
+      "enunciado": "A função da linguagem predominante no poema é a",
+      "alternativas": {
+        "A": "referencial, pois descreve objetivamente o curso de um rio real.",
+        "B": "fática, pois tem como objetivo testar o canal de comunicação com o leitor.",
+        "C": "emotiva, pois expressa sentimentos e percepções subjetivas do eu lírico.",
+        "D": "metalinguística, pois discute o significado das palavras usadas no próprio poema."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o poema expressa sentimentos internos do eu lírico ('Dentro de mim', 'Eu queria ser') — foco no emissor, função emotiva. A é literal vs. figurado (o rio é metáfora, não um rio real; a linguagem não é objetiva). B é confusão conceitual (função fática se manifesta em cumprimentos e verificações de contato, como 'alô'). D é confusão conceitual (o poema não discute o significado das palavras)."
+    },
+    {
+      "id": "LIN_POR_011",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H33 - Identificação de posicionamentos e intenções em textos",
+      "texto_base": {
+        "tipo": "carta_do_leitor",
+        "fonte": "Adaptado de carta publicada em jornal de circulação regional",
+        "conteudo": "Senhor editor, como moradora do bairro há mais de 20 anos, venho por meio desta manifestar minha indignação com o abandono da praça central. O espaço que antes era ponto de encontro de famílias está tomado por mato, lixo e buracos. As crianças não têm onde brincar com segurança. Cobramos da prefeitura uma solução urgente, pois praça não é terreno baldio."
+      },
+      "enunciado": "O texto é uma carta do leitor e tem como principal objetivo",
+      "alternativas": {
+        "A": "narrar uma aventura vivida pela autora na praça central do bairro.",
+        "B": "descrever as características arquitetônicas da praça para fins de documentação.",
+        "C": "apresentar uma denúncia pública e cobrar providências das autoridades.",
+        "D": "elogiar a gestão municipal pela manutenção dos espaços públicos do bairro."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a autora manifesta 'indignação', denuncia o 'abandono' e cobra 'solução urgente da prefeitura' — denúncia e cobrança são o objetivo. A confunde com narrativa de ficção — confusão conceitual. B é verdadeiro mas irrelevante (há descrição, mas o propósito é denunciar, não documentar). D é inversão (a autora critica, não elogia a gestão)."
+    },
+    {
+      "id": "LIN_POR_012",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H35 - Análise de efeitos de sentido produzidos por recursos linguísticos",
+      "texto_base": {
+        "tipo": "charge_descritiva",
+        "fonte": "Adaptado de descrição de charge sobre fake news",
+        "conteudo": "Em uma charge, um homem está sentado no sofá com o celular na mão. Ao seu redor, há uma pilha de jornais, revistas e livros empilhados e empoeirados. Na tela do celular, aparece uma manchete: 'URGENTE: Terra é quadrada, confirma estudo!'. O homem exclama com entusiasmo: 'Eu sabia!'. No canto da charge, uma pequena placa indica: 'Biblioteca Municipal — acervo disponível para consulta gratuita.'"
+      },
+      "enunciado": "A ironia da charge é construída pela oposição entre",
+      "alternativas": {
+        "A": "a informação confiável do celular e a falta de interesse do homem por tecnologia.",
+        "B": "a manchete verdadeira do celular e a recusa do homem em compartilhá-la nas redes sociais.",
+        "C": "o acervo da biblioteca, que está desatualizado, e a rapidez da informação digital.",
+        "D": "o entusiasmo do homem com uma notícia falsa e a disponibilidade de fontes confiáveis que ele ignora."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: a ironia está no contraste entre aceitar acriticamente uma fake news ('Terra é quadrada') enquanto ignora fontes confiáveis disponíveis (biblioteca empoeirada). A é inversão (a informação do celular é falsa, não confiável). C é pré-conhecimento traiçoeiro (nada indica que o acervo está desatualizado — a poeira indica desuso, não desatualização). B é inversão (a manchete é claramente falsa, não verdadeira)."
+    },
+    {
+      "id": "LIN_POR_013",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H34 - Reconhecimento das funções da linguagem em textos",
+      "texto_base": {
+        "tipo": "aviso",
+        "fonte": "Adaptado de placa em estabelecimento comercial",
+        "conteudo": "'ATENÇÃO: É proibido fumar neste ambiente. Lei Federal nº 12.546/2011. Multa para o infrator: R$ 585,00 a R$ 5.850,00. Denúncias pelo Disque Saúde: 136.'"
+      },
+      "enunciado": "A função da linguagem predominante nesse aviso é a",
+      "alternativas": {
+        "A": "poética, pois o texto valoriza a forma e a sonoridade das palavras.",
+        "B": "fática, pois o texto verifica se o canal de comunicação está funcionando.",
+        "C": "emotiva, pois o texto expressa a opinião pessoal do autor sobre o tabagismo.",
+        "D": "referencial, pois o texto transmite informações objetivas sobre uma norma legal."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o aviso transmite informações factuais (lei, multa, telefone) de forma objetiva — função referencial (informativa). A é confusão conceitual (não há preocupação estética com a forma). C é confusão conceitual (o texto informa uma norma, não expressa sentimento pessoal). B é confusão conceitual (função fática é testar o canal, como 'alô, está me ouvindo?')."
+    },
+    {
+      "id": "LIN_POR_014",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H29 - Inferência de informações implícitas em textos",
+      "texto_base": {
+        "tipo": "tirinha_descritiva",
+        "fonte": "Adaptado de descrição de tirinha sobre trabalho",
+        "conteudo": "Quadrinho 1: Um funcionário pergunta ao chefe: 'Chefe, posso sair mais cedo hoje? É aniversário da minha filha.'\nQuadrinho 2: O chefe, de braços cruzados, responde: 'Quando eu era jovem, trabalhava 16 horas por dia e nunca pedi pra sair cedo.'\nQuadrinho 3: O funcionário pergunta: 'E como era a relação com seus filhos?'\nQuadrinho 4: O chefe fica em silêncio, com expressão pensativa e um balão vazio."
+      },
+      "enunciado": "O silêncio do chefe no último quadrinho sugere que ele",
+      "alternativas": {
+        "A": "está planejando uma resposta que reforce sua posição sobre a dedicação ao trabalho.",
+        "B": "concorda com o funcionário e está prestes a liberá-lo para ir ao aniversário.",
+        "C": "não compreendeu a pergunta do funcionário e precisa de mais tempo para processá-la.",
+        "D": "reconhece, ainda que sem verbalizar, que sua postura pode ter prejudicado suas relações familiares."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o balão vazio e a expressão pensativa indicam reflexão e reconhecimento implícito de que a ausência familiar teve consequências — o silêncio é mais eloquente que palavras. A contradiz a expressão pensativa (se fosse reforçar a posição, teria respondido). C é leitura literal (o silêncio não é incompreensão, é reflexão). B vai além do que o texto permite inferir (o silêncio não confirma liberação)."
+    },
+    {
+      "id": "LIN_POR_015",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H26 - Identificação de gêneros textuais e suas funções sociais",
+      "texto_base": {
+        "tipo": "classificado",
+        "fonte": "Adaptado de anúncio classificado de jornal",
+        "conteudo": "VAGA DE EMPREGO\nAuxiliar de cozinha — Restaurante Sabor da Terra\nRequisitos: experiência mínima de 6 meses, disponibilidade para trabalhar fins de semana, ensino fundamental completo.\nSalário: R$ 1.600,00 + vale-transporte + alimentação no local.\nInteressados enviar currículo para: contato@sabordaterra.com.br"
+      },
+      "enunciado": "O gênero textual anúncio classificado de emprego tem como função social",
+      "alternativas": {
+        "A": "narrar a trajetória profissional do candidato ideal para a vaga.",
+        "B": "avaliar o desempenho dos funcionários que já trabalham no restaurante.",
+        "C": "explicar detalhadamente as técnicas culinárias exigidas na função.",
+        "D": "divulgar uma oportunidade de trabalho e atrair candidatos interessados."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o classificado divulga vaga (função, requisitos, salário, contato) para atrair candidatos — mediação entre empregador e candidato. A confunde com currículo ou biografia — confusão conceitual. C confunde com manual técnico — tema adjacente. B confunde com avaliação de desempenho — confusão conceitual."
+    },
+    {
+      "id": "LIN_POR_016",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H35 - Análise de efeitos de sentido produzidos por recursos linguísticos",
+      "texto_base": {
+        "tipo": "noticia",
+        "fonte": "Adaptado de manchete e lide de reportagem jornalística",
+        "conteudo": "Pesquisa revela que 60% dos brasileiros não leem um livro por ano\n\nSegundo levantamento realizado pelo Instituto Pró-Livro, seis em cada dez brasileiros não leram nenhum livro completo nos últimos 12 meses. Entre os motivos mais citados estão falta de tempo, desinteresse e dificuldade de acesso a bibliotecas. O estudo aponta que a leitura é mais frequente entre pessoas com maior escolaridade e renda."
+      },
+      "enunciado": "A expressão 'seis em cada dez brasileiros' foi utilizada no texto para",
+      "alternativas": {
+        "A": "tornar a informação estatística mais acessível ao leitor comum.",
+        "B": "exagerar os dados da pesquisa para causar impacto emocional no leitor.",
+        "C": "substituir a opinião do autor por uma informação imprecisa sobre o tema.",
+        "D": "dificultar a compreensão do dado numérico apresentado na manchete."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: '60%' e 'seis em cada dez' são equivalentes — a reformulação torna a estatística mais concreta e compreensível para o leitor médio. B é confusão conceitual (a expressão reformula, não exagera — não há hipérbole). C é inversão (a expressão é equivalente ao dado percentual, não imprecisa). D contradiz o propósito (a reformulação facilita, não dificulta a compreensão)."
+    },
+    {
+      "id": "LIN_POR_017",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H31 - Reconhecimento de estratégias argumentativas em textos",
+      "texto_base": {
+        "tipo": "artigo_de_opiniao",
+        "fonte": "Adaptado de artigo de opinião em revista semanal",
+        "conteudo": "Dizer que a desigualdade é natural é o conforto de quem está do lado de cima. A pobreza não é um acidente da história — é o resultado de escolhas políticas, de séculos de exploração e de um sistema que distribui oportunidades de forma desigual. Aceitar a miséria como inevitável é, na verdade, uma forma de mantê-la."
+      },
+      "enunciado": "A estratégia argumentativa central do texto consiste em",
+      "alternativas": {
+        "A": "apresentar dados estatísticos que comprovam o aumento da desigualdade no país.",
+        "B": "narrar uma experiência pessoal do autor com a pobreza para sensibilizar o leitor.",
+        "C": "desconstruir a ideia de que a desigualdade é natural, atribuindo-a a causas históricas e políticas.",
+        "D": "propor soluções práticas para a redução imediata da pobreza no Brasil."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto desmonta o argumento de que a desigualdade é 'natural', apresentando causas históricas ('séculos de exploração') e políticas ('escolhas políticas') — desconstrução argumentativa. A é verdadeiro mas irrelevante (não há dados estatísticos no texto). B é confusão conceitual (não há relato pessoal). D é confusão conceitual (o texto diagnostica, não propõe soluções)."
+    },
+    {
+      "id": "LIN_POR_018",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H27 - Identificação da finalidade comunicativa de um texto",
+      "texto_base": {
+        "tipo": "convite",
+        "fonte": "Adaptado de convite para evento comunitário",
+        "conteudo": "FESTA JUNINA DA COMUNIDADE SÃO JOSÉ\nDia: 15 de junho (sábado) | Horário: das 18h às 23h\nLocal: Quadra poliesportiva da Associação de Moradores\nAtrações: forró ao vivo, quadrilha, pescaria, barraquinhas de comidas típicas\nEntrada gratuita! Traga sua família!\nInformações: (71) 99999-0000"
+      },
+      "enunciado": "O texto acima cumpre a função social de",
+      "alternativas": {
+        "A": "relatar os resultados de uma festa junina já realizada na comunidade.",
+        "B": "criticar a realização de festas populares em espaços públicos da comunidade.",
+        "C": "ensinar o leitor a organizar uma festa junina com receitas e decoração.",
+        "D": "convidar os moradores para um evento comunitário, informando data, local e atrações."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto informa data, horário, local, atrações e contato, convidando a participar — função de convite. A confunde tempo verbal (o evento é futuro, não passado — 'Traga sua família'). C confunde com tutorial/manual — confusão conceitual. B é inversão (o texto convida, não critica)."
+    },
+    {
+      "id": "LIN_POR_019",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H32 - Reconhecimento de figuras de linguagem em contexto",
+      "texto_base": {
+        "tipo": "fragmento_literario",
+        "fonte": "Adaptado de crônica sobre a vida urbana",
+        "conteudo": "'A cidade não dorme. De madrugada, seus olhos de neon piscam para os poucos pedestres que insistem em caminhar pelas ruas desertas. O asfalto, cansado de tanto sol, finalmente respira o frescor da noite. Lá no alto, a lua observa tudo com a calma de quem já viu esse filme mil vezes.'"
+      },
+      "enunciado": "No trecho, a expressão 'já viu esse filme mil vezes' atribui à lua uma atitude de",
+      "alternativas": {
+        "A": "entusiasmo diante da novidade do cenário noturno da cidade.",
+        "B": "curiosidade intensa sobre os pedestres que caminham pelas ruas.",
+        "C": "medo de observar a cidade durante a madrugada perigosa.",
+        "D": "indiferença serena, como quem já está habituada à repetição da cena."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 'já viu esse filme mil vezes' indica repetição e, combinada com 'calma', constrói uma atitude de indiferença serena — personificação da lua como observadora habituada. A contradiz 'já viu mil vezes' (não há novidade). C não tem respaldo no texto (a lua observa com 'calma', não com medo). B contradiz 'calma de quem já viu' (não há curiosidade intensa, há serenidade)."
+    },
+    {
+      "id": "LIN_POR_020",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H29 - Inferência de informações implícitas em textos",
+      "texto_base": {
+        "tipo": "charge_descritiva",
+        "fonte": "Adaptado de descrição de charge sobre educação",
+        "conteudo": "Em uma charge, uma professora está em frente a uma sala de aula lotada. Na lousa, está escrito: 'O futuro do Brasil depende da educação.' A professora segura um contracheque e pensa (em balão de pensamento): 'Pena que o presente do professor depende de um milagre.' Na mesa da professora, há uma pilha de provas para corrigir e um pote vazio com a etiqueta 'Fundo de emergência'."
+      },
+      "enunciado": "O efeito de humor crítico da charge é produzido pela contradição entre",
+      "alternativas": {
+        "A": "a quantidade de provas para corrigir e o número reduzido de alunos na sala.",
+        "B": "a importância atribuída à educação no discurso e a desvalorização do professor na prática.",
+        "C": "a frase na lousa, que reconhece a excelência salarial dos professores brasileiros.",
+        "D": "o pote de fundo de emergência, que demonstra a estabilidade financeira da professora."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a lousa diz que o futuro depende da educação, mas a professora sobrevive com salário insuficiente ('milagre', 'fundo de emergência' vazio) — contradição entre discurso valorativo e realidade desvalorizada. A contradiz o texto (a sala está lotada, não com poucos alunos — óbvio lexical). C é inversão (a charge critica a desvalorização, não elogia o salário — literal vs. figurado). D é inversão (o pote está vazio, indicando instabilidade, não estabilidade — literal vs. figurado)."
+    },
+    {
+      "id": "LIN_POR_021",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H34 - Reconhecimento das funções da linguagem em textos",
+      "texto_base": {
+        "tipo": "dialogo_telefonico",
+        "fonte": "Adaptado de situação cotidiana de comunicação",
+        "conteudo": "— Alô? Alô? Tá me ouvindo?\n— Tô ouvindo sim, fala!\n— A ligação tá ruim, vou desligar e ligar de novo.\n— Tá bom, espera que eu atendo."
+      },
+      "enunciado": "A função da linguagem predominante no diálogo é a",
+      "alternativas": {
+        "A": "fática, pois os interlocutores estão testando e mantendo o canal de comunicação.",
+        "B": "referencial, pois os interlocutores estão transmitindo uma informação importante.",
+        "C": "poética, pois os interlocutores utilizam linguagem figurada para se expressar.",
+        "D": "metalinguística, pois os interlocutores discutem o significado das palavras usadas."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 'Alô?', 'Tá me ouvindo?', 'A ligação tá ruim' — o foco é verificar e manter o canal de comunicação funcionando, o que define a função fática. B é confusão conceitual (não há informação sendo transmitida, apenas verificação do canal). C é confusão conceitual (não há linguagem figurada). D é confusão conceitual (não há discussão sobre significado de palavras)."
+    },
+    {
+      "id": "LIN_POR_022",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H30 - Identificação de progressão temática e coesão textual",
+      "texto_base": {
+        "tipo": "noticia",
+        "fonte": "Adaptado de reportagem sobre emprego no Brasil",
+        "conteudo": "O desemprego entre jovens de 18 a 24 anos atingiu 25% no último trimestre, segundo dados do IBGE. A taxa é mais que o dobro da média nacional, que ficou em 11%. Especialistas apontam que a falta de experiência profissional e a baixa qualificação são os principais obstáculos enfrentados por essa faixa etária. Para reverter o quadro, programas de estágio e aprendizagem são considerados estratégias eficazes."
+      },
+      "enunciado": "O conectivo 'Para reverter o quadro' exerce no texto a função de",
+      "alternativas": {
+        "A": "apresentar uma causa que explica o desemprego entre os jovens.",
+        "B": "introduzir uma ideia de finalidade, indicando o objetivo das ações mencionadas.",
+        "C": "acrescentar uma informação contraditória em relação ao restante do texto.",
+        "D": "retomar uma informação já apresentada anteriormente sem acrescentar novidade."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: 'Para reverter o quadro' expressa finalidade — os programas existem COM O OBJETIVO de reverter o desemprego. A confunde finalidade com causa — confusão conceitual (causa seria 'porque', não 'para'). C confunde com adversidade — confusão conceitual ('no entanto', 'porém'). D confunde com retomada/repetição — confusão conceitual."
+    },
+    {
+      "id": "LIN_POR_023",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H33 - Identificação de posicionamentos e intenções em textos",
+      "texto_base": {
+        "tipo": "tirinha_descritiva",
+        "fonte": "Adaptado de descrição de tirinha sobre redes sociais",
+        "conteudo": "Quadrinho 1: Uma mulher posta uma foto sorridente em uma rede social com a legenda: 'Vida perfeita! #abençoada #gratidão'.\nQuadrinho 2: A mesma mulher, agora fora do celular, está sentada sozinha em uma cozinha bagunçada, com expressão cansada, cercada de contas para pagar.\nQuadrinho 3: O celular apita com notificações: '200 curtidas! 50 comentários: Que vida linda!'\nQuadrinho 4: Ela olha para o celular e murmura: 'Se eles soubessem...'"
+      },
+      "enunciado": "A tirinha problematiza",
+      "alternativas": {
+        "A": "a facilidade com que as redes sociais permitem compartilhar momentos autênticos da vida.",
+        "B": "a tendência de construir nas redes sociais uma imagem idealizada que não corresponde à realidade.",
+        "C": "o desinteresse dos seguidores pela vida real das pessoas que publicam nas redes.",
+        "D": "a eficiência das redes sociais como ferramenta de comunicação entre amigos próximos."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o contraste entre a imagem publicada ('vida perfeita') e a realidade (cansaço, contas, solidão) problematiza a construção de imagem idealizada nas redes. A é inversão (os momentos compartilhados NÃO são autênticos — a ironia da tirinha está justamente nisso). C é tema adjacente (o texto não discute o desinteresse dos seguidores, e sim a construção de imagem). D é verdadeiro mas irrelevante (a tirinha não discute eficiência comunicacional)."
+    },
+    {
+      "id": "LIN_POR_024",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H28 - Reconhecimento de variação linguística",
+      "texto_base": {
+        "tipo": "texto_comparativo",
+        "fonte": "Adaptado de material didático sobre variação linguística",
+        "conteudo": "Texto 1 (mensagem de celular): 'e ai mano, bora pro churrasco hj? chega la pras 3, leva o refri'\nTexto 2 (e-mail profissional): 'Prezado Sr. Carlos, venho por meio deste convidá-lo para o evento de confraternização da empresa, a ser realizado no dia 15, às 15h. Solicitamos a gentileza de confirmar sua presença.'"
+      },
+      "enunciado": "A diferença entre os dois textos se explica pela adequação da linguagem",
+      "alternativas": {
+        "A": "ao grau de escolaridade do autor, sendo o Texto 1 escrito por pessoa sem instrução.",
+        "B": "à situação comunicativa, sendo o Texto 1 informal e o Texto 2 formal.",
+        "C": "ao período histórico, sendo o Texto 1 mais antigo e o Texto 2 mais moderno.",
+        "D": "à região geográfica, sendo o Texto 1 do Nordeste e o Texto 2 do Sul do Brasil."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a diferença é de registro — informal (mensagem entre amigos) vs. formal (e-mail profissional), adequados às respectivas situações comunicativas. A é generalização indevida e preconceito linguístico (usar linguagem informal não indica falta de instrução). C é confusão conceitual (ambos são contemporâneos). D é generalização indevida (as marcas não são regionais, são de registro)."
+    },
+    {
+      "id": "LIN_POR_025",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H29 - Inferência de informações implícitas em textos",
+      "texto_base": {
+        "tipo": "cronica",
+        "fonte": "Adaptado de crônica sobre o cotidiano do trabalhador",
+        "conteudo": "'Dona Maria acorda às quatro da manhã. Prepara o café, arruma a marmita, acorda os filhos, leva o mais novo na creche, pega dois ônibus e chega ao trabalho às sete. Oito horas depois, refaz o caminho. Em casa, cozinha, lava, passa, ajuda com o dever de casa. Às onze da noite, finalmente senta. Diz que está cansada, mas que 'tá tudo bem'. No dia seguinte, repete tudo.'"
+      },
+      "enunciado": "A expressão 'tá tudo bem', no contexto da crônica, revela",
+      "alternativas": {
+        "A": "a satisfação genuína de Dona Maria com sua rotina equilibrada e tranquila.",
+        "B": "uma forma de minimizar o esgotamento diante de uma rotina exaustiva que se repete sem pausa.",
+        "C": "o reconhecimento público que Dona Maria recebe por seu esforço diário.",
+        "D": "a certeza de que sua situação financeira melhorará em breve."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a crônica descreve uma rotina exaustiva (4h às 23h), e o 'tá tudo bem' entre aspas sinaliza que a expressão mascara o cansaço — minimização de uma realidade dura. A é leitura literal da expressão, ignorando o contexto de esgotamento — literal vs. figurado. C não tem respaldo no texto (não há menção a reconhecimento). D não tem respaldo no texto (confusão conceitual)."
+    },
+    {
+      "id": "LIN_POR_026",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H35 - Análise de efeitos de sentido produzidos por recursos linguísticos",
+      "texto_base": {
+        "tipo": "texto_publicitario",
+        "fonte": "Adaptado de campanha publicitária de conscientização",
+        "conteudo": "'Você joga lixo no chão?\nVocê joga esgoto no rio?\nVocê joga a culpa no vizinho?\nEntão não jogue a responsabilidade fora.\nCuide do seu bairro. Comece por você.'"
+      },
+      "enunciado": "O uso repetido da estrutura 'Você joga...' na campanha tem como efeito",
+      "alternativas": {
+        "A": "enfraquecer a argumentação ao tornar o texto repetitivo e cansativo para o leitor.",
+        "B": "distrair o leitor com uma sequência de perguntas sem relação entre si.",
+        "C": "criar um ritmo que conduz o leitor a se reconhecer nas ações descritas antes de apresentar a conclusão.",
+        "D": "demonstrar que o autor não possui vocabulário suficiente para variar a construção das frases."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a anáfora ('Você joga...') cria um efeito de acúmulo e envolvimento — o leitor vai se reconhecendo nas ações até a conclusão ('não jogue a responsabilidade fora'). A confunde recurso estilístico com defeito textual — pré-conhecimento traiçoeiro. B ignora a progressão temática (as perguntas formam uma cadeia que leva à conclusão). D confunde recurso retórico intencional com limitação vocabular — pré-conhecimento traiçoeiro."
+    },
+    {
+      "id": "LIN_POR_027",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "facil",
+      "habilidade_inep": "H26 - Identificação de gêneros textuais e suas funções sociais",
+      "texto_base": {
+        "tipo": "bilhete",
+        "fonte": "Adaptado de situação cotidiana de comunicação doméstica",
+        "conteudo": "'Mãe, fui pro mercado comprar leite e pão. O almoço tá no fogo, é só desligar daqui a 20 minutos. Qualquer coisa me liga. Beijo, Ana.'"
+      },
+      "enunciado": "O bilhete de Ana é um exemplo de gênero textual que se caracteriza por",
+      "alternativas": {
+        "A": "linguagem formal e extensão longa, com argumentos detalhados sobre um tema complexo.",
+        "B": "brevidade, linguagem informal e finalidade comunicativa imediata entre pessoas próximas.",
+        "C": "uso de linguagem técnica e vocabulário especializado para orientação profissional.",
+        "D": "estrutura narrativa com introdução, desenvolvimento e desfecho de uma história."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o bilhete é curto, informal ('tá', 'pro', 'Beijo'), e comunica algo imediato (onde está, o que fazer com o almoço) entre pessoas próximas (mãe e filha). A contradiz as características visíveis (breve, informal). C confunde com texto técnico — confusão conceitual. D confunde com narrativa ficcional — confusão conceitual."
+    },
+    {
+      "id": "LIN_POR_028",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H34 - Reconhecimento das funções da linguagem em textos",
+      "texto_base": {
+        "tipo": "verbete_dicionario",
+        "fonte": "Adaptado de dicionário de língua portuguesa",
+        "conteudo": "'Cre·den·ci·al (substantivo feminino): 1. Documento que comprova a identidade ou a qualificação de alguém para exercer determinada função. 2. Conjunto de informações (nome de usuário e senha) que permite acesso a sistemas digitais. Exemplo: O jornalista apresentou suas credenciais para entrar no evento.'"
+      },
+      "enunciado": "A função da linguagem predominante no verbete de dicionário é a",
+      "alternativas": {
+        "A": "conativa, pois busca convencer o leitor a utilizar a palavra em seus textos.",
+        "B": "emotiva, pois expressa os sentimentos do autor em relação ao significado da palavra.",
+        "C": "metalinguística, pois utiliza a linguagem para explicar o significado de uma palavra.",
+        "D": "poética, pois valoriza a sonoridade e a forma visual da palavra apresentada."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o verbete usa a língua para explicar a própria língua (definir uma palavra) — função metalinguística por excelência. A é confusão conceitual (o verbete informa, não persuade). B é confusão conceitual (não há expressão de sentimento). D é confusão conceitual (a separação silábica é técnica, não recurso poético)."
+    },
+    {
+      "id": "LIN_POR_029",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H33 - Identificação de posicionamentos e intenções em textos",
+      "texto_base": {
+        "tipo": "charge_descritiva",
+        "fonte": "Adaptado de descrição de charge sobre meio ambiente",
+        "conteudo": "Em uma charge, uma árvore solitária no centro de uma cidade cercada por prédios, fábricas e carros segura um cartaz escrito: 'Estou contratando oxigênio por conta própria — o governo não me ajuda.' Ao lado da árvore, um homem de terno fala ao celular: 'Não se preocupe, o desmatamento está dentro da meta.' No chão, há uma placa caída: 'Área de preservação ambiental.'"
+      },
+      "enunciado": "A charge utiliza a ironia para criticar",
+      "alternativas": {
+        "A": "o excesso de áreas verdes nas cidades, que dificulta o desenvolvimento urbano.",
+        "B": "a postura do homem de terno, que ironiza a preservação ambiental ao tratar o desmatamento como meta positiva.",
+        "C": "o comportamento da árvore, que deveria produzir oxigênio sem reclamar do governo.",
+        "D": "a eficiência das políticas públicas ambientais em conter o avanço do desmatamento."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: 'o desmatamento está dentro da meta' é irônico — desmatamento como 'meta' inverte o esperado (meta deveria ser preservar, não desmatar). A é inversão (não há excesso de áreas verdes — há uma árvore solitária). C é literal vs. figurado (a árvore é personificada como voz crítica, não como alvo de crítica). D é inversão (a charge critica a INEFICIÊNCIA, não elogia a eficiência — a placa de preservação está caída no chão)."
+    },
+    {
+      "id": "LIN_POR_030",
+      "area": "linguagens",
+      "disciplina": "portugues",
+      "capitulo": "interpretacao_generos_funcoes",
+      "dificuldade": "media",
+      "habilidade_inep": "H30 - Identificação de progressão temática e coesão textual",
+      "texto_base": {
+        "tipo": "noticia",
+        "fonte": "Adaptado de reportagem sobre saúde do trabalhador",
+        "conteudo": "Casos de afastamento por problemas de saúde mental cresceram 40% nos últimos três anos, segundo dados do Ministério da Previdência Social. Ansiedade, depressão e síndrome de burnout são as causas mais frequentes. Especialistas atribuem o aumento à sobrecarga de trabalho, à insegurança financeira e ao isolamento social intensificado nos últimos anos. Apesar disso, poucas empresas oferecem programas de apoio psicológico aos funcionários."
+      },
+      "enunciado": "O conectivo 'Apesar disso' introduz no texto uma relação de",
+      "alternativas": {
+        "A": "causa, explicando a origem dos problemas de saúde mental dos trabalhadores.",
+        "B": "consequência, apresentando o resultado direto do aumento de afastamentos.",
+        "C": "concessão, indicando que a ação esperada (apoio das empresas) não ocorre na proporção necessária.",
+        "D": "adição, acrescentando mais uma informação que confirma o que foi dito anteriormente."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 'Apesar disso' é conjunção concessiva — indica que, apesar do aumento dos problemas, as empresas não oferecem apoio na proporção esperada (contraste entre problema e resposta). A confunde com causa (causa seria 'porque', 'já que') — confusão conceitual. B confunde com consequência ('por isso', 'portanto') — confusão conceitual. D confunde com adição ('além disso', 'também') — confusão conceitual."
     }
   ]
 }
