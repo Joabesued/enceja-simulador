@@ -1,6 +1,6 @@
 {
   "versao": "2.0",
-  "atualizado_em": "2026-04-30",
+  "atualizado_em": "2026-05-04",
   "notas_schema": {
     "area": "humanas | natureza | matematica | linguagens",
     "disciplina": "campo opcional",
@@ -138,666 +138,6 @@
       },
       "gabarito": "B",
       "comentario": "A uberização refere-se à precarização do trabalho por meio de plataformas digitais, em que o trabalhador assume riscos sem direitos trabalhistas. Taylorismo é modelo fabril antigo (anacronismo típico em CH); pleno emprego e CLT não se aplicam ao caso (confusão conceitual)."
-    },
-    {
-      "id": "HUM_HIS_001",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H1 - Interpretação de fontes históricas",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de ALENCASTRO, Luiz Felipe de. O trato dos viventes. São Paulo: Companhia das Letras, 2000",
-        "conteudo": "O tráfico transatlântico de africanos escravizados para o Brasil durou mais de três séculos. Estima-se que o país foi o maior receptor de africanos escravizados nas Américas, tendo recebido cerca de 4,8 milhões de pessoas entre os séculos XVI e XIX. Esse processo deixou marcas profundas na formação social, econômica e cultural brasileira."
-      },
-      "enunciado": "De acordo com o texto, uma consequência direta do longo período de tráfico de africanos escravizados para o Brasil foi",
-      "alternativas": {
-        "A": "a formação de uma sociedade com marcas profundas na estrutura social, econômica e cultural.",
-        "B": "a industrialização acelerada do país já no período colonial.",
-        "C": "a integração imediata dos africanos como cidadãos livres na sociedade colonial.",
-        "D": "a diminuição gradual das diferenças sociais entre colonizadores e escravizados."
-      },
-      "gabarito": "A",
-      "comentario": "A está correta: o texto afirma explicitamente que o tráfico 'deixou marcas profundas na formação social, econômica e cultural brasileira'. B é anacronismo (industrialização não ocorreu no período colonial). C é inversão de papéis (africanos não foram integrados como cidadãos livres). D é senso comum equivocado (as diferenças se aprofundaram, não diminuíram)."
-    },
-    {
-      "id": "HUM_HIS_002",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de SCHWARCZ, Lilia. O espetáculo das raças. São Paulo: Companhia das Letras, 1993",
-        "conteudo": "No Brasil do século XIX, teorias raciais europeias foram adaptadas por intelectuais brasileiros para justificar a hierarquia social existente. Essas ideias classificavam as populações em raças superiores e inferiores, associando o progresso civilizatório aos brancos europeus e o atraso aos negros e mestiços."
-      },
-      "enunciado": "As teorias raciais mencionadas no texto tiveram como principal função social",
-      "alternativas": {
-        "A": "promover a igualdade entre as diferentes populações que formaram o Brasil.",
-        "B": "legitimar a dominação e as desigualdades sociais herdadas do período escravista.",
-        "C": "valorizar a contribuição cultural dos povos africanos na formação do país.",
-        "D": "incentivar a miscigenação como estratégia de integração nacional igualitária."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: as teorias raciais serviam para justificar a hierarquia social, ou seja, legitimar a dominação e as desigualdades. A é inversão de papéis (as teorias faziam o contrário de promover igualdade). C é inversão de papéis (as teorias desvalorizavam a contribuição africana). D é parcialmente correto (houve discurso sobre miscigenação, mas nunca como integração igualitária — era o 'branqueamento')."
-    },
-    {
-      "id": "HUM_HIS_003",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H41 - Ordenação de eventos históricos",
-      "texto_base": {
-        "tipo": "linha_do_tempo",
-        "fonte": "Adaptado de material didático de História do Brasil",
-        "conteudo": "1831 — Lei Feijó proíbe o tráfico de escravizados (não foi cumprida, ficou conhecida como 'lei para inglês ver'). 1850 — Lei Eusébio de Queirós proíbe efetivamente o tráfico transatlântico. 1871 — Lei do Ventre Livre. 1885 — Lei dos Sexagenários. 1888 — Lei Áurea."
-      },
-      "enunciado": "A expressão popular 'lei para inglês ver' surgiu no contexto brasileiro a partir de uma legislação que",
-      "alternativas": {
-        "A": "libertou os filhos de mulheres escravizadas nascidos após sua promulgação.",
-        "B": "aboliu oficialmente a escravidão em todo o território nacional.",
-        "C": "proibiu o tráfico de escravizados, mas não foi aplicada na prática.",
-        "D": "concedeu liberdade aos escravizados com mais de sessenta anos de idade."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: a Lei Feijó de 1831 proibiu o tráfico, mas 'não foi cumprida', gerando a expressão. A descreve a Lei do Ventre Livre (1871) — confusão conceitual. B descreve a Lei Áurea (1888) — confusão conceitual. D descreve a Lei dos Sexagenários (1885) — confusão conceitual."
-    },
-    {
-      "id": "HUM_HIS_004",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H3 - Relação entre passado e presente",
-      "texto_base": {
-        "tipo": "texto_jornalistico",
-        "fonte": "Adaptado de reportagem jornalística sobre desigualdade racial no Brasil",
-        "conteudo": "Pesquisas recentes indicam que trabalhadores negros recebem, em média, salários significativamente inferiores aos de trabalhadores brancos em funções semelhantes. Além disso, a população negra está proporcionalmente mais presente em ocupações de menor remuneração e menor proteção social."
-      },
-      "enunciado": "A desigualdade salarial entre trabalhadores negros e brancos descrita no texto pode ser compreendida historicamente como",
-      "alternativas": {
-        "A": "resultado exclusivo de escolhas individuais no mercado de trabalho contemporâneo.",
-        "B": "uma herança estrutural do período escravista, que excluiu a população negra do acesso a direitos e oportunidades.",
-        "C": "consequência direta da abolição tardia, que garantiu reparação econômica aos ex-escravizados.",
-        "D": "reflexo de políticas públicas recentes que ampliaram as diferenças raciais no país."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: a desigualdade racial contemporânea tem raízes históricas na escravidão e na ausência de políticas de inclusão pós-abolição. A é senso comum equivocado (ignora a dimensão estrutural). C contém erro factual (a abolição NÃO garantiu reparação econômica). D é anacronismo (políticas recentes buscam reduzir, não ampliar, as desigualdades raciais)."
-    },
-    {
-      "id": "HUM_HIS_005",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de REIS, João José. Rebelião escrava no Brasil. São Paulo: Companhia das Letras, 2003",
-        "conteudo": "Os quilombos representaram uma das mais importantes formas de resistência ao sistema escravista. Nessas comunidades, africanos e seus descendentes reconstruíam modos de vida, práticas religiosas e formas de organização social próprias, frequentemente articulando elementos de diversas culturas africanas com práticas indígenas e europeias."
-      },
-      "enunciado": "Segundo o texto, os quilombos podem ser entendidos como espaços de",
-      "alternativas": {
-        "A": "isolamento cultural que preservou as tradições africanas de forma pura e inalterada.",
-        "B": "submissão ao sistema colonial, uma vez que reproduziam a lógica escravista internamente.",
-        "C": "resistência e reconstrução cultural, articulando elementos de diferentes origens.",
-        "D": "organização militar voltada exclusivamente para o combate armado contra os colonizadores."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto descreve os quilombos como espaços de reconstrução de modos de vida articulando 'elementos de diversas culturas'. A é generalização indevida (o texto diz que havia articulação de elementos, não preservação pura). B é inversão de papéis (quilombos eram resistência, não submissão). D é generalização indevida (o combate armado era um aspecto, mas o texto enfatiza a dimensão cultural e social, não exclusivamente militar)."
-    },
-    {
-      "id": "HUM_HIS_006",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material do Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)",
-        "conteudo": "A capoeira é uma prática cultural desenvolvida por africanos escravizados no Brasil. Combinando elementos de luta, dança e expressão corporal, foi praticada como forma de defesa e resistência durante o período colonial. Perseguida e criminalizada até meados do século XX, hoje é reconhecida como patrimônio cultural imaterial do Brasil."
-      },
-      "enunciado": "A trajetória da capoeira, conforme apresentada no texto, revela",
-      "alternativas": {
-        "A": "a origem europeia de diversas práticas culturais brasileiras.",
-        "B": "a permanência de práticas africanas sem qualquer transformação ao longo dos séculos.",
-        "C": "o processo de criminalização e posterior valorização de uma expressão cultural de origem africana.",
-        "D": "a aceitação imediata das práticas culturais africanas pela sociedade colonial."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto descreve exatamente o percurso de criminalização seguida de reconhecimento patrimonial. A é erro factual (a capoeira é de origem africana, não europeia). B é generalização indevida (houve transformações ao longo do tempo). D é inversão de papéis (a capoeira foi perseguida, não aceita imediatamente)."
-    },
-    {
-      "id": "HUM_HIS_007",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de CHALHOUB, Sidney. Visões da liberdade. São Paulo: Companhia das Letras, 1990",
-        "conteudo": "A Lei do Ventre Livre, de 1871, determinava que os filhos de mulheres escravizadas nascidos a partir daquela data seriam considerados livres. No entanto, essas crianças ficariam sob a tutela dos senhores até os 21 anos de idade, podendo ter sua força de trabalho explorada nesse período."
-      },
-      "enunciado": "Com base no texto, a Lei do Ventre Livre pode ser interpretada como uma medida que",
-      "alternativas": {
-        "A": "rompeu de forma imediata com o sistema escravista no Brasil.",
-        "B": "demonstrou o caráter gradual e limitado do processo abolicionista brasileiro.",
-        "C": "garantiu plena liberdade e cidadania aos filhos de escravizadas desde o nascimento.",
-        "D": "foi proposta pelos próprios escravizados como forma de negociação com os senhores."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: a lei libertava formalmente, mas mantinha a tutela e a exploração do trabalho até os 21 anos, revelando o gradualismo. A é anacronismo/exagero (a lei não rompeu imediatamente com a escravidão). C é parcialmente correto (liberdade sim, mas não plena cidadania, dado o regime de tutela). D não tem sustentação no texto (confusão conceitual sobre autoria da lei)."
-    },
-    {
-      "id": "HUM_HIS_008",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H10 - Relação entre cultura e identidade",
-      "texto_base": {
-        "tipo": "fragmento_literario",
-        "fonte": "Adaptado de CASTRO, Yeda Pessoa de. Falares africanos na Bahia. Rio de Janeiro: Topbooks, 2001",
-        "conteudo": "Palavras como 'samba', 'dendê', 'acarajé', 'moleque', 'caçula' e 'quitanda' fazem parte do vocabulário cotidiano dos brasileiros. Todas têm origem em línguas africanas trazidas ao Brasil durante o período do tráfico de pessoas escravizadas. A presença dessas palavras na língua portuguesa do Brasil revela a profunda influência cultural africana na formação da identidade nacional."
-      },
-      "enunciado": "A presença de palavras de origem africana no português brasileiro, conforme descrito no texto, evidencia",
-      "alternativas": {
-        "A": "a contribuição cultural africana como elemento constitutivo da identidade brasileira.",
-        "B": "a imposição da língua portuguesa como única forma de comunicação dos escravizados.",
-        "C": "o desaparecimento das línguas africanas após o fim do tráfico de escravizados.",
-        "D": "a influência exclusiva da cultura europeia na formação do vocabulário nacional."
-      },
-      "gabarito": "A",
-      "comentario": "A está correta: o texto mostra que palavras africanas se incorporaram ao português, evidenciando a contribuição cultural africana na identidade nacional. B é inversão de papéis (o texto fala de influência africana no português, não de imposição do português). C é generalização indevida (as palavras permaneceram, logo a influência persiste). D é erro factual direto (o texto demonstra justamente influência africana, não exclusivamente europeia)."
-    },
-    {
-      "id": "HUM_HIS_009",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de FRAGOSO, João; FLORENTINO, Manolo. O arcaísmo como projeto. Rio de Janeiro: Civilização Brasileira, 2001",
-        "conteudo": "A economia colonial brasileira foi estruturada sobre o trabalho compulsório de africanos escravizados. Os engenhos de açúcar no Nordeste, as minas de ouro em Minas Gerais e, mais tarde, as fazendas de café no Sudeste dependiam dessa mão de obra. A produção era voltada ao mercado externo, e os lucros concentravam-se nas mãos de uma pequena elite proprietária."
-      },
-      "enunciado": "O modelo econômico descrito no texto caracteriza-se pela articulação entre",
-      "alternativas": {
-        "A": "trabalho assalariado, produção diversificada e distribuição igualitária de riquezas.",
-        "B": "trabalho livre, mercado interno fortalecido e desenvolvimento industrial.",
-        "C": "trabalho compulsório, produção voltada à exportação e concentração de riqueza.",
-        "D": "trabalho compulsório, produção para subsistência e baixa inserção no comércio mundial."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto descreve trabalho escravizado (compulsório), produção para mercado externo (exportação) e lucros concentrados (concentração de riqueza). A é inversão completa dos três elementos descritos. B é anacronismo (trabalho livre e industrialização não caracterizavam o período colonial). D é parcialmente correto (acerta o trabalho compulsório, mas erra ao dizer 'subsistência' e 'baixa inserção' — era exportação com alta inserção comercial)."
-    },
-    {
-      "id": "HUM_HIS_010",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H41 - Ordenação de eventos históricos",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material didático de História do Brasil",
-        "conteudo": "A Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888, declarou extinta a escravidão no Brasil. O país foi o último das Américas a abolir formalmente a escravidão. A lei, composta por apenas dois artigos, não previu nenhuma forma de reparação ou apoio à população recém-liberta."
-      },
-      "enunciado": "Uma limitação da Lei Áurea, identificada no texto, foi",
-      "alternativas": {
-        "A": "a manutenção legal do trabalho escravo em algumas províncias do Nordeste.",
-        "B": "a exigência de que os ex-escravizados permanecessem nas fazendas por mais cinco anos.",
-        "C": "a ausência de medidas de reparação ou apoio à população recém-liberta.",
-        "D": "a abolição gradual que previa a libertação dos escravizados ao longo de décadas."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto afirma que a lei 'não previu nenhuma forma de reparação ou apoio'. A é erro factual (a lei declarou extinta a escravidão em todo o país). B é invenção sem respaldo no texto (confusão conceitual). D contradiz o texto (a lei foi imediata, não gradual)."
-    },
-    {
-      "id": "HUM_HIS_011",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de MATTOSO, Kátia de Queirós. Ser escravo no Brasil. São Paulo: Brasiliense, 1982",
-        "conteudo": "Os senhores de engenho utilizavam diversas estratégias para manter o controle sobre as pessoas escravizadas: a separação de famílias, a proibição de práticas religiosas de origem africana, o castigo físico exemplar e a criação de hierarquias entre os próprios escravizados, distinguindo os do trabalho doméstico dos do eito (trabalho no campo)."
-      },
-      "enunciado": "As estratégias de controle descritas no texto tinham como objetivo comum",
-      "alternativas": {
-        "A": "enfraquecer os laços de solidariedade e a capacidade de organização coletiva dos escravizados.",
-        "B": "promover a integração dos escravizados à cultura europeia de forma harmoniosa.",
-        "C": "garantir a proteção jurídica e os direitos básicos da população escravizada.",
-        "D": "facilitar a transição do trabalho escravo para o trabalho assalariado no campo."
-      },
-      "gabarito": "A",
-      "comentario": "A está correta: separar famílias, proibir práticas culturais, punir e criar hierarquias internas visavam fragmentar a solidariedade e dificultar a resistência coletiva. B é inversão de papéis (as práticas eram de dominação, não de integração harmoniosa). C é inversão de papéis (as estratégias negavam direitos, não os garantiam). D é anacronismo (o objetivo era manter a escravidão, não transicionar para trabalho assalariado)."
-    },
-    {
-      "id": "HUM_HIS_012",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de reportagem sobre comunidades quilombolas no Brasil contemporâneo",
-        "conteudo": "O artigo 68 das Disposições Constitucionais Transitórias da Constituição de 1988 reconhece aos remanescentes das comunidades dos quilombos a propriedade definitiva das terras que ocupam. No entanto, décadas após a promulgação da Constituição, milhares de comunidades quilombolas ainda aguardam a titulação de seus territórios."
-      },
-      "enunciado": "A situação descrita no texto revela uma tensão entre",
-      "alternativas": {
-        "A": "o interesse dos quilombolas em abandonar seus territórios e a obrigação estatal de mantê-los.",
-        "B": "o direito constitucional reconhecido e a efetivação desse direito na prática.",
-        "C": "a ausência de legislação sobre o tema e a demanda por novas leis específicas.",
-        "D": "o desinteresse das comunidades pela regularização fundiária e a insistência governamental."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: há um direito reconhecido (art. 68) que não se efetivou plenamente (milhares aguardam titulação). A é inversão de papéis (os quilombolas lutam para permanecer, não para abandonar). C é erro factual (a legislação existe — art. 68 da CF/88). D é inversão de papéis (as comunidades demandam a regularização)."
-    },
-    {
-      "id": "HUM_HIS_013",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de COSTA, Emília Viotti da. Da senzala à colônia. São Paulo: Ed. UNESP, 1998",
-        "conteudo": "O processo de substituição da mão de obra escravizada pela do imigrante europeu, ocorrido sobretudo em São Paulo nas últimas décadas do século XIX, não teve como motivação principal o humanitarismo. A imigração estava ligada a interesses econômicos dos cafeicultores e a um projeto de 'branqueamento' da população brasileira, baseado em teorias racistas vigentes na época."
-      },
-      "enunciado": "De acordo com o texto, a política de incentivo à imigração europeia no final do século XIX relacionava-se a",
-      "alternativas": {
-        "A": "um compromisso do Estado brasileiro com a igualdade racial e a valorização da mão de obra nacional.",
-        "B": "interesses econômicos dos produtores de café combinados com um projeto racista de branqueamento da população.",
-        "C": "uma política de acolhimento humanitário voltada a refugiados europeus em situação de vulnerabilidade.",
-        "D": "um planejamento de longo prazo para garantir direitos trabalhistas iguais a imigrantes e ex-escravizados."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: o texto associa explicitamente a imigração a 'interesses econômicos dos cafeicultores' e ao 'projeto de branqueamento'. A é inversão de papéis (o projeto era racista, não igualitário). C é senso comum equivocado (o texto nega explicitamente a motivação humanitária). D é anacronismo (direitos trabalhistas não eram parte dessa política)."
-    },
-    {
-      "id": "HUM_HIS_014",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material educativo sobre o Dia da Consciência Negra",
-        "conteudo": "O dia 20 de novembro é celebrado como o Dia da Consciência Negra no Brasil. A data faz referência à morte de Zumbi dos Palmares, líder do Quilombo dos Palmares, que resistiu por décadas às investidas militares coloniais no interior de Alagoas. A escolha dessa data, em vez do 13 de maio (abolição), representa uma valorização da luta e da resistência negra."
-      },
-      "enunciado": "A escolha do 20 de novembro como Dia da Consciência Negra, conforme o texto, busca",
-      "alternativas": {
-        "A": "homenagear a Princesa Isabel pela assinatura da Lei Áurea.",
-        "B": "comemorar a chegada dos primeiros africanos ao território brasileiro.",
-        "C": "valorizar a resistência negra representada pela figura de Zumbi dos Palmares.",
-        "D": "celebrar o fim do preconceito racial no Brasil contemporâneo."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto afirma que a data 'representa uma valorização da luta e da resistência negra', referenciando Zumbi. A é confusão conceitual (13 de maio é a data ligada à Princesa Isabel, não o 20 de novembro). B não tem respaldo no texto. D é senso comum equivocado (o preconceito racial não foi eliminado)."
-    },
-    {
-      "id": "HUM_HIS_015",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H3 - Relação entre passado e presente",
-      "texto_base": {
-        "tipo": "texto_jornalistico",
-        "fonte": "Adaptado de reportagem jornalística sobre trabalho análogo à escravidão",
-        "conteudo": "O Ministério do Trabalho resgatou, em um único ano recente, mais de 1.400 pessoas de condições análogas à escravidão em diversas regiões do Brasil. As vítimas foram encontradas em fazendas, oficinas de costura e canteiros de obras, submetidas a jornadas exaustivas, servidão por dívida e condições degradantes de moradia e alimentação."
-      },
-      "enunciado": "A persistência do trabalho em condições análogas à escravidão no Brasil contemporâneo demonstra que",
-      "alternativas": {
-        "A": "a escravidão foi completamente superada com a Lei Áurea de 1888.",
-        "B": "as relações de exploração extrema do trabalho mantêm raízes na herança escravista do país.",
-        "C": "o problema atinge exclusivamente trabalhadores rurais nas regiões Norte e Nordeste.",
-        "D": "a legislação trabalhista brasileira autoriza esse tipo de relação em casos específicos."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: a persistência de trabalho análogo à escravidão revela continuidades históricas da herança escravista. A contradiz diretamente a informação do texto (o problema persiste). C é generalização indevida (o texto menciona diversas regiões e atividades, incluindo urbanas). D é erro factual (a legislação criminaliza essa prática)."
-    },
-    {
-      "id": "HUM_HIS_016",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de FERNANDES, Florestan. A integração do negro na sociedade de classes. São Paulo: Globo, 2008",
-        "conteudo": "Após a abolição de 1888, os ex-escravizados foram lançados à própria sorte, sem terra, sem educação formal e sem qualquer mecanismo de proteção social. Ao mesmo tempo, o Estado brasileiro incentivava a imigração europeia, oferecendo aos recém-chegados terras, instrumentos de trabalho e financiamento — benefícios negados à população negra liberta."
-      },
-      "enunciado": "A situação descrita por Florestan Fernandes evidencia que o processo de abolição da escravidão no Brasil",
-      "alternativas": {
-        "A": "promoveu a igualdade de condições entre ex-escravizados e imigrantes europeus.",
-        "B": "foi acompanhado de políticas de reparação que garantiram inserção social à população negra.",
-        "C": "produziu uma liberdade formal desacompanhada de condições materiais para o exercício pleno da cidadania.",
-        "D": "resultou na imediata ascensão social dos ex-escravizados nas cidades industriais do Sudeste."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: houve liberdade legal sem terras, educação ou proteção social, configurando uma liberdade meramente formal. A é inversão do que o texto descreve (houve desigualdade explícita). B contradiz diretamente o texto (não houve reparação). D é senso comum equivocado e anacronismo (não houve ascensão imediata)."
-    },
-    {
-      "id": "HUM_HIS_017",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material do IPHAN sobre patrimônio cultural afro-brasileiro",
-        "conteudo": "O candomblé é uma prática religiosa de matriz africana desenvolvida no Brasil, especialmente na Bahia. Seus rituais combinam elementos de diferentes tradições religiosas africanas, incorporando também influências indígenas e católicas. Durante séculos, o candomblé foi perseguido pelas autoridades policiais e religiosas, sendo praticado de forma clandestina."
-      },
-      "enunciado": "A trajetória do candomblé no Brasil, conforme o texto, é marcada por",
-      "alternativas": {
-        "A": "uma origem exclusivamente católica com adaptações folclóricas regionais.",
-        "B": "sua aceitação imediata pela sociedade colonial como religião oficial.",
-        "C": "perseguição histórica e prática clandestina ao longo de séculos.",
-        "D": "sua criação recente como movimento cultural do século XX."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto afirma que 'durante séculos, o candomblé foi perseguido' e 'praticado de forma clandestina'. A é erro factual (a origem é de matriz africana). B é inversão de papéis (foi perseguido, não aceito). D é anacronismo (desenvolveu-se ao longo de séculos, não é criação recente)."
-    },
-    {
-      "id": "HUM_HIS_018",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de FURTADO, Celso. Formação econômica do Brasil. São Paulo: Companhia das Letras, 2007",
-        "conteudo": "O ciclo do ouro em Minas Gerais, no século XVIII, intensificou a demanda por mão de obra escravizada. As condições de trabalho nas minas eram extremamente duras: os trabalhadores escravizados eram submetidos a jornadas exaustivas, ambientes insalubres, desabamentos e contato com substâncias tóxicas, o que reduzia drasticamente sua expectativa de vida."
-      },
-      "enunciado": "As condições de trabalho nas minas de ouro descritas no texto revelam que a exploração colonial",
-      "alternativas": {
-        "A": "oferecia condições adequadas de segurança para os trabalhadores escravizados.",
-        "B": "baseava-se na extração de riquezas à custa da saúde e da vida dos escravizados.",
-        "C": "permitia que os escravizados acumulassem riqueza pessoal por meio da mineração.",
-        "D": "priorizava a preservação da mão de obra como estratégia de longo prazo."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: o texto descreve jornadas exaustivas, ambientes insalubres e redução drástica da expectativa de vida — extração de riqueza à custa de vidas. A contradiz diretamente o texto. C é senso comum equivocado (escravizados não acumulavam riqueza). D contradiz o texto (a exploração reduzia a expectativa de vida, mostrando que não havia preservação da mão de obra)."
-    },
-    {
-      "id": "HUM_HIS_019",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de SLENES, Robert. Na senzala, uma flor. Campinas: Ed. Unicamp, 2011",
-        "conteudo": "Apesar das condições brutais da escravidão, os africanos e seus descendentes mantiveram laços familiares, criaram redes de solidariedade e preservaram tradições culturais. As festas, os batuques e as irmandades religiosas funcionavam como espaços de encontro, fortalecimento comunitário e transmissão de saberes entre gerações."
-      },
-      "enunciado": "As práticas culturais dos escravizados mencionadas no texto indicam que",
-      "alternativas": {
-        "A": "os escravizados aceitavam passivamente a condição de dominação imposta pelos senhores.",
-        "B": "a escravidão destruiu por completo os laços culturais e familiares dos africanos no Brasil.",
-        "C": "a preservação de tradições e laços comunitários representava uma forma de resistência cultural.",
-        "D": "os senhores incentivavam livremente as práticas culturais africanas nos engenhos."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: manter laços familiares, redes de solidariedade e tradições culturais em meio à dominação configura resistência cultural. A é inversão de papéis (o texto mostra ação, não passividade). B contradiz diretamente o texto (os laços foram mantidos). D é senso comum equivocado (as práticas eram geralmente reprimidas ou toleradas com restrições, não incentivadas)."
-    },
-    {
-      "id": "HUM_HIS_020",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H1 - Interpretação de fontes históricas",
-      "texto_base": {
-        "tipo": "anuncio_historico",
-        "fonte": "Adaptado de anúncios publicados em jornais brasileiros do século XIX",
-        "conteudo": "'Vende-se uma escrava de 25 anos, boa cozinheira e lavadeira, sem vícios e com boa aparência. Tratar na Rua da Quitanda, nº 12.' Anúncios como este eram comuns nos jornais brasileiros durante o período escravista, evidenciando o tratamento das pessoas como mercadorias."
-      },
-      "enunciado": "O anúncio reproduzido no texto evidencia que, no período escravista brasileiro,",
-      "alternativas": {
-        "A": "os escravizados eram legalmente reconhecidos como sujeitos de direitos.",
-        "B": "a comercialização de pessoas era proibida, mas ocorria de forma clandestina.",
-        "C": "os jornais se recusavam a publicar conteúdos relacionados à escravidão.",
-        "D": "seres humanos eram tratados como mercadorias, com valor comercial definido por suas habilidades."
-      },
-      "gabarito": "D",
-      "comentario": "D está correta: o anúncio descreve qualidades (cozinheira, lavadeira, boa aparência) como atributos comerciais, tratando a pessoa como mercadoria. A contradiz a lógica do anúncio (não eram sujeitos de direitos, mas propriedade). B contradiz o texto (era publicado abertamente nos jornais). C contradiz diretamente o texto (os jornais publicavam esses anúncios)."
-    },
-    {
-      "id": "HUM_HIS_021",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de NABUCO, Joaquim. O abolicionismo. Publicação original de 1883",
-        "conteudo": "Para Joaquim Nabuco, a abolição não deveria ser apenas a extinção legal da escravidão, mas uma reforma profunda da sociedade brasileira. Ele argumentava que seria necessário oferecer educação, terra e condições dignas de trabalho à população liberta, pois, sem essas medidas, a liberdade seria apenas nominal e a desigualdade persistiria por gerações."
-      },
-      "enunciado": "A proposta de Joaquim Nabuco descrita no texto diferia do que efetivamente ocorreu após a abolição porque",
-      "alternativas": {
-        "A": "Nabuco defendia a manutenção da escravidão sob novas formas jurídicas.",
-        "B": "a abolição de 1888 foi acompanhada de ampla reforma agrária em favor dos ex-escravizados.",
-        "C": "a Lei Áurea libertou os escravizados sem as reformas sociais que Nabuco considerava necessárias.",
-        "D": "Nabuco propunha que os ex-escravizados retornassem ao continente africano."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: Nabuco defendia abolição com reforma social, mas o que ocorreu foi abolição sem terra, educação ou condições dignas. A é inversão de papéis (Nabuco era abolicionista). B é erro factual (não houve reforma agrária pós-abolição). D é invenção sem respaldo no texto (confusão conceitual)."
-    },
-    {
-      "id": "HUM_HIS_022",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H3 - Relação entre passado e presente",
-      "texto_base": {
-        "tipo": "texto_jornalistico",
-        "fonte": "Adaptado de reportagem sobre ações afirmativas no ensino superior brasileiro",
-        "conteudo": "A Lei nº 12.711/2012 estabeleceu a reserva de vagas em universidades federais e institutos federais para estudantes de escolas públicas, incluindo cotas raciais para pretos, pardos e indígenas. Defensores da medida argumentam que ela busca reparar desigualdades históricas originadas no período escravista, quando o acesso à educação era negado à população negra."
-      },
-      "enunciado": "A política de cotas raciais mencionada no texto fundamenta-se na compreensão de que",
-      "alternativas": {
-        "A": "as desigualdades educacionais entre negros e brancos surgiram recentemente e não têm relação com a escravidão.",
-        "B": "a igualdade formal perante a lei é suficiente para garantir oportunidades iguais a todas as pessoas.",
-        "C": "as desigualdades no acesso à educação têm raízes históricas que exigem ações reparatórias no presente.",
-        "D": "a meritocracia individual garante que qualquer cidadão alcance o ensino superior independentemente de sua origem."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: as cotas buscam reparar 'desigualdades históricas originadas no período escravista'. A contradiz o fundamento da política (as desigualdades são históricas). B é senso comum equivocado (a igualdade formal não basta diante de desigualdades estruturais). D é senso comum equivocado (ignora a dimensão estrutural da desigualdade)."
-    },
-    {
-      "id": "HUM_HIS_023",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material educativo sobre resistência à escravidão no Brasil",
-        "conteudo": "Além dos quilombos e das revoltas armadas, os escravizados desenvolveram outras formas de resistência no cotidiano: o trabalho lento proposital, a sabotagem de ferramentas e máquinas, a fuga individual, o suicídio e o aborto como recusa a gerar novos escravizados. Essas ações demonstram que a população escravizada nunca aceitou passivamente sua condição."
-      },
-      "enunciado": "As formas de resistência descritas no texto indicam que os escravizados",
-      "alternativas": {
-        "A": "eram incapazes de se organizar contra o sistema que os oprimia.",
-        "B": "encontravam no cotidiano formas variadas de contestar a escravidão.",
-        "C": "resistiam exclusivamente por meio de grandes revoltas armadas.",
-        "D": "aceitavam a escravidão como condição natural e inevitável."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: o texto lista diversas formas cotidianas de resistência (trabalho lento, sabotagem, fuga, etc.). A contradiz diretamente o texto (mostra capacidade de ação). C contém 'exclusivamente', e o texto mostra formas ALÉM de revoltas armadas. D contradiz diretamente a frase final do texto."
-    },
-    {
-      "id": "HUM_HIS_024",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H10 - Relação entre cultura e identidade",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de FREYRE, Gilberto. Casa-grande & senzala. Rio de Janeiro: Record, 2003 (publicação original de 1933)",
-        "conteudo": "Gilberto Freyre apresentou a ideia de que as relações entre senhores e escravizados no Brasil teriam sido marcadas por uma convivência harmoniosa, dando origem a uma 'democracia racial'. Essa interpretação foi amplamente criticada por pesquisadores posteriores, que demonstraram que tal visão mascarava a violência e a desigualdade estrutural da sociedade escravista."
-      },
-      "enunciado": "A crítica à ideia de 'democracia racial' mencionada no texto fundamenta-se na constatação de que essa interpretação",
-      "alternativas": {
-        "A": "reconhecia a violência da escravidão e propunha reparações para a população negra.",
-        "B": "destacava as desigualdades raciais como problema central da sociedade brasileira.",
-        "C": "ocultava as relações de dominação e a violência estrutural do sistema escravista.",
-        "D": "foi elaborada por pesquisadores do movimento negro como instrumento de luta política."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: a crítica é de que a 'democracia racial' 'mascarava a violência e a desigualdade estrutural'. A é inversão (a tese de Freyre não reconhecia a violência nessa dimensão). B é inversão (a tese minimizava, não destacava, as desigualdades). D é confusão conceitual (a tese é de Freyre, não do movimento negro)."
-    },
-    {
-      "id": "HUM_HIS_025",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material sobre o tráfico de escravizados",
-        "conteudo": "A travessia do Atlântico nos navios negreiros, conhecida como 'passagem do meio', durava entre 30 e 50 dias. Os africanos eram transportados em condições desumanas: amontoados no porão dos navios, acorrentados, com alimentação e água insuficientes. Estima-se que entre 10% e 20% dos embarcados morriam durante a viagem, vítimas de doenças, desidratação, maus-tratos e suicídio."
-      },
-      "enunciado": "As condições da travessia atlântica descritas no texto demonstram que o tráfico de escravizados",
-      "alternativas": {
-        "A": "garantia condições mínimas de sobrevivência para preservar o valor comercial dos embarcados.",
-        "B": "representava um empreendimento comercial que desconsiderava a humanidade dos africanos.",
-        "C": "era realizado em embarcações adaptadas ao transporte digno de passageiros.",
-        "D": "resultava em baixas taxas de mortalidade devido ao cuidado dos traficantes com a carga humana."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: condições desumanas, acorrentamento, alta mortalidade — o tráfico tratava pessoas como mercadoria. A é parcialmente correto invertido (a alta mortalidade de 10-20% contradiz 'condições mínimas de sobrevivência'). C contradiz diretamente o texto. D contradiz diretamente o texto (10-20% de mortalidade é alta)."
-    },
-    {
-      "id": "HUM_HIS_026",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H41 - Ordenação de eventos históricos",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material didático de História do Brasil",
-        "conteudo": "A Lei Eusébio de Queirós, promulgada em 1850, proibiu efetivamente o tráfico transatlântico de pessoas escravizadas para o Brasil. Após essa lei, o tráfico interprovincial — ou seja, a compra e venda de escravizados entre diferentes províncias brasileiras — se intensificou, especialmente do Nordeste para as fazendas de café do Sudeste."
-      },
-      "enunciado": "Uma consequência da Lei Eusébio de Queirós, identificada no texto, foi",
-      "alternativas": {
-        "A": "o fim imediato da escravidão em todo o território brasileiro.",
-        "B": "a redução do número de escravizados em todas as províncias do país.",
-        "C": "a intensificação do comércio interno de escravizados entre províncias.",
-        "D": "o aumento do tráfico transatlântico como resposta à proibição legal."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o texto afirma que 'o tráfico interprovincial se intensificou'. A é exagero (a lei proibiu o tráfico externo, não aboliu a escravidão). B não tem respaldo (o texto fala em transferência entre regiões, não em redução geral). D contradiz a lei (o tráfico transatlântico diminuiu efetivamente)."
-    },
-    {
-      "id": "HUM_HIS_027",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H3 - Relação entre passado e presente",
-      "texto_base": {
-        "tipo": "dado_estatistico",
-        "fonte": "Adaptado de IBGE, Pesquisa sobre desigualdade racial no Brasil",
-        "conteudo": "Dados do IBGE indicam que a taxa de homicídios entre jovens negros é significativamente superior à verificada entre jovens brancos. Além disso, a população negra apresenta menor escolaridade média, menor renda per capita e menor acesso a serviços de saúde de qualidade em comparação com a população branca."
-      },
-      "enunciado": "Os indicadores apresentados no texto podem ser compreendidos historicamente como reflexos",
-      "alternativas": {
-        "A": "de escolhas individuais que independem de fatores históricos ou sociais.",
-        "B": "de um processo recente de segregação racial iniciado no século XXI.",
-        "C": "da herança colonial escravista que estruturou as desigualdades raciais no país.",
-        "D": "da igualdade de oportunidades que caracteriza a sociedade brasileira desde a abolição."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: as desigualdades em homicídios, escolaridade, renda e saúde têm raízes estruturais na herança escravista. A é senso comum equivocado (ignora dimensão estrutural). B é anacronismo (as desigualdades não são recentes, são históricas). D contradiz os dados apresentados no texto."
-    },
-    {
-      "id": "HUM_HIS_028",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "media",
-      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material sobre a Lei de Terras de 1850",
-        "conteudo": "A Lei de Terras de 1850, promulgada no mesmo ano da Lei Eusébio de Queirós, estabeleceu que as terras devolutas só poderiam ser adquiridas por meio de compra. Essa medida impediu que ex-escravizados e trabalhadores pobres tivessem acesso à terra, uma vez que não possuíam recursos financeiros para comprá-la. A concentração fundiária resultante desse processo marca a estrutura agrária brasileira até hoje."
-      },
-      "enunciado": "A relação entre a Lei de Terras e a questão escravista indica que",
-      "alternativas": {
-        "A": "a legislação garantiu o acesso igualitário à terra para escravizados e homens livres.",
-        "B": "o fim do tráfico foi compensado com políticas de distribuição de terras aos libertos.",
-        "C": "a restrição ao acesso à terra reforçou a exclusão social dos ex-escravizados e dos trabalhadores pobres.",
-        "D": "a lei foi elaborada com o objetivo de beneficiar os pequenos agricultores brasileiros."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: a exigência de compra impediu que ex-escravizados e pobres acessassem a terra, reforçando a exclusão. A é inversão (a lei criou desigualdade, não igualdade). B é erro factual (não houve distribuição de terras). D é inversão de papéis (a lei beneficiou grandes proprietários)."
-    },
-    {
-      "id": "HUM_HIS_029",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "facil",
-      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
-      "texto_base": {
-        "tipo": "texto_informativo",
-        "fonte": "Adaptado de material educativo sobre a Revolta dos Malês",
-        "conteudo": "Em janeiro de 1835, na cidade de Salvador, escravizados e libertos de origem muçulmana organizaram uma revolta que ficou conhecida como Revolta dos Malês. Os revoltosos, muitos deles alfabetizados em árabe, planejaram a insurreição e chegaram a tomar ruas da capital baiana antes de serem reprimidos pelas forças do governo provincial."
-      },
-      "enunciado": "A Revolta dos Malês, descrita no texto, demonstra que os escravizados",
-      "alternativas": {
-        "A": "eram incapazes de organização política por não possuírem formação cultural.",
-        "B": "possuíam organização, formação cultural própria e capacidade de articulação coletiva.",
-        "C": "agiam de forma desordenada e sem lideranças definidas nas revoltas urbanas.",
-        "D": "dependiam exclusivamente de apoio externo para promover qualquer tipo de resistência."
-      },
-      "gabarito": "B",
-      "comentario": "B está correta: o texto mostra escravizados alfabetizados em árabe, organizados e com planejamento — formação cultural e articulação coletiva. A contradiz diretamente o texto. C contradiz o texto (havia planejamento e organização). D contradiz o texto (a organização era interna ao grupo)."
-    },
-    {
-      "id": "HUM_HIS_030",
-      "area": "humanas",
-      "disciplina": "historia",
-      "capitulo": "escravidao_abolicao_heranca_colonial",
-      "dificuldade": "dificil",
-      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
-      "texto_base": {
-        "tipo": "fragmento_historiografico",
-        "fonte": "Adaptado de AZEVEDO, Celia Maria Marinho de. Onda negra, medo branco. São Paulo: Annablume, 2004",
-        "conteudo": "Nas décadas finais da escravidão, parte da elite brasileira temia que a abolição provocasse uma 'onda negra' — uma suposta ameaça de desordem social causada pela massa de libertos sem ocupação. Esse medo alimentou tanto as teorias de branqueamento da população quanto as políticas de repressão e controle social sobre a população negra livre e liberta."
-      },
-      "enunciado": "O conceito de 'onda negra' mencionado no texto revela que, no processo abolicionista brasileiro, a elite",
-      "alternativas": {
-        "A": "acolheu com entusiasmo a perspectiva de integração plena dos ex-escravizados à sociedade.",
-        "B": "elaborou políticas reparatórias para facilitar a transição dos ex-escravizados à vida livre.",
-        "C": "associou a liberdade da população negra a uma ameaça, justificando mecanismos de controle e exclusão.",
-        "D": "promoveu a igualdade racial como valor central da construção do Estado republicano."
-      },
-      "gabarito": "C",
-      "comentario": "C está correta: o 'medo' da 'onda negra' levou a políticas de repressão, controle e branqueamento — associando liberdade negra a ameaça. A é inversão (havia medo, não entusiasmo). B é erro factual (não houve reparação). D é inversão (igualdade racial não era valor da elite — ao contrário, buscava-se o branqueamento)."
     },
     {
       "id": "HUM_HIS_031",
@@ -3438,6 +2778,1986 @@
       },
       "gabarito": "C",
       "comentario": "C está correta: 'Apesar disso' é conjunção concessiva — indica que, apesar do aumento dos problemas, as empresas não oferecem apoio na proporção esperada (contraste entre problema e resposta). A confunde com causa (causa seria 'porque', 'já que') — confusão conceitual. B confunde com consequência ('por isso', 'portanto') — confusão conceitual. D confunde com adição ('além disso', 'também') — confusão conceitual."
+    },
+    {
+      "id": "HUM_HIS_001",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de ALENCASTRO, Luiz Felipe de. O trato dos viventes. São Paulo: Companhia das Letras, 2000",
+        "conteudo": "O tráfico transatlântico de africanos escravizados para o Brasil durou mais de três séculos. Estima-se que o país foi o maior receptor de africanos escravizados nas Américas, tendo recebido cerca de 4,8 milhões de pessoas entre os séculos XVI e XIX. Esse processo deixou marcas profundas na formação social, econômica e cultural brasileira."
+      },
+      "enunciado": "De acordo com o texto, uma consequência direta do longo período de tráfico de africanos escravizados para o Brasil foi",
+      "alternativas": {
+        "A": "a formação de uma sociedade com marcas profundas na estrutura social, econômica e cultural.",
+        "B": "a industrialização acelerada do país já no período colonial.",
+        "C": "a integração imediata dos africanos como cidadãos livres na sociedade colonial.",
+        "D": "a diminuição gradual das diferenças sociais entre colonizadores e escravizados."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma explicitamente que o tráfico 'deixou marcas profundas na formação social, econômica e cultural brasileira'. B é anacronismo (industrialização não ocorreu no período colonial). C é inversão de papéis (africanos não foram integrados como cidadãos livres). D é senso comum equivocado (as diferenças se aprofundaram, não diminuíram)."
+    },
+    {
+      "id": "HUM_HIS_002",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de SCHWARCZ, Lilia. O espetáculo das raças. São Paulo: Companhia das Letras, 1993",
+        "conteudo": "No Brasil do século XIX, teorias raciais europeias foram adaptadas por intelectuais brasileiros para justificar a hierarquia social existente. Essas ideias classificavam as populações em raças superiores e inferiores, associando o progresso civilizatório aos brancos europeus e o atraso aos negros e mestiços."
+      },
+      "enunciado": "As teorias raciais mencionadas no texto tiveram como principal função social",
+      "alternativas": {
+        "A": "promover a igualdade entre as diferentes populações que formaram o Brasil.",
+        "B": "legitimar a dominação e as desigualdades sociais herdadas do período escravista.",
+        "C": "valorizar a contribuição cultural dos povos africanos na formação do país.",
+        "D": "incentivar a miscigenação como estratégia de integração nacional igualitária."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: as teorias raciais serviam para justificar a hierarquia social, ou seja, legitimar a dominação e as desigualdades. A é inversão de papéis (as teorias faziam o contrário de promover igualdade). C é inversão de papéis (as teorias desvalorizavam a contribuição africana). D é parcialmente correto (houve discurso sobre miscigenação, mas nunca como integração igualitária — era o 'branqueamento')."
+    },
+    {
+      "id": "HUM_HIS_003",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "linha_do_tempo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "1831 — Lei Feijó proíbe o tráfico de escravizados (não foi cumprida, ficou conhecida como 'lei para inglês ver'). 1850 — Lei Eusébio de Queirós proíbe efetivamente o tráfico transatlântico. 1871 — Lei do Ventre Livre. 1885 — Lei dos Sexagenários. 1888 — Lei Áurea."
+      },
+      "enunciado": "A expressão popular 'lei para inglês ver' surgiu no contexto brasileiro a partir de uma legislação que",
+      "alternativas": {
+        "A": "libertou os filhos de mulheres escravizadas nascidos após sua promulgação.",
+        "B": "aboliu oficialmente a escravidão em todo o território nacional.",
+        "C": "proibiu o tráfico de escravizados, mas não foi aplicada na prática.",
+        "D": "concedeu liberdade aos escravizados com mais de sessenta anos de idade."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a Lei Feijó de 1831 proibiu o tráfico, mas 'não foi cumprida', gerando a expressão. A descreve a Lei do Ventre Livre (1871) — confusão conceitual. B descreve a Lei Áurea (1888) — confusão conceitual. D descreve a Lei dos Sexagenários (1885) — confusão conceitual."
+    },
+    {
+      "id": "HUM_HIS_004",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem jornalística sobre desigualdade racial no Brasil",
+        "conteudo": "Pesquisas recentes indicam que trabalhadores negros recebem, em média, salários significativamente inferiores aos de trabalhadores brancos em funções semelhantes. Além disso, a população negra está proporcionalmente mais presente em ocupações de menor remuneração e menor proteção social."
+      },
+      "enunciado": "A desigualdade salarial entre trabalhadores negros e brancos descrita no texto pode ser compreendida historicamente como",
+      "alternativas": {
+        "A": "resultado exclusivo de escolhas individuais no mercado de trabalho contemporâneo.",
+        "B": "uma herança estrutural do período escravista, que excluiu a população negra do acesso a direitos e oportunidades.",
+        "C": "consequência direta da abolição tardia, que garantiu reparação econômica aos ex-escravizados.",
+        "D": "reflexo de políticas públicas recentes que ampliaram as diferenças raciais no país."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a desigualdade racial contemporânea tem raízes históricas na escravidão e na ausência de políticas de inclusão pós-abolição. A é senso comum equivocado (ignora a dimensão estrutural). C contém erro factual (a abolição NÃO garantiu reparação econômica). D é anacronismo (políticas recentes buscam reduzir, não ampliar, as desigualdades raciais)."
+    },
+    {
+      "id": "HUM_HIS_005",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de REIS, João José. Rebelião escrava no Brasil. São Paulo: Companhia das Letras, 2003",
+        "conteudo": "Os quilombos representaram uma das mais importantes formas de resistência ao sistema escravista. Nessas comunidades, africanos e seus descendentes reconstruíam modos de vida, práticas religiosas e formas de organização social próprias, frequentemente articulando elementos de diversas culturas africanas com práticas indígenas e europeias."
+      },
+      "enunciado": "Segundo o texto, os quilombos podem ser entendidos como espaços de",
+      "alternativas": {
+        "A": "isolamento cultural que preservou as tradições africanas de forma pura e inalterada.",
+        "B": "submissão ao sistema colonial, uma vez que reproduziam a lógica escravista internamente.",
+        "C": "resistência e reconstrução cultural, articulando elementos de diferentes origens.",
+        "D": "organização militar voltada exclusivamente para o combate armado contra os colonizadores."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve os quilombos como espaços de reconstrução de modos de vida articulando 'elementos de diversas culturas'. A é generalização indevida (o texto diz que havia articulação de elementos, não preservação pura). B é inversão de papéis (quilombos eram resistência, não submissão). D é generalização indevida (o combate armado era um aspecto, mas o texto enfatiza a dimensão cultural e social, não exclusivamente militar)."
+    },
+    {
+      "id": "HUM_HIS_006",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material do Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN)",
+        "conteudo": "A capoeira é uma prática cultural desenvolvida por africanos escravizados no Brasil. Combinando elementos de luta, dança e expressão corporal, foi praticada como forma de defesa e resistência durante o período colonial. Perseguida e criminalizada até meados do século XX, hoje é reconhecida como patrimônio cultural imaterial do Brasil."
+      },
+      "enunciado": "A trajetória da capoeira, conforme apresentada no texto, revela",
+      "alternativas": {
+        "A": "a origem europeia de diversas práticas culturais brasileiras.",
+        "B": "a permanência de práticas africanas sem qualquer transformação ao longo dos séculos.",
+        "C": "o processo de criminalização e posterior valorização de uma expressão cultural de origem africana.",
+        "D": "a aceitação imediata das práticas culturais africanas pela sociedade colonial."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve exatamente o percurso de criminalização seguida de reconhecimento patrimonial. A é erro factual (a capoeira é de origem africana, não europeia). B é generalização indevida (houve transformações ao longo do tempo). D é inversão de papéis (a capoeira foi perseguida, não aceita imediatamente)."
+    },
+    {
+      "id": "HUM_HIS_007",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de CHALHOUB, Sidney. Visões da liberdade. São Paulo: Companhia das Letras, 1990",
+        "conteudo": "A Lei do Ventre Livre, de 1871, determinava que os filhos de mulheres escravizadas nascidos a partir daquela data seriam considerados livres. No entanto, essas crianças ficariam sob a tutela dos senhores até os 21 anos de idade, podendo ter sua força de trabalho explorada nesse período."
+      },
+      "enunciado": "Com base no texto, a Lei do Ventre Livre pode ser interpretada como uma medida que",
+      "alternativas": {
+        "A": "rompeu de forma imediata com o sistema escravista no Brasil.",
+        "B": "demonstrou o caráter gradual e limitado do processo abolicionista brasileiro.",
+        "C": "garantiu plena liberdade e cidadania aos filhos de escravizadas desde o nascimento.",
+        "D": "foi proposta pelos próprios escravizados como forma de negociação com os senhores."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a lei libertava formalmente, mas mantinha a tutela e a exploração do trabalho até os 21 anos, revelando o gradualismo. A é anacronismo/exagero (a lei não rompeu imediatamente com a escravidão). C é parcialmente correto (liberdade sim, mas não plena cidadania, dado o regime de tutela). D não tem sustentação no texto (confusão conceitual sobre autoria da lei)."
+    },
+    {
+      "id": "HUM_HIS_008",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Relação entre cultura e identidade",
+      "texto_base": {
+        "tipo": "fragmento_literario",
+        "fonte": "Adaptado de CASTRO, Yeda Pessoa de. Falares africanos na Bahia. Rio de Janeiro: Topbooks, 2001",
+        "conteudo": "Palavras como 'samba', 'dendê', 'acarajé', 'moleque', 'caçula' e 'quitanda' fazem parte do vocabulário cotidiano dos brasileiros. Todas têm origem em línguas africanas trazidas ao Brasil durante o período do tráfico de pessoas escravizadas. A presença dessas palavras na língua portuguesa do Brasil revela a profunda influência cultural africana na formação da identidade nacional."
+      },
+      "enunciado": "A presença de palavras de origem africana no português brasileiro, conforme descrito no texto, evidencia",
+      "alternativas": {
+        "A": "a contribuição cultural africana como elemento constitutivo da identidade brasileira.",
+        "B": "a imposição da língua portuguesa como única forma de comunicação dos escravizados.",
+        "C": "o desaparecimento das línguas africanas após o fim do tráfico de escravizados.",
+        "D": "a influência exclusiva da cultura europeia na formação do vocabulário nacional."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto mostra que palavras africanas se incorporaram ao português, evidenciando a contribuição cultural africana na identidade nacional. B é inversão de papéis (o texto fala de influência africana no português, não de imposição do português). C é generalização indevida (as palavras permaneceram, logo a influência persiste). D é erro factual direto (o texto demonstra justamente influência africana, não exclusivamente europeia)."
+    },
+    {
+      "id": "HUM_HIS_009",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FRAGOSO, João; FLORENTINO, Manolo. O arcaísmo como projeto. Rio de Janeiro: Civilização Brasileira, 2001",
+        "conteudo": "A economia colonial brasileira foi estruturada sobre o trabalho compulsório de africanos escravizados. Os engenhos de açúcar no Nordeste, as minas de ouro em Minas Gerais e, mais tarde, as fazendas de café no Sudeste dependiam dessa mão de obra. A produção era voltada ao mercado externo, e os lucros concentravam-se nas mãos de uma pequena elite proprietária."
+      },
+      "enunciado": "O modelo econômico descrito no texto caracteriza-se pela articulação entre",
+      "alternativas": {
+        "A": "trabalho assalariado, produção diversificada e distribuição igualitária de riquezas.",
+        "B": "trabalho livre, mercado interno fortalecido e desenvolvimento industrial.",
+        "C": "trabalho compulsório, produção voltada à exportação e concentração de riqueza.",
+        "D": "trabalho compulsório, produção para subsistência e baixa inserção no comércio mundial."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve trabalho escravizado (compulsório), produção para mercado externo (exportação) e lucros concentrados (concentração de riqueza). A é inversão completa dos três elementos descritos. B é anacronismo (trabalho livre e industrialização não caracterizavam o período colonial). D é parcialmente correto (acerta o trabalho compulsório, mas erra ao dizer 'subsistência' e 'baixa inserção' — era exportação com alta inserção comercial)."
+    },
+    {
+      "id": "HUM_HIS_010",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "A Lei Áurea, assinada pela Princesa Isabel em 13 de maio de 1888, declarou extinta a escravidão no Brasil. O país foi o último das Américas a abolir formalmente a escravidão. A lei, composta por apenas dois artigos, não previu nenhuma forma de reparação ou apoio à população recém-liberta."
+      },
+      "enunciado": "Uma limitação da Lei Áurea, identificada no texto, foi",
+      "alternativas": {
+        "A": "a manutenção legal do trabalho escravo em algumas províncias do Nordeste.",
+        "B": "a exigência de que os ex-escravizados permanecessem nas fazendas por mais cinco anos.",
+        "C": "a ausência de medidas de reparação ou apoio à população recém-liberta.",
+        "D": "a abolição gradual que previa a libertação dos escravizados ao longo de décadas."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a lei 'não previu nenhuma forma de reparação ou apoio'. A é erro factual (a lei declarou extinta a escravidão em todo o país). B é invenção sem respaldo no texto (confusão conceitual). D contradiz o texto (a lei foi imediata, não gradual)."
+    },
+    {
+      "id": "HUM_HIS_011",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de MATTOSO, Kátia de Queirós. Ser escravo no Brasil. São Paulo: Brasiliense, 1982",
+        "conteudo": "Os senhores de engenho utilizavam diversas estratégias para manter o controle sobre as pessoas escravizadas: a separação de famílias, a proibição de práticas religiosas de origem africana, o castigo físico exemplar e a criação de hierarquias entre os próprios escravizados, distinguindo os do trabalho doméstico dos do eito (trabalho no campo)."
+      },
+      "enunciado": "As estratégias de controle descritas no texto tinham como objetivo comum",
+      "alternativas": {
+        "A": "enfraquecer os laços de solidariedade e a capacidade de organização coletiva dos escravizados.",
+        "B": "promover a integração dos escravizados à cultura europeia de forma harmoniosa.",
+        "C": "garantir a proteção jurídica e os direitos básicos da população escravizada.",
+        "D": "facilitar a transição do trabalho escravo para o trabalho assalariado no campo."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: separar famílias, proibir práticas culturais, punir e criar hierarquias internas visavam fragmentar a solidariedade e dificultar a resistência coletiva. B é inversão de papéis (as práticas eram de dominação, não de integração harmoniosa). C é inversão de papéis (as estratégias negavam direitos, não os garantiam). D é anacronismo (o objetivo era manter a escravidão, não transicionar para trabalho assalariado)."
+    },
+    {
+      "id": "HUM_HIS_012",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de reportagem sobre comunidades quilombolas no Brasil contemporâneo",
+        "conteudo": "O artigo 68 das Disposições Constitucionais Transitórias da Constituição de 1988 reconhece aos remanescentes das comunidades dos quilombos a propriedade definitiva das terras que ocupam. No entanto, décadas após a promulgação da Constituição, milhares de comunidades quilombolas ainda aguardam a titulação de seus territórios."
+      },
+      "enunciado": "A situação descrita no texto revela uma tensão entre",
+      "alternativas": {
+        "A": "o interesse dos quilombolas em abandonar seus territórios e a obrigação estatal de mantê-los.",
+        "B": "o direito constitucional reconhecido e a efetivação desse direito na prática.",
+        "C": "a ausência de legislação sobre o tema e a demanda por novas leis específicas.",
+        "D": "o desinteresse das comunidades pela regularização fundiária e a insistência governamental."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: há um direito reconhecido (art. 68) que não se efetivou plenamente (milhares aguardam titulação). A é inversão de papéis (os quilombolas lutam para permanecer, não para abandonar). C é erro factual (a legislação existe — art. 68 da CF/88). D é inversão de papéis (as comunidades demandam a regularização)."
+    },
+    {
+      "id": "HUM_HIS_013",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de COSTA, Emília Viotti da. Da senzala à colônia. São Paulo: Ed. UNESP, 1998",
+        "conteudo": "O processo de substituição da mão de obra escravizada pela do imigrante europeu, ocorrido sobretudo em São Paulo nas últimas décadas do século XIX, não teve como motivação principal o humanitarismo. A imigração estava ligada a interesses econômicos dos cafeicultores e a um projeto de 'branqueamento' da população brasileira, baseado em teorias racistas vigentes na época."
+      },
+      "enunciado": "De acordo com o texto, a política de incentivo à imigração europeia no final do século XIX relacionava-se a",
+      "alternativas": {
+        "A": "um compromisso do Estado brasileiro com a igualdade racial e a valorização da mão de obra nacional.",
+        "B": "interesses econômicos dos produtores de café combinados com um projeto racista de branqueamento da população.",
+        "C": "uma política de acolhimento humanitário voltada a refugiados europeus em situação de vulnerabilidade.",
+        "D": "um planejamento de longo prazo para garantir direitos trabalhistas iguais a imigrantes e ex-escravizados."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto associa explicitamente a imigração a 'interesses econômicos dos cafeicultores' e ao 'projeto de branqueamento'. A é inversão de papéis (o projeto era racista, não igualitário). C é senso comum equivocado (o texto nega explicitamente a motivação humanitária). D é anacronismo (direitos trabalhistas não eram parte dessa política)."
+    },
+    {
+      "id": "HUM_HIS_014",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre o Dia da Consciência Negra",
+        "conteudo": "O dia 20 de novembro é celebrado como o Dia da Consciência Negra no Brasil. A data faz referência à morte de Zumbi dos Palmares, líder do Quilombo dos Palmares, que resistiu por décadas às investidas militares coloniais no interior de Alagoas. A escolha dessa data, em vez do 13 de maio (abolição), representa uma valorização da luta e da resistência negra."
+      },
+      "enunciado": "A escolha do 20 de novembro como Dia da Consciência Negra, conforme o texto, busca",
+      "alternativas": {
+        "A": "homenagear a Princesa Isabel pela assinatura da Lei Áurea.",
+        "B": "comemorar a chegada dos primeiros africanos ao território brasileiro.",
+        "C": "valorizar a resistência negra representada pela figura de Zumbi dos Palmares.",
+        "D": "celebrar o fim do preconceito racial no Brasil contemporâneo."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a data 'representa uma valorização da luta e da resistência negra', referenciando Zumbi. A é confusão conceitual (13 de maio é a data ligada à Princesa Isabel, não o 20 de novembro). B não tem respaldo no texto. D é senso comum equivocado (o preconceito racial não foi eliminado)."
+    },
+    {
+      "id": "HUM_HIS_015",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem jornalística sobre trabalho análogo à escravidão",
+        "conteudo": "O Ministério do Trabalho resgatou, em um único ano recente, mais de 1.400 pessoas de condições análogas à escravidão em diversas regiões do Brasil. As vítimas foram encontradas em fazendas, oficinas de costura e canteiros de obras, submetidas a jornadas exaustivas, servidão por dívida e condições degradantes de moradia e alimentação."
+      },
+      "enunciado": "A persistência do trabalho em condições análogas à escravidão no Brasil contemporâneo demonstra que",
+      "alternativas": {
+        "A": "a escravidão foi completamente superada com a Lei Áurea de 1888.",
+        "B": "as relações de exploração extrema do trabalho mantêm raízes na herança escravista do país.",
+        "C": "o problema atinge exclusivamente trabalhadores rurais nas regiões Norte e Nordeste.",
+        "D": "a legislação trabalhista brasileira autoriza esse tipo de relação em casos específicos."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: a persistência de trabalho análogo à escravidão revela continuidades históricas da herança escravista. A contradiz diretamente a informação do texto (o problema persiste). C é generalização indevida (o texto menciona diversas regiões e atividades, incluindo urbanas). D é erro factual (a legislação criminaliza essa prática)."
+    },
+    {
+      "id": "HUM_HIS_016",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FERNANDES, Florestan. A integração do negro na sociedade de classes. São Paulo: Globo, 2008",
+        "conteudo": "Após a abolição de 1888, os ex-escravizados foram lançados à própria sorte, sem terra, sem educação formal e sem qualquer mecanismo de proteção social. Ao mesmo tempo, o Estado brasileiro incentivava a imigração europeia, oferecendo aos recém-chegados terras, instrumentos de trabalho e financiamento — benefícios negados à população negra liberta."
+      },
+      "enunciado": "A situação descrita por Florestan Fernandes evidencia que o processo de abolição da escravidão no Brasil",
+      "alternativas": {
+        "A": "promoveu a igualdade de condições entre ex-escravizados e imigrantes europeus.",
+        "B": "foi acompanhado de políticas de reparação que garantiram inserção social à população negra.",
+        "C": "produziu uma liberdade formal desacompanhada de condições materiais para o exercício pleno da cidadania.",
+        "D": "resultou na imediata ascensão social dos ex-escravizados nas cidades industriais do Sudeste."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: houve liberdade legal sem terras, educação ou proteção social, configurando uma liberdade meramente formal. A é inversão do que o texto descreve (houve desigualdade explícita). B contradiz diretamente o texto (não houve reparação). D é senso comum equivocado e anacronismo (não houve ascensão imediata)."
+    },
+    {
+      "id": "HUM_HIS_017",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H2 - Reconhecimento de patrimônio histórico-cultural",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material do IPHAN sobre patrimônio cultural afro-brasileiro",
+        "conteudo": "O candomblé é uma prática religiosa de matriz africana desenvolvida no Brasil, especialmente na Bahia. Seus rituais combinam elementos de diferentes tradições religiosas africanas, incorporando também influências indígenas e católicas. Durante séculos, o candomblé foi perseguido pelas autoridades policiais e religiosas, sendo praticado de forma clandestina."
+      },
+      "enunciado": "A trajetória do candomblé no Brasil, conforme o texto, é marcada por",
+      "alternativas": {
+        "A": "uma origem exclusivamente católica com adaptações folclóricas regionais.",
+        "B": "sua aceitação imediata pela sociedade colonial como religião oficial.",
+        "C": "perseguição histórica e prática clandestina ao longo de séculos.",
+        "D": "sua criação recente como movimento cultural do século XX."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que 'durante séculos, o candomblé foi perseguido' e 'praticado de forma clandestina'. A é erro factual (a origem é de matriz africana). B é inversão de papéis (foi perseguido, não aceito). D é anacronismo (desenvolveu-se ao longo de séculos, não é criação recente)."
+    },
+    {
+      "id": "HUM_HIS_018",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H4 - Análise de relações entre trabalho e produção",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FURTADO, Celso. Formação econômica do Brasil. São Paulo: Companhia das Letras, 2007",
+        "conteudo": "O ciclo do ouro em Minas Gerais, no século XVIII, intensificou a demanda por mão de obra escravizada. As condições de trabalho nas minas eram extremamente duras: os trabalhadores escravizados eram submetidos a jornadas exaustivas, ambientes insalubres, desabamentos e contato com substâncias tóxicas, o que reduzia drasticamente sua expectativa de vida."
+      },
+      "enunciado": "As condições de trabalho nas minas de ouro descritas no texto revelam que a exploração colonial",
+      "alternativas": {
+        "A": "oferecia condições adequadas de segurança para os trabalhadores escravizados.",
+        "B": "baseava-se na extração de riquezas à custa da saúde e da vida dos escravizados.",
+        "C": "permitia que os escravizados acumulassem riqueza pessoal por meio da mineração.",
+        "D": "priorizava a preservação da mão de obra como estratégia de longo prazo."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto descreve jornadas exaustivas, ambientes insalubres e redução drástica da expectativa de vida — extração de riqueza à custa de vidas. A contradiz diretamente o texto. C é senso comum equivocado (escravizados não acumulavam riqueza). D contradiz o texto (a exploração reduzia a expectativa de vida, mostrando que não havia preservação da mão de obra)."
+    },
+    {
+      "id": "HUM_HIS_019",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de SLENES, Robert. Na senzala, uma flor. Campinas: Ed. Unicamp, 2011",
+        "conteudo": "Apesar das condições brutais da escravidão, os africanos e seus descendentes mantiveram laços familiares, criaram redes de solidariedade e preservaram tradições culturais. As festas, os batuques e as irmandades religiosas funcionavam como espaços de encontro, fortalecimento comunitário e transmissão de saberes entre gerações."
+      },
+      "enunciado": "As práticas culturais dos escravizados mencionadas no texto indicam que",
+      "alternativas": {
+        "A": "os escravizados aceitavam passivamente a condição de dominação imposta pelos senhores.",
+        "B": "a escravidão destruiu por completo os laços culturais e familiares dos africanos no Brasil.",
+        "C": "a preservação de tradições e laços comunitários representava uma forma de resistência cultural.",
+        "D": "os senhores incentivavam livremente as práticas culturais africanas nos engenhos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: manter laços familiares, redes de solidariedade e tradições culturais em meio à dominação configura resistência cultural. A é inversão de papéis (o texto mostra ação, não passividade). B contradiz diretamente o texto (os laços foram mantidos). D é senso comum equivocado (as práticas eram geralmente reprimidas ou toleradas com restrições, não incentivadas)."
+    },
+    {
+      "id": "HUM_HIS_020",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H1 - Interpretação de fontes históricas",
+      "texto_base": {
+        "tipo": "anuncio_historico",
+        "fonte": "Adaptado de anúncios publicados em jornais brasileiros do século XIX",
+        "conteudo": "'Vende-se uma escrava de 25 anos, boa cozinheira e lavadeira, sem vícios e com boa aparência. Tratar na Rua da Quitanda, nº 12.' Anúncios como este eram comuns nos jornais brasileiros durante o período escravista, evidenciando o tratamento das pessoas como mercadorias."
+      },
+      "enunciado": "O anúncio reproduzido no texto evidencia que, no período escravista brasileiro,",
+      "alternativas": {
+        "A": "os escravizados eram legalmente reconhecidos como sujeitos de direitos.",
+        "B": "a comercialização de pessoas era proibida, mas ocorria de forma clandestina.",
+        "C": "os jornais se recusavam a publicar conteúdos relacionados à escravidão.",
+        "D": "seres humanos eram tratados como mercadorias, com valor comercial definido por suas habilidades."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o anúncio descreve qualidades (cozinheira, lavadeira, boa aparência) como atributos comerciais, tratando a pessoa como mercadoria. A contradiz a lógica do anúncio (não eram sujeitos de direitos, mas propriedade). B contradiz o texto (era publicado abertamente nos jornais). C contradiz diretamente o texto (os jornais publicavam esses anúncios)."
+    },
+    {
+      "id": "HUM_HIS_021",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H8 - Compreensão de processos de transformação social",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de NABUCO, Joaquim. O abolicionismo. Publicação original de 1883",
+        "conteudo": "Para Joaquim Nabuco, a abolição não deveria ser apenas a extinção legal da escravidão, mas uma reforma profunda da sociedade brasileira. Ele argumentava que seria necessário oferecer educação, terra e condições dignas de trabalho à população liberta, pois, sem essas medidas, a liberdade seria apenas nominal e a desigualdade persistiria por gerações."
+      },
+      "enunciado": "A proposta de Joaquim Nabuco descrita no texto diferia do que efetivamente ocorreu após a abolição porque",
+      "alternativas": {
+        "A": "Nabuco defendia a manutenção da escravidão sob novas formas jurídicas.",
+        "B": "a abolição de 1888 foi acompanhada de ampla reforma agrária em favor dos ex-escravizados.",
+        "C": "a Lei Áurea libertou os escravizados sem as reformas sociais que Nabuco considerava necessárias.",
+        "D": "Nabuco propunha que os ex-escravizados retornassem ao continente africano."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: Nabuco defendia abolição com reforma social, mas o que ocorreu foi abolição sem terra, educação ou condições dignas. A é inversão de papéis (Nabuco era abolicionista). B é erro factual (não houve reforma agrária pós-abolição). D é invenção sem respaldo no texto (confusão conceitual)."
+    },
+    {
+      "id": "HUM_HIS_022",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "texto_jornalistico",
+        "fonte": "Adaptado de reportagem sobre ações afirmativas no ensino superior brasileiro",
+        "conteudo": "A Lei nº 12.711/2012 estabeleceu a reserva de vagas em universidades federais e institutos federais para estudantes de escolas públicas, incluindo cotas raciais para pretos, pardos e indígenas. Defensores da medida argumentam que ela busca reparar desigualdades históricas originadas no período escravista, quando o acesso à educação era negado à população negra."
+      },
+      "enunciado": "A política de cotas raciais mencionada no texto fundamenta-se na compreensão de que",
+      "alternativas": {
+        "A": "as desigualdades educacionais entre negros e brancos surgiram recentemente e não têm relação com a escravidão.",
+        "B": "a igualdade formal perante a lei é suficiente para garantir oportunidades iguais a todas as pessoas.",
+        "C": "as desigualdades no acesso à educação têm raízes históricas que exigem ações reparatórias no presente.",
+        "D": "a meritocracia individual garante que qualquer cidadão alcance o ensino superior independentemente de sua origem."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: as cotas buscam reparar 'desigualdades históricas originadas no período escravista'. A contradiz o fundamento da política (as desigualdades são históricas). B é senso comum equivocado (a igualdade formal não basta diante de desigualdades estruturais). D é senso comum equivocado (ignora a dimensão estrutural da desigualdade)."
+    },
+    {
+      "id": "HUM_HIS_023",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre resistência à escravidão no Brasil",
+        "conteudo": "Além dos quilombos e das revoltas armadas, os escravizados desenvolveram outras formas de resistência no cotidiano: o trabalho lento proposital, a sabotagem de ferramentas e máquinas, a fuga individual, o suicídio e o aborto como recusa a gerar novos escravizados. Essas ações demonstram que a população escravizada nunca aceitou passivamente sua condição."
+      },
+      "enunciado": "As formas de resistência descritas no texto indicam que os escravizados",
+      "alternativas": {
+        "A": "eram incapazes de se organizar contra o sistema que os oprimia.",
+        "B": "encontravam no cotidiano formas variadas de contestar a escravidão.",
+        "C": "resistiam exclusivamente por meio de grandes revoltas armadas.",
+        "D": "aceitavam a escravidão como condição natural e inevitável."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto lista diversas formas cotidianas de resistência (trabalho lento, sabotagem, fuga, etc.). A contradiz diretamente o texto (mostra capacidade de ação). C contém 'exclusivamente', e o texto mostra formas ALÉM de revoltas armadas. D contradiz diretamente a frase final do texto."
+    },
+    {
+      "id": "HUM_HIS_024",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H10 - Relação entre cultura e identidade",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de FREYRE, Gilberto. Casa-grande & senzala. Rio de Janeiro: Record, 2003 (publicação original de 1933)",
+        "conteudo": "Gilberto Freyre apresentou a ideia de que as relações entre senhores e escravizados no Brasil teriam sido marcadas por uma convivência harmoniosa, dando origem a uma 'democracia racial'. Essa interpretação foi amplamente criticada por pesquisadores posteriores, que demonstraram que tal visão mascarava a violência e a desigualdade estrutural da sociedade escravista."
+      },
+      "enunciado": "A crítica à ideia de 'democracia racial' mencionada no texto fundamenta-se na constatação de que essa interpretação",
+      "alternativas": {
+        "A": "reconhecia a violência da escravidão e propunha reparações para a população negra.",
+        "B": "destacava as desigualdades raciais como problema central da sociedade brasileira.",
+        "C": "ocultava as relações de dominação e a violência estrutural do sistema escravista.",
+        "D": "foi elaborada por pesquisadores do movimento negro como instrumento de luta política."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a crítica é de que a 'democracia racial' 'mascarava a violência e a desigualdade estrutural'. A é inversão (a tese de Freyre não reconhecia a violência nessa dimensão). B é inversão (a tese minimizava, não destacava, as desigualdades). D é confusão conceitual (a tese é de Freyre, não do movimento negro)."
+    },
+    {
+      "id": "HUM_HIS_025",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H6 - Identificação de estratégias de dominação",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre o tráfico de escravizados",
+        "conteudo": "A travessia do Atlântico nos navios negreiros, conhecida como 'passagem do meio', durava entre 30 e 50 dias. Os africanos eram transportados em condições desumanas: amontoados no porão dos navios, acorrentados, com alimentação e água insuficientes. Estima-se que entre 10% e 20% dos embarcados morriam durante a viagem, vítimas de doenças, desidratação, maus-tratos e suicídio."
+      },
+      "enunciado": "As condições da travessia atlântica descritas no texto demonstram que o tráfico de escravizados",
+      "alternativas": {
+        "A": "garantia condições mínimas de sobrevivência para preservar o valor comercial dos embarcados.",
+        "B": "representava um empreendimento comercial que desconsiderava a humanidade dos africanos.",
+        "C": "era realizado em embarcações adaptadas ao transporte digno de passageiros.",
+        "D": "resultava em baixas taxas de mortalidade devido ao cuidado dos traficantes com a carga humana."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: condições desumanas, acorrentamento, alta mortalidade — o tráfico tratava pessoas como mercadoria. A é parcialmente correto invertido (a alta mortalidade de 10-20% contradiz 'condições mínimas de sobrevivência'). C contradiz diretamente o texto. D contradiz diretamente o texto (10-20% de mortalidade é alta)."
+    },
+    {
+      "id": "HUM_HIS_026",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H41 - Ordenação de eventos históricos",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material didático de História do Brasil",
+        "conteudo": "A Lei Eusébio de Queirós, promulgada em 1850, proibiu efetivamente o tráfico transatlântico de pessoas escravizadas para o Brasil. Após essa lei, o tráfico interprovincial — ou seja, a compra e venda de escravizados entre diferentes províncias brasileiras — se intensificou, especialmente do Nordeste para as fazendas de café do Sudeste."
+      },
+      "enunciado": "Uma consequência da Lei Eusébio de Queirós, identificada no texto, foi",
+      "alternativas": {
+        "A": "o fim imediato da escravidão em todo o território brasileiro.",
+        "B": "a redução do número de escravizados em todas as províncias do país.",
+        "C": "a intensificação do comércio interno de escravizados entre províncias.",
+        "D": "o aumento do tráfico transatlântico como resposta à proibição legal."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que 'o tráfico interprovincial se intensificou'. A é exagero (a lei proibiu o tráfico externo, não aboliu a escravidão). B não tem respaldo (o texto fala em transferência entre regiões, não em redução geral). D contradiz a lei (o tráfico transatlântico diminuiu efetivamente)."
+    },
+    {
+      "id": "HUM_HIS_027",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H3 - Relação entre passado e presente",
+      "texto_base": {
+        "tipo": "dado_estatistico",
+        "fonte": "Adaptado de IBGE, Pesquisa sobre desigualdade racial no Brasil",
+        "conteudo": "Dados do IBGE indicam que a taxa de homicídios entre jovens negros é significativamente superior à verificada entre jovens brancos. Além disso, a população negra apresenta menor escolaridade média, menor renda per capita e menor acesso a serviços de saúde de qualidade em comparação com a população branca."
+      },
+      "enunciado": "Os indicadores apresentados no texto podem ser compreendidos historicamente como reflexos",
+      "alternativas": {
+        "A": "de escolhas individuais que independem de fatores históricos ou sociais.",
+        "B": "de um processo recente de segregação racial iniciado no século XXI.",
+        "C": "da herança colonial escravista que estruturou as desigualdades raciais no país.",
+        "D": "da igualdade de oportunidades que caracteriza a sociedade brasileira desde a abolição."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: as desigualdades em homicídios, escolaridade, renda e saúde têm raízes estruturais na herança escravista. A é senso comum equivocado (ignora dimensão estrutural). B é anacronismo (as desigualdades não são recentes, são históricas). D contradiz os dados apresentados no texto."
+    },
+    {
+      "id": "HUM_HIS_028",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "media",
+      "habilidade_inep": "H9 - Compreensão de processos de ocupação territorial",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material sobre a Lei de Terras de 1850",
+        "conteudo": "A Lei de Terras de 1850, promulgada no mesmo ano da Lei Eusébio de Queirós, estabeleceu que as terras devolutas só poderiam ser adquiridas por meio de compra. Essa medida impediu que ex-escravizados e trabalhadores pobres tivessem acesso à terra, uma vez que não possuíam recursos financeiros para comprá-la. A concentração fundiária resultante desse processo marca a estrutura agrária brasileira até hoje."
+      },
+      "enunciado": "A relação entre a Lei de Terras e a questão escravista indica que",
+      "alternativas": {
+        "A": "a legislação garantiu o acesso igualitário à terra para escravizados e homens livres.",
+        "B": "o fim do tráfico foi compensado com políticas de distribuição de terras aos libertos.",
+        "C": "a restrição ao acesso à terra reforçou a exclusão social dos ex-escravizados e dos trabalhadores pobres.",
+        "D": "a lei foi elaborada com o objetivo de beneficiar os pequenos agricultores brasileiros."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a exigência de compra impediu que ex-escravizados e pobres acessassem a terra, reforçando a exclusão. A é inversão (a lei criou desigualdade, não igualdade). B é erro factual (não houve distribuição de terras). D é inversão de papéis (a lei beneficiou grandes proprietários)."
+    },
+    {
+      "id": "HUM_HIS_029",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "facil",
+      "habilidade_inep": "H7 - Identificação de formas de resistência cultural e social",
+      "texto_base": {
+        "tipo": "texto_informativo",
+        "fonte": "Adaptado de material educativo sobre a Revolta dos Malês",
+        "conteudo": "Em janeiro de 1835, na cidade de Salvador, escravizados e libertos de origem muçulmana organizaram uma revolta que ficou conhecida como Revolta dos Malês. Os revoltosos, muitos deles alfabetizados em árabe, planejaram a insurreição e chegaram a tomar ruas da capital baiana antes de serem reprimidos pelas forças do governo provincial."
+      },
+      "enunciado": "A Revolta dos Malês, descrita no texto, demonstra que os escravizados",
+      "alternativas": {
+        "A": "eram incapazes de organização política por não possuírem formação cultural.",
+        "B": "possuíam organização, formação cultural própria e capacidade de articulação coletiva.",
+        "C": "agiam de forma desordenada e sem lideranças definidas nas revoltas urbanas.",
+        "D": "dependiam exclusivamente de apoio externo para promover qualquer tipo de resistência."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto mostra escravizados alfabetizados em árabe, organizados e com planejamento — formação cultural e articulação coletiva. A contradiz diretamente o texto. C contradiz o texto (havia planejamento e organização). D contradiz o texto (a organização era interna ao grupo)."
+    },
+    {
+      "id": "HUM_HIS_030",
+      "area": "humanas",
+      "disciplina": "historia",
+      "capitulo": "escravidao_abolicao_heranca_colonial",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H5 - Identificação de relações de poder em processos históricos",
+      "texto_base": {
+        "tipo": "fragmento_historiografico",
+        "fonte": "Adaptado de AZEVEDO, Celia Maria Marinho de. Onda negra, medo branco. São Paulo: Annablume, 2004",
+        "conteudo": "Nas décadas finais da escravidão, parte da elite brasileira temia que a abolição provocasse uma 'onda negra' — uma suposta ameaça de desordem social causada pela massa de libertos sem ocupação. Esse medo alimentou tanto as teorias de branqueamento da população quanto as políticas de repressão e controle social sobre a população negra livre e liberta."
+      },
+      "enunciado": "O conceito de 'onda negra' mencionado no texto revela que, no processo abolicionista brasileiro, a elite",
+      "alternativas": {
+        "A": "acolheu com entusiasmo a perspectiva de integração plena dos ex-escravizados à sociedade.",
+        "B": "elaborou políticas reparatórias para facilitar a transição dos ex-escravizados à vida livre.",
+        "C": "associou a liberdade da população negra a uma ameaça, justificando mecanismos de controle e exclusão.",
+        "D": "promoveu a igualdade racial como valor central da construção do Estado republicano."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o 'medo' da 'onda negra' levou a políticas de repressão, controle e branqueamento — associando liberdade negra a ameaça. A é inversão (havia medo, não entusiasmo). B é erro factual (não houve reparação). D é inversão (igualdade racial não era valor da elite — ao contrário, buscava-se o branqueamento)."
+    },
+    {
+      "id": "MAT_GRA_001",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano doméstico",
+        "conteudo": "Dona Lúcia comprou uma caixa d'água com capacidade de 1.000 litros para abastecer sua casa. O encanador informou que essa capacidade equivale a uma medida em metros cúbicos."
+      },
+      "enunciado": "A capacidade da caixa d'água de Dona Lúcia, em metros cúbicos, é de",
+      "alternativas": {
+        "A": "1 m³",
+        "B": "0,1 m³",
+        "C": "10 m³",
+        "D": "100 m³"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 1.000 litros = 1 m³ (1 litro = 0,001 m³). B (0,1 m³) resulta de dividir por 10.000 em vez de 1.000 — esquecimento de conversão. C (10 m³) resulta de dividir por 100 — esquecimento de conversão. D (100 m³) resulta de dividir por 10 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_002",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Na feira, Seu Antônio comprou 2,5 quilogramas de carne. Ao chegar em casa, sua esposa perguntou quantos gramas de carne ele havia comprado."
+      },
+      "enunciado": "A quantidade de carne comprada por Seu Antônio, em gramas, é de",
+      "alternativas": {
+        "A": "2.500 g",
+        "B": "250 g",
+        "C": "25 g",
+        "D": "25.000 g"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 1 kg = 1.000 g, logo 2,5 kg = 2.500 g. B (250 g) resulta de multiplicar por 100 em vez de 1.000 — esquecimento de conversão. C (25 g) resulta de multiplicar por 10 — esquecimento de conversão. D (25.000 g) resulta de multiplicar por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_003",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H12 - Resolução de problemas envolvendo conversão de unidades de área",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Um pequeno agricultor possui uma propriedade com 3 hectares de terra. Para preencher um formulário de cadastro rural, ele precisa informar a área em metros quadrados. Sabe-se que 1 hectare equivale a 10.000 m²."
+      },
+      "enunciado": "A área da propriedade, em metros quadrados, é de",
+      "alternativas": {
+        "A": "300 m²",
+        "B": "3.000 m²",
+        "C": "300.000 m²",
+        "D": "30.000 m²"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 1 hectare = 10.000 m², logo 3 hectares = 3 × 10.000 = 30.000 m². A (300 m²) multiplica por 100 — esquecimento de conversão. B (3.000 m²) multiplica por 1.000 — esquecimento de conversão. C (300.000 m²) multiplica por 100.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_004",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma piscina tem capacidade total de 5.000 litros. Para uma festa, o dono da casa encheu apenas 60% da piscina. Ele deseja saber quantos litros de água utilizou e qual é essa quantidade em metros cúbicos."
+      },
+      "enunciado": "A quantidade de água utilizada, em metros cúbicos, é de",
+      "alternativas": {
+        "A": "3 m³",
+        "B": "0,3 m³",
+        "C": "30 m³",
+        "D": "300 m³"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 60% de 5.000 = 3.000 litros. Como 1.000 litros = 1 m³, temos 3.000 ÷ 1.000 = 3 m³. B (0,3 m³) resulta de usar 60% sem multiplicar corretamente, ou dividir por 10.000 — resultado parcial. C (30 m³) resulta de dividir por 100 em vez de 1.000 — esquecimento de conversão. D (300 m³) resulta de não dividir, ou multiplicar por 100 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_005",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Na farmácia, uma embalagem de vitamina C contém 30 comprimidos de 500 miligramas cada. A nutricionista de Maria recomendou que ela tome 1 grama de vitamina C por dia."
+      },
+      "enunciado": "Para atingir a dose diária recomendada, Maria deve tomar por dia",
+      "alternativas": {
+        "A": "2 comprimidos",
+        "B": "1 comprimido",
+        "C": "5 comprimidos",
+        "D": "10 comprimidos"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 1 grama = 1.000 mg. Cada comprimido tem 500 mg. Dose diária: 1.000 ÷ 500 = 2 comprimidos. B (1 comprimido) não converte grama para miligrama, usando 500 mg como se fosse 1 g — esquecimento de conversão. C (5 comprimidos) resulta de calcular 2.500 mg como dose — uso do dado errado. D (10 comprimidos) resulta de calcular 5.000 mg como dose — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_006",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H13 - Resolução de problemas envolvendo múltiplas conversões",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um caminhão-pipa transporta 10.000 litros de água por viagem. Para abastecer um reservatório comunitário de 20 m³, o motorista precisa calcular quantas viagens serão necessárias."
+      },
+      "enunciado": "O número de viagens necessárias para encher o reservatório é de",
+      "alternativas": {
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "20"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 20 m³ = 20.000 litros (1 m³ = 1.000 L). Viagens: 20.000 ÷ 10.000 = 2. B (5) resulta de converter 20 m³ para 50.000 litros — esquecimento de conversão. C (10) resulta de converter 20 m³ para 100.000 litros, ou não converter e dividir errado — esquecimento de conversão. D (20) resulta de não converter e usar 20.000 ÷ 1.000 — operação trocada."
+    },
+    {
+      "id": "MAT_GRA_007",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano doméstico",
+        "conteudo": "Uma receita de suco pede 1,5 litro de água. Como Dona Cláudia só tem um copo medidor graduado em mililitros, ela precisa saber a quantidade equivalente em mililitros."
+      },
+      "enunciado": "A quantidade de água da receita, em mililitros, é de",
+      "alternativas": {
+        "A": "15 mL",
+        "B": "150 mL",
+        "C": "15.000 mL",
+        "D": "1.500 mL"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 1 litro = 1.000 mL, logo 1,5 litro = 1.500 mL. A (15 mL) multiplica por 10 — esquecimento de conversão. B (150 mL) multiplica por 100 — esquecimento de conversão. C (15.000 mL) multiplica por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_008",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H12 - Resolução de problemas envolvendo conversão de unidades de área",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Uma fazenda possui uma área de plantio de 50.000 m². O engenheiro agrônomo informou ao proprietário que essa medida também pode ser expressa em hectares, sendo que 1 hectare corresponde a 10.000 m²."
+      },
+      "enunciado": "A área de plantio da fazenda, em hectares, é de",
+      "alternativas": {
+        "A": "5 hectares",
+        "B": "0,5 hectare",
+        "C": "50 hectares",
+        "D": "500 hectares"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 50.000 m² ÷ 10.000 = 5 hectares. B (0,5) divide por 100.000 — esquecimento de conversão. C (50) divide por 1.000 — esquecimento de conversão. D (500) divide por 100 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_009",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um pedreiro precisa comprar 3 toneladas de areia para uma obra. A loja de materiais de construção vende areia em sacos de 50 quilogramas."
+      },
+      "enunciado": "O número de sacos que o pedreiro deve comprar é de",
+      "alternativas": {
+        "A": "6",
+        "B": "30",
+        "C": "600",
+        "D": "60"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 3 toneladas = 3.000 kg (1 tonelada = 1.000 kg). Sacos: 3.000 ÷ 50 = 60. A (6) resulta de dividir 3 por 0,5 sem converter tonelada — esquecimento de conversão. B (30) resulta de dividir 3.000 por 100 — uso do dado errado. C (600) resulta de dividir 3.000 por 5 — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_010",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H14 - Resolução de problemas envolvendo grandezas compostas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de conta de água residencial",
+        "conteudo": "A conta de água de uma residência indica que o consumo mensal foi de 15 m³. A tarifa cobrada pela concessionária é de R$ 8,00 por metro cúbico. O morador quer saber quanto pagará e quantos litros consumiu no mês."
+      },
+      "enunciado": "O consumo mensal em litros e o valor da conta são, respectivamente,",
+      "alternativas": {
+        "A": "1.500 litros e R$ 120,00",
+        "B": "150.000 litros e R$ 120,00",
+        "C": "15.000 litros e R$ 80,00",
+        "D": "15.000 litros e R$ 120,00"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: 15 m³ = 15.000 litros (×1.000). Valor: 15 × R$ 8,00 = R$ 120,00. A (1.500 L) converte por 100 em vez de 1.000 — esquecimento de conversão (valor correto). C (15.000 L) converte corretamente, mas calcula 10 × R$ 8 = R$ 80 — uso do dado errado. B (150.000 L) converte por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_011",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Na obra onde trabalha, Pedro precisa transportar barras de ferro de 2 metros e 50 centímetros de comprimento. Para anotar a medida no relatório, ele deve registrá-la em centímetros."
+      },
+      "enunciado": "O comprimento de cada barra, em centímetros, é de",
+      "alternativas": {
+        "A": "25 cm",
+        "B": "205 cm",
+        "C": "250 cm",
+        "D": "2.500 cm"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 2 metros = 200 cm + 50 cm = 250 cm. A (25 cm) resulta de converter apenas a parte dos centímetros e ignorar os metros — resultado parcial. B (205 cm) soma 200 + 5 em vez de 200 + 50 — uso do dado errado. D (2.500 cm) multiplica por 1.000 em vez de 100 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_012",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H13 - Resolução de problemas envolvendo múltiplas conversões",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Um galão de água mineral contém 20 litros. Uma família consome 4 litros de água por dia para beber e cozinhar. A mãe quer saber quantos dias um galão durará e quantos galões precisará comprar por mês (considere 30 dias)."
+      },
+      "enunciado": "O número de galões necessários por mês é de",
+      "alternativas": {
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "8"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 1 galão dura 20 ÷ 4 = 5 dias. Em 30 dias: 30 ÷ 5 = 6 galões. A (4) resulta de dividir 20 por 5 — uso do dado errado (confunde dias do galão com galões do mês). B (5) é resultado parcial (calcula apenas quantos dias dura 1 galão, sem avançar para o mês). D (8) resulta de dividir 30 por 4 — uso do dado errado (divide dias pelo consumo diário)."
+    },
+    {
+      "id": "MAT_GRA_013",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H12 - Resolução de problemas envolvendo conversão de unidades de área",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Um terreno retangular mede 200 metros de comprimento por 150 metros de largura. O proprietário deseja calcular a área em hectares para solicitar financiamento agrícola. Sabe-se que 1 hectare = 10.000 m²."
+      },
+      "enunciado": "A área do terreno, em hectares, é de",
+      "alternativas": {
+        "A": "0,3 hectare",
+        "B": "300 hectares",
+        "C": "30 hectares",
+        "D": "3 hectares"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Área = 200 × 150 = 30.000 m². Em hectares: 30.000 ÷ 10.000 = 3 hectares. A (0,3) resulta de dividir por 100.000 — esquecimento de conversão. C (30) resulta de dividir por 1.000 — esquecimento de conversão. B (300) resulta de não dividir por 10.000 ou multiplicar a área — operação trocada."
+    },
+    {
+      "id": "MAT_GRA_014",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "No supermercado, há duas opções de arroz: um pacote de 5 kg por R$ 25,00 e um pacote de 1 kg por R$ 6,00. Dona Rosa quer saber qual opção tem o menor preço por quilograma."
+      },
+      "enunciado": "A opção com menor preço por quilograma é",
+      "alternativas": {
+        "A": "o pacote de 5 kg, que custa R$ 5,00 por quilograma.",
+        "B": "o pacote de 1 kg, que custa R$ 6,00 por quilograma.",
+        "C": "ambas têm o mesmo preço por quilograma.",
+        "D": "o pacote de 5 kg, que custa R$ 6,00 por quilograma."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: Pacote de 5 kg: R$ 25,00 ÷ 5 = R$ 5,00/kg. Pacote de 1 kg: R$ 6,00/kg. R$ 5,00 < R$ 6,00. B é o resultado correto do cálculo do preço unitário do pacote menor, mas esse preço é MAIOR — uso do dado errado na comparação. C é erro de cálculo (os preços são diferentes). D atribui o preço errado ao pacote de 5 kg — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_015",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H14 - Resolução de problemas envolvendo grandezas compostas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de conta de energia elétrica residencial",
+        "conteudo": "Um chuveiro elétrico consome, em média, 5.400 watts (ou 5,4 kW) quando ligado. Se uma pessoa toma banho durante 10 minutos por dia, ela utiliza o chuveiro por 5 horas no mês (30 dias). A tarifa de energia é de R$ 0,80 por kWh."
+      },
+      "enunciado": "O custo mensal do chuveiro elétrico é de",
+      "alternativas": {
+        "A": "R$ 4,32",
+        "B": "R$ 216,00",
+        "C": "R$ 43,20",
+        "D": "R$ 21,60"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Consumo mensal = 5,4 kW × 5 h = 27 kWh. Custo = 27 × R$ 0,80 = R$ 21,60. A (R$ 4,32) resulta de usar 1 hora em vez de 5 — uso do dado errado. C (R$ 43,20) resulta de usar 10 horas em vez de 5 — uso do dado errado. B (R$ 216,00) resulta de usar 50 horas — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_016",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma cisterna comunitária tem formato de um tanque retangular com 2 metros de comprimento, 1,5 metro de largura e 1 metro de profundidade. Os moradores querem saber quantos litros de água ela comporta quando completamente cheia. Sabe-se que 1 m³ equivale a 1.000 litros."
+      },
+      "enunciado": "A capacidade da cisterna, em litros, é de",
+      "alternativas": {
+        "A": "300 litros",
+        "B": "4.500 litros",
+        "C": "30.000 litros",
+        "D": "3.000 litros"
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: Volume = 2 × 1,5 × 1 = 3 m³. Em litros: 3 × 1.000 = 3.000 litros. A (300) converte 3 m³ multiplicando por 100 — esquecimento de conversão. C (30.000) converte multiplicando por 10.000 — esquecimento de conversão. B (4.500) resulta de calcular o volume como 2 × 1,5 × 1,5 = 4,5 m³ — uso do dado errado (1,5 em vez de 1 para a profundidade)."
+    },
+    {
+      "id": "MAT_GRA_017",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um caminhoneiro viajou 350 quilômetros de Salvador a Vitória da Conquista. Ele quer anotar essa distância em metros para preencher um formulário de controle de frota."
+      },
+      "enunciado": "A distância percorrida pelo caminhoneiro, em metros, é de",
+      "alternativas": {
+        "A": "3.500 m",
+        "B": "35.000 m",
+        "C": "350.000 m",
+        "D": "3.500.000 m"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 1 km = 1.000 m, logo 350 km = 350 × 1.000 = 350.000 m. A (3.500) multiplica por 10 — esquecimento de conversão. B (35.000) multiplica por 100 — esquecimento de conversão. D (3.500.000) multiplica por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_018",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H13 - Resolução de problemas envolvendo múltiplas conversões",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Em uma padaria, o padeiro utiliza 25 quilogramas de farinha de trigo por dia. A farinha é comprada em sacos de 50 kg. O dono da padaria quer saber quantos sacos precisará comprar para uma semana de produção (6 dias úteis)."
+      },
+      "enunciado": "O número de sacos necessários para a semana é de",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "6"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Consumo semanal = 25 kg × 6 dias = 150 kg. Sacos: 150 ÷ 50 = 3 sacos. A (2) resulta de dividir 150 por 75 ou usar 5 dias — uso do dado errado. C (5) resulta de dividir 150 por 30 ou confundir 25 com número de sacos — uso do dado errado. D (6) é o número de dias, não de sacos — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_019",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H12 - Resolução de problemas envolvendo conversão de unidades de área",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Um produtor rural planta soja em uma área de 12 hectares. Em cada hectare, ele colhe, em média, 3.000 quilogramas de soja. Ele vende a produção em toneladas para uma cooperativa."
+      },
+      "enunciado": "A produção total do produtor, em toneladas, é de",
+      "alternativas": {
+        "A": "3,6 toneladas",
+        "B": "36 toneladas",
+        "C": "360 toneladas",
+        "D": "3.600 toneladas"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Produção = 12 × 3.000 = 36.000 kg. Em toneladas: 36.000 ÷ 1.000 = 36 toneladas. A (3,6) divide por 10.000 — esquecimento de conversão. C (360) divide por 100 — esquecimento de conversão. D (3.600) não divide por 1.000, mantendo em kg/confundindo unidades — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_020",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Em uma promoção, o supermercado vende garrafas de refrigerante de 2 litros. Dona Fátima precisa de 10 litros de refrigerante para uma festa de aniversário."
+      },
+      "enunciado": "O número de garrafas que Dona Fátima deve comprar é de",
+      "alternativas": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "10"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 10 litros ÷ 2 litros por garrafa = 5 garrafas. A (3) resulta de dividir por 3 — operação trocada. B (4) resulta de dividir por 2,5 — uso do dado errado. D (10) não divide, usa o total diretamente — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_021",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H14 - Resolução de problemas envolvendo grandezas compostas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma torneira com vazamento perde 2 litros de água por hora. O morador percebeu o vazamento e levou 3 dias para consertá-lo. Ele quer saber quantos litros de água foram desperdiçados e o equivalente em metros cúbicos."
+      },
+      "enunciado": "A quantidade de água desperdiçada, em metros cúbicos, foi de",
+      "alternativas": {
+        "A": "0,144 m³",
+        "B": "1,44 m³",
+        "C": "14,4 m³",
+        "D": "144 m³"
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: 3 dias = 72 horas. Litros perdidos: 2 × 72 = 144 litros. Em m³: 144 ÷ 1.000 = 0,144 m³. B (1,44) divide por 100 — esquecimento de conversão. C (14,4) divide por 10 — esquecimento de conversão. D (144) não converte litros para m³ — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_022",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Um bebê de 6 meses pesa 7.500 gramas. A pediatra pediu à mãe que informe o peso em quilogramas na carteira de vacinação."
+      },
+      "enunciado": "O peso do bebê, em quilogramas, é de",
+      "alternativas": {
+        "A": "0,75 kg",
+        "B": "7,5 kg",
+        "C": "75 kg",
+        "D": "750 kg"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: 7.500 g ÷ 1.000 = 7,5 kg. A (0,75 kg) divide por 10.000 — esquecimento de conversão. C (75 kg) divide por 100 — esquecimento de conversão. D (750 kg) divide por 10 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_023",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Uma loja de tecidos vende renda a R$ 12,00 o metro. Uma costureira precisa de 450 centímetros de renda para decorar uma toalha de mesa."
+      },
+      "enunciado": "O valor que a costureira pagará pela renda é de",
+      "alternativas": {
+        "A": "R$ 36,00",
+        "B": "R$ 48,00",
+        "C": "R$ 54,00",
+        "D": "R$ 60,00"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 450 cm = 4,5 m (÷100). Valor: 4,5 × R$ 12,00 = R$ 54,00. A (R$ 36,00) resulta de usar 3 m — uso do dado errado. B (R$ 48,00) resulta de usar 4 m — resultado parcial (arredonda para baixo). D (R$ 60,00) resulta de usar 5 m — arredondamento incorreto para cima."
+    },
+    {
+      "id": "MAT_GRA_024",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H13 - Resolução de problemas envolvendo múltiplas conversões",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Um agricultor familiar possui duas áreas de plantio: a primeira mede 2 hectares e a segunda, 15.000 m². Ele precisa informar ao banco a área total em hectares para solicitar crédito rural."
+      },
+      "enunciado": "A área total das duas propriedades, em hectares, é de",
+      "alternativas": {
+        "A": "2,15 hectares",
+        "B": "3,5 hectares",
+        "C": "17 hectares",
+        "D": "17.002 hectares"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Segunda área: 15.000 m² ÷ 10.000 = 1,5 hectare. Total: 2 + 1,5 = 3,5 hectares. A (2,15) divide 15.000 por 100.000, obtendo 0,15 — esquecimento de conversão. C (17) soma 2 + 15 sem converter — esquecimento de conversão (mistura unidades). D (17.002) soma 2 + 15.000 sem nenhuma conversão — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_025",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Em uma corrida de rua, o percurso total é de 5 quilômetros. A organização precisa informar a distância em metros em uma faixa no ponto de largada."
+      },
+      "enunciado": "A distância do percurso, em metros, é de",
+      "alternativas": {
+        "A": "50 m",
+        "B": "500 m",
+        "C": "5.000 m",
+        "D": "50.000 m"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 1 km = 1.000 m, logo 5 km = 5.000 m. A (50 m) multiplica por 10 — esquecimento de conversão. B (500 m) multiplica por 100 — esquecimento de conversão. D (50.000 m) multiplica por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_026",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H14 - Resolução de problemas envolvendo grandezas compostas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um trabalhador ganha R$ 10,00 por hora e trabalha 8 horas por dia, de segunda a sábado. Ele quer saber seu salário semanal. Considere que a semana de trabalho tem 6 dias."
+      },
+      "enunciado": "O salário semanal do trabalhador é de",
+      "alternativas": {
+        "A": "R$ 400,00",
+        "B": "R$ 480,00",
+        "C": "R$ 560,00",
+        "D": "R$ 640,00"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Diário = 10 × 8 = R$ 80,00. Semanal = 80 × 6 = R$ 480,00. A (R$ 400,00) usa 5 dias em vez de 6 — uso do dado errado. C (R$ 560,00) usa 7 dias — uso do dado errado. D (R$ 640,00) usa 8 dias — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_027",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H10 - Resolução de problemas envolvendo grandezas e medidas",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Em uma distribuidora de bebidas, a água é vendida em garrafões de 20 litros por R$ 10,00 cada. Uma escola precisa de 0,5 m³ de água para um evento. O diretor quer saber quantos garrafões deve comprar e o custo total."
+      },
+      "enunciado": "O número de garrafões e o custo total são, respectivamente,",
+      "alternativas": {
+        "A": "5 garrafões e R$ 50,00",
+        "B": "10 garrafões e R$ 100,00",
+        "C": "25 garrafões e R$ 250,00",
+        "D": "50 garrafões e R$ 500,00"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 0,5 m³ = 500 litros (×1.000). Garrafões: 500 ÷ 20 = 25. Custo: 25 × R$ 10 = R$ 250,00. A (5/R$ 50) converte 0,5 m³ para 100 litros — esquecimento de conversão. B (10/R$ 100) converte para 200 litros — esquecimento de conversão. D (50/R$ 500) converte para 1.000 litros — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_028",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "facil",
+      "habilidade_inep": "H11 - Utilização de unidades de medida em situações do cotidiano",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do consumidor brasileiro",
+        "conteudo": "Uma embalagem de café pesa 250 gramas. Seu José precisa de 1 quilograma de café para o mês."
+      },
+      "enunciado": "O número de embalagens que Seu José deve comprar é de",
+      "alternativas": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: 1 kg = 1.000 g. Embalagens: 1.000 ÷ 250 = 4. A (2) resulta de dividir 1.000 por 500 — uso do dado errado. B (3) resulta de dividir 1.000 por ~333 — uso do dado errado. D (5) resulta de dividir 1.000 por 200 — uso do dado errado."
+    },
+    {
+      "id": "MAT_GRA_029",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "media",
+      "habilidade_inep": "H13 - Resolução de problemas envolvendo múltiplas conversões",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador brasileiro",
+        "conteudo": "Um tanque de combustível de um carro tem capacidade para 50 litros. O carro faz 10 quilômetros por litro. O motorista quer saber quantos quilômetros consegue percorrer com o tanque cheio e quantos metros isso equivale."
+      },
+      "enunciado": "A distância total com o tanque cheio, em metros, é de",
+      "alternativas": {
+        "A": "50.000 m",
+        "B": "500.000 m",
+        "C": "5.000 m",
+        "D": "5.000.000 m"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: 50 litros × 10 km/L = 500 km. Em metros: 500 × 1.000 = 500.000 m. A (50.000) calcula 50 km em vez de 500 — resultado parcial (esquece de multiplicar pela autonomia). C (5.000) calcula 5 km — uso do dado errado. D (5.000.000) converte 500 km por 10.000 — esquecimento de conversão."
+    },
+    {
+      "id": "MAT_GRA_030",
+      "area": "matematica",
+      "disciplina": "grandezas_medidas",
+      "capitulo": "conversao_unidades",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H12 - Resolução de problemas envolvendo conversão de unidades de área",
+      "texto_base": {
+        "tipo": "situacao_cotidiana",
+        "fonte": "Adaptado de situação do cotidiano do trabalhador rural",
+        "conteudo": "Um produtor rural cultiva café em 8 hectares de sua fazenda. Cada hectare produz, em média, 30 sacas de 60 quilogramas. Ele vende a produção inteira para uma torrefação e precisa informar a quantidade total em toneladas."
+      },
+      "enunciado": "A produção total do produtor, em toneladas, é de",
+      "alternativas": {
+        "A": "1,44 tonelada",
+        "B": "14,4 toneladas",
+        "C": "144 toneladas",
+        "D": "1.440 toneladas"
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: Sacas totais = 8 × 30 = 240 sacas. Peso total = 240 × 60 = 14.400 kg. Em toneladas: 14.400 ÷ 1.000 = 14,4 toneladas. A (1,44) divide por 10.000 — esquecimento de conversão. C (144) divide por 100 — esquecimento de conversão. D (1.440) não divide por 1.000 — esquecimento de conversão (mantém em unidade intermediária)."
+    },
+    {
+      "id": "NAT_BIO_031",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático de Ecologia",
+        "conteudo": "Em uma cadeia alimentar, os seres vivos são classificados de acordo com seu papel na transferência de energia: os produtores (plantas e algas) captam energia do sol pela fotossíntese; os consumidores primários (herbívoros) se alimentam dos produtores; os consumidores secundários (carnívoros) se alimentam dos herbívoros; e os decompositores (fungos e bactérias) reciclam a matéria orgânica morta, devolvendo nutrientes ao solo."
+      },
+      "enunciado": "Na cadeia alimentar descrita no texto, os decompositores exercem a função de",
+      "alternativas": {
+        "A": "reciclar a matéria orgânica morta, devolvendo nutrientes ao solo.",
+        "B": "captar a energia do sol e transformá-la em alimento por meio da fotossíntese.",
+        "C": "caçar os consumidores secundários para regular a população de carnívoros.",
+        "D": "competir com os produtores pela captação de energia luminosa."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma que os decompositores 'reciclam a matéria orgânica morta, devolvendo nutrientes ao solo'. B descreve a função dos produtores — confusão conceitual entre conceitos próximos. C descreve predação, não decomposição — confusão conceitual. D é apelo ao senso comum (decompositores não competem por luz, pois não fazem fotossíntese)."
+    },
+    {
+      "id": "NAT_BIO_032",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de relatório sobre desmatamento na Amazônia (INPE)",
+        "conteudo": "O desmatamento da Floresta Amazônica compromete o ciclo da água na região. As árvores da floresta liberam grandes quantidades de vapor d'água na atmosfera por meio da transpiração, fenômeno que contribui para a formação de chuvas. Com a remoção da vegetação, a umidade atmosférica diminui, as chuvas se tornam mais escassas e o solo, sem a proteção das raízes, fica exposto à erosão."
+      },
+      "enunciado": "De acordo com o texto, o desmatamento compromete o ciclo da água porque",
+      "alternativas": {
+        "A": "reduz a liberação de vapor d'água pelas árvores, diminuindo a formação de chuvas.",
+        "B": "aumenta a transpiração das árvores remanescentes, provocando excesso de chuvas.",
+        "C": "impede que a água dos rios chegue ao oceano, causando aumento do nível do mar.",
+        "D": "melhora a absorção de água pelo solo, reduzindo o risco de enchentes na região."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto explica que as árvores liberam vapor d'água e que, com a remoção, 'a umidade atmosférica diminui, as chuvas se tornam mais escassas'. B é inversão causa-efeito (menos árvores = menos transpiração, não mais). C não tem respaldo no texto — confusão conceitual. D é inversão (sem raízes, o solo perde capacidade de absorção e sofre erosão)."
+    },
+    {
+      "id": "NAT_BIO_033",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério do Meio Ambiente sobre biomas brasileiros",
+        "conteudo": "O Cerrado é o segundo maior bioma do Brasil, ocupando cerca de 25% do território nacional. Sua vegetação é caracterizada por árvores de troncos retorcidos, cascas grossas e raízes profundas, adaptadas ao solo ácido e aos períodos de seca. O Cerrado possui grande biodiversidade e abriga nascentes de importantes bacias hidrográficas, sendo considerado a 'caixa d'água' do Brasil."
+      },
+      "enunciado": "O Cerrado é chamado de 'caixa d'água' do Brasil porque",
+      "alternativas": {
+        "A": "apresenta chuvas constantes durante todos os meses do ano, sem período de seca.",
+        "B": "possui vegetação com raízes rasas que impedem a infiltração da água no solo.",
+        "C": "abriga nascentes de importantes bacias hidrográficas que abastecem diversas regiões.",
+        "D": "é formado predominantemente por lagos e rios navegáveis em toda a sua extensão."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que o Cerrado 'abriga nascentes de importantes bacias hidrográficas'. A contradiz o texto (há 'períodos de seca'). B contradiz o texto (as raízes são 'profundas', não rasas). D é generalização indevida e apelo ao senso comum (o Cerrado não é formado predominantemente por lagos)."
+    },
+    {
+      "id": "NAT_BIO_034",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "esquema_cadeia_alimentar",
+        "fonte": "Adaptado de material didático de Ecologia",
+        "conteudo": "Em um ecossistema aquático, a seguinte cadeia alimentar foi observada: fitoplâncton → zooplâncton → peixe pequeno → peixe grande → tubarão. Um estudo verificou que, se a população de peixes grandes diminuir drasticamente, ocorrerão alterações nos demais níveis da cadeia."
+      },
+      "enunciado": "Com a diminuição drástica dos peixes grandes, é esperado que a população de peixes pequenos",
+      "alternativas": {
+        "A": "aumente, pois haverá menos predadores se alimentando dela.",
+        "B": "diminua, pois perderá sua principal fonte de alimento.",
+        "C": "permaneça inalterada, pois os peixes pequenos são independentes dos demais níveis.",
+        "D": "desapareça completamente, pois depende dos peixes grandes para se reproduzir."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: com menos predadores (peixes grandes), a população de presas (peixes pequenos) tende a aumentar — regulação por predação. B é inversão causa-efeito (peixes pequenos se alimentam de zooplâncton, não de peixes grandes). C é generalização indevida (nenhuma espécie é totalmente independente na cadeia). D é apelo ao senso comum (reprodução não depende dos predadores)."
+    },
+    {
+      "id": "NAT_BIO_035",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre bioacumulação de agrotóxicos",
+        "conteudo": "A bioacumulação é o processo pelo qual substâncias tóxicas, como agrotóxicos e metais pesados, se acumulam ao longo da cadeia alimentar. Um produtor (planta) absorve uma pequena quantidade da substância. O consumidor primário, ao comer muitas plantas, acumula uma quantidade maior. O consumidor secundário, ao comer muitos herbívoros, acumula uma quantidade ainda maior. Assim, os organismos do topo da cadeia são os mais afetados."
+      },
+      "enunciado": "De acordo com o texto, os organismos do topo da cadeia alimentar são os mais afetados pela bioacumulação porque",
+      "alternativas": {
+        "A": "consomem organismos que já acumularam concentrações crescentes da substância tóxica.",
+        "B": "produzem naturalmente substâncias tóxicas em seus organismos ao longo da vida.",
+        "C": "têm organismos mais frágeis que os dos produtores, sendo mais sensíveis a qualquer substância.",
+        "D": "entram em contato direto com o agrotóxico aplicado no solo, sem intermediários na cadeia."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto explica que cada nível acumula mais do que o anterior, logo o topo concentra a maior quantidade ao consumir organismos já contaminados. B é apelo ao senso comum (as substâncias vêm do ambiente, não são produzidas). C é generalização indevida (o problema é concentração, não fragilidade). D contradiz o texto (o contato é pela alimentação, não direto com o solo)."
+    },
+    {
+      "id": "NAT_BIO_036",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério do Meio Ambiente sobre a Caatinga",
+        "conteudo": "A Caatinga é um bioma exclusivamente brasileiro, presente no semiárido nordestino. Sua vegetação é adaptada a longos períodos de seca: muitas plantas perdem as folhas na estiagem para reduzir a perda de água, e algumas armazenam água em seus caules, como os cactos. Apesar da aparência seca, a Caatinga abriga grande diversidade de espécies animais e vegetais, muitas delas encontradas apenas nesse bioma."
+      },
+      "enunciado": "Uma adaptação das plantas da Caatinga ao clima seco, mencionada no texto, é",
+      "alternativas": {
+        "A": "a perda de folhas durante a seca para reduzir a perda de água.",
+        "B": "o desenvolvimento de folhas largas e permanentes para captar mais luz solar.",
+        "C": "a produção de flores durante todo o ano, independentemente das chuvas.",
+        "D": "o crescimento acelerado das raízes durante os períodos de maior temperatura."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma que 'muitas plantas perdem as folhas na estiagem para reduzir a perda de água' — caducifolia como adaptação à seca. B contradiz o texto (folhas largas e permanentes aumentariam a perda de água). C é generalização indevida (a floração é sazonal na Caatinga). D não tem respaldo no texto — apelo ao senso comum."
+    },
+    {
+      "id": "NAT_BIO_037",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H19 - Compreensão de ciclos biogeoquímicos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático sobre o ciclo do carbono",
+        "conteudo": "O ciclo do carbono envolve a troca desse elemento entre os seres vivos e o ambiente. As plantas retiram gás carbônico (CO₂) da atmosfera durante a fotossíntese, incorporando o carbono em suas estruturas. Os animais obtêm carbono ao se alimentar das plantas. Quando plantas e animais respiram, devolvem CO₂ à atmosfera. A queima de combustíveis fósseis (petróleo, carvão, gás natural) também libera grandes quantidades de CO₂, contribuindo para o efeito estufa."
+      },
+      "enunciado": "De acordo com o texto, a queima de combustíveis fósseis interfere no ciclo do carbono porque",
+      "alternativas": {
+        "A": "retira CO₂ da atmosfera, reduzindo a disponibilidade de carbono para as plantas.",
+        "B": "aumenta a taxa de fotossíntese das plantas, esfriando a temperatura do planeta.",
+        "C": "impede que os animais realizem a respiração celular, interrompendo o ciclo.",
+        "D": "libera grandes quantidades de CO₂ na atmosfera, intensificando o efeito estufa."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que a queima 'libera grandes quantidades de CO₂, contribuindo para o efeito estufa'. A é inversão (a queima libera CO₂, não retira). C não tem respaldo no texto — confusão conceitual. B é inversão causa-efeito (mais CO₂ contribui para aquecimento, não esfriamento)."
+    },
+    {
+      "id": "NAT_BIO_038",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H20 - Análise de relações ecológicas entre espécies",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre espécies invasoras no Brasil",
+        "conteudo": "A introdução de espécies exóticas em um ecossistema pode causar graves desequilíbrios ambientais. O caramujo-gigante-africano, trazido ao Brasil para criação comercial, escapou e se espalhou pelo país. Sem predadores naturais no novo ambiente, reproduz-se rapidamente, compete com espécies nativas por alimento e espaço, e pode transmitir doenças parasitárias aos seres humanos."
+      },
+      "enunciado": "A proliferação do caramujo-gigante-africano no Brasil é favorecida principalmente pela",
+      "alternativas": {
+        "A": "presença de muitos predadores naturais que controlam sua população no ambiente brasileiro.",
+        "B": "preferência dos consumidores brasileiros pelo caramujo como alimento, incentivando sua criação.",
+        "C": "incapacidade de se reproduzir fora de seu habitat original na África.",
+        "D": "ausência de predadores naturais no novo ambiente, o que permite sua reprodução sem controle."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que o caramujo se espalhou 'sem predadores naturais no novo ambiente', reproduzindo-se rapidamente. A contradiz diretamente o texto (não há predadores naturais). C contradiz o texto (o caramujo se reproduz fora da África). B não tem respaldo no texto — apelo ao senso comum."
+    },
+    {
+      "id": "NAT_BIO_039",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do IBAMA sobre a Mata Atlântica",
+        "conteudo": "A Mata Atlântica é um dos biomas mais ameaçados do mundo. Originalmente, cobria cerca de 15% do território brasileiro, estendendo-se ao longo da costa do Rio Grande do Norte ao Rio Grande do Sul. Hoje, restam cerca de 12% da cobertura original. Apesar da devastação, a Mata Atlântica ainda abriga uma enorme biodiversidade, com milhares de espécies de plantas, aves, mamíferos e anfíbios, muitas delas endêmicas — ou seja, que não existem em nenhum outro lugar do planeta."
+      },
+      "enunciado": "O termo 'endêmicas', utilizado no texto, refere-se a espécies que",
+      "alternativas": {
+        "A": "existem em grande quantidade em todos os biomas do planeta.",
+        "B": "foram introduzidas pelo ser humano a partir de outros continentes.",
+        "C": "são encontradas exclusivamente em determinada região ou bioma.",
+        "D": "estão em processo de migração para outros ecossistemas do país."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto define endêmicas como espécies 'que não existem em nenhum outro lugar do planeta' — exclusivas de uma região. A contradiz a definição (endêmicas são restritas, não espalhadas). B descreve espécies exóticas, não endêmicas — confusão conceitual entre conceitos próximos. D é confusão conceitual (endemismo é o oposto de dispersão)."
+    },
+    {
+      "id": "NAT_BIO_040",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de reportagem sobre queimadas no Cerrado e no Pantanal",
+        "conteudo": "O fogo é um elemento natural no Cerrado — muitas espécies de plantas possuem adaptações ao fogo, como cascas grossas e capacidade de rebrota após queimadas. No entanto, queimadas provocadas pelo ser humano para abertura de pastagens e cultivos ocorrem em frequência e intensidade muito superiores às naturais, destruindo a vegetação, empobrecendo o solo e provocando a morte de animais. No Pantanal, bioma que não é adaptado ao fogo, as queimadas causam destruição ainda mais severa."
+      },
+      "enunciado": "A diferença entre o impacto das queimadas no Cerrado e no Pantanal, conforme o texto, está no fato de que",
+      "alternativas": {
+        "A": "o Cerrado possui espécies com adaptações ao fogo, enquanto o Pantanal não é adaptado a esse fenômeno.",
+        "B": "o Pantanal é naturalmente resistente ao fogo, enquanto o Cerrado é totalmente destruído pelas queimadas.",
+        "C": "as queimadas no Cerrado são provocadas exclusivamente por causas naturais, sem interferência humana.",
+        "D": "ambos os biomas são igualmente vulneráveis ao fogo, sem diferenças significativas nos impactos."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto distingue o Cerrado (espécies com 'adaptações ao fogo') do Pantanal ('bioma que não é adaptado ao fogo'), explicando por que o Pantanal sofre destruição 'ainda mais severa'. B é inversão (o Cerrado tem adaptações, o Pantanal não). C contradiz o texto (há queimadas provocadas pelo ser humano no Cerrado). D contradiz o texto (há diferenças claras entre os biomas)."
+    },
+    {
+      "id": "NAT_BIO_041",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre pirâmides ecológicas",
+        "conteudo": "Em uma pirâmide de energia, a base é ocupada pelos produtores, que captam a energia solar. A cada nível trófico, cerca de 90% da energia é perdida na forma de calor através da respiração celular. Isso significa que apenas 10% da energia de um nível é transferida para o nível seguinte. Por essa razão, as cadeias alimentares raramente possuem mais de quatro ou cinco níveis tróficos."
+      },
+      "enunciado": "As cadeias alimentares raramente possuem mais de cinco níveis tróficos porque",
+      "alternativas": {
+        "A": "a quantidade de energia disponível diminui a cada nível, tornando-se insuficiente para sustentar mais consumidores.",
+        "B": "os produtores absorvem toda a energia do sol, impedindo que ela chegue aos consumidores.",
+        "C": "os decompositores consomem toda a energia antes que ela chegue aos consumidores de topo.",
+        "D": "a energia aumenta a cada nível, causando excesso térmico nos organismos do topo."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto explica que 90% da energia é perdida a cada nível, restando apenas 10% para o próximo — logo, há cada vez menos energia disponível. B é generalização indevida (parte da energia segue para os consumidores). C é confusão conceitual (decompositores atuam sobre matéria morta, não interceptam a energia antes dos consumidores). D é inversão (a energia diminui, não aumenta a cada nível)."
+    },
+    {
+      "id": "NAT_BIO_042",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H20 - Análise de relações ecológicas entre espécies",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático sobre relações ecológicas",
+        "conteudo": "O mutualismo é uma relação ecológica em que duas espécies diferentes se beneficiam mutuamente. Um exemplo comum é a relação entre as abelhas e as plantas com flores: as abelhas se alimentam do néctar das flores, obtendo energia, e, ao visitarem diferentes flores, transportam o pólen de uma planta para outra, promovendo a polinização e, consequentemente, a reprodução das plantas."
+      },
+      "enunciado": "A relação entre abelhas e plantas descrita no texto é classificada como mutualismo porque",
+      "alternativas": {
+        "A": "apenas as abelhas são beneficiadas, enquanto as plantas são prejudicadas pela retirada do néctar.",
+        "B": "as abelhas destroem as flores durante a visitação, reduzindo a capacidade reprodutiva das plantas.",
+        "C": "as plantas controlam a população de abelhas, impedindo que se reproduzam em excesso.",
+        "D": "as abelhas e as plantas são beneficiadas — as abelhas obtêm alimento e as plantas são polinizadas."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto descreve benefício mútuo — abelhas ganham alimento (néctar) e plantas ganham polinização (reprodução). A descreve parasitismo, não mutualismo — confusão conceitual. C não tem respaldo no texto — confusão conceitual (controle populacional é outro tipo de relação). B contradiz o texto (as abelhas promovem, não reduzem a reprodução das plantas)."
+    },
+    {
+      "id": "NAT_BIO_043",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério do Meio Ambiente sobre o Pantanal",
+        "conteudo": "O Pantanal é a maior planície alagável do planeta, localizado nos estados de Mato Grosso e Mato Grosso do Sul. Seu ciclo ecológico é regido pelas cheias e secas do rio Paraguai e seus afluentes. Durante a cheia, extensas áreas são inundadas, formando ambientes aquáticos ricos em peixes e aves. Na seca, as águas recuam, concentrando os peixes em lagoas e corixos, o que atrai grande quantidade de predadores, como jacarés, tuiuiús e ariranhas."
+      },
+      "enunciado": "O ciclo de cheias e secas do Pantanal, conforme o texto, é importante para a biodiversidade porque",
+      "alternativas": {
+        "A": "mantém a temperatura constante durante todo o ano, favorecendo a reprodução dos peixes.",
+        "B": "garante que a vegetação permaneça submersa o ano inteiro, protegendo o solo da erosão.",
+        "C": "impede a entrada de espécies invasoras, protegendo o bioma de desequilíbrios ecológicos.",
+        "D": "cria ambientes variados ao longo do ano, sustentando diferentes espécies em cada período."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto mostra que cheias formam 'ambientes aquáticos ricos' e secas concentram peixes e atraem predadores — ambientes variados sustentam diferentes espécies. A não tem respaldo no texto (o ciclo é hídrico, não térmico). C não tem respaldo — generalização indevida. B contradiz o texto (há períodos de seca em que as águas recuam)."
+    },
+    {
+      "id": "NAT_BIO_044",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre fragmentação de habitat",
+        "conteudo": "A fragmentação de habitat ocorre quando uma área contínua de vegetação nativa é dividida em pequenos fragmentos isolados, geralmente pela abertura de estradas, fazendas ou áreas urbanas. Os fragmentos menores abrigam populações reduzidas de animais e plantas, que ficam isoladas e mais vulneráveis à extinção local. Além disso, as bordas dos fragmentos sofrem alterações de temperatura, umidade e luminosidade — o chamado 'efeito de borda' — que modifica as condições ambientais e prejudica espécies adaptadas ao interior da floresta."
+      },
+      "enunciado": "O 'efeito de borda' mencionado no texto prejudica a biodiversidade porque",
+      "alternativas": {
+        "A": "aumenta a área total de vegetação disponível para os animais, gerando superpopulação.",
+        "B": "conecta os fragmentos florestais por corredores ecológicos, facilitando a migração das espécies.",
+        "C": "reduz a luminosidade no interior dos fragmentos, impedindo a fotossíntese de todas as plantas.",
+        "D": "modifica as condições ambientais nas margens do fragmento, prejudicando espécies do interior da floresta."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto explica que o efeito de borda altera 'temperatura, umidade e luminosidade' nas margens, prejudicando espécies adaptadas ao interior. A é inversão (a fragmentação reduz, não aumenta a área). C é generalização indevida (a alteração ocorre nas bordas, não impede toda a fotossíntese). B descreve corredores ecológicos, que são uma solução, não o efeito de borda — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_045",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático de Ecologia",
+        "conteudo": "A fotossíntese é o processo pelo qual as plantas, algas e algumas bactérias utilizam a energia da luz solar para transformar gás carbônico (CO₂) e água (H₂O) em glicose (açúcar) e oxigênio (O₂). Esse processo é fundamental para a vida na Terra, pois produz o oxigênio que a maioria dos seres vivos necessita para respirar e fornece a base de energia para as cadeias alimentares."
+      },
+      "enunciado": "A fotossíntese é considerada fundamental para as cadeias alimentares porque",
+      "alternativas": {
+        "A": "consome o oxigênio da atmosfera, regulando a temperatura do planeta.",
+        "B": "produz energia luminosa que é diretamente utilizada pelos animais como alimento.",
+        "C": "transforma energia solar em matéria orgânica que serve de base alimentar para os demais seres vivos.",
+        "D": "decompõe a matéria orgânica morta, reciclando nutrientes para as plantas."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: a fotossíntese transforma luz em glicose (matéria orgânica), que é a base das cadeias alimentares. A é inversão (a fotossíntese produz oxigênio, não consome). B é confusão conceitual (os animais consomem matéria orgânica, não energia luminosa diretamente). D descreve decomposição, não fotossíntese — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_046",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H20 - Análise de relações ecológicas entre espécies",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre controle biológico de pragas",
+        "conteudo": "Em algumas lavouras brasileiras, agricultores utilizam joaninhas para controlar populações de pulgões, pequenos insetos que se alimentam da seiva das plantas e prejudicam a produção. As joaninhas são predadoras naturais dos pulgões e, quando introduzidas nas plantações, reduzem a população da praga sem a necessidade de agrotóxicos. Essa prática é um exemplo de controle biológico."
+      },
+      "enunciado": "O controle biológico descrito no texto é vantajoso em relação ao uso de agrotóxicos porque",
+      "alternativas": {
+        "A": "elimina permanentemente todas as pragas da lavoura, sem necessidade de reaplicação.",
+        "B": "aumenta a população de pulgões, favorecendo o equilíbrio natural da lavoura.",
+        "C": "mata todos os insetos presentes na plantação, incluindo os benéficos para a polinização.",
+        "D": "utiliza um predador natural da praga, reduzindo a dependência de substâncias químicas."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que joaninhas reduzem pulgões 'sem a necessidade de agrotóxicos' — menor dependência de químicos. A contém 'permanentemente' e 'todas' — generalização indevida. C contradiz o princípio do controle biológico (a joaninha é seletiva, come pulgões, não todos os insetos). B contradiz o texto (o objetivo é reduzir, não aumentar pulgões)."
+    },
+    {
+      "id": "NAT_BIO_047",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre os Pampas",
+        "conteudo": "Os Pampas são um bioma localizado no extremo sul do Brasil, no estado do Rio Grande do Sul. Sua vegetação é predominantemente composta por campos naturais — extensas áreas de gramíneas e herbáceas, com poucas árvores. O bioma é utilizado historicamente para a pecuária, mas a expansão da agricultura, especialmente a soja, tem provocado a redução das áreas de campos nativos e a perda de biodiversidade."
+      },
+      "enunciado": "De acordo com o texto, uma ameaça à biodiversidade dos Pampas é",
+      "alternativas": {
+        "A": "o excesso de árvores que impede o crescimento das gramíneas nativas.",
+        "B": "o clima excessivamente úmido, que provoca o alagamento permanente dos campos.",
+        "C": "a redução das atividades pecuárias, que favorece o crescimento descontrolado da vegetação.",
+        "D": "a expansão da agricultura sobre áreas de campos nativos."
+      },
+      "gabarito": "D",
+      "comentario": "D está correta: o texto afirma que 'a expansão da agricultura, especialmente a soja, tem provocado a redução das áreas de campos nativos'. A contradiz o texto (os Pampas têm poucas árvores). C não tem respaldo no texto — apelo ao senso comum. B não tem respaldo no texto (o bioma não é de alagamento permanente)."
+    },
+    {
+      "id": "NAT_BIO_048",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H19 - Compreensão de ciclos biogeoquímicos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático sobre o ciclo da água",
+        "conteudo": "O ciclo da água envolve os processos de evaporação (transformação da água líquida em vapor), condensação (formação de nuvens), precipitação (chuva), infiltração (penetração da água no solo) e escoamento superficial (movimento da água pela superfície até rios e oceanos). As florestas desempenham papel fundamental nesse ciclo: suas raízes favorecem a infiltração da água no solo, e suas folhas liberam vapor d'água pela transpiração, contribuindo para a formação de novas chuvas."
+      },
+      "enunciado": "As florestas contribuem para o ciclo da água ao",
+      "alternativas": {
+        "A": "impedir que a água da chuva chegue ao solo, causando escoamento total para os rios.",
+        "B": "reter toda a água da chuva nas folhas, impedindo a infiltração no solo.",
+        "C": "favorecer a infiltração da água no solo pelas raízes e liberar vapor d'água pela transpiração.",
+        "D": "bloquear a evaporação dos oceanos, reduzindo a formação de chuvas no continente."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que as raízes 'favorecem a infiltração' e as folhas 'liberam vapor d'água pela transpiração'. A contradiz o texto (as raízes favorecem infiltração, não impedem). B contém 'toda' — generalização indevida (parte se infiltra, parte evapora). D é inversão (as florestas contribuem para chuvas, não bloqueiam evaporação)."
+    },
+    {
+      "id": "NAT_BIO_049",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre eutrofização de corpos d'água",
+        "conteudo": "A eutrofização é o enriquecimento excessivo de lagos e rios por nutrientes como fósforo e nitrogênio, geralmente provenientes de esgoto doméstico e fertilizantes agrícolas. Esses nutrientes estimulam o crescimento acelerado de algas na superfície da água, formando uma camada densa que impede a passagem de luz. Sem luz, as plantas aquáticas do fundo morrem. As bactérias decompositoras que degradam a matéria morta consomem grande quantidade de oxigênio, provocando a morte de peixes e outros organismos aquáticos."
+      },
+      "enunciado": "A morte de peixes em lagos eutrofizados, conforme o texto, ocorre porque",
+      "alternativas": {
+        "A": "as algas produzem substâncias tóxicas que envenenam diretamente os peixes.",
+        "B": "a decomposição da matéria orgânica consome o oxigênio da água, asfixiando os organismos aquáticos.",
+        "C": "os fertilizantes químicos dissolvidos na água reagem com os peixes, causando queimaduras.",
+        "D": "a camada de algas na superfície esquenta a água a temperaturas letais para os peixes."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto explica que bactérias decompositoras 'consomem grande quantidade de oxigênio, provocando a morte de peixes'. A é apelo ao senso comum (o texto não menciona toxinas diretas das algas nesse contexto). C é apelo ao senso comum sem respaldo no texto. D é apelo ao senso comum (a causa é falta de oxigênio, não temperatura)."
+    },
+    {
+      "id": "NAT_BIO_050",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material do Ministério do Meio Ambiente sobre a Floresta Amazônica",
+        "conteudo": "A Floresta Amazônica é a maior floresta tropical do mundo, abrangendo cerca de 49% do território brasileiro. Ela abriga a maior biodiversidade do planeta, com milhões de espécies de insetos, milhares de espécies de peixes, aves, mamíferos e répteis, além de dezenas de milhares de espécies de plantas. O clima é quente e úmido, com temperaturas médias acima de 25°C e chuvas abundantes durante a maior parte do ano."
+      },
+      "enunciado": "Uma característica da Floresta Amazônica, conforme o texto, é",
+      "alternativas": {
+        "A": "a presença de vegetação rasteira e escassa, adaptada a longos períodos de seca.",
+        "B": "o clima frio e seco, com baixas temperaturas durante a maior parte do ano.",
+        "C": "a maior biodiversidade do planeta, com clima quente, úmido e chuvas abundantes.",
+        "D": "a localização no extremo sul do Brasil, com invernos rigorosos e verões amenos."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto descreve 'maior biodiversidade do planeta', clima 'quente e úmido' e 'chuvas abundantes'. A descreve a Caatinga, não a Amazônia — confusão conceitual. B contradiz o texto (clima quente, não frio). D descreve a localização dos Pampas — confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_051",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático sobre teias alimentares",
+        "conteudo": "Diferentemente de uma cadeia alimentar simples, uma teia alimentar representa as múltiplas relações de alimentação que existem em um ecossistema. Um mesmo animal pode se alimentar de várias espécies diferentes e servir de alimento para diversos predadores. Por exemplo, em um ecossistema de cerrado, o rato-do-mato come sementes e frutos (produtores), mas é presa tanto da coruja quanto da cobra. A cobra, por sua vez, também se alimenta de sapos, e pode ser predada pelo gavião."
+      },
+      "enunciado": "A teia alimentar se diferencia da cadeia alimentar simples porque",
+      "alternativas": {
+        "A": "apresenta um único caminho de transferência de energia entre os seres vivos.",
+        "B": "exclui os decompositores do processo de reciclagem de nutrientes no ecossistema.",
+        "C": "representa as múltiplas relações de alimentação entre diferentes espécies no ecossistema.",
+        "D": "organiza os seres vivos em apenas dois níveis tróficos: produtores e consumidores."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que a teia 'representa as múltiplas relações de alimentação' — é mais complexa que a cadeia linear. A descreve a cadeia simples, não a teia — confusão conceitual. B não tem respaldo no texto (decompositores fazem parte da teia). D é generalização indevida (há múltiplos níveis tróficos)."
+    },
+    {
+      "id": "NAT_BIO_052",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H20 - Análise de relações ecológicas entre espécies",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre conservação de manguezais",
+        "conteudo": "Os manguezais são ecossistemas costeiros encontrados em regiões tropicais, na transição entre a terra e o mar. Suas raízes aéreas, parcialmente submersas, funcionam como berçários para diversas espécies de peixes, crustáceos e moluscos, que utilizam o ambiente protegido para se reproduzir e crescer nos estágios iniciais de vida. A destruição de manguezais para construção de empreendimentos imobiliários e carcinicultura (criação de camarões) tem reduzido drasticamente esses ambientes, afetando a produtividade pesqueira de comunidades tradicionais."
+      },
+      "enunciado": "A destruição dos manguezais afeta a produtividade pesqueira porque",
+      "alternativas": {
+        "A": "os manguezais são criadouros naturais de diversas espécies exploradas pela pesca artesanal.",
+        "B": "os manguezais impedem a reprodução dos peixes ao reter suas larvas nas raízes submersas.",
+        "C": "a pesca artesanal depende exclusivamente de espécies que vivem em águas profundas do oceano.",
+        "D": "a construção de empreendimentos aumenta a população de peixes ao criar novos habitats artificiais."
+      },
+      "gabarito": "A",
+      "comentario": "A está correta: o texto afirma que as raízes 'funcionam como berçários' para peixes e crustáceos — sem berçários, há menos peixes para a pesca. B é inversão (os manguezais protegem, não impedem a reprodução). C é generalização indevida e contradiz o texto (a pesca artesanal depende de espécies costeiras, não apenas oceânicas). D contradiz o texto (a destruição reduz, não cria habitats)."
+    },
+    {
+      "id": "NAT_BIO_053",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre reciclagem e gestão de resíduos",
+        "conteudo": "A reciclagem é o processo de transformar materiais usados em novos produtos, reduzindo a necessidade de extrair matérias-primas da natureza. Materiais como papel, plástico, vidro e alumínio podem ser reciclados. A reciclagem do alumínio, por exemplo, economiza cerca de 95% da energia que seria necessária para produzir alumínio novo a partir da bauxita. Além de economizar recursos naturais, a reciclagem reduz a quantidade de lixo enviada aos aterros sanitários."
+      },
+      "enunciado": "A reciclagem contribui para a preservação do meio ambiente porque",
+      "alternativas": {
+        "A": "elimina completamente a necessidade de aterros sanitários em todas as cidades.",
+        "B": "reduz a extração de matérias-primas e a quantidade de resíduos em aterros.",
+        "C": "aumenta o consumo de energia para a produção de materiais reciclados.",
+        "D": "substitui todas as matérias-primas naturais por materiais sintéticos não poluentes."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que a reciclagem reduz 'a necessidade de extrair matérias-primas' e 'a quantidade de lixo enviada aos aterros'. A contém 'completamente' e 'todas' — generalização indevida. C contradiz o texto (a reciclagem economiza energia, como no exemplo do alumínio). D contém 'todas' — generalização indevida e confusão conceitual."
+    },
+    {
+      "id": "NAT_BIO_054",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre unidades de conservação no Brasil",
+        "conteudo": "As unidades de conservação (UCs) são áreas protegidas por lei com o objetivo de preservar ecossistemas, espécies e recursos naturais. No Brasil, existem dois grupos principais: as de proteção integral (como parques nacionais e reservas biológicas), onde não é permitida a exploração direta dos recursos naturais, e as de uso sustentável (como reservas extrativistas e áreas de proteção ambiental), onde é permitido o uso dos recursos de forma controlada e sustentável."
+      },
+      "enunciado": "A diferença entre as unidades de proteção integral e as de uso sustentável está no fato de que",
+      "alternativas": {
+        "A": "as de proteção integral permitem exploração comercial irrestrita, enquanto as de uso sustentável proíbem qualquer atividade humana.",
+        "B": "as de proteção integral não permitem exploração direta dos recursos, enquanto as de uso sustentável permitem uso controlado.",
+        "C": "ambas proíbem qualquer presença humana, diferindo apenas no tamanho da área protegida.",
+        "D": "as de uso sustentável são mais restritivas que as de proteção integral quanto às atividades permitidas."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto diferencia — proteção integral proíbe exploração direta, uso sustentável permite 'uso dos recursos de forma controlada'. A é inversão (integral é mais restritiva). C é generalização indevida (uso sustentável permite presença humana e uso controlado). D é inversão (proteção integral é mais restritiva)."
+    },
+    {
+      "id": "NAT_BIO_055",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H16 - Compreensão de processos ecológicos e relações entre seres vivos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre espécies-chave em ecossistemas",
+        "conteudo": "Espécies-chave são organismos cuja presença é fundamental para a manutenção da estrutura e do funcionamento de um ecossistema, mesmo que não sejam as mais numerosas. Na Amazônia, a arara-azul dispersa sementes de diversas espécies de palmeiras ao se alimentar de seus frutos. Sem a arara-azul, a regeneração dessas palmeiras seria comprometida, afetando toda a rede de organismos que delas dependem, como insetos, mamíferos e outras aves."
+      },
+      "enunciado": "A arara-azul é considerada uma espécie-chave no ecossistema amazônico porque",
+      "alternativas": {
+        "A": "é a espécie mais numerosa da Amazônia, dominando todos os níveis tróficos.",
+        "B": "sua atividade de dispersão de sementes sustenta a regeneração de plantas das quais outros organismos dependem.",
+        "C": "é o principal predador do ecossistema, controlando a população de todas as outras espécies.",
+        "D": "produz oxigênio por meio da fotossíntese, sendo essencial para a respiração dos demais animais."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto explica que a arara-azul dispersa sementes de palmeiras, cuja regeneração sustenta 'toda a rede de organismos que delas dependem'. A contradiz o texto ('mesmo que não sejam as mais numerosas'). C é confusão conceitual (a arara não é predador de topo — é frugívora). D é confusão conceitual (aves não fazem fotossíntese — apenas plantas e algas)."
+    },
+    {
+      "id": "NAT_BIO_056",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H20 - Análise de relações ecológicas entre espécies",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material didático sobre relações ecológicas",
+        "conteudo": "O parasitismo é uma relação ecológica em que um organismo (parasita) vive às custas de outro (hospedeiro), causando-lhe prejuízo. Os carrapatos, por exemplo, se fixam na pele de cães e gatos, alimentando-se de seu sangue. O parasita é beneficiado com alimento e abrigo, enquanto o hospedeiro pode sofrer anemia, infecções e transmissão de doenças."
+      },
+      "enunciado": "O parasitismo se diferencia do mutualismo porque, no parasitismo,",
+      "alternativas": {
+        "A": "ambas as espécies envolvidas são beneficiadas pela relação.",
+        "B": "nenhuma das espécies é afetada, pois a relação é neutra.",
+        "C": "o parasita é beneficiado enquanto o hospedeiro é prejudicado.",
+        "D": "o hospedeiro é beneficiado enquanto o parasita é prejudicado."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto define parasitismo como relação em que o parasita é beneficiado e o hospedeiro sofre prejuízo. A descreve mutualismo — confusão conceitual. B descreve comensalismo neutro — confusão conceitual. D é inversão dos papéis na relação."
+    },
+    {
+      "id": "NAT_BIO_057",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre corredores ecológicos",
+        "conteudo": "Os corredores ecológicos são faixas de vegetação que conectam fragmentos florestais isolados. Eles permitem que animais se desloquem entre os fragmentos, favorecendo a troca genética entre populações, a busca por alimento e a colonização de novas áreas. Sem corredores, as populações ficam isoladas em pequenos fragmentos, com maior risco de endogamia (cruzamento entre parentes) e extinção local."
+      },
+      "enunciado": "Os corredores ecológicos contribuem para a conservação da biodiversidade ao",
+      "alternativas": {
+        "A": "isolar completamente as populações de animais em fragmentos, protegendo-as de predadores.",
+        "B": "permitir o deslocamento de animais entre fragmentos, favorecendo a diversidade genética.",
+        "C": "substituir os habitats naturais por áreas reflorestadas com espécies exóticas de rápido crescimento.",
+        "D": "impedir que animais deixem os fragmentos, garantindo que permaneçam em áreas protegidas."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que corredores permitem deslocamento entre fragmentos, 'favorecendo a troca genética entre populações'. A contradiz o texto (corredores conectam, não isolam). C é confusão conceitual (corredores usam vegetação nativa, não espécies exóticas). D contradiz o texto (o objetivo é permitir, não impedir deslocamento)."
+    },
+    {
+      "id": "NAT_BIO_058",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "dificil",
+      "habilidade_inep": "H19 - Compreensão de ciclos biogeoquímicos",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de artigo sobre aquecimento global e efeito estufa",
+        "conteudo": "O efeito estufa é um fenômeno natural que mantém a temperatura da Terra em níveis compatíveis com a vida. Gases como CO₂, metano e óxido nitroso retêm parte do calor irradiado pela superfície terrestre, impedindo que se dissipe totalmente no espaço. O problema surge quando atividades humanas — queima de combustíveis fósseis, desmatamento e agropecuária intensiva — aumentam excessivamente a concentração desses gases, intensificando o efeito estufa e elevando a temperatura média global."
+      },
+      "enunciado": "De acordo com o texto, o aquecimento global é causado pelo",
+      "alternativas": {
+        "A": "desaparecimento natural do efeito estufa, que deixou de reter calor na atmosfera.",
+        "B": "aumento excessivo da concentração de gases estufa por atividades humanas, que intensifica o efeito estufa.",
+        "C": "aumento da distância entre a Terra e o Sol, que reduz a quantidade de calor recebida.",
+        "D": "esfriamento da superfície terrestre causado pela diminuição da camada de ozônio."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que atividades humanas 'aumentam excessivamente a concentração desses gases, intensificando o efeito estufa'. A é inversão (o efeito estufa não desapareceu, foi intensificado). C não tem respaldo no texto — confusão conceitual. D é inversão e confusão conceitual (o aquecimento causa elevação, não esfriamento, e a camada de ozônio é outro fenômeno)."
+    },
+    {
+      "id": "NAT_BIO_059",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "facil",
+      "habilidade_inep": "H17 - Identificação de impactos ambientais e suas consequências",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre poluição de rios urbanos",
+        "conteudo": "O despejo de esgoto doméstico sem tratamento em rios e córregos é uma das principais causas de poluição hídrica nas cidades brasileiras. O esgoto contém matéria orgânica, bactérias patogênicas e nutrientes que, em excesso, desequilibram o ecossistema aquático. A decomposição da matéria orgânica consome o oxigênio dissolvido na água, prejudicando a sobrevivência de peixes e outros organismos aquáticos."
+      },
+      "enunciado": "O despejo de esgoto sem tratamento prejudica os rios porque",
+      "alternativas": {
+        "A": "aumenta a concentração de oxigênio na água, sufocando os peixes por excesso.",
+        "B": "reduz o oxigênio dissolvido na água pela decomposição da matéria orgânica, prejudicando a vida aquática.",
+        "C": "elimina todas as bactérias presentes no rio, incluindo as benéficas para o ecossistema.",
+        "D": "melhora a qualidade da água ao adicionar nutrientes essenciais para os peixes."
+      },
+      "gabarito": "B",
+      "comentario": "B está correta: o texto afirma que a decomposição do esgoto 'consome o oxigênio dissolvido na água, prejudicando a sobrevivência de peixes'. A é inversão (o oxigênio diminui, não aumenta). C é generalização indevida (o esgoto adiciona bactérias, não as elimina). D é inversão (o esgoto polui, não melhora a qualidade da água)."
+    },
+    {
+      "id": "NAT_BIO_060",
+      "area": "natureza",
+      "disciplina": "biologia",
+      "capitulo": "ecologia_biomas_biodiversidade",
+      "dificuldade": "media",
+      "habilidade_inep": "H18 - Reconhecimento de características dos biomas brasileiros",
+      "texto_base": {
+        "tipo": "texto_cientifico_adaptado",
+        "fonte": "Adaptado de material sobre o bioma Cerrado e sua importância hídrica",
+        "conteudo": "O Cerrado brasileiro está sendo convertido em áreas agrícolas em ritmo acelerado, especialmente para o cultivo de soja e a criação de gado. Mais de 50% da vegetação original já foi removida. A perda do Cerrado preocupa não apenas pela redução da biodiversidade, mas também pela ameaça ao abastecimento de água: três das maiores bacias hidrográficas da América do Sul — Tocantins-Araguaia, São Francisco e Paraná — têm nascentes no Cerrado."
+      },
+      "enunciado": "A conversão do Cerrado em áreas agrícolas é preocupante para o abastecimento de água porque",
+      "alternativas": {
+        "A": "o Cerrado é um bioma desértico, sem relevância para o ciclo hidrológico do país.",
+        "B": "a agricultura no Cerrado aumenta o volume de água nas nascentes, causando enchentes.",
+        "C": "o desmatamento do Cerrado ameaça as nascentes de bacias hidrográficas que abastecem grande parte do país.",
+        "D": "as bacias hidrográficas brasileiras são independentes da vegetação do Cerrado."
+      },
+      "gabarito": "C",
+      "comentario": "C está correta: o texto afirma que três grandes bacias 'têm nascentes no Cerrado' e que a perda da vegetação ameaça o abastecimento. A contradiz o texto (o Cerrado é a 'caixa d'água do Brasil', não um deserto). B é inversão (o desmatamento reduz infiltração e pode diminuir água nas nascentes). D contradiz diretamente o texto (as nascentes dependem do Cerrado)."
     }
   ]
 }
